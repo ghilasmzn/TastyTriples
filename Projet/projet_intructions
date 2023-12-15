@@ -1,0 +1,10 @@
+- find what restaurants - businesses who are using bicyle delivery.
+- customer preferences
+- model the orders and store them in our dataspace (bdd avec les restau et les descriptions des services, et notre bdd avec les customer preferences et ou on stock les orders) 
+- the orders should not be inputed directly but by a decision algorithm which takes into consideration our customer preferences (you can have a list of restaurants that you prefer, you can have a preference for the restaurants that are the closest, and  you can have a preference for the restaurants that are the cheapest), combination of preferences are possible. 
+
+Aujourd'hui: starting point: look at the description of the coopcycle services. first goal is to get the data from the federation coopservices, translate it to RDF using schema.org, put the resulting data into triplestores(comme ce matin).
+tip: use the map to get data.
+
+
+Est ce que on doit creer des "utilisateur" ?

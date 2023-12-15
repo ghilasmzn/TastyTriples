@@ -1,0 +1,60 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/21",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Robin Room",
+  "address": {
+    "@id": "/api/addresses/784",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.8953,
+      "longitude": 2.29935
+    },
+    "streetAddress": "9 Rue Flatters, 80000 Amiens, France",
+    "telephone": "+33322439035",
+    "name": "Robin Room"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/64/92/6492eea205bc2.png",
+  "sameAs": "https://www.robinroomamiens.com/",
+  "description": "Le Robin Room c\u2019est une cuisine maison \u00e0 base de produits frais confectionn\u00e9e avec amour chaque matin par notre \u00e9quipe. Vous y trouverez des plats simples, g\u00e9n\u00e9reux et originaux \u00e9voluant  au fil des inspirations m\u00e9tiss\u00e9es de la cheffe et dans le respect de la saisonnalit\u00e9 des produits. \r\nLe Robin Room c\u2019est aussi et avant tout une aventure humaine aux c\u00f4t\u00e9s de collaborateurs qui partagent les m\u00eames valeurs et une passion commune pour les bons produits.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://beefast.coopcycle.org/fr/restaurant/21-robin-room",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "10.00"
+      }
+    }
+  }
+}
