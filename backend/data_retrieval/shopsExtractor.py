@@ -7,7 +7,7 @@ from urllib.parse import urljoin
 class ShopsExtractor:
     def __init__(self, service_name,base_url):
         self.service_name = service_name
-        self.base_url = base_url+"/fr/shops"
+        self.base_url = base_url
         self.restaurant_links = []
 
     def extract_json_ld_from_page(self, url):
@@ -23,7 +23,7 @@ class ShopsExtractor:
             return None
 
     def extract_restaurant_links(self):
-        response = requests.get(self.base_url)
+        response = requests.get(self.base_url+"/fr/shops")
         if response.status_code == 200:
             html_content = response.text
             soup = BeautifulSoup(html_content, 'html.parser')
@@ -31,13 +31,14 @@ class ShopsExtractor:
             if not restaurant_items:
                 print("No restaurant items found. Exiting.")
                 return
-            
+
             for restaurant_item in restaurant_items:
                 link = restaurant_item.find("a")
                 href = link.get("href") if link else None
-                self.restaurant_links.append(urljoin(self.base_url, href))
+                self.restaurant_links.append(urljoin(self.base_url+"/fr", href))
         else:
             print(f"Failed to retrieve the base page. Status code: {response.status_code}")
+    
 
     def process_and_save_data(self):
         self.extract_restaurant_links()
@@ -53,5 +54,8 @@ class ShopsExtractor:
 
                 with open(os.path.join(service_directory, f"{restaurant_id}.jsonld"), "w", encoding="utf-8") as output_file:
                     for data in json_ld_data:
-                        output_file.write(json.dumps(json.loads(data), indent=2))
+                        data_dict = json.loads(data)
+                        data_dict["belongsToService"] = {"@id": self.base_url}
+                        output_file.write(json.dumps(data_dict, indent=2))
+
 

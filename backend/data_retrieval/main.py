@@ -17,7 +17,8 @@ def main():
     # Exporter les triplets RDF dans un fichier Turtle
     converter.export_to_file(ttl_output_path, format='turtle')
     fuseki_loader = FusekiLoader('http://localhost:3030/Coopcycle')
-    fuseki_loader.load_ttl_data(ttl_output_path)
+    fuseki_loader.start_server()
+    fuseki_loader.load_data(ttl_output_path)
     
     services = load_json_data(services_file_path)
     for service in services:

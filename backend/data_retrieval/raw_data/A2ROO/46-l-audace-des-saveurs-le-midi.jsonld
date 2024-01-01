@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/46",
+  "@type": "http://schema.org/Restaurant",
+  "name": "L'Audace des Saveurs - Le midi",
+  "address": {
+    "@id": "/api/addresses/5375",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.333287,
+      "longitude": 5.048597
+    },
+    "streetAddress": "36 bis Rue du Vingt-Sixi\u00e8me Dragons, 21000 Dijon, France",
+    "telephone": "+33380341184",
+    "name": "L'Audace des Saveurs - Le midi"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/61/fc/61fcfda71d819.png",
+  "sameAs": "https://audacedessaveurs.fr/",
+  "description": "L\u2019Audace des Saveurs s\u2019engage maintenant \u00e0 r\u00e9galer vos papilles pendant vos pauses d\u00e9jeuners ! Notre volont\u00e9 de cr\u00e9er des sandwichs haut de gamme avec des ingr\u00e9dients s\u00e9lectionn\u00e9s soigneusement, vous pourrez mieux appr\u00e9cier votre d\u00e9jeuner sur le pouce.\r\n\r\nRetrouvez ici les sandwichs et salades sign\u00e9s Damien Audax, pr\u00e9par\u00e9s chaque jour \u00e0 la boutique et livr\u00e9s par vos coursiers pr\u00e9f\u00e9r\u00e9s !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/46-l-audace-des-saveurs-le-midi",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}

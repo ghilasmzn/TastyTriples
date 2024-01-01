@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/52",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Foodies",
+  "address": {
+    "@id": "/api/addresses/9223",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.31833,
+      "longitude": 5.0307842
+    },
+    "streetAddress": "6 Rue du Faubourg Raines, Dijon, France",
+    "telephone": "+33300000000",
+    "name": "Foodies"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/63/05/63050f5e348a5.png",
+  "sameAs": "https://www.foodiestruck.fr",
+  "description": "Foodies truck, camion et restaurant sur Dijon et les environs. D\u00e9couvrez notre cuisine authentique, et adh\u00e9rez \u00e0 la street food !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/52-foodies",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}

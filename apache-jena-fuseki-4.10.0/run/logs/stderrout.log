@@ -1,0 +1,14 @@
+18:42:21 INFO  Server          :: Apache Jena Fuseki 4.10.0
+18:42:22 INFO  Config          :: FUSEKI_HOME=/home/bizak/apache-jena-fuseki-4.10.0
+18:42:22 INFO  Config          :: FUSEKI_BASE=/home/bizak/apache-jena-fuseki-4.10.0/run
+18:42:22 INFO  Config          :: Shiro file: file:///home/bizak/apache-jena-fuseki-4.10.0/run/shiro.ini
+18:42:22 INFO  Config          :: Load configuration: file:///home/bizak/apache-jena-fuseki-4.10.0/run/configuration/stops.ttl
+18:42:23 INFO  Config          :: Load configuration: file:///home/bizak/apache-jena-fuseki-4.10.0/run/configuration/Coopcycle.ttl
+18:42:23 INFO  Server          :: Configuration file: /home/bizak/apache-jena-fuseki-4.10.0/run/config.ttl
+18:42:23 INFO  Server          :: Path = /Coopcycle
+18:42:23 INFO  Server          :: Path = /stops
+18:42:23 INFO  Server          ::   Memory: 1,5 GiB
+18:42:23 INFO  Server          ::   Java:   11.0.21
+18:42:23 INFO  Server          ::   OS:     Linux 6.2.0-39-generic amd64
+18:42:23 INFO  Server          ::   PID:    6705
+18:42:23 INFO  Server          :: Started 2023/12/30 18:42:23 CET on port 3030

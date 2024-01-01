@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/63",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Dubble",
+  "address": {
+    "@id": "/api/addresses/10509",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.3265926,
+      "longitude": 5.0399713
+    },
+    "streetAddress": "66 Rue Devosge, Dijon, France",
+    "telephone": "+33380689397",
+    "name": "Dubble"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/65/0d/650d45c7b48e4.png",
+  "sameAs": "http://dubble-food.com",
+  "description": "**EN CE MOMENT LIVRAISON OFFERTE AVEC LE CODE ETE2023**\r\nPROFITEZ-EN !\r\n\r\nUn d\u00e9jeuner frais, sain, \u00e9quilibr\u00e9 et gourmand, des produits frais pr\u00e9par\u00e9s sur place.\r\nDes superfoods excellents pour la sant\u00e9, des recettes originales, un tr\u00e8s grand choix v\u00e9g\u00e9tarien ou vegan.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/63-dubble",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}

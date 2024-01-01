@@ -1,6 +1,8 @@
 import json
 from rdflib import Graph, Namespace, URIRef, Literal, BNode, RDF
-from urllib.parse import quote
+from urllib.parse import quote,unquote
+from bs4 import BeautifulSoup
+import re
 
 class JSONLDConverter:
     def __init__(self):
@@ -29,9 +31,11 @@ class JSONLDConverter:
             for prop, value in entry.items():
                 if prop == 'text':
                     for lang, desc in value.items():
-                        self.graph.add((service_uri, self.schema.description, Literal(desc, lang=lang)))
-                elif prop in ['facebook_url', 'twitter_url', 'instagram_url']:
-                    encoded_url = quote(value, safe='/:?=&')
+                        soup = BeautifulSoup(desc, 'html.parser')
+                        cleaned_desc = soup.get_text()
+                        self.graph.add((service_uri, self.schema.description, Literal(cleaned_desc, lang=lang)))
+                elif prop in ['facebook_url', 'twitter_url', 'instagram_url','url']:
+                    encoded_url = quote(re.sub(r' ', '', value), safe='/:?=&')
                     self.graph.add((service_uri, self.schema.sameAs, URIRef(encoded_url)))
                 elif isinstance(value, list):
                     for item in value:

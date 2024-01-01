@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/70",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Chez Mes Soeurs - Concorde",
+  "address": {
+    "@id": "/api/addresses/13463",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.3513401,
+      "longitude": 5.0418762
+    },
+    "streetAddress": "10 Avenue de la Concorde, Dijon, France",
+    "telephone": "+33380574279",
+    "name": "Chez Mes Soeurs - Concorde"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:30",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/63/e3/63e37da8dbea1.png",
+  "sameAs": "https://www.chezmessoeurs.fr",
+  "description": "Nous sommes 3 s\u0153urs : Anne-Sophie, Anne-Claire & Annabelle. Passionn\u00e9es par la cuisine et le commerce et avons r\u00e9uni nos talents pour vous proposer un concept de cuisine nomade unique. Vous pouvez prendre le temps de savourer sur place les sp\u00e9cialit\u00e9s faites maison avec amour dans notre laboratoire. Mieux encore, n'h\u00e9sitez pas \u00e0 accompagner votre d\u00e9gustation d\u2019une lecture choisie dans notre librairie solidaire.\r\n\r\nIl est possible de consommer sur place, en terrasse ou \u00e0 emporter. Notre concept est de proposer une cuisine saine, faite maison qui valorise la cuisine du monde. Couleurs, \u00e9pices, saveurs sont nos leitmotivs !\r\n\r\nVenez d\u00e9guster nos sp\u00e9cialit\u00e9s \u00e0 n\u2019importe quelle heure de la journ\u00e9e : petit d\u00e9jeuner, d\u00e9jeuner et m\u00eame au go\u00fbter dans une ambiance propice \u00e0 la d\u00e9tente !\r\n\r\nComment \u00e7a marche ?\r\n======\r\n\r\nMERCI DE PR\u00c9COMMANDER JUSQU'\u00c0 11H30 LE JOUR J POUR UNE LIVRAISON ENTRE 11H30 ET 18H\r\n\r\n----",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/70-chez-mes-soeurs-concorde",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}
