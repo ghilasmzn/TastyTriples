@@ -7,7 +7,7 @@ from urllib.parse import urljoin
 class ShopsExtractor:
     def __init__(self, service_name,base_url):
         self.service_name = service_name
-        self.base_url = base_url
+        self.base_url = base_url+"/fr/shops"
         self.restaurant_links = []
 
     def extract_json_ld_from_page(self, url):
@@ -28,7 +28,10 @@ class ShopsExtractor:
             html_content = response.text
             soup = BeautifulSoup(html_content, 'html.parser')
             restaurant_items = soup.find_all("div", class_="restaurant-item")
-
+            if not restaurant_items:
+                print("No restaurant items found. Exiting.")
+                return
+            
             for restaurant_item in restaurant_items:
                 link = restaurant_item.find("a")
                 href = link.get("href") if link else None

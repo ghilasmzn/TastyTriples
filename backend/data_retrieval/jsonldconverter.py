@@ -17,7 +17,7 @@ class JSONLDConverter:
         service_name = entry.get('name', '')
         return URIRef(f"{self.schema}#{quote(service_name, safe='/:?=&')}")
 
-    def convert_to_rdf(self, jsonld_file):
+    def convert_to_ttl(self, jsonld_file):
         with open(jsonld_file, 'r', encoding='utf-8') as file:
             json_data = json.load(file)
 
