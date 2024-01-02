@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+import AuthService from '../services/AuthService';
+
 interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -16,21 +18,35 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, isSignUpClicked = true }
     setIsSignUp(isSignUpClicked);
   }, [isSignUpClicked]);
 
-  const handleSignUp = (e: React.FormEvent) => {
+  const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
     if (password !== confirmPassword) {
       alert("Passwords don't match");
       return;
     }
 
-    // TODO: Perform signup logic with email and password
+    const success = await AuthService.signup(email, password);
+    if (!success) {
+      alert('An error occurred');
+      return;
+    }
+
+    // TODO: redirect to dashboard
+
     onClose();
   };
 
-  const handleLogin = (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    // TODO: Perform login logic with email and password
+    const success = await AuthService.login(email, password);
+    if (!success) {
+      alert('Invalid credentials');
+      return;
+    }
+
+    // TODO: redirect to dashboard
+    
     onClose();
   };
 

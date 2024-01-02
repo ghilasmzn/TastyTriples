@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Analytics from '../components/Analytics';
 import Canvas from '../components/Canvas';
@@ -9,7 +9,28 @@ import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 import Product from '../components/Product';
 
+import SparqlQueryHandler from '../utils/SparqlQueryHandler';
+
 const App = () => {
+  
+  useEffect(() => {
+    const query = `
+      PREFIX ns1:<http://schema.org/>
+      SELECT ?service ?name ?description
+      WHERE {
+          ?service a ns1:ProfessionalService ;
+          ns1:name ?name ;
+          ns1:description ?description .
+          FILTER(LANG(?description) = 'fr')
+      }
+    `;
+
+    const sparqlQueryHandler = new SparqlQueryHandler();
+    sparqlQueryHandler.exec(query).then((data) => {
+      console.log(data);
+    });
+  }, []);
+
   return (
     <div className={`bg-background grid gap-y-16 overflow-hidden`}>
       <div className={`relative bg-background`}>
