@@ -10,9 +10,11 @@ import MainHeroImage from '../components/MainHeroImage';
 import Product from '../components/Product';
 
 import SparqlQueryHandler from '../utils/SparqlQueryHandler';
+import Dashboard from './dashboard';
 
 const App = () => {
-  
+  const [isLogin, setIsLogin] = React.useState(false);
+
   useEffect(() => {
     const query = `
       PREFIX ns1:<http://schema.org/>
@@ -31,33 +33,46 @@ const App = () => {
     });
   }, []);
 
+  useEffect(() => {
+    const isLoggedIn = localStorage.getItem('isLoggedIn');
+    if (isLoggedIn) {
+      setIsLogin(true);
+    } 
+  }, []);
+
   return (
-    <div className={`bg-background grid gap-y-16 overflow-hidden`}>
-      <div className={`relative bg-background`}>
-        <div className="max-w-7xl mx-auto">
-          <div
-            className={`relative z-10 pb-8 bg-background sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32`}
-          >
-            <Header />
-            <MainHero />
+    <>
+      {!isLogin ? (
+        <div className={`bg-background grid gap-y-16 overflow-hidden`}>
+          <div className={`relative bg-background`}>
+            <div className="max-w-7xl mx-auto">
+              <div
+                className={`relative z-10 pb-8 bg-background sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32`}
+              >
+                <Header />
+                <MainHero  />
+              </div>
+            </div>
+            <MainHeroImage />
           </div>
-        </div>
-        <MainHeroImage />
-      </div>
-      <Canvas />
-      <LazyShow>
-        <>
-          <Product />
           <Canvas />
-        </>
-      </LazyShow>
-      <LazyShow>
-          <Features />
-      </LazyShow>
-      <LazyShow>
-        <Analytics />
-      </LazyShow>
-    </div>
+          <LazyShow>
+            <>
+              <Product />
+              <Canvas />
+            </>
+          </LazyShow>
+          <LazyShow>
+            <Features />
+          </LazyShow>
+          <LazyShow>
+            <Analytics />
+          </LazyShow>
+        </div>
+      ) : (
+          <Dashboard />
+      )}
+    </>
   );
 };
 

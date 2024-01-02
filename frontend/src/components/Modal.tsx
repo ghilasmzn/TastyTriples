@@ -9,6 +9,7 @@ interface ModalProps {
 }
 
 const Modal: React.FC<ModalProps> = ({ isOpen, onClose, isSignUpClicked = true }) => {
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
@@ -31,8 +32,8 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, isSignUpClicked = true }
       return;
     }
 
-    // TODO: redirect to dashboard
-
+    localStorage.setItem('isLoggedIn', 'true');
+    window.location.reload();
     onClose();
   };
 
@@ -45,8 +46,8 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, isSignUpClicked = true }
       return;
     }
 
-    // TODO: redirect to dashboard
-    
+    localStorage.setItem('isLoggedIn', 'true');
+    window.location.reload();
     onClose();
   };
 

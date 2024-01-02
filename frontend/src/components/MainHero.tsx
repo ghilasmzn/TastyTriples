@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Modal from './Modal';
 import config from '../config/index.json';
 
+
 const MainHero = () => {
   const { mainHero } = config;
   const [isModalOpen, setIsModalOpen] = useState(false);
