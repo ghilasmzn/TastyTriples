@@ -62,3 +62,13 @@ TastyTriples/
         index.html
     README.md
 ```
+
+---
+
+# TastyTriples Web Application
+
+Launch the development server with :
+```bash
+yarn
+yarn dev
+```

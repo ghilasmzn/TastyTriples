@@ -1,0 +1,76 @@
+{
+  "company": {
+    "name": "React landing page 2021",
+    "logo": "/assets/images/logo.png"
+  },
+  "navigation": [
+    {
+      "name": "Services",
+      "href": "product"
+    },
+    {
+      "name": "Features",
+      "href": "features"
+    }
+  ],
+  "callToAction": {
+    "text": "Get started",
+    "href": "#"
+  },
+  "mainHero": {
+    "title": "Discover new tastes with",
+    "subtitle": "TastyTriples",
+    "description": "TastyTriples is an academic project dedicated to discovering and exploring restaurants. Leveraging Semantic Web technologies such as Linked Data, JSON-LD, and SPARQL, our platform enables users to find detailed information about various restaurants.",
+    "img": "/assets/images/restaurant.jpg",
+    "primaryAction": {
+      "text": "Login",
+      "href": "#"
+    },
+    "secondaryAction": {
+      "text": "Sign-up",
+      "href": "#"
+    }
+  },
+  "product": {
+    "title": "Main Features",
+    "items": [
+      {
+        "title": "Discover Nearby Restaurants",
+        "description": "Effortlessly explore nearby restaurants offering diverse cuisines and delivery services in your area.",
+        "img": "/assets/images/product1.jpg"
+      },
+      {
+        "title": "Personalized Restaurant Recommendations",
+        "description": "Receive tailored restaurant suggestions based on your preferences, including favorite restaurants, proximity, and pricing options.",
+        "img": "/assets/images/product2.jpg"
+      }
+    ]
+  },
+  "features": {
+    "title": "Technologies",
+    "subtitle": "Technologies used in TastyTriples",
+    "description": "Explore the innovative technologies that drive TastyTriples, enabling a seamless restaurant discovery experience.",
+    "items": [
+      {
+        "name": "React.js",
+        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+        "icon": "/assets/images/react.png"
+      },
+      {
+        "name": "Tailwind",
+        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
+        "icon": "/assets/images/tailwindcss.svg"
+      },
+      {
+        "name": "Next.js",
+        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
+        "icon": "/assets/images/nextjs.svg"
+      },
+      {
+        "name": "Typescript",
+        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
+        "icon": "/assets/images/ts.png"
+      }
+    ]
+  }
+}
