@@ -47,7 +47,7 @@ class SparqlQueryHandler {
     });
   }
 
-  async exec(query: string): Promise<Record<string, any>[] | undefined> {
+  async select(query: string): Promise<Record<string, any>[] | undefined> {
     try {
       const result: QueryResult = await this.client.query.select(query);
       const rows: Record<string, any>[] = await this.fetch(result);

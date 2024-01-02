@@ -23,7 +23,7 @@ const AuthService: AuthService = {
           }
         `;
 
-        const result = await sparqlClient.exec(loginQuery);
+        const result = await sparqlClient.select(loginQuery);
         return result !== undefined && result.length > 0;
       } catch (error) {
         console.error('Error during login:', error);

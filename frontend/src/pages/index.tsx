@@ -28,7 +28,8 @@ const App = () => {
     `;
 
     const sparqlQueryHandler = new SparqlQueryHandler();
-    sparqlQueryHandler.exec(query).then((data) => {
+   
+    sparqlQueryHandler.select(query).then((data) => {
       console.log(data);
     });
   }, []);
@@ -70,7 +71,7 @@ const App = () => {
           </LazyShow>
         </div>
       ) : (
-          <Dashboard />
+            <Dashboard />
       )}
     </>
   );

@@ -33,6 +33,9 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, isSignUpClicked = true }
     }
 
     localStorage.setItem('isLoggedIn', 'true');
+    localStorage.setItem('email', email);
+    
+    localStorage.setItem('name', email.split('@')[0]);
     window.location.reload();
     onClose();
   };
@@ -47,6 +50,8 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, isSignUpClicked = true }
     }
 
     localStorage.setItem('isLoggedIn', 'true');
+    localStorage.setItem('email', email);
+    localStorage.setItem('name', email.split('@')[0]);
     window.location.reload();
     onClose();
   };
