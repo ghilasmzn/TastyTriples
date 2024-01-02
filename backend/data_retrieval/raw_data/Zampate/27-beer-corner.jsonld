@@ -1,0 +1,69 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/27",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Beer Corner",
+  "address": {
+    "@id": "/api/addresses/13821",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.6511268,
+      "longitude": -0.8738656
+    },
+    "streetAddress": "Calle Hero\u00edsmo, 2, Zaragoza, Espa\u00f1a",
+    "telephone": "+34605846661",
+    "name": "Beer Corner"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:45",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/62/16/6216434b4d2a5.jpeg",
+  "description": "La casa de la cerveza artesana en la Magdalena. Buena birra y comida para llevar. Join the Craft Beer Revolution!",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://zampate.coopcycle.org/fr/restaurant/27-beer-corner",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "12.50"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://zampate.coopcycle.org"
+  }
+}

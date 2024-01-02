@@ -1,0 +1,74 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/89",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Yolo Smash Burger \ud83c\udf54",
+  "address": {
+    "@id": "/api/addresses/47896",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5834468,
+      "longitude": 7.7710569
+    },
+    "streetAddress": "58 Av. de la For\u00eat-Noire, 67000 Strasbourg, France",
+    "telephone": "+33388400400",
+    "name": "Yolo Smash Burger \ud83c\udf54"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:00",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e157d941ca.png",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6d/656dd08a39884.jpg",
+  "sameAs": "https://yolosmashburger.fr/",
+  "description": "Produits frais, des burgers maison pr\u00e9par\u00e9s \u00e0 la commandes & des frites maison !\r\nLivraison de repas et burgers \u00e0 Strasbourg et alentours !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/89-yolo-smash-burger",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

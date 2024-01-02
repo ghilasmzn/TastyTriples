@@ -1,0 +1,78 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/148",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Lazzarone",
+  "address": {
+    "@id": "/api/addresses/101820",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.215623,
+      "longitude": -1.5518916
+    },
+    "streetAddress": "3 Rue de l'Emery, 44000 Nantes, France",
+    "telephone": "+33240059617",
+    "name": "Lazzarone"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/63/e2/63e2f9e4593be.jpeg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/63/e2/63e2f9e4593be.jpeg",
+  "description": "Pizzeria Napolitaine contemporaine. \r\nProduits haut de gamme 100% italien \ud83c\uddee\ud83c\uddf9 s\u00e9lectionn\u00e9s pour leur qualit\u00e9 et valeur humaine. \r\nTout est fait maison",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/148-lazzarone",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  }
+}

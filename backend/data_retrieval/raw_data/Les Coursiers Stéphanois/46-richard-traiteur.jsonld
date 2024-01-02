@@ -1,0 +1,70 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/46",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Richard Traiteur",
+  "address": {
+    "@id": "/api/addresses/8168",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.4339,
+      "longitude": 4.38778
+    },
+    "streetAddress": "2 Cours Victor Hugo, 42000 Saint-\u00c9tienne, France",
+    "telephone": "+33632001336",
+    "name": "Richard Traiteur"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560caeceab8e.jpg",
+  "sameAs": "https://richardtraiteur.fr/les-halles-mazerat/",
+  "description": "Cuisine fran\u00e7aise, maison ap\u00e9ritive.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/restaurant/46-richard-traiteur",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  }
+}

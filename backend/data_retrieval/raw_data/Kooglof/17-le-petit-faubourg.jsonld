@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/17",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Petit Faubourg \ud83c\udf54",
+  "address": {
+    "@id": "/api/addresses/3663",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5848016,
+      "longitude": 7.7410266
+    },
+    "streetAddress": "2 Rue du Faubourg-de-Saverne, Strasbourg, France",
+    "telephone": "+33388136330",
+    "name": "Le Petit Faubourg \ud83c\udf54"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e17f042c14.png",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e14279d129.jpg",
+  "sameAs": "https://le-petit-faubourg.fr/",
+  "description": "Le Petit Faubourg, vous propose une carte de saison, o\u00f9 le fait maison et le local sont privil\u00e9gi\u00e9s !\r\n\r\nLivraison de repas et de burgers \u00e0 Strasbourg et alentours !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/17-le-petit-faubourg",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

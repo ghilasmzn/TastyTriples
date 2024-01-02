@@ -1,0 +1,50 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/56",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Herbivoriste",
+  "address": {
+    "@id": "/api/addresses/9455",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.3519983,
+      "longitude": 5.0429122
+    },
+    "streetAddress": "18 Avenue de la Concorde, Dijon, France",
+    "telephone": "+33648610898",
+    "name": "Herbivoriste"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/62/e8/62e8492806785.jpeg",
+  "sameAs": "https://www.herbivoriste.fr/",
+  "description": "Herbivoriste c'est un food bike 100% v\u00e9g\u00e9talien qui vous propose une cuisine de saison majoritairement locale et biologique. \r\n\r\nUne cuisine riche, color\u00e9e et pleine de saveurs !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/56-herbivoriste",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}

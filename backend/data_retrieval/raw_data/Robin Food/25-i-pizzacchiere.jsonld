@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/25",
+  "@type": "http://schema.org/Restaurant",
+  "name": "I'Pizzacchiere",
+  "address": {
+    "@id": "/api/addresses/1684",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.7641657,
+      "longitude": 11.2612922
+    },
+    "streetAddress": "Via San Miniato 2, 50122 Firenze, Italia",
+    "telephone": "+390552466332",
+    "name": "I'Pizzacchiere"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:50",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/62/70/6270027f469a1.jpeg",
+  "sameAs": "https://www.pizzacchiere.com/",
+  "description": "Pizza leggera, genuina e gustosa. In stile napoletano.. Per il nostro impasto semi-integrale usiamo la tecnica Poolish, a lievitazione naturale. Tutti gli insaccati sono gluten free. Le nostre pizze sono il frutto di esperienza e cura negli abbinamenti dei sapori.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://robinfood.coopcycle.org/fr/restaurant/25-i-pizzacchiere",
+      "inLanguage": "it",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://robinfood.coopcycle.org"
+  }
+}

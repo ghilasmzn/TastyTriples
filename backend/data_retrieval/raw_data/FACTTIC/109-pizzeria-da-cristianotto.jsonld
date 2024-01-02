@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/109",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Pizzeria da Cristianotto",
+  "address": {
+    "@id": "/api/addresses/12787",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.8497752,
+      "longitude": 14.2632371
+    },
+    "streetAddress": "Via Cesare Sersale, 1, 80139 Napoli, NA, Italia",
+    "telephone": "+39081123456",
+    "name": "Pizzeria da Cristianotto"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "23:59",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "00:00",
+      "closes": "23:59",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://demo.coopcycle.org/media/cache/restaurant_thumbnail/63/1f/631f86d70b70f.png",
+  "bannerImage": "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/DWg0lMpMZK3j.jpg",
+  "sameAs": "http://www.pizzeriacristianotto.it",
+  "description": "Il tempio della Pizza",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://demo.coopcycle.org/fr/restaurant/109-pizzeria-da-cristianotto",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://demo.coopcycle.org"
+  }
+}

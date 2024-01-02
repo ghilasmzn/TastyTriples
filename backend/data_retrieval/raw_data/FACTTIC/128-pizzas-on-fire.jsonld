@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/128",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Pizzas on Fire",
+  "address": {
+    "@id": "/api/addresses/14693",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.2859473,
+      "longitude": -123.1122861
+    },
+    "streetAddress": "601 West Cordova Street, Vancouver, BC, Canada",
+    "telephone": "+18665404509",
+    "name": "Pizzas on Fire"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "00:00",
+      "closes": "23:59",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://demo.coopcycle.org/img/cuisine/default.jpg",
+  "bannerImage": "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/La2NE00vEQmY.jpg",
+  "sameAs": "http://pizzafire.io",
+  "description": "It's so good like it's catching on fire!",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://demo.coopcycle.org/fr/restaurant/128-pizzas-on-fire",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "0.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "0.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://demo.coopcycle.org"
+  }
+}

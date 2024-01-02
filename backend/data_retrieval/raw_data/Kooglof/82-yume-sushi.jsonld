@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/82",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Yume Sushi \ud83c\udf63\ud83c\udff7\ufe0f",
+  "address": {
+    "@id": "/api/addresses/42216",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5828487,
+      "longitude": 7.7391409
+    },
+    "streetAddress": "2 Pl. Saint-Pierre-le-Vieux, 67000 Strasbourg, France",
+    "telephone": "+33388224444",
+    "name": "Yume Sushi \ud83c\udf63\ud83c\udff7\ufe0f"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:01",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6f/656f4e6d11791.png",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6f/656f4e681e38a.png",
+  "sameAs": "https://www.yume-sushi.fr/",
+  "description": "\u27a1\ufe0f Chez vous ou au bureau ! Livraison \u00e0 partir de 2,90 euros \ud83c\udf89\r\n\r\nLivraison de sushis \u00e0 Strasbourg et alentours !\r\nYume Sushi vous invite \u00e0 un voyage culinaire en plein c\u0153ur du japon !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/82-yume-sushi",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

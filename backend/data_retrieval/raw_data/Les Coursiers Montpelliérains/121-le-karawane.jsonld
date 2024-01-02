@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/121",
+  "@type": "http://schema.org/Restaurant",
+  "name": "\ud83c\udf32Le Karawane\ud83c\udf32",
+  "address": {
+    "@id": "/api/addresses/30462",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6043,
+      "longitude": 3.88349
+    },
+    "streetAddress": "24 Rue du Pont de Lattes, 34070 Montpellier, France",
+    "telephone": "+33679145477",
+    "name": "\ud83c\udf32Le Karawane\ud83c\udf32"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/46/6546cce32a2ac.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6e/656e0d328fb3f.png",
+  "sameAs": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/121-le-karawane",
+  "description": "Restaurant Libanais \ud83c\udf32",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/121-le-karawane",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

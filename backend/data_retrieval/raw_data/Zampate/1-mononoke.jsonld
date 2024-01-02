@@ -1,0 +1,79 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/1",
+  "@type": "http://schema.org/Restaurant",
+  "name": "MONONOKE",
+  "address": {
+    "@id": "/api/addresses/1",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.6403788,
+      "longitude": -0.8858756
+    },
+    "streetAddress": "Camino de las Torres, 116, Zaragoza, Espa\u00f1a",
+    "telephone": "+34876443246",
+    "name": "MONONOKE"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Wednesday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/63/b8/63b885425afe8.jpg",
+  "sameAs": "https://mononokecafe.com",
+  "description": "Un local de 150 m2 situado en el coraz\u00f3n de la ciudad, con una ludoteca que cuenta con m\u00e1s de 100 juegos de mesa. \r\nDisfruta de nuestra gastronom\u00eda: Tacos, bocatas, pizzas, raciones y tartas caseras marinadas con 8 grifos de cerveza artesana (Toda nuestra carta es sin gluten)",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://zampate.coopcycle.org/fr/restaurant/1-mononoke",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "12.50"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://zampate.coopcycle.org"
+  }
+}

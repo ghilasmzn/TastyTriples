@@ -1,0 +1,83 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/27",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Pokawa",
+  "address": {
+    "@id": "/api/addresses/4369",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.4362,
+      "longitude": 4.38827
+    },
+    "streetAddress": "37 Place du Peuple, 42000 Saint-\u00c9tienne, France",
+    "telephone": "+33477950375",
+    "name": "Pokawa"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:00",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560cacfc48c2.jpg",
+  "sameAs": "https://www.pokawa.com/",
+  "description": "Pokawa vous invite \u00e0 d\u00e9guster de d\u00e9licieux pok\u00e9s bowls sains et gourmands. Plat traditionnel hawa\u00efen, il se compose de poisson cru marin\u00e9, de poulet ou encore de falafels, accompagn\u00e9 de fruits et l\u00e9gumes hyper frais sur une base de riz vinaigr\u00e9.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/restaurant/27-pokawa",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "13.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  }
+}

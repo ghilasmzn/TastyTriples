@@ -1,0 +1,73 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/12",
+  "@type": "http://schema.org/Restaurant",
+  "name": "HOLY FLAT! Neuk\u00f6lln",
+  "address": {
+    "@id": "/api/addresses/99",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.4900947,
+      "longitude": 13.4270389
+    },
+    "streetAddress": "Lenaustra\u00dfe 10, 12047 Berlin, Deutschland",
+    "telephone": "+493027490979",
+    "name": "HOLY FLAT! Neuk\u00f6lln"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "20:40",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "20:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/60/27/6027ec6c88416.png",
+  "sameAs": "https://www.holy-flat.de",
+  "description": "Vegetarian and vegan Flats & Bowls",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/12-holy-flat-neukoelln",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

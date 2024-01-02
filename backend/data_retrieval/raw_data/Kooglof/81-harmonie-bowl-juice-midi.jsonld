@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/81",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Harmonie Bowl & Juice - Midi \ud83c\udf31\ud83c\udff7\ufe0f",
+  "address": {
+    "@id": "/api/addresses/41938",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5830653,
+      "longitude": 7.7551708
+    },
+    "streetAddress": "5 Rue St \u00c9tienne, Strasbourg, France",
+    "telephone": "+33388227822",
+    "name": "Harmonie Bowl & Juice - Midi \ud83c\udf31\ud83c\udff7\ufe0f"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:31",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6f/656f539227f0c.png",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6f/656f53e14d3eb.png",
+  "sameAs": "http://www.harmoniebowlandjuice.com/",
+  "description": "\u27a1\ufe0f Chez vous ou au bureau ! Livraison \u00e0 partir de 2,90 euros \ud83c\udff7\ufe0f\r\n\r\nLivraison de repas vegan \u00e0 Strasbourg et alentours !\r\nHarmonie Bowl and Juice est votre Restaurant-caf\u00e9 Vegan et sans gluten au centre de Strasbourg. Vous y d\u00e9couvrirez une cuisine saine, bio, sans gluten et de saison ! Tous nos plats sont frais du jour et sp\u00e9cialement cr\u00e9es par Meylee, Naturopathe.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/81-harmonie-bowl-juice-midi",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

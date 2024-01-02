@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/15",
+  "@type": "http://schema.org/GroceryStore",
+  "name": "Caf\u00e9 Litha",
+  "address": {
+    "@id": "/api/addresses/507",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 44.3585,
+      "longitude": 2.59709
+    },
+    "streetAddress": "30 Rue de Cantaranne, 12850 Onet-le-Ch\u00e2teau, France",
+    "telephone": "+33565463889",
+    "name": "Caf\u00e9 Litha"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://biclooo.coopcycle.org/media/cache/restaurant_thumbnail/60/86/6086d85f6227b.png",
+  "sameAs": "https://www.litha-espresso.fr/",
+  "description": "Litha Espresso est une marque de caf\u00e9 engag\u00e9e. Nous proposons une gamme vari\u00e9e de caf\u00e9s d\u2019exception, s\u00e9lectionn\u00e9s avec soin et exigence. \r\nNos caf\u00e9s sont propos\u00e9s sous deux formats : en grains et en capsules. Nos capsules sont compatibles Nespresso\u00a9* biod\u00e9gradables et compostables industriellement selon la norme NF EN 13432.\r\n \r\n*Marque appartenant \u00e0 un tiers n'ayant aucun lien avec Litha Espresso.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://biclooo.coopcycle.org/fr/store/15-cafe-litha",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.90",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "20.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://biclooo.coopcycle.org"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/14",
+  "@type": "http://schema.org/Restaurant",
+  "name": "CHEZ TIGRE",
+  "address": {
+    "@id": "/api/addresses/777",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.734013,
+      "longitude": -3.36526
+    },
+    "streetAddress": "35 Avenue de la Perri\u00e8re, 56100 Lorient, France",
+    "telephone": "+33297857826",
+    "name": "CHEZ TIGRE"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://feelavelo.coopcycle.org/media/cache/restaurant_thumbnail/60/64/606446cfcc9d3.png",
+  "sameAs": "http://Instagram Chez Tigre",
+  "description": "Petite \u00e9choppe vietnamienne au c\u0153ur du port de p\u00eache de Lorient.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://feelavelo.coopcycle.org/fr/restaurant/14-chez-tigre",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "4.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "25.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://feelavelo.coopcycle.org"
+  }
+}

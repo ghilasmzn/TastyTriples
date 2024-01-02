@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/31",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Bang Bang Ramen",
+  "address": {
+    "@id": "/api/addresses/8542",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8179753,
+      "longitude": -1.6453084
+    },
+    "streetAddress": "C. Campana, 2, 31001 Pamplona, Navarra, Espa\u00f1a",
+    "telephone": "+34652883221",
+    "name": "Bang Bang Ramen"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:30",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://ziclop.coopcycle.org/media/cache/restaurant_thumbnail/63/4e/634e69526520c.jpg",
+  "sameAs": "https://www.bangbangramenbar.com/",
+  "description": "Tasca de comida casera japonesa, especialidad en ramen y tapas japonesas.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://ziclop.coopcycle.org/fr/restaurant/31-bang-bang-ramen",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://ziclop.coopcycle.org"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/37",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Les demoiselles de Montpellier",
+  "address": {
+    "@id": "/api/addresses/2374",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6117108,
+      "longitude": 3.8780786
+    },
+    "streetAddress": "2 Rue de la Carbonnerie, Montpellier, France",
+    "telephone": "+33499655643",
+    "name": "Les demoiselles de Montpellier"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/46/6546cf13dec5f.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbf74e0f9b.png",
+  "sameAs": "http://lesdemoisellesdemontpellier.com/",
+  "description": "Cuisine maison, v\u00e9g\u00e9tarienne, 100% sans gluten, sans produits laitiers, options vegan",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/37-les-demoiselles-de-montpellier",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

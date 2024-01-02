@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/140",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Map Map Food",
+  "address": {
+    "@id": "/api/addresses/43454",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6126974,
+      "longitude": 3.879083
+    },
+    "streetAddress": "57 Rue de l'Aiguillerie, 34000 Montpellier, France",
+    "telephone": "+33499674536",
+    "name": "Map Map Food"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/2e/652ebf5a0e647.jpg",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6e/656e54c46b146.png",
+  "description": "**Fusion Street Food Asiatique et Cr\u00e9ole** \ud83c\udf2e\ud83c\udf5c\r\nCuisin\u00e9e avec des produits frais ! Tout est fait maison. \ud83d\ude0b",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/140-map-map-food",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

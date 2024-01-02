@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/21",
+  "@type": "http://schema.org/Restaurant",
+  "name": "LE BIOREK BRESTOIS",
+  "address": {
+    "@id": "/api/addresses/723",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.3966,
+      "longitude": -4.4814
+    },
+    "streetAddress": "20 Rue Charles Berthelot, 29200 Brest, France",
+    "telephone": "+33221748458",
+    "name": "LE BIOREK BRESTOIS"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:15",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/62/28/6228b72209a93.jpg",
+  "sameAs": "https://lebiorekbrestois.webador.fr/",
+  "description": "\"L'unique resto certifi\u00e9 BIO\ud83c\udf31de Brest I \ud83d\udc9a BOREK\r\nVous pensez \u00eatre totalement largu\u00e9, si ce nom ne vous dit rien c'est normal, mais sachez que c'est grave bon ! rassurez-vous on va tout vous expliquer : \r\n\r\nC'est une cr\u00eape travaill\u00e9e \u00e0 la main, garnie de fromages, de l\u00e9gumes, de viandes aussi si vous le souhaitez... Personnellement, moi j'adore les algues, il y aura aussi une recette v\u00e9gan (on se veut tr\u00e8s inclusif...).\r\n\r\nNous souhaitions cr\u00e9er un restaurant en gardant conscience des enjeux actuels et en souhaitant pr\u00e9senter des produits qui nous ressemblent\u2026 Nos produits sont en grande partie BIO et LOCAUX.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersbrestois.coopcycle.org/fr/restaurant/21-le-biorek-brestois",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersbrestois.coopcycle.org"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/191",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Akkawy",
+  "address": {
+    "@id": "/api/addresses/78850",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.510414,
+      "longitude": 13.452798
+    },
+    "streetAddress": "Kopernikusstra\u00dfe 8, 10245 Berlin, Deutschland",
+    "telephone": "+493027598000",
+    "name": "Akkawy"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "19:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "19:40",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/61/f0/61f0eb1300a8d.jpg",
+  "sameAs": "https://www.akkawy.com/",
+  "description": "Authenthic Hummus restaurant. Vegan and vegetarian",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/191-akkawy",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

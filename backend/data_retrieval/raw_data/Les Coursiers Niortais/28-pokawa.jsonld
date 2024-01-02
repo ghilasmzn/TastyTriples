@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/28",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Pokawa",
+  "address": {
+    "@id": "/api/addresses/3519",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 46.3258,
+      "longitude": -0.463813
+    },
+    "streetAddress": "25 Rue Brisson, 79000 Niort, France",
+    "telephone": "+33549755643",
+    "name": "Pokawa"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:40",
+      "closes": "14:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://niort.coopcycle.org/media/cache/restaurant_thumbnail/61/d8/61d851babc6a0.jpeg",
+  "sameAs": "http://www.pokawa.com",
+  "description": "Envie de faire danser vos papilles au rythme des Ukulele ? Let's go for a pok\u00e9 !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://niort.coopcycle.org/fr/restaurant/28-pokawa",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://niort.coopcycle.org"
+  }
+}

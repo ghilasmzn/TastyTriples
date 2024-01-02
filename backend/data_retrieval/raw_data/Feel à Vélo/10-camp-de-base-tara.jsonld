@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/10",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Camp de base TARA",
+  "address": {
+    "@id": "/api/addresses/145",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.7318197,
+      "longitude": -3.372901
+    },
+    "streetAddress": "10 Rue Raymond Rallier du Baty, Lorient, France",
+    "telephone": "+33297509163",
+    "name": "Camp de base TARA"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "17:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://feelavelo.coopcycle.org/media/cache/restaurant_thumbnail/5f/85/5f8593cc7f7b8.jpg",
+  "description": "Vente \u00e0 emporter de bocaux, tartes, wraps et desserts de saison, 100% fait maison , \u00e0 retirer sur place ou livr\u00e9s sur commande",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://feelavelo.coopcycle.org/fr/restaurant/10-camp-de-base-tara",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "30.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://feelavelo.coopcycle.org"
+  }
+}

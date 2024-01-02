@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/14",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Wasabi Sushi \ud83c\udf63\ud83e\udd5f",
+  "address": {
+    "@id": "/api/addresses/433",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6130979,
+      "longitude": 3.8794210999999
+    },
+    "streetAddress": "71 Rue de l'Aiguillerie, Montpellier, France",
+    "telephone": "+33467598097",
+    "name": "Wasabi Sushi \ud83c\udf63\ud83e\udd5f"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/46/6546ae281e873.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbe2547d30.png",
+  "sameAs": "https://coursiers-montpellier.fr",
+  "description": "Restaurant Japonnais\r\n\r\n## Wasabi Sushi - L'Art des Saveurs Japonaises\ud83c\udf63\r\n\r\nBienvenue chez Wasabi Sushi, votre destination ultime pour une exp\u00e9rience culinaire japonaise exceptionnelle. Notre restaurant est d\u00e9vou\u00e9 \u00e0 l'art de la pr\u00e9paration du sushi et \u00e0 la d\u00e9couverte de la v\u00e9ritable essence de la cuisine japonaise.\r\n\r\n### Notre Menu\r\n\r\n- **Sushis d'Exception** : D\u00e9gustez nos sushis frais, pr\u00e9par\u00e9s avec soin par nos chefs experts, mettant en avant une vari\u00e9t\u00e9 de poissons et de garnitures exquises.\r\n\r\n- **Cr\u00e9ativit\u00e9 et Tradition** : Notre menu fusionne l'authenticit\u00e9 de la cuisine japonaise traditionnelle avec des cr\u00e9ations modernes uniques. D\u00e9couvrez des plats originaux qui \u00e9veilleront vos papilles.\r\n\r\n- **Options V\u00e9g\u00e9tariennes** : Nous sommes fiers de proposer une s\u00e9lection de plats v\u00e9g\u00e9tariens pour satisfaire tous les go\u00fbts et pr\u00e9f\u00e9rences.\r\n\r\nPlongez dans une atmosph\u00e8re zen et relaxante qui vous transporte directement au Japon. Notre cadre \u00e9l\u00e9gant et notre service attentionn\u00e9 ajoutent une touche sp\u00e9ciale \u00e0 chaque visite.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/14-wasabi-sushi",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

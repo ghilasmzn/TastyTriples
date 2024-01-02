@@ -1,0 +1,70 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/16",
+  "@type": "http://schema.org/GroceryStore",
+  "name": "ZINN  Repaire de lunettes",
+  "address": {
+    "@id": "/api/addresses/176",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2157624,
+      "longitude": -1.5511344
+    },
+    "streetAddress": "9 Rue de Strasbourg, Nantes, France",
+    "telephone": "+33240753214",
+    "name": "ZINN  Repaire de lunettes"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "12:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "14:00",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersnantais.coopcycle.org/media/cache/restaurant_thumbnail/5e/94/5e94a0b081e2b.PNG",
+  "bannerImage": "https://lescoursiersnantais.coopcycle.org/placeholder/restaurant_banner/placeholders/qWmRK5EKbrkg.jpg",
+  "sameAs": "http://www.zinn.fr",
+  "description": "Opticien.\r\n\r\nAVANT TOUT ACHAT de prestation de r\u00e9paration, merci de contacter le magasin par E-mail : nantes@zinn.fr",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersnantais.coopcycle.org/fr/store/16-zinn-repaire-de-lunettes",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "11.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "0.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersnantais.coopcycle.org"
+  }
+}

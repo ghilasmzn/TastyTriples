@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/39",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Voudookitchen",
+  "address": {
+    "@id": "/api/addresses/2031",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.5133664,
+      "longitude": 13.4626258
+    },
+    "streetAddress": "Scharnweberstra\u00dfe 32, 10247 Berlin, Deutschland",
+    "telephone": "+493023933595",
+    "name": "Voudookitchen"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "21:10",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "14:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "21:10",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/61/9b/619b889f14d02.jpg",
+  "sameAs": "http://voudookitchen.de/",
+  "description": "Burger & Hot Dogs & Cr\u00eapes alles Super Deluxe in Friedrichshain!",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/39-voudookitchen",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

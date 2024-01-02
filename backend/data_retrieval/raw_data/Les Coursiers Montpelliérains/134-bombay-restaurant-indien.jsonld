@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/134",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Bombay restaurant indien",
+  "address": {
+    "@id": "/api/addresses/37341",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6131413,
+      "longitude": 3.879799
+    },
+    "streetAddress": "6 Rue du Pila Saint G\u00e9ly, 34000 Montpellier, France",
+    "telephone": "+33467027807",
+    "name": "Bombay restaurant indien"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/4d/654d1a6994302.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656ded2836c89.png",
+  "description": "# Promotion \ud83d\ude0e\r\n\r\n**\u00c0 partir de 15\u20ac d'achats 3\u20ac offert**\r\n\r\nRestaurant indien \ud83d\udd49 proposant une cuisine authentique et \u00e9pic\u00e9e avec des plats traditionnels\r\n\r\ntels que le poulet tikka masala, le biryani, ainsi que des options v\u00e9g\u00e9tariennes \ud83d\ude0b\ud83c\udf36\ufe0f",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/134-bombay-restaurant-indien",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

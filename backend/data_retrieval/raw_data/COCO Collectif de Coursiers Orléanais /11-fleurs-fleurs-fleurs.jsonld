@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/11",
+  "@type": "http://schema.org/Florist",
+  "name": "Fleurs Fleurs Fleurs",
+  "address": {
+    "@id": "/api/addresses/32",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.9049,
+      "longitude": 1.91089
+    },
+    "streetAddress": "27 Boulevard Alexandre Martin, 45000 Orl\u00e9ans, France",
+    "telephone": "+33674817685",
+    "name": "Fleurs Fleurs Fleurs"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "13:00",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://le-rayon-vert.coopcycle.org/media/cache/restaurant_thumbnail/60/92/60926f7b10fbb.jpg",
+  "sameAs": "https://www.fleursfleursfleurs.com/",
+  "description": "Bouquets de fleurs fran\u00e7aises & de saison livr\u00e9s \u00e0 v\u00e9lo \u00e0 Orl\u00e9ans.\r\nMembre du Collectif de la Fleur Fran\u00e7aise.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://le-rayon-vert.coopcycle.org/fr/store/11-fleurs-fleurs-fleurs",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "10.90",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "0.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://le-rayon-vert.coopcycle.org"
+  }
+}

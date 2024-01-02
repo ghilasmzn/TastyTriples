@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/16",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Tamales cielito lindo",
+  "address": {
+    "@id": "/api/addresses/213",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 19.416051,
+      "longitude": -99.0582314
+    },
+    "streetAddress": "Avenida Uni\u00f3n 380, Agr\u00edcola Pantitl\u00e1n, Ciudad de M\u00e9xico, CDMX, M\u00e9xico",
+    "telephone": "+525513142431",
+    "name": "Tamales cielito lindo"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "08:00",
+      "closes": "20:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://sirapps-cdmx.coopcycle.org/media/cache/restaurant_thumbnail/61/9f/619fe945dcbbd.png",
+  "sameAs": "http://Ventas @siraentregaconfiable.com",
+  "description": "Port\u00f3n color naranja,pared color rosa",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sirapps-cdmx.coopcycle.org/fr/restaurant/16-tamales-cielito-lindo",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sirapps-cdmx.coopcycle.org"
+  }
+}

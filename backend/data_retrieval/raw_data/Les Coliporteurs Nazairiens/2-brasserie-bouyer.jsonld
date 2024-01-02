@@ -1,0 +1,83 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/2",
+  "@type": "http://schema.org/Brewery",
+  "name": "Brasserie Bouyer",
+  "address": {
+    "@id": "/api/addresses/128",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.295669,
+      "longitude": -2.29232
+    },
+    "streetAddress": "27 Rue Jacques Daguerre, 44600 Saint-Nazaire, France",
+    "telephone": "+33668138397",
+    "name": "Brasserie Bouyer"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "13:00",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "16:00",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "13:00",
+      "dayOfWeek": [
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lescoliporteursnz.coopcycle.org/media/cache/restaurant_thumbnail/62/2a/622a589635419.png",
+  "sameAs": "https://www.brasseriebouyer.com/",
+  "description": "Brasserie Artisanale labellis\u00e9e bio sur St Nazaire.\r\n\r\nNous disposons d'une gamme classique distribu\u00e9e \u00e0 l'ann\u00e9e et nous vous brassons \u00e9galement des cuv\u00e9es sp\u00e9ciales qui \u00e9voluent au fil des saisons et de nos envies....\r\n\r\nBlondes, IPA, Stout, Fruit\u00e9es, Ambr\u00e9es, vieillies en barriques, ...\r\n\r\n100% ingr\u00e9dients bio, 90% du malt breton dont orge Nazairienne, 90% houblon local (44 et 56)\r\n\r\nBouteilles consign\u00e9es.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoliporteursnz.coopcycle.org/fr/restaurant/2-brasserie-bouyer",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "4.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "30.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://lescoliporteursnz.coopcycle.org"
+  }
+}

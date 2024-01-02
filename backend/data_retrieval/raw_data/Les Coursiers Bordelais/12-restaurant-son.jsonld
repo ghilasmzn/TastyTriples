@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/12",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Restaurant Son'",
+  "address": {
+    "@id": "/api/addresses/5665",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 44.8345933,
+      "longitude": -0.5753607
+    },
+    "streetAddress": "14 Rue Paul Louis Lande, 33000 Bordeaux, France",
+    "telephone": "+33557671046",
+    "name": "Restaurant Son'"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersbordelais.coopcycle.org/media/cache/restaurant_thumbnail/5f/a2/5fa2be4f52fb8.jpg",
+  "sameAs": "https://www.son-restaurant.fr/",
+  "description": "Toute l\u2019\u00e9quipe du SON\u2019 est fi\u00e8re de vous pr\u00e9senter la Box \u00abC\u2019est moi le chef!\u00bb l\u2018aboutissement de plusieurs mois de travail.\r\n\r\nSON\u2019 se met au carr\u00e9 pour vous proposer la premi\u00e8re box 100% locale qui donne v\u00e9ritablement l\u2019opportunit\u00e9 d\u2019un repas gastronomique chez soi. C\u2018est certifi\u00e9 une toque au Gault&Millau et \u00e7a rigole z\u00e9ro.\r\n\r\nTr\u00e8s clairement, une quiche est certainement plus compliqu\u00e9e et plus longue \u00e0 pr\u00e9parer.\r\nIl suffit parfois d\u2019un coup de pouce pour r\u00e9aliser de grandes choses. On a d\u00e9cid\u00e9 de vous donner toute la brigade.\r\n\r\nSuivez le tuto du SON\u2019 sur YouTube ou sur la feuille descriptive du repas et profitez d\u2019un moment unique, insolite, d\u00e9finitivement diff\u00e9rent.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersbordelais.coopcycle.org/fr/restaurant/12-restaurant-son",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "6.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "0.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://coursiersbordelais.coopcycle.org"
+  }
+}

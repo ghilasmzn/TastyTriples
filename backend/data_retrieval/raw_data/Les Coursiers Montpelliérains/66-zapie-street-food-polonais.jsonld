@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/66",
+  "@type": "http://schema.org/Restaurant",
+  "name": "ZAPIE Street Food Polonais \ud83e\udd5f",
+  "address": {
+    "@id": "/api/addresses/5566",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6117881,
+      "longitude": 3.8791128
+    },
+    "streetAddress": "40 Rue de l'Aiguillerie, Montpellier, France",
+    "telephone": "+33663287994",
+    "name": "ZAPIE Street Food Polonais \ud83e\udd5f"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/46/6546c4a884b84.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbec092781.png",
+  "sameAs": "http://zapie.fr",
+  "description": "La ZAPIEKANKA, Sp\u00e9cialit\u00e9 Polonaise, est un long pain (40 cm et Bio) avec une farce (BASE) dessus, compos\u00e9e de champignons de Paris frais et d\u2019oignons juste revenus, parsem\u00e9e de fromage et le tout gratin\u00e9e au four. Nos ZAPS sont \u00e0 d\u00e9guster sans mod\u00e9ration !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/66-zapie-street-food-polonais",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

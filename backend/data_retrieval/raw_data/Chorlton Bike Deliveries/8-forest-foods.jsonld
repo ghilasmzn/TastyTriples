@@ -1,0 +1,60 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/8",
+  "@type": "http://schema.org/GroceryStore",
+  "name": "Forest Foods",
+  "address": {
+    "@id": "/api/addresses/55",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 53.444467,
+      "longitude": -2.275296
+    },
+    "streetAddress": "Forest Foods, Unit 12, Albany Trading Estate, Chorlton, Manchester",
+    "telephone": "+441618818585",
+    "name": "Forest Foods"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://chorlton-bike-deliveries.coopcycle.org/media/cache/restaurant_thumbnail/5f/90/5f90b213e9411.png",
+  "sameAs": "http://www.forestfoods.com/",
+  "description": "Order by 10am Tuesday for next day delivery on a Wednesday, or by 10am Thursday for next day delivery on Friday. \r\n\r\nVegetarian bakery specialising in ready to eat burritos and wraps. \r\n\r\nEstablished for 25 years in the heart of Chorlton, all our products have the Vegetarian Society Approval, over 75% of our products are vegan. All come chilled with a 7 day shelf life and can be frozen.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://chorlton-bike-deliveries.coopcycle.org/fr/store/8-forest-foods",
+      "inLanguage": "en",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "GBP",
+      "price": "0.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "GBP",
+        "price": "18.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://chorlton-bike-deliveries.coopcycle.org"
+  }
+}

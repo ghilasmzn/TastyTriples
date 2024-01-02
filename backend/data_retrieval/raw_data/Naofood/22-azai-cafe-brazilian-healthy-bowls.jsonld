@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/22",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Aza\u00ef Caf\u00e9 - Brazilian Healthy Bowls",
+  "address": {
+    "@id": "/api/addresses/691",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2156341,
+      "longitude": -1.5558514
+    },
+    "streetAddress": "11 Rue des Halles, Nantes, France",
+    "telephone": "+33240479104",
+    "name": "Aza\u00ef Caf\u00e9 - Brazilian Healthy Bowls"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/60/98/6098e39d87d86.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/60/98/6098e39d87d86.jpg",
+  "sameAs": "https://azai-cafe.fr/",
+  "description": "D\u00e9couvrez l'incontournable de la cuisine healthy Br\u00e9silienne, le v\u00e9ritable a\u00e7ai bowl, salades bowls, toasts, jus press\u00e9s \u00e0 froid et smoothies faits maison et avec amour. Saveurs exotiques, uniques et de saison.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/22-azai-cafe-brazilian-healthy-bowls",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  }
+}

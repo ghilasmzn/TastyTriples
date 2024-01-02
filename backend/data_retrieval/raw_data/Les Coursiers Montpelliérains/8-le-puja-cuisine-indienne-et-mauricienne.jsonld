@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/8",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Puja / Cuisine Indienne et Mauricienne \ud83c\udf72",
+  "address": {
+    "@id": "/api/addresses/285",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6151234,
+      "longitude": 3.8772141
+    },
+    "streetAddress": "3 Rue Ferdinand Fabre, Montpellier, France",
+    "telephone": "+33430108357",
+    "name": "Le Puja / Cuisine Indienne et Mauricienne \ud83c\udf72"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/46/6546a72b7a5e5.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbd3b58694.png",
+  "sameAs": "https://www.restaurantpuja.com/",
+  "description": "## La Puja - Un Voyage Culinaire en Inde et \u00e0 Maurice\r\n\r\nBienvenue \u00e0 La Puja, o\u00f9 l'Inde et l'\u00eele de Maurice se rejoignent pour vous offrir une exp\u00e9rience gastronomique unique. Notre restaurant est un v\u00e9ritable voyage culinaire, mettant en valeur les saveurs authentiques de ces deux destinations exotiques.\r\n\r\n### Notre Menu\r\n\r\n- **D\u00e9lices Indiens** : Plongez dans l'ar\u00f4me envo\u00fbtant de la cuisine indienne avec nos plats tandoori, currys parfum\u00e9s et biryanis savoureux.\r\n\r\n- **Saveurs de l'\u00cele Maurice** : D\u00e9couvrez les d\u00e9lices de l'\u00eele Maurice avec nos plats de fruits de mer, vindaye, et rougaille qui \u00e9voquent le go\u00fbt de l'oc\u00e9an.\r\n\r\n- **Cr\u00e9ations Fusion** : Notre menu propose \u00e9galement des cr\u00e9ations fusion qui marient habilement les ingr\u00e9dients et les techniques de ces deux cultures uniques.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/8-le-puja-cuisine-indienne-et-mauricienne",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

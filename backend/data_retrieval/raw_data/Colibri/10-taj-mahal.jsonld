@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/10",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Taj Mahal",
+  "address": {
+    "@id": "/api/addresses/106",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.8399454,
+      "longitude": 14.2550115
+    },
+    "streetAddress": "Piazza Francese, 29/30, Napoli NA, Italia",
+    "telephone": "+3908119910274",
+    "name": "Taj Mahal"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "00:30",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:30",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://colibri.coopcycle.org/media/cache/restaurant_thumbnail/63/c1/63c1a704e9562.jpg",
+  "description": "Ristorante Indiano",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://colibri.coopcycle.org/fr/restaurant/10-taj-mahal",
+      "inLanguage": "it",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://colibri.coopcycle.org"
+  }
+}

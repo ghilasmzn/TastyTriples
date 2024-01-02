@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/13",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Tandoori",
+  "address": {
+    "@id": "/api/addresses/224",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.397509,
+      "longitude": -4.474738
+    },
+    "streetAddress": "171 Rue Jean Jaur\u00e8s, 29200 Brest, France",
+    "telephone": "+33986521752",
+    "name": "Tandoori"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:10",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:15",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/61/f4/61f4283b71e95.jpeg",
+  "description": "Au Tandoori, vous ferez une belle rencontre, superbe : celle de la cuisine de notre chef aux nombreuses ann\u00e9es d'exp\u00e9rience au Rajpoot Paris. En effet, au Tandoori, nous mettons un point d'honneur \u00e0 vous fournir \u00e0 la fois la qualit\u00e9 et la quantit\u00e9, au travers de plats copieux et savoureux. Et ce, toujours \u00e0 des prix raisonnables.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersbrestois.coopcycle.org/fr/restaurant/13-tandoori",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersbrestois.coopcycle.org"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/12",
+  "@type": "http://schema.org/Restaurant",
+  "name": "PAIHIA KITCHEN",
+  "address": {
+    "@id": "/api/addresses/563",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.7353,
+      "longitude": -3.36627
+    },
+    "streetAddress": "9 Avenue de la Perri\u00e8re, 56100 Lorient, France",
+    "telephone": "+33662079316",
+    "name": "PAIHIA KITCHEN"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "17:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://feelavelo.coopcycle.org/media/cache/restaurant_thumbnail/60/01/600164eaf34e4.jpg",
+  "sameAs": "http://www.paihiakitchen-lorient.fr",
+  "description": "Restaurant - Coffee shop qui propose une cuisine cr\u00e9ative et gourmande avec des produits frais, locaux et de saison.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://feelavelo.coopcycle.org/fr/restaurant/12-paihia-kitchen",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "12.50"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://feelavelo.coopcycle.org"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/55",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Lamaccotte",
+  "address": {
+    "@id": "/api/addresses/20748",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2179,
+      "longitude": -1.55206
+    },
+    "streetAddress": "7 Rue Saint-Denis, 44000 Nantes, France",
+    "telephone": "+33285374230",
+    "name": "Lamaccotte"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/62/39/6239d050a7eb2.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/62/39/6239d050a7eb2.jpg",
+  "sameAs": "http://www.lamaccotte.fr",
+  "description": "D\u00e9couvrez l\u2019identit\u00e9 culinaire et la cr\u00e9ativit\u00e9 de notre chef Maxime Fillaut et son \u00e9quipe \u00e0 travers des plats r\u00e9alis\u00e9s \u00e0 base de produits raffin\u00e9s, de saison et de producteurs locaux.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/55-lamaccotte",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  }
+}

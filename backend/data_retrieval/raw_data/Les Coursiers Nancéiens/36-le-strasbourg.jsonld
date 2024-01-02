@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/36",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Strasbourg",
+  "address": {
+    "@id": "/api/addresses/875",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.6847,
+      "longitude": 6.18707
+    },
+    "streetAddress": "22 Place des Vosges, 54000 Nancy, France",
+    "telephone": "+33383354130",
+    "name": "Le Strasbourg"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "14:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersnanceiens.coopcycle.org/media/cache/restaurant_thumbnail/61/5b/615b0d97c4a6b.jpg",
+  "sameAs": "https://www.brasserielestrasbourg.fr/",
+  "description": "C\u2019est un petit coin d\u2019Arm\u00e9nie sis au coeur de Nancy. [...] Cette h\u00f4tesse charmeuse dans sa maison douce vient go\u00fbter ici entre amis aux charmes simples mais frais d\u2019un bistrot au jour le jour. Ce caf\u00e9 anodin depuis l\u2019ext\u00e9rieur, a gard\u00e9 un air de bistrot 1880 avec stucs fort bien mis. Colonnades, lampes et pampres Art nouveau, comptoir, banquettes et ardoises du jour donnent le ton d\u2019un lieu de toujours.\r\n\r\nLe style culinaire est franco-arm\u00e9nien, sous la houlette de R\u00e9gis et Emma Petri \u2013 lui est originaire de Sarrebourg, elle arm\u00e9nienne -, et l\u2019on sert l\u00e0 des mets qui refl\u00e8tent les humeurs du jour comme les r\u00e9f\u00e9rences aux racines d\u2019Emma. Harengs marin\u00e9s aux pommes ti\u00e8des, rillettes maison, crudit\u00e9s \u00ab malossol \u00bb, pkhali (roul\u00e9s de l\u00e9gumes grill\u00e9s aux noix) font de plaisants hors d\u2019oeuvres. Il y a aussi les moules de bouchot en marini\u00e8re, la salade vosgienne, l\u2019\u00e9minc\u00e9 de rognon de veau \u00e0 la dijonnaise, le tartare de boeuf pommes saut\u00e9es. Mais la vedette de la maison est tenue par l\u2019assiette arm\u00e9nienne avec pkhali, dolma, blintchik, pimelni.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersnanceiens.coopcycle.org/fr/restaurant/36-le-strasbourg",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersnanceiens.coopcycle.org"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/10",
+  "@type": "http://schema.org/Restaurant",
+  "name": "The Magic Basket Catering Co",
+  "address": {
+    "@id": "/api/addresses/4865",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 53.744573,
+      "longitude": -0.37521
+    },
+    "streetAddress": "Lonsdale Community Centre, Lonsdale Street, Kingston upon Hull, City of, HU3 6PA",
+    "telephone": "+447969775188",
+    "name": "The Magic Basket Catering Co"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "14:30",
+      "closes": "17:00",
+      "dayOfWeek": [
+        "Wednesday"
+      ]
+    }
+  ],
+  "image": "https://hull.coopcycle.org/media/cache/restaurant_thumbnail/63/6f/636f80890307c.png",
+  "sameAs": "http://Www.themagicbasket.co.uk",
+  "description": "The magic basket offer ready to heat at home plant based meals for the whole family to enjoy nutritious unprocessed meat free meals.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://hull.coopcycle.org/fr/restaurant/10-the-magic-basket-catering-co",
+      "inLanguage": "en",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "GBP",
+      "price": "2.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "GBP",
+        "price": "5.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://hull.coopcycle.org"
+  }
+}

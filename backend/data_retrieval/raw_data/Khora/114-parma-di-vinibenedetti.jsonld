@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/114",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Parma di Vinibenedetti",
+  "address": {
+    "@id": "/api/addresses/25440",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.4995836,
+      "longitude": 13.4399716
+    },
+    "streetAddress": "Wrangelstra\u00dfe 90, 10997 Berlin, Deutschland",
+    "telephone": "+493025782488",
+    "name": "Parma di Vinibenedetti"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/61/4b/614b5c12e3869.jpeg",
+  "sameAs": "https://web.facebook.com/parmavinibenedetti",
+  "description": "Bio-Pizzeria",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/114-parma-di-vinibenedetti",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

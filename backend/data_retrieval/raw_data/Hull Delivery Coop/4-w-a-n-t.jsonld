@@ -1,0 +1,58 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/4",
+  "@type": "http://schema.org/Restaurant",
+  "name": "W . A . N . T",
+  "address": {
+    "@id": "/api/addresses/63",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 53.741863,
+      "longitude": -0.373109
+    },
+    "streetAddress": "Unit 2, 23, Arthur St, Kingston upon Hull, City of, HU3 6BH",
+    "telephone": "+447807680930",
+    "name": "W . A . N . T"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:00",
+      "closes": "19:15",
+      "dayOfWeek": [
+        "Monday"
+      ]
+    }
+  ],
+  "image": "https://hull.coopcycle.org/media/cache/restaurant_thumbnail/63/3a/633ae1107c980.png",
+  "description": "Connecting chefs, growers, local suppliers and hungry mouths. Great food delivered to your door and the doors of those who need it most.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://hull.coopcycle.org/fr/restaurant/4-w-a-n-t",
+      "inLanguage": "en",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "GBP",
+      "price": "2.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "GBP",
+        "price": "0.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://hull.coopcycle.org"
+  }
+}

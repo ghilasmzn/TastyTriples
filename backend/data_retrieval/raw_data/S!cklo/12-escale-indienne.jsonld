@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/12",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Escale Indienne \ud83d\uded5",
+  "address": {
+    "@id": "/api/addresses/221",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.1883496,
+      "longitude": 5.7109957
+    },
+    "streetAddress": "105 Cours Berriat, Grenoble, France",
+    "telephone": "+33476968268",
+    "name": "Escale Indienne \ud83d\uded5"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/64/10/64107123cc989.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc35f7f647.png",
+  "sameAs": "http://www.lescaleindienne.fr/",
+  "description": "Chez nous nul n'est exclu, il y en a pour tous les go\u00fbts et tous les r\u00e9gimes.\r\nPour le plus grand plaisir des palais sensibles, nos plats sont savoureusement \u00e9pic\u00e9s \u00e0 point et non piment\u00e9s (sauf sur demande)",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/12-escale-indienne",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}

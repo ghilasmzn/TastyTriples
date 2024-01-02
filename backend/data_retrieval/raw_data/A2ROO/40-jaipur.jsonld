@@ -1,0 +1,51 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/40",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Ja\u00efpur",
+  "address": {
+    "@id": "/api/addresses/4020",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.31555,
+      "longitude": 5.045554
+    },
+    "streetAddress": "19 Rue d'Auxonne, 21000 Dijon, France",
+    "telephone": "+33380661240",
+    "name": "Ja\u00efpur"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/61/54/61547e850f5ee.png",
+  "description": "Au Ja\u00efpur, venez d\u00e9guster la gastronomie indienne ! \r\n\r\nUne cuisine haute en couleur et en go\u00fbt, cuisin\u00e9e avec passion et soin par Anil et son \u00e9quipe. \r\n\r\nDisponible sur place et en livraison, avec la m\u00eame passion !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/40-jaipur",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}

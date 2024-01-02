@@ -1,0 +1,55 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/16",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Black Temple Food",
+  "address": {
+    "@id": "/api/addresses/1400",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1144,
+      "longitude": -1.68163
+    },
+    "streetAddress": "1 Rue Saint-Louis, 35000 Rennes, France",
+    "telephone": "+33299389465",
+    "name": "Black Temple Food"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:15",
+      "closes": "21:50",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/61/a0/61a0333d5fdb9.jpg",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e00172ce47.png",
+  "sameAs": "http://www.blacktemplefood.com",
+  "description": "Black Temple Food, c'est la bonne adresse de Rennes \u00e0 deux pas de la basilique Notre-Dame-de-Bonne-Nouvelle. Nous vous proposons une cuisine aux saveurs des Cara\u00efbes dans une ambiance chaleureuse et d\u00e9contract\u00e9e. Des plats Cr\u00e9oles et Latino, Tapas & Rhums, ainsi que les meilleurs Mojitos de Rennes, Accras de Morue, Empanadas Colombienne, Rougail saucisse et un large choix pour les v\u00e9g\u00e9tariens, vous trouverez forc\u00e9ment votre bonheur.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/16-black-temple-food",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

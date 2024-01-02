@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/38",
+  "@type": "http://schema.org/BikeStore",
+  "name": "Biclooo Service",
+  "address": {
+    "@id": "/api/addresses/3971",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 44.3523,
+      "longitude": 2.56407
+    },
+    "streetAddress": "3 Rue Eug\u00e8ne Loup, 12000 Rodez, France",
+    "telephone": "+33676760193",
+    "name": "Biclooo Service"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:30",
+      "closes": "11:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "14:00",
+      "closes": "18:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://biclooo.coopcycle.org/media/cache/restaurant_thumbnail/61/72/61729c662a998.png",
+  "sameAs": "https://biclooo.fr/",
+  "description": "Service de livraison urbaine en v\u00e9lo pour les particuliers et les entreprises.\r\nQue ce soit pour livrer un colis, une bouquet, un meuble, faire la navette entre les diff\u00e9rents sites de votre entreprise, pour livrer des repas group\u00e9s ou vous d\u00e9poser vos courses \u00e0 domicile, nous r\u00e9pondons \u00e0 vos demandes !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://biclooo.coopcycle.org/fr/store/38-biclooo-service",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://biclooo.coopcycle.org"
+  }
+}

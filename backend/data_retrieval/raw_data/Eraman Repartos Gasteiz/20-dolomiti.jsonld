@@ -1,0 +1,73 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/20",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Dolomiti",
+  "address": {
+    "@id": "/api/addresses/948",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8433205,
+      "longitude": -2.67551
+    },
+    "streetAddress": "Santiago Ramon y Cajal Kalea, 1, Vitoria-Gasteiz, Spain",
+    "telephone": "+34945233426",
+    "name": "Dolomiti"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:50",
+      "closes": "15:05",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:50",
+      "closes": "22:35",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:50",
+      "closes": "22:05",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/60/ec/60ec104a5dab9.jpg",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbdf97cac5546528086.jpg",
+  "sameAs": "https://www.dolomiti.es/",
+  "description": "PIZZER\u00cdA DOLOMITI, EL PLACER EXQUISITO Y \u00daNICO DE LA COCINA ITALIANA EN VITORIA-GASTEIZ",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/restaurant/20-dolomiti",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/37",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Bori Bori",
+  "address": {
+    "@id": "/api/addresses/8919",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.395783,
+      "longitude": -4.4777649
+    },
+    "streetAddress": "126 Rue Jean Jaur\u00e8s, 29200 Brest, France",
+    "telephone": "+33230825170",
+    "name": "Bori Bori"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:15",
+      "dayOfWeek": [
+        "Thursday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/65/44/6544baab57465.png",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersbrestois.coopcycle.org/fr/restaurant/37-bori-bori",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersbrestois.coopcycle.org"
+  }
+}

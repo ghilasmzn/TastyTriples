@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/36",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Shalimar",
+  "address": {
+    "@id": "/api/addresses/9747",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 46.3245113,
+      "longitude": -0.4578445
+    },
+    "streetAddress": "2 Rue de la Boule d'Or, Niort, France",
+    "telephone": "+33549174663",
+    "name": "Shalimar"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:15",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://niort.coopcycle.org/media/cache/restaurant_thumbnail/64/b9/64b92f1bc5ea3.webp",
+  "description": "Restaurant de sp\u00e9cialit\u00e9s Indiennes et Pakistanaises.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://niort.coopcycle.org/fr/restaurant/36-shalimar",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://niort.coopcycle.org"
+  }
+}

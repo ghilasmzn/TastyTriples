@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/6",
+  "@type": "http://schema.org/Restaurant",
+  "name": "BOBUN CAPHE",
+  "address": {
+    "@id": "/api/addresses/38",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8358458,
+      "longitude": 4.35848
+    },
+    "streetAddress": "2 Rue Saint-Antoine, 30000 N\u00eemes, France",
+    "telephone": "+33616350177",
+    "name": "BOBUN CAPHE"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65494c5849fad.png",
+  "sameAs": "https://bobuncaphe.fr/",
+  "description": "Bobun Caphe, c'est une authentique cuisine Vietnamienne \u00e9labor\u00e9e par Audrey, la cr\u00e9atrice du lieu.\r\n\r\nDepuis 2020, ann\u00e9e durant laquelle l'\u00e9tablissement a ouvert ses portes, un vent de fra\u00eecheur vient gagner la ville et c'est peu de le dire car justement, ses produits sont frais & de saison !\r\n\r\nDu c\u00e9l\u00e8bre plat B\u00f2 B\u00fan aux inestimables Go\u00ef Cuon, on a vite fait d'\u00eatre s\u00e9duit par la densit\u00e9 des saveurs que la restauratrice nous transmet de son propre h\u00e9ritage culturel.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/6-bobun-caphe",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

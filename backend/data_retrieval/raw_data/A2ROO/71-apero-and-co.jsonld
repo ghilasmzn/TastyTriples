@@ -1,0 +1,57 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/71",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Ap\u00e9ro and Co",
+  "address": {
+    "@id": "/api/addresses/13579",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.321207,
+      "longitude": 5.039403
+    },
+    "streetAddress": "34 Rue du Bourg, Dijon, France",
+    "telephone": "+33380625584",
+    "name": "Ap\u00e9ro and Co"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/64/07/6407258707888.jpg",
+  "description": "Pour vos soir\u00e9es, Ap\u00e9ro and Co vous propose une s\u00e9lection de charcuteries et fromages sous forme de box th\u00e9matiques, saucissons, bi\u00e8res et boissons.\r\n\r\n\u00c9galement pour le midi, une s\u00e9lection de sandwichs \u00e0 d\u00e9guster sur le pouce !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/71-apero-and-co",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}

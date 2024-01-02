@@ -1,0 +1,49 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/34",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Ezpala Taberna",
+  "address": {
+    "@id": "/api/addresses/11014",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8065052,
+      "longitude": -1.6475453
+    },
+    "streetAddress": "Calle San Juan Bosco, 1, Pamplona, Espa\u00f1a",
+    "telephone": "+34948359055",
+    "name": "Ezpala Taberna"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://ziclop.coopcycle.org/media/cache/restaurant_thumbnail/65/3f/653fe22b7c038.jpeg",
+  "description": "Hamburguesas, bocadillos, paninis y brochetas.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://ziclop.coopcycle.org/fr/restaurant/34-ezpala-taberna",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://ziclop.coopcycle.org"
+  }
+}

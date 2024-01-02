@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/4",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Local",
+  "address": {
+    "@id": "/api/addresses/121",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.4566775,
+      "longitude": -2.051957
+    },
+    "streetAddress": "2 Rue Capitaine Hesry, 22100 Dinan, France",
+    "telephone": "+33296391208",
+    "name": "Le Local"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://dinan.coopcycle.org/media/cache/restaurant_thumbnail/63/44/63444e11467b9.png",
+  "sameAs": "http://lelocaldinan.fr/",
+  "description": "Le Local est un lieu de d\u00e9couverte pour vos papilles avec une cuisine simple, de saison et avec de bon produits locaux.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://dinan.coopcycle.org/fr/restaurant/4-le-local",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "4.80",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "0.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://dinan.coopcycle.org"
+  }
+}

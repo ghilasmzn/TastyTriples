@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/5",
+  "@type": "http://schema.org/Restaurant",
+  "name": "BAR JOE",
+  "address": {
+    "@id": "/api/addresses/37",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8374,
+      "longitude": 4.35609
+    },
+    "streetAddress": "44 Boulevard Victor Hugo, 30000 N\u00eemes, France",
+    "telephone": "+33951147973",
+    "name": "BAR JOE"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65498dbedd21a.png",
+  "sameAs": "http://www.barjoe.fr/",
+  "description": "Le Bar Joe est un monument, un phare \u2026 disons m\u00eame plus : une corne d\u2019abondance install\u00e9e en plein boulevard.\r\n\r\n\r\nPoint n\u00e9vralgique des f\u00eates N\u00eemoises, il est l\u2019un des \u00e9tablissements qu\u2019on ne pr\u00e9sente plus tant il peut \u00eatre sollicit\u00e9 pour c\u00e9l\u00e9brer les plus grands \u00e9v\u00e8nements de la ville.\r\n\r\nQuand viennent les F\u00e9rias, les rassemblements sportifs, autant que chaque autres soir\u00e9es que passe un bon n\u00eemois, on peut compter sur son \u00e9quipe bien solide pour vous r\u00e9galer \u00e0 base de g\u00e9n\u00e9reux burgers et autres gourmandises, sans oublier l\u2019ap\u00e9ro !\r\n\r\nAlors on trinque, on mange, on rigole aussi, et on commande !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/5-bar-joe",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

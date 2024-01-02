@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/7",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Restaurant \"Le Cuculotin\"",
+  "address": {
+    "@id": "/api/addresses/267",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.1101,
+      "longitude": 6.18688
+    },
+    "streetAddress": "2 Rue Georges Ducrocq, 57070 Metz, France",
+    "telephone": "+33387742220",
+    "name": "Restaurant \"Le Cuculotin\""
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-metz.coopcycle.org/media/cache/restaurant_thumbnail/60/2b/602b846bddba6.jpg",
+  "sameAs": "https://www.etaphabitat.fr/commande-repas/",
+  "description": "Nous vous proposons chaque jour des plats vari\u00e9s et \u00e9quilibr\u00e9s principalement faits maison par nos \u00e9quipes ! \r\n\r\n\r\n\r\nLe respect de l'environnement est une de nos valeurs fondamentales : \r\n\r\n- nos contenants sont \u00e9co-responsables, \r\n\r\n- gr\u00e2ce \u00e0 notre d\u00e9shydrateur, nous transformons tous nos d\u00e9chets organiques en poudre fertilisante, \r\n\r\n- notre livraison est locale et respectueuse de l'environnement gr\u00e2ce \u00e0 notre partenaire : Les Coursiers de Metz. \r\n\r\n/!\\ ATTENTION /!\\ : merci de pr\u00e9ciser dans la partie \"Instructions\" l'horaire de livraison souhait\u00e9e.\r\n\r\n\r\nConsommer chez nous, c'est faire vivre l'Economie Sociale et Solidaire.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-metz.coopcycle.org/fr/restaurant/7-restaurant-le-cuculotin",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-metz.coopcycle.org"
+  }
+}

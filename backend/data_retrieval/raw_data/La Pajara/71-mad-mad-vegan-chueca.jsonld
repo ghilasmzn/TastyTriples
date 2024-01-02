@@ -1,0 +1,88 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/71",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Mad Mad Vegan Chueca",
+  "address": {
+    "@id": "/api/addresses/8632",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.4226984,
+      "longitude": -3.6986085
+    },
+    "streetAddress": "Calle de Pelayo, 19, 28004 Madrid, Espa\u00f1a",
+    "telephone": "+34914442077",
+    "name": "Mad Mad Vegan Chueca"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:45",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:45",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://lapajara.coopcycle.org/media/cache/restaurant_thumbnail/5f/17/5f1712b75b055.jpg",
+  "sameAs": "https://www.instagram.com/madmadvegan/",
+  "description": "Las mejores burgers veganas de Madrid. D\u00e9jate sorprender por el sabor de las recetas de Mad Mad Vegan...",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lapajara.coopcycle.org/fr/restaurant/71-mad-mad-vegan-chueca",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "10.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://lapajara.coopcycle.org"
+  }
+}

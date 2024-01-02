@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/7",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Chawp Shop Big",
+  "address": {
+    "@id": "/api/addresses/84",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1135,
+      "longitude": -1.68262
+    },
+    "streetAddress": "18 Place des Lices, 35000 Rennes, France",
+    "telephone": "+33299302525",
+    "name": "Chawp Shop Big"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:55",
+      "closes": "13:55",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/61/a0/61a033a7341d7.jpg",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e11b1a135d.png",
+  "sameAs": "https://chawpshop.fr/big-chawp/",
+  "description": "Notre eChawp, en ligne, cuisine cr\u00e9ative, Chawp Shop, des produits frais de saison et locaux, cuisin\u00e9s minute et sur place puis livr\u00e9s chez vous!!!",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/7-chawp-shop-big",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/13",
+  "@type": "http://schema.org/Restaurant",
+  "name": "L'Ambassade",
+  "address": {
+    "@id": "/api/addresses/994",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1092,
+      "longitude": -1.68096
+    },
+    "streetAddress": "12 Rue de la Parcheminerie, 35000 Rennes, France",
+    "telephone": "+33299783401",
+    "name": "L'Ambassade"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/60/9b/609bfef3cc511.png",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e0e0d45440.png",
+  "sameAs": "http://lambassade-rennes.fr",
+  "description": "Notre volont\u00e9 ? Vous pr\u00e9parer des plats de qualit\u00e9 tout en respectant la saisonnalit\u00e9 et l\u2019origine des produits. Chaque produit est s\u00e9lectionn\u00e9 avec soin, pour vous concocter des assiettes raffin\u00e9es\u2026",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/13-l-ambassade",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

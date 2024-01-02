@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/128",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Rock'n'Rolls MTP",
+  "address": {
+    "@id": "/api/addresses/33267",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6038,
+      "longitude": 3.88253
+    },
+    "streetAddress": "21 Rue Henri Ren\u00e9, 34000 Montpellier, France",
+    "telephone": "+33499641160",
+    "name": "Rock'n'Rolls MTP"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/6d/656dec8421235.jpg",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656debf6e581d.jpg",
+  "sameAs": "https://rocknrolls-mtp.fr",
+  "description": "\u26a1PROMO 1achet\u00e9=1 offert!\r\nSushis et sp\u00e9cialit\u00e9 sushi-burritos\r\n\r\n [+ Pour en savoir plus +](https://rocknrolls-mtp.fr//)",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/128-rock-n-rolls-mtp",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

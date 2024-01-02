@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/1",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La Casetta da Dolce Italia",
+  "address": {
+    "@id": "/api/addresses/2",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1077,
+      "longitude": -1.68024
+    },
+    "streetAddress": "26 Rue de Nemours, 35000 Rennes, France",
+    "telephone": "+33299782154",
+    "name": "La Casetta da Dolce Italia"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/60/9b/609bbd9412151.png",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e5ce39c5f6.png",
+  "sameAs": "https://lacasetta-traiteur.com",
+  "description": "Deuxi\u00e8me boutique de la famiglia \"Dolce Italia\"\r\nNous vous proposons notre Pizza et sa recette authentique depuis 1986 pleine d'amore, lasagne maison cuisin\u00e9es sur place, le fameux panuozzo (sandwich avec p\u00e2te \u00e0 pizza , tr\u00e8s garni) , desserts maisons et p\u00e2tes fra\u00eeches! et sur place tous les grands classiques italiens ainsi qu'une nouveaut\u00e9 chaque mois...\r\nBUON APPETITO RAGAZZI !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/1-la-casetta-da-dolce-italia",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

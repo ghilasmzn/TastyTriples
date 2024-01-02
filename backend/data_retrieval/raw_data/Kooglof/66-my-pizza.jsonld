@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/66",
+  "@type": "http://schema.org/Restaurant",
+  "name": "My Pizza \ud83c\udf55",
+  "address": {
+    "@id": "/api/addresses/35461",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5904137,
+      "longitude": 7.743374
+    },
+    "streetAddress": "12 Boulevard du Pr\u00e9sident Poincar\u00e9, Strasbourg, France",
+    "telephone": "+33951298071",
+    "name": "My Pizza \ud83c\udf55"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/63/ec/63ece3d0a5851.jpg",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e107d69aa9.jpg",
+  "description": "Des pizzas fait maison, gourmandes et bien garnies, tout \u00e7a \u00e0 un prix contenu, c'est \u00e7a My Pizza !\r\n\r\nLivraison de pizza \u00e0 Strasbourg et alentours !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/66-my-pizza",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

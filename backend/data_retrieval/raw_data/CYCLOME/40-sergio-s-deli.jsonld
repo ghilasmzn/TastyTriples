@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/40",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Sergio's Deli",
+  "address": {
+    "@id": "/api/addresses/16867",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.785273,
+      "longitude": 3.0850769
+    },
+    "streetAddress": "1 Place des Bughes, Clermont-Ferrand, France",
+    "telephone": "+33955358312",
+    "name": "Sergio's Deli"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/64/e7/64e7a102d8c5a.png",
+  "sameAs": "https://sergios.fr/",
+  "description": "Sandwicherie Clermontoise de tradition Italo-New-Yorkaise !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://cyclome.coopcycle.org/fr/restaurant/40-sergio-s-deli",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://cyclome.coopcycle.org"
+  }
+}

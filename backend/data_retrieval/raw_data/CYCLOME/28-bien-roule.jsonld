@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/28",
+  "@type": "http://schema.org/Restaurant",
+  "name": "BIEN ROUL\u00c9",
+  "address": {
+    "@id": "/api/addresses/9746",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.7781,
+      "longitude": 3.08233
+    },
+    "streetAddress": "39 Rue du 11 Novembre, 63000 Clermont-Ferrand, France",
+    "telephone": "+33473372835",
+    "name": "BIEN ROUL\u00c9"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:40",
+      "closes": "21:35",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/61/b0/61b0f8a97e347.jpg",
+  "description": "Street food auvergnat! D\u00e9couvrez les truffades et les bourriols de Bien Roul\u00e9, sauces, pickles et tout maison!! \r\nViandes de la boucherie Durif.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://cyclome.coopcycle.org/fr/restaurant/28-bien-roule",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://cyclome.coopcycle.org"
+  }
+}

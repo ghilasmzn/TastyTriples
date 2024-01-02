@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/7",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Pesk",
+  "address": {
+    "@id": "/api/addresses/136",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.7348414,
+      "longitude": -3.3653862
+    },
+    "streetAddress": "20 Avenue de la Perri\u00e8re, Lorient, France",
+    "telephone": "+33971362474",
+    "name": "Pesk"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://feelavelo.coopcycle.org/media/cache/restaurant_thumbnail/5e/a9/5ea93ee87a79a.jpg",
+  "sameAs": "https://www.facebook.com/pesklorient",
+  "description": "pok\u00e9 bowl",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://feelavelo.coopcycle.org/fr/restaurant/7-pesk",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "25.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://feelavelo.coopcycle.org"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/8",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Asian Kitchen",
+  "address": {
+    "@id": "/api/addresses/8",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.494,
+      "longitude": 0.110948
+    },
+    "streetAddress": "11 Rue Jules Lecesne, 76600 Le Havre, France",
+    "telephone": "+33277152210",
+    "name": "Asian Kitchen"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:20",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://fast-and-curious.coopcycle.org/media/cache/restaurant_thumbnail/60/a3/60a3de13083f9.jpg",
+  "description": "L\u2019Asian Kitchen surfe sur le concept de la street food asiatique avec un acc\u00e8s rapide, simple et convivial.\r\nC\u2019est comme une cantine. Deux grandes tables hautes permettent d\u2019y manger \u00e0 cot\u00e9 d\u2019inconnus ou en groupe.  Du bois de palettes en support d\u2019\u00e9clairage et un  tr\u00e8s beau graphe au mur comme un trompe l\u2019\u0153il vers une street food d\u2019Asie, donnent une atmosph\u00e8re bien citadine et cosmopolite.\r\nLe choix de la formule est court et bon march\u00e9. Il est compos\u00e9 de 5 plats principaux. La cuisine est d\u2019origine vietnamienne et tha\u00ef. On consomme sur place ou \u00e0 emporter.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://fast-and-curious.coopcycle.org/fr/restaurant/8-asian-kitchen",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://fast-and-curious.coopcycle.org"
+  }
+}

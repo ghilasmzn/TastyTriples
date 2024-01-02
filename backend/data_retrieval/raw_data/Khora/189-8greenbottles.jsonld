@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/189",
+  "@type": "http://schema.org/Winery",
+  "name": "8greenbottles",
+  "address": {
+    "@id": "/api/addresses/75015",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.493859,
+      "longitude": 13.41771
+    },
+    "streetAddress": "B\u00f6ckhstra\u00dfe 12, 10967 Berlin, Deutschland",
+    "telephone": "+491759198763",
+    "name": "8greenbottles"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "19:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "19:40",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/61/93/6193e6c27188f.jpeg",
+  "sameAs": "https://8greenbottles.de",
+  "description": "8greenbottles is all about natural wine! We curate fun, accessible and tasty wines from Germany and Austria. Come for us for the good stuff! \ud83c\udf77 #itsallnaturalbaby",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/189-8greenbottles",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

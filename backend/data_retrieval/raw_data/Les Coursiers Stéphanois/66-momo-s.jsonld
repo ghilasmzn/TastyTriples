@@ -1,0 +1,74 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/66",
+  "@type": "http://schema.org/Restaurant",
+  "name": "MOMO'S",
+  "address": {
+    "@id": "/api/addresses/20593",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.4413553,
+      "longitude": 4.3850438
+    },
+    "streetAddress": "2bis Rue 4 Septembre, 42000 Saint-\u00c9tienne, France",
+    "telephone": "+33954115367",
+    "name": "MOMO'S"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:00",
+      "closes": "21:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560ca8092205.jpg",
+  "sameAs": "https://momos.eatbu.com/?lang=fr",
+  "description": "D\u00e9couvrez notre s\u00e9lection unique de gaufres li\u00e9geoises sal\u00e9es ou sucr\u00e9es ! Produits et l\u00e9gumes frais de saison, \u0153ufs \u00e9lev\u00e9 en plein air, viandes fermi\u00e8res.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/restaurant/66-momo-s",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "20.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  }
+}

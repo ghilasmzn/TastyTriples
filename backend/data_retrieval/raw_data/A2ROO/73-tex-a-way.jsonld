@@ -1,0 +1,51 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/73",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Tex A Way",
+  "address": {
+    "@id": "/api/addresses/16092",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.321477,
+      "longitude": 5.0376181
+    },
+    "streetAddress": "19 Rue Bossuet, Dijon, France",
+    "telephone": "+33952215068",
+    "name": "Tex A Way"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/64/6f/646f0889852df.jpg",
+  "sameAs": "https://texaway.com/",
+  "description": "Tous les jours, nous confectionnons une cuisine maison, avec amour !\r\n\r\nUn engagement \u00e9co-responsable et anti-gaspi au quotidien.\r\n\r\nLe plaisir de vous servir, de partager un moment agr\u00e9able et vous offrir bien plus qu\u2019un sourire\u2026",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/73-tex-a-way",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}

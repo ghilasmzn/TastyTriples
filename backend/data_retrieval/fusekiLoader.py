@@ -29,9 +29,9 @@ class FusekiLoader:
         response = requests.post(f'{self.dataset_url}/data', data=rdf_data_encoded, headers=headers)
 
         if response.status_code == 200:
-            print('Data loaded successfully.')
+            print('Data of '+file_path+' loaded successfully.')
         else:
-            print(f'Failed to load data. Status code: {response.status_code}')
+            print(f'Failed to load data of ' +file_path+ ' | Status code: {response.status_code}')
             print(response.text)
     
     

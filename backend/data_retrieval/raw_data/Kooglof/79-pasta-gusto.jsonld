@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/79",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Pasta Gusto \ud83c\udf5d",
+  "address": {
+    "@id": "/api/addresses/40963",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5831353,
+      "longitude": 7.7539884
+    },
+    "streetAddress": "37 Rue des Fr\u00e8res, 67000 Strasbourg, France",
+    "telephone": "+33369747558",
+    "name": "Pasta Gusto \ud83c\udf5d"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6f/656f47e10165f.jpg",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e0f5e32a09.jpg",
+  "description": "Pasta Gusto : p\u00e2tes traditionnelles, sauces maison !\r\n\r\nLivraison de repas \u00e0 Strasbourg et alentours !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/79-pasta-gusto",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

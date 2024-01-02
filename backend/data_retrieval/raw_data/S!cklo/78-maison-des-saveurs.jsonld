@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/78",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Maison des saveurs \ud83e\udd62",
+  "address": {
+    "@id": "/api/addresses/30743",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.192596,
+      "longitude": 5.709195
+    },
+    "streetAddress": "53 d Rue Pierre Semard, 38000 Grenoble, France",
+    "telephone": "+33769655776",
+    "name": "Maison des saveurs \ud83e\udd62"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/64/3f/643ffdcbd1cba.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656db445982ce.jpg",
+  "sameAs": "https://maisondessaveursgrenoble.eatbu.com",
+  "description": "Venez voyager avec notre cuisine Asiatique Authentique ! Nos plats sont Frais et Fait maison. Nous privil\u00e9gions les circuits courts. En journ\u00e9e, le restaurant se transforme en salon de th\u00e9 qui vous accueille dans une ambiance moderne et d\u00e9contract\u00e9e. Nous b\u00e9n\u00e9ficions \u00e9galement d'une agr\u00e9able terrasse ombrag\u00e9e",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/78-maison-des-saveurs",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}

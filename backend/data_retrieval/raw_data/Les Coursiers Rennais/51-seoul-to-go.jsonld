@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/51",
+  "@type": "http://schema.org/Restaurant",
+  "name": "S\u00e9oul to go",
+  "address": {
+    "@id": "/api/addresses/37753",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1122891,
+      "longitude": -1.6933837
+    },
+    "streetAddress": "39 Rue Vaneau, 35000 Rennes, France",
+    "telephone": "+33223416946",
+    "name": "S\u00e9oul to go"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:15",
+      "closes": "20:45",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/64/be/64be9c40e177e.jpg",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e5152f1bdc.png",
+  "sameAs": "https://seoultogo.wixsite.com/seoultogo?lang=fr",
+  "description": "S\u00e9oul to Go est un restaurant Cor\u00e9en cr\u00e9\u00e9 en 2019, situ\u00e9 au 39 Rue Vaneau \u00e0 Rennes. Notre but est de vous offrir une cuisine cor\u00e9enne saine et d\u00e9licieuse, \u00e0 un prix raisonnable.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/51-seoul-to-go",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

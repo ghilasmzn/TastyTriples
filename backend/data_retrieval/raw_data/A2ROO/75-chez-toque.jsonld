@@ -1,0 +1,58 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/75",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Chez Toque",
+  "address": {
+    "@id": "/api/addresses/18542",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.3233394,
+      "longitude": 5.0355488
+    },
+    "streetAddress": "19 Rue de la Poste, Dijon, France",
+    "telephone": "+33380543083",
+    "name": "Chez Toque"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/65/28/65281c21d7e24.jpeg",
+  "sameAs": "https://www.toquedici.com",
+  "description": "Chez Toque, c'est un restaurant - salon de th\u00e9 convivial et atypique o\u00f9 il fait bon venir se r\u00e9galer en famille ou entre amis.\r\nUn espace est enti\u00e8rement d\u00e9di\u00e9 aux enfants afin de vous permettre de profiter d'un temps pour vous.\r\n\r\nNous vous proposons le midi une carte de saison et des plats du jour ainsi que pour vos go\u00fbters, une carte de p\u00e2tisseries homemade pr\u00e9par\u00e9es avec le coeur.\r\n\r\nLes vendredis et samedis soirs, Chez Toque troque sa casquette de salon de th\u00e9 pour devenir restaurant. D\u00e9gustez des bons plats faits maisons avec des produits frais, accompagn\u00e9s d'une carte locale et artisanale de vins et de bi\u00e8res, jus de fruits et limonades.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/75-chez-toque",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}

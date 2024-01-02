@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/12",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Restaurant Luca",
+  "address": {
+    "@id": "/api/addresses/830",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1093,
+      "longitude": -1.6833
+    },
+    "streetAddress": "35 Rue de la Chalotais, 35000 Rennes, France",
+    "telephone": "+33299650077",
+    "name": "Restaurant Luca"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:10",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:10",
+      "closes": "21:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/60/9b/609bbce79e8fa.png",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e5a148e546.png",
+  "sameAs": "https://www.restaurantluca.com/",
+  "description": "Le temps d'un d\u00e9jeuner ou d\u00eener, laissez vous aller \u00e0 la dolce vita \r\n\r\nL'\u00e9quipe toute italienne, de calabre et sicile  vous propose des p\u00e2tes, assiettes de charcuteries et fromages italiens, quelques viandes et produits de la mer, pour terminer sur un dessert fait maison. \r\n\r\nUne belle s\u00e9lection de vins en provenance de toute la botte, ravira les amateurs.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/12-restaurant-luca",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

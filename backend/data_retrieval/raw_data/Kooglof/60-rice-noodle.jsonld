@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/60",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Rice Noodle \ud83e\udd61\ud83c\udff7\ufe0f",
+  "address": {
+    "@id": "/api/addresses/31308",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.610663,
+      "longitude": 7.711675
+    },
+    "streetAddress": "2 Place de Paris, 67300 Schiltigheim, France",
+    "telephone": "+33388958270",
+    "name": "Rice Noodle \ud83e\udd61\ud83c\udff7\ufe0f"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:15",
+      "closes": "12:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6f/656f4dac87780.png",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6f/656f4cc56b4cb.png",
+  "sameAs": "https://www.rice-noodle.fr/",
+  "description": "\u27a1\ufe0f Chez vous ou au bureau ! Livraison gratuite !\r\n\r\nLivraison de repas \u00e0 Strasbourg et alentours !\r\n\r\n- Livraison gratuite* \ud83c\udf89\r\n- Pr\u00e9commandes jusqu'\u00e0 11h15, livraisons avant 12h15 \u231b\r\n- Zone desservie : Mittelhausbergen, Espace Europ\u00e9en de l'entreprise, Cronenbourg, Quartier Gare, Contades \ud83d\udccd\r\n\r\nLes saveurs de l'Asie livr\u00e9es au bureau !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/60-rice-noodle",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "0.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "9.90"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

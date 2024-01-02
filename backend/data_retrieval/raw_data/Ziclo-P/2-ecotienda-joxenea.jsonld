@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/2",
+  "@type": "http://schema.org/GroceryStore",
+  "name": "Ecotienda Joxenea",
+  "address": {
+    "@id": "/api/addresses/2",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8178535,
+      "longitude": -1.6461856
+    },
+    "streetAddress": "Calle Mayor, 29, 31001 Pamplona, Espa\u00f1a",
+    "telephone": "+34615711560",
+    "name": "Ecotienda Joxenea"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://ziclop.coopcycle.org/media/cache/restaurant_thumbnail/61/25/61252b951351d.jpg",
+  "sameAs": "https://www.facebook.com/EcotiendaJoxeneaPamplona/",
+  "description": "Tienda de alimentaci\u00f3n ecol\u00f3gica y local. Especialidad en producto fresco y navarro. | Bertako elikadura ekologikoaren denda. Produktu freskoetan espezializatuak.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://ziclop.coopcycle.org/fr/store/2-ecotienda-joxenea",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://ziclop.coopcycle.org"
+  }
+}

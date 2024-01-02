@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/22",
+  "@type": "http://schema.org/ElectronicsStore",
+  "name": "SIRA Webshop",
+  "address": {
+    "@id": "/api/addresses/376",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 19.3849254,
+      "longitude": -99.0732319
+    },
+    "streetAddress": "Av. Canal de Tezontle 40, Cuchillas del Moral II y III, Ciudad de M\u00e9xico, CDMX, M\u00e9xico",
+    "telephone": "+525581874792",
+    "name": "SIRA Webshop"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://sirapps-cdmx.coopcycle.org/media/cache/restaurant_thumbnail/62/16/62166b0028922.png",
+  "sameAs": "http://sira-unionrepartidores.jimdosite.com",
+  "description": "Productos electr\u00f3nicos para repartidores, tiendas y negocios en general; Env\u00edo garantizado y rastreable.\r\nEntregas de Lunes a Viernes en horario laboral, SIRA, Ciudad de M\u00e9xico.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sirapps-cdmx.coopcycle.org/fr/store/22-sira-webshop",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sirapps-cdmx.coopcycle.org"
+  }
+}

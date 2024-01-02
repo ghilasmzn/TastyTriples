@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/28",
+  "@type": "http://schema.org/Restaurant",
+  "name": "DELI BRETZEL",
+  "address": {
+    "@id": "/api/addresses/15450",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 44.8325,
+      "longitude": -0.571536
+    },
+    "streetAddress": "9 Rue des Augustins, 33000 Bordeaux, France",
+    "telephone": "+33557967427",
+    "name": "DELI BRETZEL"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "17:00",
+      "dayOfWeek": [
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersbordelais.coopcycle.org/media/cache/restaurant_thumbnail/61/9e/619e07a853684.jpeg",
+  "sameAs": "https://www.delibretzel.com",
+  "description": "Entre Strasbourg & New-York, d\u00e9couvrez DELI BRETZEL, \u00e0 Bordeaux, un comptoir \u00e0 bretzels, restaurant & coffee-shop !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersbordelais.coopcycle.org/fr/restaurant/28-deli-bretzel",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersbordelais.coopcycle.org"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/51",
+  "@type": "http://schema.org/PetStore",
+  "name": "Txakurzain",
+  "address": {
+    "@id": "/api/addresses/67140",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8554548,
+      "longitude": -2.6702618
+    },
+    "streetAddress": "Fermin Lasuen Kalea, 3, Vitoria-Gasteiz, Spain",
+    "telephone": "+34945256677",
+    "name": "Txakurzain"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:15",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "16:45",
+      "closes": "19:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/61/8f/618fc1e7d82ef.jpeg",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbaa92e276943028891.jpg",
+  "sameAs": "https://www.txakurzain.es/",
+  "description": "Alimentaci\u00f3n - Mascotas - Peluquer\u00eda - Veterinario - Adiestramiento",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/store/51-txakurzain",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/80",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Aporpan",
+  "address": {
+    "@id": "/api/addresses/112914",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8529544,
+      "longitude": -2.673056
+    },
+    "streetAddress": "Arriagako Atea Kalea, 12, 01012 Gasteiz, Araba, Spain",
+    "telephone": "+34945148368",
+    "name": "Aporpan"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "08:45",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Monday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "08:45",
+      "closes": "16:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/62/94/6294fabcc429d.jpg",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc35164906971893721.jpg",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/restaurant/80-aporpan",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  }
+}

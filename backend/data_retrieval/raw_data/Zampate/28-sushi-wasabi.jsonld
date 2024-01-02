@@ -1,0 +1,88 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/28",
+  "@type": "http://schema.org/Restaurant",
+  "name": "SUSHI WASABI",
+  "address": {
+    "@id": "/api/addresses/14577",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.6405774,
+      "longitude": -0.8962556
+    },
+    "streetAddress": "Calle del Arzobispo Apaolaza, 5, Zaragoza, Espa\u00f1a",
+    "telephone": "+34976973995",
+    "name": "SUSHI WASABI"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:45",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Wednesday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/62/29/6229d4f4d87f2.jpg",
+  "sameAs": "https://sushiwasabi.site/",
+  "description": "Comida japonesa. Especialistas en Sushi, Poke y Ramen.\r\nOpciones sin gluten.\r\nExiste opci\u00f3n de salsa de soja sin gluten para acompa\u00f1ar al sushi, pedirlo en COMENTARIOS.\r\nPara los al\u00e9rgenos ponerse en contacto con el restaurante: 976973995 o 617516541 o pueden escribir sus necesidades en COMENTARIOS.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://zampate.coopcycle.org/fr/restaurant/28-sushi-wasabi",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "12.50"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://zampate.coopcycle.org"
+  }
+}

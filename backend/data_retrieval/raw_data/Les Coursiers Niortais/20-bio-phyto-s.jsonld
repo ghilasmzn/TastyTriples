@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/20",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Bio Phyto's",
+  "address": {
+    "@id": "/api/addresses/2028",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 46.3231,
+      "longitude": -0.463732
+    },
+    "streetAddress": "2 Rue de l'Ancien Oratoire, 79000 Niort, France",
+    "telephone": "+33659554635",
+    "name": "Bio Phyto's"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:15",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://niort.coopcycle.org/media/cache/restaurant_thumbnail/62/e1/62e12cd746ae4.jpg",
+  "sameAs": "http://www.biophytos.fr",
+  "description": "D\u00e9licieuses recettes de Burgers et Panini bio pour tous les go\u00fbts !\r\nAccompagn\u00e9s de sa petite salade compos\u00e9e de saison pour un repas sain et \u00e9quilibr\u00e9.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://niort.coopcycle.org/fr/restaurant/20-bio-phyto-s",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://niort.coopcycle.org"
+  }
+}

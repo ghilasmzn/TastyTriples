@@ -1,0 +1,60 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/39",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Fleck & Co \ud83c\udf72",
+  "address": {
+    "@id": "/api/addresses/16818",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5688,
+      "longitude": 7.75825
+    },
+    "streetAddress": "9 Rue du Ruisseau Bleu, 67100 Strasbourg, France",
+    "telephone": "+33388656135",
+    "name": "Fleck & Co \ud83c\udf72"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Wednesday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e17250ef47.png",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e11886fcb8.jpg",
+  "sameAs": "https://www.fleckandco.com/",
+  "description": "Fleck and Co : la cuisine fran\u00e7aise du march\u00e9 et de saison servie en bocaux en verre recyclable.\r\nDes entr\u00e9es aux desserts, tout est fait maison !!\r\nFleck & Co c'est l'histoire de 3 passionn\u00e9.e.s de cuisine, anciens restaurateurs, qui souhaitent proposer une alternative de qualit\u00e9 \u00e0 la cuisine \u00e0 emporter\r\n\r\nLivraison de repas \u00e0 Strasbourg et alentours !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/39-fleck-co",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

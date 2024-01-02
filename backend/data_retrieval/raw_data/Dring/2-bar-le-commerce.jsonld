@@ -1,0 +1,80 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/2",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Bar le Commerce",
+  "address": {
+    "@id": "/api/addresses/12",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.804226,
+      "longitude": 2.289471
+    },
+    "streetAddress": "10 Avenue de Paris, 92320 Ch\u00e2tillon, France",
+    "telephone": "+33986465148",
+    "name": "Bar le Commerce"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "20:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://initiative-emploi.coopcycle.org/media/cache/restaurant_thumbnail/61/af/61af6a087760e.jpg",
+  "description": "La Bar le Commerce propose de la cuisine Tha\u00eflandaise",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://initiative-emploi.coopcycle.org/fr/restaurant/2-bar-le-commerce",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "4.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://initiative-emploi.coopcycle.org"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/16",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Goldies",
+  "address": {
+    "@id": "/api/addresses/296",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.4998607,
+      "longitude": 13.4250679
+    },
+    "streetAddress": "Oranienstra\u00dfe 6, 10997 Berlin, Deutschland",
+    "telephone": "+493074780320",
+    "name": "Goldies"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:30",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/5e/73/5e73bb728341b.jpg",
+  "sameAs": "http://goldies-berlin.de/",
+  "description": "Feel the Fries. Feel the Feeling. Fry the Feeling",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/16-goldies",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

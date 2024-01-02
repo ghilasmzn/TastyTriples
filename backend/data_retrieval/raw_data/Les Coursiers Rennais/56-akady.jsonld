@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/56",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Akady",
+  "address": {
+    "@id": "/api/addresses/44367",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1039354,
+      "longitude": -1.6773828
+    },
+    "streetAddress": "12 Rue de l'Alma, 35000 Rennes, France",
+    "telephone": "+33753938900",
+    "name": "Akady"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:15",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/65/56/65563dc249a52.jpg",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e06c5ddc92.png",
+  "description": "\"Le restaurant solidaire AKADY est construit comme un concept \u00e0 double facette. D\u2019une part, le restaurant rel\u00e8ve le d\u00e9fi de proposer une offre de restauration africaine saine et g\u00e9n\u00e9reuse \u00e0 moindre co\u00fbt, accessible en particulier \u00e0 des personnes aux revenus faibles. D\u2019autre part, Akady se veut \u00eatre, plus qu\u2019un restaurant, un vrai lieu de vie ouvert \u00e0 toutes et tous.\"",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/56-akady",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

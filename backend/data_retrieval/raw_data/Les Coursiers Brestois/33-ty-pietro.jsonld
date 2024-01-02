@@ -1,0 +1,50 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/33",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Ty Pietro",
+  "address": {
+    "@id": "/api/addresses/5362",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.3901203,
+      "longitude": -4.4896378
+    },
+    "streetAddress": "27 Rue des Halles Saint-Louis, 29200 Brest, France",
+    "telephone": "+33638579970",
+    "name": "Ty Pietro"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:15",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/64/02/64020e4178cd3.png",
+  "description": "Cantina en continu, \u00e9picerie fine italienne et salle d'une vingtaine de couverts.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersbrestois.coopcycle.org/fr/restaurant/33-ty-pietro",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersbrestois.coopcycle.org"
+  }
+}

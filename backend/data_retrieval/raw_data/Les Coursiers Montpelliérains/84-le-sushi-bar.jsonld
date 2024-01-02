@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/84",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le sushi bar\ud83c\udf63",
+  "address": {
+    "@id": "/api/addresses/8611",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6156933,
+      "longitude": 3.8818434
+    },
+    "streetAddress": "20 Rue Bernard D\u00e9licieux, Montpellier, France",
+    "telephone": "+33499770606",
+    "name": "Le sushi bar\ud83c\udf63"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/46/65468dfeef42b.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbc43b56a0.png",
+  "sameAs": "https://le-sushi-bar.com",
+  "description": "Restaurant Japonais\ud83c\udf63",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/84-le-sushi-bar",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

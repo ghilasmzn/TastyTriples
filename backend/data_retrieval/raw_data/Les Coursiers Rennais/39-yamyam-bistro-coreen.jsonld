@@ -1,0 +1,73 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/39",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Yamyam Bistro Cor\u00e9en",
+  "address": {
+    "@id": "/api/addresses/25911",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1054883,
+      "longitude": -1.6834444
+    },
+    "streetAddress": "39 Rue du Puits Mauger, Rennes, France",
+    "telephone": "+33978801034",
+    "name": "Yamyam Bistro Cor\u00e9en"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:15",
+      "closes": "20:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:15",
+      "closes": "21:15",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/63/cb/63cb225e3227b.jpg",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e0504bb7e0.png",
+  "sameAs": "https://www.yamyambistrocoreen.com/",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/39-yamyam-bistro-coreen",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

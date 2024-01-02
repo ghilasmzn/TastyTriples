@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/154",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le CookTown",
+  "address": {
+    "@id": "/api/addresses/127749",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2193565,
+      "longitude": -1.5546323
+    },
+    "streetAddress": "16 Rue L\u00e9on Blum, Nantes, France",
+    "telephone": "+33983067155",
+    "name": "Le CookTown"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/65/37/653787185d02a.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/65/92/6592c5faaef9d.jpg",
+  "description": "D\u00e9couvrez nos burgers 100% faits maison \ud83c\udf54\r\n-Pain artisanal\r\n-Sauce 100% maison\r\n-Produits frais et de qualit\u00e9\r\n-Frites maison\r\n\r\nD\u00e9couvrez aussi nos salades, tartines et desserts 100% maison !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/154-le-cooktown",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  }
+}

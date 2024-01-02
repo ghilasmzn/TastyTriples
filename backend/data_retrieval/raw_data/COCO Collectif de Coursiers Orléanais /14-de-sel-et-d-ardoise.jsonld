@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/14",
+  "@type": "http://schema.org/Restaurant",
+  "name": "De Sel et d'Ardoise",
+  "address": {
+    "@id": "/api/addresses/41",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.904148,
+      "longitude": 1.903022
+    },
+    "streetAddress": "44 Rue du Faubourg Bannier, 45000 Orl\u00e9ans, France",
+    "telephone": "+33234502340",
+    "name": "De Sel et d'Ardoise"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "12:00",
+      "dayOfWeek": [
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "17:00",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://le-rayon-vert.coopcycle.org/media/cache/restaurant_thumbnail/61/70/6170314b7fb5c.jpg",
+  "description": "Cuisine fran\u00e7aise soign\u00e9e \u00e0 base de produits localement sourc\u00e9s.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://le-rayon-vert.coopcycle.org/fr/restaurant/14-de-sel-et-d-ardoise",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "9.90",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "0.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://le-rayon-vert.coopcycle.org"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/3",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Moksa",
+  "address": {
+    "@id": "/api/addresses/5",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.4998579,
+      "longitude": 13.4239761
+    },
+    "streetAddress": "Oranienstra\u00dfe 200, Berlin, Deutschland",
+    "telephone": "+4917666627717",
+    "name": "Moksa"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/62/39/6239df93b3868.jpeg",
+  "sameAs": "https://www.moksa.kitchen",
+  "description": "Indisch",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/3-moksa",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

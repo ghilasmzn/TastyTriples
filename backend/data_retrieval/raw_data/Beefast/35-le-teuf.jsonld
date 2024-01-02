@@ -1,0 +1,82 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/35",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Teuf",
+  "address": {
+    "@id": "/api/addresses/10908",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.9062975,
+      "longitude": 2.3088272
+    },
+    "streetAddress": "105 Rue Lucien Lecointe, Amiens, France",
+    "telephone": "+33322434391",
+    "name": "Le Teuf"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:35",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/64/90/6490679b3b650.jpg",
+  "sameAs": "https://leteuf.fr/",
+  "description": "Pizza de tradition depuis 1971 !  \ud83c\uddee\ud83c\uddf9  Depuis 50 ans, la pizzeria Le Teuf \u00e0 Amiens vous accueille pour partager son savoir faire. Des savoureuses pizzas pr\u00e9par\u00e9es et cuites devant vous dans la pure tradition italienne et dans une ambiance conviviale ! \r\n\r\n\u00a9 Franck Burges",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://beefast.coopcycle.org/fr/restaurant/35-le-teuf",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://beefast.coopcycle.org"
+  }
+}

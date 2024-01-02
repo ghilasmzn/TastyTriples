@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/68",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Nouveaut\u00e9 (menu) ! ANKKA \ud83e\udd57",
+  "address": {
+    "@id": "/api/addresses/24276",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.1915509,
+      "longitude": 5.7276697
+    },
+    "streetAddress": "4 Place Grenette, Grenoble, France",
+    "telephone": "+33650136641",
+    "name": "Nouveaut\u00e9 (menu) ! ANKKA \ud83e\udd57"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:50",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/61/a8/61a8ea29dd137.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc2038f73e.png",
+  "sameAs": "https://ankka.fr/",
+  "description": "Notre philosophie, manger vite mais manger sain ou l\u2019art de prendre le temps d\u2019aller vite.\r\nAnkka est une petite ville au centre de la Finlande, en harmonie avec la nature, o\u00f9 il fait bon vivre\r\n\r\nDu sur-mesure dans votre assiette : 1 base + des ingr\u00e9dients + une sauce\r\n\r\nNotre offre se d\u00e9cline en repas chauds (p\u00e2tes, wraps, soupe) ou froids (salade, sandwich\u2026).\r\n\r\nSoucieux du \u00ab bien manger \u00bb nous pr\u00f4nons la fraicheur et l\u2019authenticit\u00e9 par la mise en avant de nos ingr\u00e9dients pr\u00e9par\u00e9s devant vous !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/68-nouveaute-menu-ankka",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}

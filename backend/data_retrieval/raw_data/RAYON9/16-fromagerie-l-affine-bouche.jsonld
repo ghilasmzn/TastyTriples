@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/16",
+  "@type": "http://schema.org/GroceryStore",
+  "name": "Fromagerie l'Affine bouche",
+  "address": {
+    "@id": "/api/addresses/136327",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 50.6561214,
+      "longitude": 5.5711171
+    },
+    "streetAddress": "Rue Sainte-Walburge 79, 4000 Li\u00e8ge, Belgique",
+    "telephone": "+32496302522",
+    "name": "Fromagerie l'Affine bouche"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "17:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "20:30",
+      "dayOfWeek": [
+        "Wednesday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://rayon9.coopcycle.org/media/cache/restaurant_thumbnail/65/55/6555fb75a643b.jpg",
+  "bannerImage": "https://rayon9.coopcycle.org/media/cache/restaurant_banner/65/6e/656ef3adaa7f3112658945.jpg",
+  "sameAs": "https://www.laffinebouche.be/",
+  "description": "L'affine bouche est une fromagerie et un caviste. \r\nVous pourrez y retrouver de d\u00e9licieux fromages belges, fran\u00e7ais, italiens et espagnols. Vous y trouverez aussi du vin, de la bi\u00e8re et de l'\u00e9picerie fine.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://rayon9.coopcycle.org/fr/store/16-fromagerie-l-affine-bouche",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://rayon9.coopcycle.org"
+  }
+}

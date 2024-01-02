@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/91",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Nouveau ! \ud83d\udd25 Asie Gourmand \ud83e\udd62",
+  "address": {
+    "@id": "/api/addresses/48680",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5815127,
+      "longitude": 7.7612549
+    },
+    "streetAddress": "12 Rue de l'Acad\u00e9mie, 67000 Strasbourg, France",
+    "telephone": "+33367996313",
+    "name": "Nouveau ! \ud83d\udd25 Asie Gourmand \ud83e\udd62"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6f/656f597b1d59a.png",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e14a7661db.jpg",
+  "sameAs": "https://asiegourmand-strasbourg.eatbu.com/?lang=fr",
+  "description": "Asie gourmand vous fait d\u00e9couvrir les saveurs authentiques du Vietnam !\r\n\r\nNous utilisons des produits frais, halal, sains et parfum\u00e9 pour donner ce go\u00fbt unique \u00e0 nos plats que vous ne retrouverez nul part ailleurs !\r\nUne cuisine familiale transmise de g\u00e9n\u00e9ration en g\u00e9n\u00e9ration. \r\nLivraison de plats vietnamien \u00e0 Strasbourg et alentours !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/91-nouveau-asie-gourmand",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/13",
+  "@type": "http://schema.org/Restaurant",
+  "name": "\u00d4 D\u00e9lices du Liban \ud83e\uddc6",
+  "address": {
+    "@id": "/api/addresses/251",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.1920841,
+      "longitude": 5.7288732
+    },
+    "streetAddress": "16 Rue des Clercs, 38000 Grenoble, France",
+    "telephone": "+33634601716",
+    "name": "\u00d4 D\u00e9lices du Liban \ud83e\uddc6"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/61/8a/618a8bbd92e52.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc13289a17.jpg",
+  "sameAs": "http://o-delices-du-liban-grenoble.eatbu.com",
+  "description": "Traiteur halal sp\u00e9cialis\u00e9 dans la nourriture libanaise",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/13-o-delices-du-liban",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}

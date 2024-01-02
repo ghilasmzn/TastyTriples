@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/37",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Nuage Croquant",
+  "address": {
+    "@id": "/api/addresses/10115",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 46.3246753,
+      "longitude": -0.4636357
+    },
+    "streetAddress": "9 Rue de l'H\u00f4tel de Ville, Niort, France",
+    "telephone": "+33549062088",
+    "name": "Nuage Croquant"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:30",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://niort.coopcycle.org/media/cache/restaurant_thumbnail/65/2e/652e42f7ccba7.jpg",
+  "sameAs": "http://www.nuage-croquant.fr",
+  "description": "Restauration snacking sal\u00e9, p\u00e2tisserie fine, salon de th\u00e9, \u00e9picerie",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://niort.coopcycle.org/fr/restaurant/37-nuage-croquant",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://niort.coopcycle.org"
+  }
+}

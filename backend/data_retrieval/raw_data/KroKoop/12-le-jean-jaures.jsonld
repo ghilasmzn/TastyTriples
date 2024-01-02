@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/12",
+  "@type": "http://schema.org/Restaurant",
+  "name": "LE JEAN JAUR\u00c8S",
+  "address": {
+    "@id": "/api/addresses/230",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8357698,
+      "longitude": 4.3501908
+    },
+    "streetAddress": "30 Avenue Jean Jaur\u00e8s, N\u00eemes, France",
+    "telephone": "+33466231990",
+    "name": "LE JEAN JAUR\u00c8S"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:20",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:50",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:50",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65498d23638d7.png",
+  "sameAs": "https://fr-fr.facebook.com/lejeanjo/",
+  "description": "Institution n\u00eemoise, cette brasserie a la r\u00e9putation belle d'animer r\u00e9guli\u00e8rement les petits \u00e9v\u00e9nements de la ville. \r\n\r\nDe la f\u00eate, du bon vivre et des plats savoureux, g\u00e9n\u00e9reux ! C'est l\u2019un des endroits que les \u00e9picuriens choisissent pour se retrouver.\r\n\r\nBurgers, salades, tartare, sp\u00e9cialit\u00e9s m\u00e9diterran\u00e9ennes ... On a de quoi se faire plaisir, et surtout se rassasier !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/12-le-jean-jaures",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

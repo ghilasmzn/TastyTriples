@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/59",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Verrine & Vapeur \ud83c\udf72\ud83c\udff7\ufe0f",
+  "address": {
+    "@id": "/api/addresses/30761",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5776,
+      "longitude": 7.75838
+    },
+    "streetAddress": "25 Rue de Lucerne, 67000 Strasbourg, France",
+    "telephone": "+33982608010",
+    "name": "Verrine & Vapeur \ud83c\udf72\ud83c\udff7\ufe0f"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:01",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6f/656f505be9238.png",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6f/656f50ebeac04.png",
+  "sameAs": "https://www.verrine-vapeur.com/pages/le-restaurant",
+  "description": "\u27a1\ufe0f Chez vous ou au bureau ! Livraison \u00e0 partir de 2,90 euros\r\n\r\nLivraison de repas \u00e0 Strasbourg et alentours !\r\nCr\u00e9\u00e9 il y a 11 ans par deux copains d'enfance, Bruno & Lolo, Verrine & Vapeur est un concept de restauration rapide innovant ! \r\n\r\nNous \u00e9laborons nos plats et nos verrines sur place avec des produits locaux, bio (ou les deux !!!) en respectant les saisons, pour retrouver les vraies saveurs de nos aliments.  Notre carte sera \u00e9tablie en fonction des nos id\u00e9es et des saisons. Aussi bien des poissons, viandes, coquillages agr\u00e9ment\u00e9s de l\u00e9gumes ou f\u00e9culents",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/59-verrine-vapeur",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

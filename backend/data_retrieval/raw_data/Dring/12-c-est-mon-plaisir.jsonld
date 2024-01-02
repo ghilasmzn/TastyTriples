@@ -1,0 +1,81 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/12",
+  "@type": "http://schema.org/Restaurant",
+  "name": "C'est mon Plaisir",
+  "address": {
+    "@id": "/api/addresses/103",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.8014,
+      "longitude": 2.28716
+    },
+    "streetAddress": "35 Rue Gabriel P\u00e9ri, 92320 Ch\u00e2tillon, France",
+    "telephone": "+33146545561",
+    "name": "C'est mon Plaisir"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "20:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://initiative-emploi.coopcycle.org/media/cache/restaurant_thumbnail/61/fc/61fc18f001f8a.JPG",
+  "sameAs": "https://cestmonplaisir.fr/",
+  "description": "C\u2019est Mon Plaisir a \u00e9t\u00e9 cr\u00e9\u00e9 en 2001 par David et Vincent, deux passionn\u00e9s avec le go\u00fbt commun pour les bonnes tables et la cuisine g\u00e9n\u00e9reuse. Pierre-Alexandre a rejoint l\u2019aventure 2 ans plus tard, dipl\u00f4me de Chef cuisinier de l\u2019\u00e9cole Ferrandi en poche, pour enrichir une carte d\u00e9j\u00e0 ensoleill\u00e9e et chaleureuse. En presque 20 ans, l\u2019histoire s\u2019est poursuivie dans plusieurs \u00e9tablissements, en passant par la rue Falgui\u00e8re, Paris 15\u00e8me, jusqu\u2019\u00e0 la rue Didot dans le 14\u00e8me. Ce sont d\u00e9sormais deux \u00e9tablissements qui vous accueillent, l\u2019un \u00e0 Montrouge depuis 2016, et \u00e0 Ch\u00e2tillon \u00e0 partir de l\u2019\u00e9t\u00e9 2020. Une \u00e9quipe chaleureuse est \u00e0 votre service et vous attend pour passer un agr\u00e9able moment entre coll\u00e8gues, amis ou famille. \r\nC\u2019est Mon Plaisir Ch\u00e2tillon vous propose une cuisine maison \u00e9labor\u00e9e \u00e0 base de produits frais. Notre carte, nos menus du midi et de brunch \u00e9voluent au gr\u00e9 des saisons pour vous proposer des plats vari\u00e9s et soign\u00e9s.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://initiative-emploi.coopcycle.org/fr/restaurant/12-c-est-mon-plaisir",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "4.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://initiative-emploi.coopcycle.org"
+  }
+}

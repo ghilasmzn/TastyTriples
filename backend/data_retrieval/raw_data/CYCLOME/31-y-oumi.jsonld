@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/31",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Y'oumi!",
+  "address": {
+    "@id": "/api/addresses/10456",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.7794,
+      "longitude": 3.08441
+    },
+    "streetAddress": "1 Place du Mazet, 63000 Clermont-Ferrand, France",
+    "telephone": "+33634093626",
+    "name": "Y'oumi!"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:25",
+      "closes": "21:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/61/ea/61ea58db61734.jpg",
+  "sameAs": "https://www.youmi-restaurant.fr/",
+  "description": "Les saveurs du Maghreb dans un format street food, rapide et facile \u00e0 emporter !  \r\n\r\nDes plats traditionnels, faits maison chaque jour !  \r\n\r\n*Le restaurant ferme \u00e0 18h30 la semaine, mais vous pouvez commander votre livraison pour 19h et faire r\u00e9chauffer votre plat pour le d\u00e9guster plus tard !*",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://cyclome.coopcycle.org/fr/restaurant/31-y-oumi",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://cyclome.coopcycle.org"
+  }
+}

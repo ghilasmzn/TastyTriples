@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/6",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Santo Falafel | Cibo Siriano Vegano",
+  "address": {
+    "@id": "/api/addresses/20",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.7673751,
+      "longitude": 11.2461484
+    },
+    "streetAddress": "Via Sant'Agostino, 28, Firenze, FI, Italia",
+    "telephone": "+39055213876",
+    "name": "Santo Falafel | Cibo Siriano Vegano"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:50",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:50",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/61/87/618799d8923ce.jpg",
+  "description": "_**Cucina sana e biologica. Il luogo ideale per chiunque voglia concedersi un viaggio attraverso i sapori della tradizione mediorientale, 100% vegana.**_",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://robinfood.coopcycle.org/fr/restaurant/6-santo-falafel-cibo-siriano-vegano",
+      "inLanguage": "it",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://robinfood.coopcycle.org"
+  }
+}

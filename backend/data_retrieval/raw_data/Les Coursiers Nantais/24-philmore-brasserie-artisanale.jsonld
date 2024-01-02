@@ -1,0 +1,57 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/24",
+  "@type": "http://schema.org/GroceryStore",
+  "name": "PHILMORE - Brasserie Artisanale",
+  "address": {
+    "@id": "/api/addresses/831",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.1914599,
+      "longitude": -1.5549577
+    },
+    "streetAddress": "22 Rue Emile Zola, Rez\u00e9, France",
+    "telephone": "+33617745811",
+    "name": "PHILMORE - Brasserie Artisanale"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:30",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:30",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Wednesday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersnantais.coopcycle.org/media/cache/restaurant_thumbnail/5e/b4/5eb415eb1de03.PNG",
+  "bannerImage": "https://lescoursiersnantais.coopcycle.org/placeholder/restaurant_banner/placeholders/g1VQKmRarkoB.jpg",
+  "sameAs": "http://www.philmore.fr",
+  "description": "La brasserie PHILMORE produit des bi\u00e8res artisanales, bio brass\u00e9es selon la m\u00e9thode traditionnelle des Trappistes belges dans une d\u00e9marche responsable et solidaire : circuits courts, partenaires locaux, r\u00e9duction des emballages, r\u00e9emploi des bouteilles. Ni filtr\u00e9es, ni pasteuris\u00e9es, sans conservateur et referment\u00e9es en bouteille.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersnantais.coopcycle.org/fr/store/24-philmore-brasserie-artisanale",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersnantais.coopcycle.org"
+  }
+}

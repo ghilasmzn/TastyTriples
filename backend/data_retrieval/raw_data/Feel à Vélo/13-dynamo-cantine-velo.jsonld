@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/13",
+  "@type": "http://schema.org/Restaurant",
+  "name": "DYNAMO Cantine & V\u00e9lo",
+  "address": {
+    "@id": "/api/addresses/776",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.7322,
+      "longitude": -3.36351
+    },
+    "streetAddress": "62 Avenue de la Perri\u00e8re",
+    "telephone": "+33984244905",
+    "name": "DYNAMO Cantine & V\u00e9lo"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    }
+  ],
+  "image": "https://feelavelo.coopcycle.org/media/cache/restaurant_thumbnail/60/64/606442e13c570.jpg",
+  "sameAs": "https://dynamo-lorient.jimdofree.com/",
+  "description": "La cantine-v\u00e9lo de Lorient ! Une cuisine de saison et de passion !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://feelavelo.coopcycle.org/fr/restaurant/13-dynamo-cantine-velo",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://feelavelo.coopcycle.org"
+  }
+}

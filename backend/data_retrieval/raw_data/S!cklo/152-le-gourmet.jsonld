@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/152",
+  "@type": "http://schema.org/Restaurant",
+  "name": "LE GOURMET \ud83c\udf31",
+  "address": {
+    "@id": "/api/addresses/90952",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.1891195,
+      "longitude": 5.7209069
+    },
+    "streetAddress": "21 Avenue Alsace Lorraine, Grenoble, France",
+    "telephone": "+33438869000",
+    "name": "LE GOURMET \ud83c\udf31"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "19:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/65/49/654968c604fa2.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656da76055fba.jpg",
+  "sameAs": "https://legourmet.fr/",
+  "description": "Le concept novateur du gourmet se concentre sur l'id\u00e9e de vous offrir des plats \u00e9quivalents \u00e0 ceux d'un chef, \u00e9labor\u00e9s \u00e0 partir d'ingr\u00e9dients frais et locaux, m\u00e9ticuleusement pr\u00e9par\u00e9s et pr\u00e9sent\u00e9s dans des bocaux lavables et recyclables, pr\u00eats \u00e0 \u00eatre emport\u00e9s n'importe o\u00f9. Cette exp\u00e9rience culinaire assure une vari\u00e9t\u00e9 de recettes \u00e9quilibr\u00e9es, garantissant une fusion de saveurs raffin\u00e9es, tout en soutenant la durabilit\u00e9 gr\u00e2ce \u00e0 l'utilisation de contenants respectueux de l'environnement.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/152-le-gourmet",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}

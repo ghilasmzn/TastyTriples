@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/15",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Klaritxu",
+  "address": {
+    "@id": "/api/addresses/267",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8660763,
+      "longitude": -2.6975137
+    },
+    "streetAddress": "Calle Sierra de Aralar, 47, Vitoria-Gasteiz, Spain",
+    "telephone": "+34625731554",
+    "name": "Klaritxu"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:40",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/60/f0/60f0190b06b2b.jpg",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbff2570f1102065739.jpg",
+  "sameAs": "https://www.tortillasklaritxu.com",
+  "description": "En Klaritxu nos conocen por la calidad y el sabor de nuestros alimentos. En la carta encontrar\u00e1s una gran diversidad de productos que se adaptan a todos los paladares; disponemos de opciones para vegetarianos, veganos y cel\u00edacos.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/restaurant/15-klaritxu",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/5",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Les Sakura",
+  "address": {
+    "@id": "/api/addresses/21",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1148,
+      "longitude": -1.67613
+    },
+    "streetAddress": "34 Rue Saint-Melaine, 35000 Rennes, France",
+    "telephone": "+33221078260",
+    "name": "Les Sakura"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:50",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:15",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/63/9b/639b4ee04e6cb.jpg",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e5bd2bd406.png",
+  "sameAs": "http://www.lessakura.com",
+  "description": "Restaurant de Bento & \u00c9picerie Japonaise.\r\n\r\nNous mettons tout notre c\u0153ur dans la pr\u00e9paration de repas fait maison !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/5-les-sakura",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

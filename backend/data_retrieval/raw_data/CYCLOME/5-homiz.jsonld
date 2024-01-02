@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/5",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Homiz",
+  "address": {
+    "@id": "/api/addresses/199",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.7794,
+      "longitude": 3.08385
+    },
+    "streetAddress": "16 Rue de la Boucherie, 63000 Clermont-Ferrand, France",
+    "telephone": "+33951384771",
+    "name": "Homiz"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/60/08/600852f91681b.jpg",
+  "sameAs": "https://homiz.pizza/",
+  "description": "Pizzeria Clermontoise dans la tradition New Yorkaise !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://cyclome.coopcycle.org/fr/restaurant/5-homiz",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://cyclome.coopcycle.org"
+  }
+}

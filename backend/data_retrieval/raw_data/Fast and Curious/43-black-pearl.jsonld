@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/43",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Black Pearl",
+  "address": {
+    "@id": "/api/addresses/2285",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.4954,
+      "longitude": 0.099275
+    },
+    "streetAddress": "68 Rue Fr\u00e9d\u00e9ric Bellanger, 76600 Le Havre, France",
+    "telephone": "+33650092709",
+    "name": "Black Pearl"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://fast-and-curious.coopcycle.org/media/cache/restaurant_thumbnail/62/45/6245881471b5e.jpg",
+  "sameAs": "https://www.facebook.com/blackpearllh/",
+  "description": "GALETTES, CR\u00caPES, SALADES BOWLS\r\nCr\u00eaperie moderne alliant produits frais, r\u00e9gionaux et bio, dans une ambiance chaleureuse et conviviale <3\r\nToutes pr\u00e9par\u00e9es avec amour, Pearl \u00e9labore des recettes new age et sans gluten \r\nD\u00e9licieux!",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://fast-and-curious.coopcycle.org/fr/restaurant/43-black-pearl",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://fast-and-curious.coopcycle.org"
+  }
+}

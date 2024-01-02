@@ -1,0 +1,81 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/8",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Neuf de Tha\u00ef",
+  "address": {
+    "@id": "/api/addresses/29",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.804355,
+      "longitude": 2.289615
+    },
+    "streetAddress": "12 Avenue de Paris, 92320 Ch\u00e2tillon, France",
+    "telephone": "+33981316849",
+    "name": "Le Neuf de Tha\u00ef"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "20:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://initiative-emploi.coopcycle.org/media/cache/restaurant_thumbnail/61/b9/61b9da898286d.jpg",
+  "sameAs": "https://le-neuf-de-thai.business.site/",
+  "description": "\"Le Neuf de Tha\u00ef\" est un restaurant authentique Tha\u00eflandais ouvert par Kannika et Itthiphon pour vous faire d\u00e9couvrir les saveurs de la cuisine Tha\u00eflandaise. Nous pr\u00e9parons nos plats pour votre plus grand plaisir en proposant des recettes traditionnelles et en y ajoutant nos touches personnelles.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://initiative-emploi.coopcycle.org/fr/restaurant/8-le-neuf-de-thai",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "4.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://initiative-emploi.coopcycle.org"
+  }
+}

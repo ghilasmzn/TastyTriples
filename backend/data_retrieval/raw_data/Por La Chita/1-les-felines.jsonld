@@ -1,0 +1,72 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/1",
+  "@type": "http://schema.org/SportingGoodsStore",
+  "name": "Les felines",
+  "address": {
+    "@id": "/api/addresses/1",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -36.829331,
+      "longitude": -73.049625
+    },
+    "streetAddress": "colo colo 408, Concepcion, BI, Chile",
+    "telephone": "+56920061316",
+    "name": "Les felines"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://porlachita.coopcycle.org/media/cache/restaurant_thumbnail/62/71/6271589b84d51.JPG",
+  "sameAs": "http://www.porlachita.cl",
+  "description": "las wenas tillas\r\ncortavientos de pana",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://porlachita.coopcycle.org/fr/store/1-les-felines",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "CLP",
+      "price": "100.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "CLP",
+        "price": "1,000.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://porlachita.coopcycle.org"
+  }
+}

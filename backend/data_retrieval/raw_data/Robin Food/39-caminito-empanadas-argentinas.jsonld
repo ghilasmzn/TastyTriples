@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/39",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Caminito | Empanadas Argentinas",
+  "address": {
+    "@id": "/api/addresses/3769",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.7697317,
+      "longitude": 11.2641252
+    },
+    "streetAddress": "Via Ghibellina, 52r, Firenze, FI, Italia",
+    "telephone": "+390559067531",
+    "name": "Caminito | Empanadas Argentinas"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:50",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:50",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/63/c5/63c5bb4c1a68e.jpeg",
+  "description": "**_Empanadas Argentinas a Firenze!_**",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://robinfood.coopcycle.org/fr/restaurant/39-caminito-empanadas-argentinas",
+      "inLanguage": "it",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://robinfood.coopcycle.org"
+  }
+}

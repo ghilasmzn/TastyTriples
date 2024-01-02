@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/30",
+  "@type": "http://schema.org/Restaurant",
+  "name": "F\u00d4 KA CROC",
+  "address": {
+    "@id": "/api/addresses/4006",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8364833,
+      "longitude": 4.3456352
+    },
+    "streetAddress": "53 Av. Georges Pompidou, 30900 N\u00eemes, France",
+    "telephone": "+33770472415",
+    "name": "F\u00d4 KA CROC"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65494767196a0.png",
+  "sameAs": "https://fo-ka-croc.byclickeat.fr",
+  "description": "\u00c0 son bord St\u00e9phane & Sophie, le couple g\u00e9rant de ce snacking vivant, d\u00e9cor\u00e9 aux couleurs du c\u00e9l\u00e8bre street-artiste Banksy \ud83d\udc68\u200d\ud83c\udfa8\ud83d\udca5. Et c\u2019est apr\u00e8s avoir sillonn\u00e9 la r\u00e9gion en tant que cuisiniers dans plusieurs \u00e9tablissements renomm\u00e9s que nos restaurateurs ont choisi de se lancer \u00e0 leur propre compte \u270a.\r\n\r\nLeur but : proposer une cuisine saine, rapide et accessible autour de plusieurs plats issus de la Street-Food.\r\n\r\nEn produit phare, la Focaccia ! \ud83c\uddee\ud83c\uddf9 Une sp\u00e9cialit\u00e9 italienne qui donne le nom \u00e0 l\u2019\u00e9tablissement et qui viendra parfumer votre palais d\u2019irr\u00e9sistibles saveurs m\u00e9diterran\u00e9ennes \ud83e\uded2.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/30-fo-ka-croc",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

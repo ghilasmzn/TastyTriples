@@ -1,0 +1,81 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/124",
+  "@type": "http://schema.org/Restaurant",
+  "name": "G\u00fcre Poke",
+  "address": {
+    "@id": "/api/addresses/229420",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8466734,
+      "longitude": -2.6736182
+    },
+    "streetAddress": "Plaza la, Virgen Blanca Plaza, 4, 01001 Gasteiz, Araba, Espa\u00f1a",
+    "telephone": "+34619606198",
+    "name": "G\u00fcre Poke"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:30",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:30",
+      "closes": "22:40",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:50",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:50",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/65/1f/651fda7a86416.jpg",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656db7d660076583029993.jpg",
+  "sameAs": "http://www.gurepoke.eus",
+  "description": "G\u00fcrepoke es una marca Euskadi que ofrece poke gourmet con productos de cercan\u00eda, como el mar, la tierra y los pescados de Arroyabe, Alakrana, Keia y Bertokuek. Pide online y disfruta de una comida sencilla, sin edulcorantes ni excesos, con un concepto minimalista y tradicional.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/restaurant/124-guere-poke",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/19",
+  "@type": "http://schema.org/GroceryStore",
+  "name": "ABC Terroirs",
+  "address": {
+    "@id": "/api/addresses/212",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2178372,
+      "longitude": -1.5514182
+    },
+    "streetAddress": "5 Place Saint-Pierre, Nantes, France",
+    "telephone": "+33240897626",
+    "name": "ABC Terroirs"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersnantais.coopcycle.org/media/cache/restaurant_thumbnail/5e/94/5e94a7a5715c6.PNG",
+  "bannerImage": "https://lescoursiersnantais.coopcycle.org/placeholder/restaurant_banner/placeholders/Xn4VakWaeOD8.jpg",
+  "sameAs": "http://www.abcterroirs.com/",
+  "description": "Cave - Epicerie Fine \r\n\r\nSp\u00e9cialiste reconnu des produits de l'artisanat local. Sp\u00e9cialiste des bi\u00e8res de Loire Atlantique, collaboration avec 60 vignerons de la r\u00e9gion, plus de 500 produits d'\u00e9picerie fine issus du terroir local.\r\n\r\n\"Magasin dangereux pour les gourmands!\"",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersnantais.coopcycle.org/fr/store/19-abc-terroirs",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "6.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "1.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersnantais.coopcycle.org"
+  }
+}

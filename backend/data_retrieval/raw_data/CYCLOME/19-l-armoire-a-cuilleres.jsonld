@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/19",
+  "@type": "http://schema.org/CafeOrCoffeeShop",
+  "name": "L'Armoire \u00e0 cuill\u00e8res",
+  "address": {
+    "@id": "/api/addresses/6693",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.7783,
+      "longitude": 3.08411
+    },
+    "streetAddress": "11 Rue des Chaussetiers, 63000 Clermont-Ferrand, France",
+    "telephone": "+33606060606",
+    "name": "L'Armoire \u00e0 cuill\u00e8res"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "18:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/61/54/615419e82cd82.jpg",
+  "sameAs": "https://www.larmoireacuilleres.com/",
+  "description": "L\u2019Armoire \u00e0 cuill\u00e8res se veut le refuge du gourmand, le rep\u00e8re du gourmet, la surprise de l\u2019incr\u00e9dule.\r\n\r\nDes p\u00e2tisseries maison gourmandes et des chocolats chauds aux saveurs intenses !\r\n\r\n# COMMANDES 24h \u00c0 L'AVANCE  !\r\n\r\n## FRAIS DE LIVRAISON D\u00c9GRESSIFS :\r\n### -2\u20ac pour plus de 30\u20ac d'achat\r\n### - 2\u20ac suppl\u00e9mentaires pour plus de 50\u20ac d'achat (soit -4\u20ac au total)\r\n#### puis\r\n### - 2\u20ac suppl\u00e9mentaires par tranche de 25\u20ac d'achat au-del\u00e0 de 50\u20ac",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://cyclome.coopcycle.org/fr/restaurant/19-l-armoire-a-cuilleres",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://cyclome.coopcycle.org"
+  }
+}

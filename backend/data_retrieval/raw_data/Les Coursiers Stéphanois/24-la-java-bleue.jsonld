@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/24",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La Java Bleue",
+  "address": {
+    "@id": "/api/addresses/3902",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.4315,
+      "longitude": 4.394971
+    },
+    "streetAddress": "2 Cours Fauriel, 42100 Saint-\u00c9tienne, France",
+    "telephone": "+33477218068",
+    "name": "La Java Bleue"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c9d65738c.jpg",
+  "sameAs": "https://www.restaurant-lajavableue.fr/",
+  "description": "Bistrot \u00e0 viande dans une ambiance des ann\u00e9es 50. Vous y trouverez que de la viande exclusivement fran\u00e7aise de qualit\u00e9, des frites maison, des burgers gourmets et des salades.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/restaurant/24-la-java-bleue",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  }
+}

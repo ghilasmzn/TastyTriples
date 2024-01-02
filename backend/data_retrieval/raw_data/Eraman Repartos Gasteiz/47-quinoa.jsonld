@@ -1,0 +1,79 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/47",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Quinoa",
+  "address": {
+    "@id": "/api/addresses/58395",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8583573,
+      "longitude": -2.6738905
+    },
+    "streetAddress": "Arriagako Atea Kalea, 41, 01012 Gasteiz, Araba, Spain",
+    "telephone": "+34945316528",
+    "name": "Quinoa"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:45",
+      "closes": "16:30",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:45",
+      "closes": "22:45",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:45",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:35",
+      "closes": "23:45",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/61/61/6161637f6459c.jpg",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc032c1f83479495201.jpg",
+  "sameAs": "https://www.quinoavitoria.com/",
+  "description": "# Te sentir\u00e1s como en Per\u00fa\r\n*Expertos en cocina tradicional peruana*",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/restaurant/47-quinoa",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  }
+}

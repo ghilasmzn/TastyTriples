@@ -1,0 +1,49 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/28",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Geltoki Taberna",
+  "address": {
+    "@id": "/api/addresses/5778",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8132788,
+      "longitude": -1.6450665
+    },
+    "streetAddress": "Avenida Conde Oliveto, 6, Pamplona, Espa\u00f1a",
+    "telephone": "+34948988274",
+    "name": "Geltoki Taberna"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://ziclop.coopcycle.org/media/cache/restaurant_thumbnail/63/12/63124483317e8.png",
+  "sameAs": "http://geltoki.red",
+  "description": "Geltoki Tabernan elikaduran jartzen dugu arreta, zer jaten dugun eta zer ondorio dituen guretzat eta bizi garen lurrarentzat. // En Geltoki Taberna ponemos el foco en la alimentaci\u00f3n, en qu\u00e9 comemos y en qu\u00e9 consecuencias tiene para nosotras y para la tierra que habitamos",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://ziclop.coopcycle.org/fr/restaurant/28-geltoki-taberna",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://ziclop.coopcycle.org"
+  }
+}

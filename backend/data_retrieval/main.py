@@ -26,7 +26,7 @@ def main():
         coopcycle_url = service.get("coopcycle_url")  # Utiliser get pour obtenir la valeur ou None si elle n'existe pas
         service_name = service.get("name")
         if coopcycle_url and service_name:
-            extractor = ShopsExtractor(service_name, coopcycle_url)
+            extractor = ShopsExtractor(service_name, coopcycle_url,fuseki_loader)
             extractor.process_and_save_data()
         else:
             print(f"Skipping service {service_name} as coopcycle_url is missing.")

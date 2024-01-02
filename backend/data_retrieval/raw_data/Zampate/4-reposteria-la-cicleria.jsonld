@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/4",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Reposter\u00eda La Cicler\u00eda",
+  "address": {
+    "@id": "/api/addresses/4",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.6538116,
+      "longitude": -0.8737177
+    },
+    "streetAddress": "Calle Gav\u00edn 6, Zaragoza, Espa\u00f1a",
+    "telephone": "+34876167356",
+    "name": "Reposter\u00eda La Cicler\u00eda"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:30",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/63/b8/63b87f75e7c9c.jpeg",
+  "sameAs": "http://www.lacicleria.com/cafe",
+  "description": "Reposter\u00eda dulce y salada. Nos gusta la reposter\u00eda casera hecha con cari\u00f1o. Apostamos por los productos de cercan\u00eda y ecol\u00f3gicos. Para nuestra reposter\u00eda utilizamos harina Arag\u00f3n 03 de Ecomonegros y az\u00facar de ca\u00f1a integral de comercio justo. Queremos ofrecerte unos productos de calidad para que disfrutes de una experiencia \u00fanica con algo tan sencillo como una taza de caf\u00e9 y un trozo de tarta.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://zampate.coopcycle.org/fr/restaurant/4-reposteria-la-cicleria",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "12.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://zampate.coopcycle.org"
+  }
+}

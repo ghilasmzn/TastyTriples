@@ -1,0 +1,76 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/22",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Moana Pok\u00e9 \ud83c\udf3a",
+  "address": {
+    "@id": "/api/addresses/901",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.8934,
+      "longitude": 2.29413
+    },
+    "streetAddress": "5 Rue Henri Barbusse, 80000 Amiens, France",
+    "telephone": "+33674489174",
+    "name": "Moana Pok\u00e9 \ud83c\udf3a"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/60/bc/60bcffb19e0bf.jpg",
+  "sameAs": "https://www.instagram.com/moana_poke/",
+  "description": "\ud83c\udf3aPoke Bowl \ud83c\udf3a\r\nHealthy, fresh and tasty / Home made \ud83c\udf4d\r\n\ud83c\udf34Hawaiian food\ud83c\udf34",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://beefast.coopcycle.org/fr/restaurant/22-moana-poke",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "12.50"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://beefast.coopcycle.org"
+  }
+}

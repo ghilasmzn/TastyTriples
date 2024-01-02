@@ -1,0 +1,73 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/99",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Cafe Mori",
+  "address": {
+    "@id": "/api/addresses/21672",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.4983127,
+      "longitude": 13.4285226
+    },
+    "streetAddress": "Wiener Stra\u00dfe 13, Berlin, Germany",
+    "telephone": "+493066300330",
+    "name": "Cafe Mori"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "17:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/60/c0/60c0c2e3b1581.jpg",
+  "sameAs": "http://www.cafemori.de",
+  "description": "C\u00e0fe Brasileiro - Brasilianisches Restaurant",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/99-cafe-mori",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "5.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "25.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/53",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Curry Bowl",
+  "address": {
+    "@id": "/api/addresses/39785",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1119503,
+      "longitude": -1.675745
+    },
+    "streetAddress": "33 Rue Saint-Georges, Rennes, France",
+    "telephone": "+33221688917",
+    "name": "Curry Bowl"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:50",
+      "closes": "21:50",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/64/e5/64e5cb530613c.jpg",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e4f3ad2b2a.png",
+  "sameAs": "https://curry-bowl.eatbu.com/?lang=fr",
+  "description": "Les fins connaisseurs de cuisine indienne seront enti\u00e8rement satisfais dans notre restaurant. D\u00e9couvrez le \u00ab CURRY BOWL \u00bb, et laissez vous convaincre par nos nombreux plats savoureux. Nous essayons toujours d\u2019offrir une s\u00e9lection saine et int\u00e9ressante de plats nos cr\u00e9ations halal et v\u00e9g\u00e9tariennes. Nous offrons \u00e9galement une vaste vari\u00e9t\u00e9 de plats sans gluten \u2013 vous trouverez sans doute quelque chose \u00e0 votre go\u00fbt.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/53-curry-bowl",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

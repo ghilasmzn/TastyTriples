@@ -1,0 +1,87 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/55",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Mandrake Greek Street Food",
+  "address": {
+    "@id": "/api/addresses/6181",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.4121485,
+      "longitude": -3.7103656
+    },
+    "streetAddress": "Calle del Almendro, 21, Madrid, Espa\u00f1a",
+    "telephone": "+34603651022",
+    "name": "Mandrake Greek Street Food"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:30",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Monday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:30",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://lapajara.coopcycle.org/media/cache/restaurant_thumbnail/5e/c1/5ec1100e6ba9a.jpg",
+  "sameAs": "https://www.mandrakegreekstret.com",
+  "description": "La mejor street food de Grecia en Madrid. \r\nUn concepto con preparaciones artesanales y el mejor sabor a parrilla.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lapajara.coopcycle.org/fr/restaurant/55-mandrake-greek-street-food",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "10.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://lapajara.coopcycle.org"
+  }
+}

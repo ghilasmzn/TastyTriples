@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/24",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Terra d'Escudella | Men\u00fa de migdia",
+  "address": {
+    "@id": "/api/addresses/331",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.3762772,
+      "longitude": 2.1391357
+    },
+    "streetAddress": "Carrer de Premi\u00e0, 20, 08014 Barcelona, Espa\u00f1a",
+    "telephone": "+34934221613",
+    "name": "Terra d'Escudella | Men\u00fa de migdia"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:30",
+      "closes": "15:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://mensakas.coopcycle.org/media/cache/restaurant_thumbnail/65/8f/658f525027b2f.jpg",
+  "sameAs": "http://www.tdk.cat",
+  "description": "El nostre men\u00fa del dia de dilluns a dissabte. Consulta la imatge i selecciona els plats segons el seu codi. Agafem comandes fins a les 12, 15h i les servirem de 14h a 16h. \r\nTamb\u00e9 a <a href=\"https://www.instagram.com/tdkcat/\" target=\"_blank\">Instagram</a>, <a href=\"https://twitter.com/tdescudella\" target=\"_blank\">Twitter</a> i <a href=\"https://www.facebook.com/terra.descudella/\" target=\"_blank\">Facebook</a>.\r\n\r\n<img src=\"https://mensakas.coopcycle.org/media/cache/restaurant_thumbnail/61/d2/61d2098013947.jpg",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://mensakas.coopcycle.org/fr/restaurant/24-terra-d-escudella-menu-de-migdia",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "18.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://mensakas.coopcycle.org"
+  }
+}

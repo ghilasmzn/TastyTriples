@@ -1,0 +1,76 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/9",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Tsing Tao",
+  "address": {
+    "@id": "/api/addresses/1554",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.4293649,
+      "longitude": 4.393216
+    },
+    "streetAddress": "47 Rue du Vernay, 42100 Saint-\u00c9tienne, France",
+    "telephone": "+33427407205",
+    "name": "Tsing Tao"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:00",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560cb11be922.jpg",
+  "sameAs": "https://tsingtao-saint-etienne.fr/tsing-tao/saint-etienne-2/2366/0/11150/page.htm",
+  "description": "Assortiment de sushis, makis, sashimis et de bien d'autres d\u00e9lices asiatiques.\r\nConfectionn\u00e9s avec savoir-faire et minutie.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/restaurant/9-tsing-tao",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "20.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  }
+}

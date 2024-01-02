@@ -1,0 +1,70 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/190",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Piri's",
+  "address": {
+    "@id": "/api/addresses/78387",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.48071,
+      "longitude": 13.433229
+    },
+    "streetAddress": "Boddinstra\u00dfe 61, 12053 Berlin, Deutschland",
+    "telephone": "+493050949885",
+    "name": "Piri's"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "20:40",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/61/5f/615f482374e7c.jpg",
+  "sameAs": "http://www.piris-chicken.com",
+  "description": "Berlin's original Portuguese inspired Piri-Piri chicken burger restaurant.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/190-piri-s",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

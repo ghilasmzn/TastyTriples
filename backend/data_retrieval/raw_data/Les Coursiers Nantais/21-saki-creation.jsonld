@@ -1,0 +1,76 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/21",
+  "@type": "http://schema.org/GroceryStore",
+  "name": "Saki Cr\u00e9ation",
+  "address": {
+    "@id": "/api/addresses/236",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.217317,
+      "longitude": -1.5520165
+    },
+    "streetAddress": "23 Rue de Verdun, Nantes, France",
+    "telephone": "+33240471050",
+    "name": "Saki Cr\u00e9ation"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "08:30",
+      "closes": "12:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "15:30",
+      "closes": "18:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersnantais.coopcycle.org/media/cache/restaurant_thumbnail/62/30/623047b345cd3.jpg",
+  "bannerImage": "https://lescoursiersnantais.coopcycle.org/placeholder/restaurant_banner/placeholders/qVRnKPrG7ZYr.jpg",
+  "sameAs": "https://www.facebook.com/SakiCreationPatisserie/",
+  "description": "P\u00e2tisserie, chocolaterie                       \"Pour plus de produits, merci de contacter la boutique au 02 40 47 10 50.\"",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersnantais.coopcycle.org/fr/store/21-saki-creation",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "6.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "1.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersnantais.coopcycle.org"
+  }
+}

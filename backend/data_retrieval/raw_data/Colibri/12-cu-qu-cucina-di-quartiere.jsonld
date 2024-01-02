@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/12",
+  "@type": "http://schema.org/Restaurant",
+  "name": "CU.QU. Cucina di Quartiere",
+  "address": {
+    "@id": "/api/addresses/199",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.8381193,
+      "longitude": 14.2476817
+    },
+    "streetAddress": "Vicoletto Berio, 12, Naples, Metropolitan City of Naples, Italy",
+    "telephone": "+3908119542933",
+    "name": "CU.QU. Cucina di Quartiere"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "00:30",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:30",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://colibri.coopcycle.org/media/cache/restaurant_thumbnail/63/bd/63bd35f26ecb3.jpg",
+  "sameAs": "https://www.cuqucucinadiquartiere.it",
+  "description": "Un luogo dedicato a chi desidera mangiare bene e gustare dei piatti preparati con amore e grande attenzione per le materie prime.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://colibri.coopcycle.org/fr/restaurant/12-cu-qu-cucina-di-quartiere",
+      "inLanguage": "it",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://colibri.coopcycle.org"
+  }
+}

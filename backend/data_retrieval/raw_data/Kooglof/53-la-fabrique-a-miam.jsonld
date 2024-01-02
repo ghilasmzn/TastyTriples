@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/53",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La Fabrique \u00e0 Miam \ud83c\udf55",
+  "address": {
+    "@id": "/api/addresses/26502",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.589709,
+      "longitude": 7.746172
+    },
+    "streetAddress": "10 Rue Gloxin, 67000 Strasbourg, France",
+    "telephone": "+33388240110",
+    "name": "La Fabrique \u00e0 Miam \ud83c\udf55"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Thursday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e171e494eb.jpeg",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e113bc7a85.jpg",
+  "sameAs": "http://www.lafabriqueamiam.fr/",
+  "description": "Livraison de pizza et repas casher \u00e0 Strasbourg et alentours !\r\n\r\nLa Fabrique \u00e0 Miam : restaurant casher de Pizzas, P\u00e2tes et Salades \u00e0 Strasbourg.\r\nVenez go\u00fbter \u00e0 nos produits tous faits MAISON, avec un large choix de plats v\u00e9g\u00e9tariens ou \u00e0 base de fromages ou de poissons.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/53-la-fabrique-a-miam",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/156",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Khora's last restaurant",
+  "address": {
+    "@id": "/api/addresses/39503",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.504444,
+      "longitude": 13.408867
+    },
+    "streetAddress": "Oranienstra\u00dfe 66, 10969 Berlin, Deutschland",
+    "telephone": "+491759920141",
+    "name": "Khora's last restaurant"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "00:00",
+      "closes": "23:59",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/62/a6/62a6fe47ec4fc.png",
+  "description": "Khora is closing, please check here for more detailed Information. Khora schlie\u00dft, bitte entnehmen Sie hier weitere Informationen.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/156-khora-s-last-restaurant",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "50.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

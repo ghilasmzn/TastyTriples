@@ -1,0 +1,51 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/32",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Bocal Gourmand by C\u00e9dric",
+  "address": {
+    "@id": "/api/addresses/5323",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 46.3189577,
+      "longitude": -0.4672185
+    },
+    "streetAddress": "15 Rue Saint-Symphorien, Niort, France",
+    "telephone": "+33769397889",
+    "name": "Le Bocal Gourmand by C\u00e9dric"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://niort.coopcycle.org/media/cache/restaurant_thumbnail/62/8c/628cdb4151569.jpg",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://niort.coopcycle.org/fr/restaurant/32-le-bocal-gourmand-by-cedric",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://niort.coopcycle.org"
+  }
+}

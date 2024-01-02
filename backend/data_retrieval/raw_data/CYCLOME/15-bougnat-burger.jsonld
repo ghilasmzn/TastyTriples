@@ -1,0 +1,70 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/15",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Bougnat Burger",
+  "address": {
+    "@id": "/api/addresses/3731",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.7739,
+      "longitude": 3.08563
+    },
+    "streetAddress": "10 Boulevard L\u00e9on Malfreyt, 63000 Clermont-Ferrand, France",
+    "telephone": "+33760120063",
+    "name": "Bougnat Burger"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:35",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/60/7d/607dafbd1acf9.JPG",
+  "sameAs": "https://www.bougnatburger.fr/",
+  "description": "Le Bougnat Burger propose depuis 2012 des burgers maison accompagn\u00e9s de frites maison et de salade, confectionn\u00e9s avec un maximum de produits locaux et r\u00e9gionaux. Le Saint Nectaire AOP, le Bleu d\u2019Auvergne AOP, le Cantal AOP, le Carr\u00e9 D'Aurillac AOP, Le Salers AOP, les Steacks Hach\u00e9s Charolais origine Grand Massif Central (France) sont ainsi la base principale des burgers.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://cyclome.coopcycle.org/fr/restaurant/15-bougnat-burger",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://cyclome.coopcycle.org"
+  }
+}

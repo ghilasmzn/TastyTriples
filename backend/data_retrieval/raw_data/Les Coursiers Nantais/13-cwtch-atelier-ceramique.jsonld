@@ -1,0 +1,49 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/13",
+  "@type": "http://schema.org/HobbyShop",
+  "name": "Cwtch Atelier C\u00e9ramique",
+  "address": {
+    "@id": "/api/addresses/144",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2180059,
+      "longitude": -1.5561861
+    },
+    "streetAddress": "24 Rue Armand Brossard, Nantes, France",
+    "telephone": "+33272022823",
+    "name": "Cwtch Atelier C\u00e9ramique"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "14:00",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersnantais.coopcycle.org/media/cache/restaurant_thumbnail/65/56/6556749e2c949.png",
+  "bannerImage": "https://lescoursiersnantais.coopcycle.org/placeholder/restaurant_banner/placeholders/qAM1GvDKY7wQ.jpg",
+  "sameAs": "https://cwtch-atelierceramique.fr/",
+  "description": "Atelier de peinture sur fa\u00efence.\r\nAvant toute commande, pour vous assurer qu'il y a du stock et vous permettre de choisir les couleurs \u00e0 appliquer sur les jolies fa\u00efences de Marion, merci de la contacter au 02 72 02 28 23 ou bien par mail : marion@cwtch-atelierceramique.fr.\r\n\r\n* Pour info : les photos donnent un aper\u00e7u des mod\u00e8les sur les 300 r\u00e9f\u00e9rences disponibles. \r\n\r\n** Voir avec Marion pour rendre le mat\u00e9riel apr\u00e8s avoir peint vos oeuvres (pots de peinture r\u00e9utilisables, fa\u00efences \u00e0 cuire, pinceaux si vous n'en avez pas et en avez demand\u00e9)",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersnantais.coopcycle.org/fr/store/13-cwtch-atelier-ceramique",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersnantais.coopcycle.org"
+  }
+}

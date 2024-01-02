@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/145",
+  "@type": "http://schema.org/Restaurant",
+  "name": "L'Instinct Gourmand * MIDI *",
+  "address": {
+    "@id": "/api/addresses/94999",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2171773,
+      "longitude": -1.555406
+    },
+    "streetAddress": "14 Rue Saint-L\u00e9onard, Nantes, France",
+    "telephone": "+33240474164",
+    "name": "L'Instinct Gourmand * MIDI *"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/63/9d/639d8a9b9bc82.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/63/9d/639d8a9b9bc82.jpg",
+  "sameAs": "http://linstinctgourmand.com/",
+  "description": "En plein c\u0153ur du centre historique de Nantes, l'Instinct Gourmand est l'endroit ou les gourmets aiment se retrouver pour partager un moment convivial avec des recettes vari\u00e9es et un menu du midi mis \u00e0 jour chaque semaine !\r\n\r\nRetrouvez leurs actualit\u00e9s tous les jours sur Instagram @restaurant_linstinct_gourmand & Facebook.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/145-l-instinct-gourmand-midi",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/13",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Calistro - Tortelli alla Piastra",
+  "address": {
+    "@id": "/api/addresses/412",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.7645,
+      "longitude": 11.2678
+    },
+    "streetAddress": "Lungarno Benvenuto Cellini 43 R, 50121 Firenze, Italia",
+    "telephone": "+390556812904",
+    "name": "Calistro - Tortelli alla Piastra"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:30",
+      "closes": "21:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/61/af/61afa746d93a6.jpg",
+  "description": "_**Ristorazione \"fast & casual\" che si ispira ai piatti tipici del Casentino rivisitati in chiave street food**_\r\n\r\n<span style=\"color:red\"> _**PROMO: per ordini con carrello dai 50\u20ac in su riceverete una birra (TOH o OTE) in omaggio!**_ </span>",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://robinfood.coopcycle.org/fr/restaurant/13-calistro-tortelli-alla-piastra",
+      "inLanguage": "it",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://robinfood.coopcycle.org"
+  }
+}

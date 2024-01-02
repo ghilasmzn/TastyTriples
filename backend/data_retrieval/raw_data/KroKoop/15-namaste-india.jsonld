@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/15",
+  "@type": "http://schema.org/Restaurant",
+  "name": "NAMASTE INDIA",
+  "address": {
+    "@id": "/api/addresses/772",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8364178,
+      "longitude": 4.3642136
+    },
+    "streetAddress": "6 Rue Notre Dame, N\u00eemes, France",
+    "telephone": "+33782861517",
+    "name": "NAMASTE INDIA"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:20",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:50",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/654958a4cbf29.png",
+  "description": "Namaste India est une invitation dans les saveurs culinaires du nord de l'Inde. \r\n\r\nGurdeep Singh, ancien cuisinier du restaurant Ganesh et propri\u00e9taire de l'\u00e9tablissement, vient nous livrer toute son histoire et son savoir-faire dans ce nouvel espace typiquement d\u00e9cor\u00e9 rue Notre-Dame.\r\n\r\nDes Samossas au Poulet Tikka Massala, toujours accompagn\u00e9 de riz, vous retrouverez tous les plats traditionnels de cette r\u00e9gion du monde, riche par sa culture (et ses nombreuses \u00e9pices).",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/15-namaste-india",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/48",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Arkupe",
+  "address": {
+    "@id": "/api/addresses/58645",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8470223,
+      "longitude": -2.6722885
+    },
+    "streetAddress": "Mateo Benigno de Moraza Kalea, 13, Vitoria-Gasteiz, Espa\u00f1a",
+    "telephone": "+34945230080",
+    "name": "Arkupe"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:45",
+      "closes": "15:31",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:05",
+      "closes": "23:15",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:05",
+      "closes": "22:45",
+      "dayOfWeek": [
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/61/49/61498d9c68555.jpg",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc04b2be40308700728.jpg",
+  "sameAs": "https://www.restaurantearkupe.com/",
+  "description": "Comida tradicional, de calidad y con un toque muy personal.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/restaurant/48-arkupe",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/78",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Mon shop \u00e0 cookies [restaurant] \ud83c\udf6a\ud83d\ude0b",
+  "address": {
+    "@id": "/api/addresses/8385",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6095776,
+      "longitude": 3.8772734
+    },
+    "streetAddress": "5 Rue de la Vieille, Montpellier, France",
+    "telephone": "+33630600925",
+    "name": "Mon shop \u00e0 cookies [restaurant] \ud83c\udf6a\ud83d\ude0b"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/5f/a9/5fa94b3d7527d.jpg",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/70/65709c4bf001c.png",
+  "description": "Cookies maison (commande livr\u00e9e \u00e0 l'heure d\u00e9sir\u00e9e entre 11h30 et 14h30)",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/78-mon-shop-a-cookies-restaurant",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

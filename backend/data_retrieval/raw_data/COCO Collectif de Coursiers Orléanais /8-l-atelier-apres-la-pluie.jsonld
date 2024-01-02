@@ -1,0 +1,81 @@
+{
+  "@context": "http://schema.org",
+  "@id": "/api/restaurants/8",
+  "@type": "http://schema.org/Florist",
+  "name": "L'Atelier Apr\u00e8s la Pluie",
+  "address": {
+    "@id": "/api/addresses/20",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.9012,
+      "longitude": 1.90586
+    },
+    "streetAddress": "7 Place de la R\u00e9publique, 45000 Orl\u00e9ans, France",
+    "telephone": "+33238880150",
+    "name": "L'Atelier Apr\u00e8s la Pluie"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "14:00",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Monday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "13:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://le-rayon-vert.coopcycle.org/media/cache/restaurant_thumbnail/60/48/6048e0f6b48e4.jpg",
+  "sameAs": "http://www.atelierapreslapluie.fr/",
+  "description": "Artisan fleuriste depuis 2002 dans le centre ancien d'Orl\u00e9ans.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://le-rayon-vert.coopcycle.org/fr/store/8-l-atelier-apres-la-pluie",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "10.90",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "30.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://le-rayon-vert.coopcycle.org"
+  }
+}
