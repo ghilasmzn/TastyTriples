@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/23",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/23",
   "@type": "http://schema.org/Winery",
   "name": "La Cave de Bacchus",
   "address": {
-    "@id": "/api/addresses/1894",
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/1894",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

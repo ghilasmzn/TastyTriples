@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/44",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/44",
   "@type": "http://schema.org/Restaurant",
   "name": "Atelier Focaccia",
   "address": {
-    "@id": "/api/addresses/4875",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/4875",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

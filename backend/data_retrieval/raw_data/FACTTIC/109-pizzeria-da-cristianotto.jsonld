@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/109",
+  "@id": "https://demo.coopcycle.org/api/restaurants/109",
   "@type": "http://schema.org/Restaurant",
   "name": "Pizzeria da Cristianotto",
   "address": {
-    "@id": "/api/addresses/12787",
+    "@id": "https://demo.coopcycle.org/api/addresses/12787",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/38",
+  "@id": "https://biclooo.coopcycle.org/api/restaurants/38",
   "@type": "http://schema.org/BikeStore",
   "name": "Biclooo Service",
   "address": {
-    "@id": "/api/addresses/3971",
+    "@id": "https://biclooo.coopcycle.org/api/addresses/3971",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

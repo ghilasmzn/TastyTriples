@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/35",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/35",
   "@type": "http://schema.org/Restaurant",
   "name": "Kansa\u00ef Sushi \ud83c\udf63",
   "address": {
-    "@id": "/api/addresses/16091",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/16091",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

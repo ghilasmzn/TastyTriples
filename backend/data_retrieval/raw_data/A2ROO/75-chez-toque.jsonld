@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/75",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/75",
   "@type": "http://schema.org/Restaurant",
   "name": "Chez Toque",
   "address": {
-    "@id": "/api/addresses/18542",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/18542",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

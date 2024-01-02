@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/53",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/53",
   "@type": "http://schema.org/Restaurant",
   "name": "La Fabrique \u00e0 Miam \ud83c\udf55",
   "address": {
-    "@id": "/api/addresses/26502",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/26502",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

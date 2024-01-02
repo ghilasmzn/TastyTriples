@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/69",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/69",
   "@type": "http://schema.org/Restaurant",
   "name": "Chez Mes Soeurs - Musette",
   "address": {
-    "@id": "/api/addresses/13236",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/13236",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

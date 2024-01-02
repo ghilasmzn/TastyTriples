@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/64",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/64",
   "@type": "http://schema.org/Restaurant",
   "name": "Mano Lenta",
   "address": {
-    "@id": "/api/addresses/88329",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/88329",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

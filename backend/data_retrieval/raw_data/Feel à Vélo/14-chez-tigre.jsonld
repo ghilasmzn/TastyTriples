@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/14",
+  "@id": "https://feelavelo.coopcycle.org/api/restaurants/14",
   "@type": "http://schema.org/Restaurant",
   "name": "CHEZ TIGRE",
   "address": {
-    "@id": "/api/addresses/777",
+    "@id": "https://feelavelo.coopcycle.org/api/addresses/777",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

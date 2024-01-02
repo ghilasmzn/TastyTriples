@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/206",
+  "@id": "https://khora.berlin/api/restaurants/206",
   "@type": "http://schema.org/Restaurant",
   "name": "Tondo - Urban Food",
   "address": {
-    "@id": "/api/addresses/88167",
+    "@id": "https://khora.berlin/api/addresses/88167",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

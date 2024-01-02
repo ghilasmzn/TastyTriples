@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/3",
+  "@id": "https://envici.coopcycle.org/api/restaurants/3",
   "@type": "http://schema.org/Restaurant",
   "name": "BERENJENA -CENTRO-",
   "address": {
-    "@id": "/api/addresses/64",
+    "@id": "https://envici.coopcycle.org/api/addresses/64",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

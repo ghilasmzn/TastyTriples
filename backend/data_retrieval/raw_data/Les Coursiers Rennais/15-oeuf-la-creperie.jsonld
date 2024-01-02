@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/15",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/15",
   "@type": "http://schema.org/Restaurant",
   "name": "OEUF La Cr\u00eaperie",
   "address": {
-    "@id": "/api/addresses/1202",
+    "@id": "https://lcr.coopcycle.org/api/addresses/1202",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

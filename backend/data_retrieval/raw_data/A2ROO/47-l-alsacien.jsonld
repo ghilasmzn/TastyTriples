@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/47",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/47",
   "@type": "http://schema.org/Restaurant",
   "name": "L'Alsacien",
   "address": {
-    "@id": "/api/addresses/5720",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/5720",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

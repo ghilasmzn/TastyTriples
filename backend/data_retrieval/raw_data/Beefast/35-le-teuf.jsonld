@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/35",
+  "@id": "https://beefast.coopcycle.org/api/restaurants/35",
   "@type": "http://schema.org/Restaurant",
   "name": "Le Teuf",
   "address": {
-    "@id": "/api/addresses/10908",
+    "@id": "https://beefast.coopcycle.org/api/addresses/10908",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

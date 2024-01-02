@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/13",
+  "@id": "https://cyclome.coopcycle.org/api/restaurants/13",
   "@type": "http://schema.org/Restaurant",
   "name": "POKAWA",
   "address": {
-    "@id": "/api/addresses/1743",
+    "@id": "https://cyclome.coopcycle.org/api/addresses/1743",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

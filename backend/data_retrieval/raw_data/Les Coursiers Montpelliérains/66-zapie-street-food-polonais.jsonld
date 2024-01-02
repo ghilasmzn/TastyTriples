@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/66",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/66",
   "@type": "http://schema.org/Restaurant",
   "name": "ZAPIE Street Food Polonais \ud83e\udd5f",
   "address": {
-    "@id": "/api/addresses/5566",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/5566",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/17",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/17",
   "@type": "http://schema.org/Restaurant",
   "name": "Le Petit Faubourg \ud83c\udf54",
   "address": {
-    "@id": "/api/addresses/3663",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/3663",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

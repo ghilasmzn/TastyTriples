@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/8",
+  "@id": "https://initiative-emploi.coopcycle.org/api/restaurants/8",
   "@type": "http://schema.org/Restaurant",
   "name": "Le Neuf de Tha\u00ef",
   "address": {
-    "@id": "/api/addresses/29",
+    "@id": "https://initiative-emploi.coopcycle.org/api/addresses/29",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

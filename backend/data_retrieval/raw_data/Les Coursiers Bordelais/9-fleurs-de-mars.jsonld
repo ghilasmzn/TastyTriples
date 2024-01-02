@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/9",
+  "@id": "https://coursiersbordelais.coopcycle.org/api/restaurants/9",
   "@type": "http://schema.org/Florist",
   "name": "Fleurs de Mars",
   "address": {
-    "@id": "/api/addresses/4491",
+    "@id": "https://coursiersbordelais.coopcycle.org/api/addresses/4491",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

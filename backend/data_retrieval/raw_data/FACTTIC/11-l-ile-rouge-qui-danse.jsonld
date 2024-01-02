@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/11",
+  "@id": "https://demo.coopcycle.org/api/restaurants/11",
   "@type": "http://schema.org/FastFoodRestaurant",
   "name": "L'\u00eele rouge qui danse",
   "address": {
-    "@id": "/api/addresses/61",
+    "@id": "https://demo.coopcycle.org/api/addresses/61",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/22",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/22",
   "@type": "http://schema.org/Restaurant",
   "name": "SIGNARE",
   "address": {
-    "@id": "/api/addresses/1368",
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/1368",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/24",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/24",
   "@type": "http://schema.org/Restaurant",
   "name": "Peck & Co",
   "address": {
-    "@id": "/api/addresses/1897",
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/1897",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

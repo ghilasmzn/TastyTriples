@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/70",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/70",
   "@type": "http://schema.org/Restaurant",
   "name": "Himalaya Tandoori",
   "address": {
-    "@id": "/api/addresses/95418",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/95418",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

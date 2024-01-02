@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/71",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/71",
   "@type": "http://schema.org/Restaurant",
   "name": "Ap\u00e9ro and Co",
   "address": {
-    "@id": "/api/addresses/13579",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/13579",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

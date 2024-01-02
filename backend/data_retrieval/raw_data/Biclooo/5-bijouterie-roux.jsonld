@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/5",
+  "@id": "https://biclooo.coopcycle.org/api/restaurants/5",
   "@type": "http://schema.org/JewelryStore",
   "name": "Bijouterie Roux",
   "address": {
-    "@id": "/api/addresses/30",
+    "@id": "https://biclooo.coopcycle.org/api/addresses/30",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

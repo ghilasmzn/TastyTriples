@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/80",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/80",
   "@type": "http://schema.org/Restaurant",
   "name": "Aporpan",
   "address": {
-    "@id": "/api/addresses/112914",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/112914",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

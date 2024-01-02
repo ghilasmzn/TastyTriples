@@ -1,0 +1,50 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://khora.berlin/api/restaurants/193",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Masha's Bagels",
+  "address": {
+    "@id": "https://khora.berlin/api/addresses/81170",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.491189,
+      "longitude": 13.44973
+    },
+    "streetAddress": "Bouch\u00e9stra\u00dfe 15, 12435 Berlin, Deutschland",
+    "telephone": "+493050597960",
+    "name": "Masha's Bagels"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/61/97/6197629992687.jpeg",
+  "sameAs": "https://www.mashasbagels.com/",
+  "description": "Hand-rolled, New York-style bagels + sandwiches, salads and soups. \r\n\r\nMasha's Bagels & Delicatessen is a modern deli and bagel shop located in Berlin's Alt-Treptow. We bake our hand-rolled, housemade bagels daily and offer a menu inspired by the Jewish delis of New York City. Try our house-cured fish, breakfast and deli sandwiches, soups and salads.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/193-masha-s-bagels",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

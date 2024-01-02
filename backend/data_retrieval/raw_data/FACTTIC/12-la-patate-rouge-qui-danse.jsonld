@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/12",
+  "@id": "https://demo.coopcycle.org/api/restaurants/12",
   "@type": "http://schema.org/Restaurant",
   "name": "La patate rouge qui danse",
   "address": {
-    "@id": "/api/addresses/62",
+    "@id": "https://demo.coopcycle.org/api/addresses/62",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

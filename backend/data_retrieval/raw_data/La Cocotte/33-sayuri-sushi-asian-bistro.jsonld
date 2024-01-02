@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://la-cocotte.coopcycle.org/api/restaurants/33",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Sayuri Sushi Asian Bistro",
+  "address": {
+    "@id": "https://la-cocotte.coopcycle.org/api/addresses/1823",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.107933,
+      "longitude": 5.939741
+    },
+    "streetAddress": "387 Littoral Fr\u00e9d\u00e9ric Mistral, 83000 Toulon, France",
+    "telephone": "+33494465985",
+    "name": "Sayuri Sushi Asian Bistro"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://la-cocotte.coopcycle.org/media/cache/restaurant_thumbnail/60/53/6053914172dea.jpeg",
+  "sameAs": "https://sushi-sayuri.fr/",
+  "description": "Ambiance zen et face \u00e0 la mer. Sayuri Sushi vous propose deux ambiances : la cuisine japonaise, puis la cuisine fran\u00e7aise.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://la-cocotte.coopcycle.org/fr/restaurant/33-sayuri-sushi-asian-bistro",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "4.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://la-cocotte.coopcycle.org"
+  }
+}

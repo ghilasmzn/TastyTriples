@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/3",
+  "@id": "https://colibri.coopcycle.org/api/restaurants/3",
   "@type": "http://schema.org/Restaurant",
   "name": "Past\u00e9NA",
   "address": {
-    "@id": "/api/addresses/5",
+    "@id": "https://colibri.coopcycle.org/api/addresses/5",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

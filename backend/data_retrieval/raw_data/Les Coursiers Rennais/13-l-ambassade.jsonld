@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/13",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/13",
   "@type": "http://schema.org/Restaurant",
   "name": "L'Ambassade",
   "address": {
-    "@id": "/api/addresses/994",
+    "@id": "https://lcr.coopcycle.org/api/addresses/994",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

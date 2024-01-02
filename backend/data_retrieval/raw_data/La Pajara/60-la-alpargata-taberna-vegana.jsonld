@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/60",
+  "@id": "https://lapajara.coopcycle.org/api/restaurants/60",
   "@type": "http://schema.org/Restaurant",
   "name": "La Alpargata - Taberna Vegana",
   "address": {
-    "@id": "/api/addresses/6748",
+    "@id": "https://lapajara.coopcycle.org/api/addresses/6748",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

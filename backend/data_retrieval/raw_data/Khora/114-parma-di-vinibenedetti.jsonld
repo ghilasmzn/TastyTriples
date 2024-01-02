@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/114",
+  "@id": "https://khora.berlin/api/restaurants/114",
   "@type": "http://schema.org/Restaurant",
   "name": "Parma di Vinibenedetti",
   "address": {
-    "@id": "/api/addresses/25440",
+    "@id": "https://khora.berlin/api/addresses/25440",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

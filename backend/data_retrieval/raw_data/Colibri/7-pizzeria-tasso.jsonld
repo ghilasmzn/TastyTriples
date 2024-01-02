@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/7",
+  "@id": "https://colibri.coopcycle.org/api/restaurants/7",
   "@type": "http://schema.org/Restaurant",
   "name": "Pizzeria Tasso",
   "address": {
-    "@id": "/api/addresses/10",
+    "@id": "https://colibri.coopcycle.org/api/addresses/10",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

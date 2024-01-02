@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/26",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/26",
   "@type": "http://schema.org/Restaurant",
   "name": "Cibeles",
   "address": {
-    "@id": "/api/addresses/10686",
+    "@id": "https://lcr.coopcycle.org/api/addresses/10686",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

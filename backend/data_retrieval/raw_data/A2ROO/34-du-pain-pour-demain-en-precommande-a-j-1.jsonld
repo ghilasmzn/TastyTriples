@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/34",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/34",
   "@type": "http://schema.org/Restaurant",
   "name": "Du Pain Pour Demain (en pr\u00e9commande \u00e0 J+1)",
   "address": {
-    "@id": "/api/addresses/3379",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/3379",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

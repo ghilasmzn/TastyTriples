@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/9",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/9",
   "@type": "http://schema.org/Restaurant",
   "name": "Le Coucou Rennais",
   "address": {
-    "@id": "/api/addresses/508",
+    "@id": "https://lcr.coopcycle.org/api/addresses/508",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

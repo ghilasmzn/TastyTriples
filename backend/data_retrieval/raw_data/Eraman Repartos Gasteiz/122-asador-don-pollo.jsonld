@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/122",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/122",
   "@type": "http://schema.org/Restaurant",
   "name": "Asador Don Pollo",
   "address": {
-    "@id": "/api/addresses/212510",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/212510",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

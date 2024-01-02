@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/106",
+  "@id": "https://demo.coopcycle.org/api/restaurants/106",
   "@type": "http://schema.org/Restaurant",
   "name": "ORIGINE PIZZA",
   "address": {
-    "@id": "/api/addresses/12524",
+    "@id": "https://demo.coopcycle.org/api/addresses/12524",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

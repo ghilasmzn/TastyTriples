@@ -1,0 +1,51 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/75",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Glaz \ud83c\udf31",
+  "address": {
+    "@id": "https://kooglof.coopcycle.org/api/addresses/37691",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5785614,
+      "longitude": 7.7589346
+    },
+    "streetAddress": "68 Rue de Zurich, 67000 Strasbourg, France",
+    "telephone": "+33695760882",
+    "name": "Glaz \ud83c\udf31"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e16ca5cdcb.jpeg",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e0ff4691f8.JPG",
+  "sameAs": "https://www.instagram.com/glazstrasbourg/?hl=fr",
+  "description": "Glaz : Une cuisine color\u00e9e et vivante \ud83c\udf31\r\n\r\nUne carte courte et locale avec des plats et des desserts stylis\u00e9s qui changent tous les jours \r\n\r\nDes emballages en verre consign\u00e9 et/ou en carton kraft \u267b\ufe0f\r\n\r\nLivraison de repas \u00e0 Strasbourg et alentours !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/75-glaz",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

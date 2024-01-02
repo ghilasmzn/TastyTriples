@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/13",
+  "@id": "https://le-rayon-vert.coopcycle.org/api/restaurants/13",
   "@type": "http://schema.org/LiquorStore",
   "name": "Glou Glou",
   "address": {
-    "@id": "/api/addresses/39",
+    "@id": "https://le-rayon-vert.coopcycle.org/api/addresses/39",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

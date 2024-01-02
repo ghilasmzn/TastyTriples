@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/8",
+  "@id": "https://le-rayon-vert.coopcycle.org/api/restaurants/8",
   "@type": "http://schema.org/Florist",
   "name": "L'Atelier Apr\u00e8s la Pluie",
   "address": {
-    "@id": "/api/addresses/20",
+    "@id": "https://le-rayon-vert.coopcycle.org/api/addresses/20",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

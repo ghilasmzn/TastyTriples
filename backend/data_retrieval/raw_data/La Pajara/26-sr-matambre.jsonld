@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/26",
+  "@id": "https://lapajara.coopcycle.org/api/restaurants/26",
   "@type": "http://schema.org/Restaurant",
   "name": "Sr. Matambre",
   "address": {
-    "@id": "/api/addresses/1990",
+    "@id": "https://lapajara.coopcycle.org/api/addresses/1990",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

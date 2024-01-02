@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/1",
+  "@id": "https://colibri.coopcycle.org/api/restaurants/1",
   "@type": "http://schema.org/Restaurant",
   "name": "Zazzu",
   "address": {
-    "@id": "/api/addresses/1",
+    "@id": "https://colibri.coopcycle.org/api/addresses/1",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

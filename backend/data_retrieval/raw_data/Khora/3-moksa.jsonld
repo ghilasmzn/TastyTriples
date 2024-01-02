@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/3",
+  "@id": "https://khora.berlin/api/restaurants/3",
   "@type": "http://schema.org/Restaurant",
   "name": "Moksa",
   "address": {
-    "@id": "/api/addresses/5",
+    "@id": "https://khora.berlin/api/addresses/5",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

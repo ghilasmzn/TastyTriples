@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/6",
+  "@id": "https://coursiers-metz.coopcycle.org/api/restaurants/6",
   "@type": "http://schema.org/Restaurant",
   "name": "Mauricette Traiteur",
   "address": {
-    "@id": "/api/addresses/235",
+    "@id": "https://coursiers-metz.coopcycle.org/api/addresses/235",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

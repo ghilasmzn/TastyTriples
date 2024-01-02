@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/4",
+  "@id": "https://khora.berlin/api/restaurants/4",
   "@type": "http://schema.org/Restaurant",
   "name": "Com A",
   "address": {
-    "@id": "/api/addresses/8",
+    "@id": "https://khora.berlin/api/addresses/8",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

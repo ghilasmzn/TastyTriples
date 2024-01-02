@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/4",
+  "@id": "https://biclooo.coopcycle.org/api/restaurants/4",
   "@type": "http://schema.org/LiquorStore",
   "name": "Vins Falgui\u00e8res",
   "address": {
-    "@id": "/api/addresses/24",
+    "@id": "https://biclooo.coopcycle.org/api/addresses/24",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

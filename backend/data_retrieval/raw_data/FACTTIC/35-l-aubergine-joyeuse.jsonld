@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/35",
+  "@id": "https://demo.coopcycle.org/api/restaurants/35",
   "@type": "http://schema.org/Restaurant",
   "name": "L'aubergine joyeuse",
   "address": {
-    "@id": "/api/addresses/85",
+    "@id": "https://demo.coopcycle.org/api/addresses/85",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/12",
+  "@id": "https://colibri.coopcycle.org/api/restaurants/12",
   "@type": "http://schema.org/Restaurant",
   "name": "CU.QU. Cucina di Quartiere",
   "address": {
-    "@id": "/api/addresses/199",
+    "@id": "https://colibri.coopcycle.org/api/addresses/199",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

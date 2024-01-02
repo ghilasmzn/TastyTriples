@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/78",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/78",
   "@type": "http://schema.org/Restaurant",
   "name": "Zurigo \ud83c\udf55",
   "address": {
-    "@id": "/api/addresses/40922",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/40922",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

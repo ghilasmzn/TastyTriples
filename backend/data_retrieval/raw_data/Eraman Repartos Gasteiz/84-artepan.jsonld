@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/84",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/84",
   "@type": "http://schema.org/Restaurant",
   "name": "Artepan",
   "address": {
-    "@id": "/api/addresses/113116",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/113116",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

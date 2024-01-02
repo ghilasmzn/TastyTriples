@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/56",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/56",
   "@type": "http://schema.org/Restaurant",
   "name": "Akady",
   "address": {
-    "@id": "/api/addresses/44367",
+    "@id": "https://lcr.coopcycle.org/api/addresses/44367",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

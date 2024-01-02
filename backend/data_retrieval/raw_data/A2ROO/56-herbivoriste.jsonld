@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/56",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/56",
   "@type": "http://schema.org/Restaurant",
   "name": "Herbivoriste",
   "address": {
-    "@id": "/api/addresses/9455",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/9455",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

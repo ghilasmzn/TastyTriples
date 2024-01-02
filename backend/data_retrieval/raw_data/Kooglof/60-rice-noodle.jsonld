@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/60",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/60",
   "@type": "http://schema.org/Restaurant",
   "name": "Rice Noodle \ud83e\udd61\ud83c\udff7\ufe0f",
   "address": {
-    "@id": "/api/addresses/31308",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/31308",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

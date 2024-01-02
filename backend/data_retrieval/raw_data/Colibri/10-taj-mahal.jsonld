@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/10",
+  "@id": "https://colibri.coopcycle.org/api/restaurants/10",
   "@type": "http://schema.org/Restaurant",
   "name": "Taj Mahal",
   "address": {
-    "@id": "/api/addresses/106",
+    "@id": "https://colibri.coopcycle.org/api/addresses/106",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

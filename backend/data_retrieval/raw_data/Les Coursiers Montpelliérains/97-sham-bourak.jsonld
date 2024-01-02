@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/97",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/97",
   "@type": "http://schema.org/Restaurant",
   "name": "SHAM BOURAK \ud83c\uddf8\ud83c\uddfe\ud83c\udf2f",
   "address": {
-    "@id": "/api/addresses/13786",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/13786",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

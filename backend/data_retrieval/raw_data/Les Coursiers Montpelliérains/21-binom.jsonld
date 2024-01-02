@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/21",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Bin\u00f4m \ud83c\udf72",
+  "address": {
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/951",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6110569,
+      "longitude": 3.877673
+    },
+    "streetAddress": "1 Rue Rosset, Montpellier, France",
+    "telephone": "+33986277838",
+    "name": "Bin\u00f4m \ud83c\udf72"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/62/99/629911b1476fd.jpg",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6e/656e4e8fd5d69.png",
+  "sameAs": "https://www.facebook.com/binommontpellier",
+  "description": "# Cuisine de Bin\u00f4m \ud83c\udf72\r\nBin\u00f4m propose une cuisine saine et naturelle, agr\u00e9ment\u00e9e d'une touche d'exotisme, \u00e9labor\u00e9e \u00e0 partir des arrivages de saison. Notre concept \"traiteur raffin\u00e9\" vous invite \u00e0 savourer des plats faits maison, incluant des options v\u00e9g\u00e9tariennes et des p\u00e2tisseries sans gluten. D\u00e9couvrez-en plus sur notre [site officiel](https://binommontpellier.fr/fr).",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/21-binom",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

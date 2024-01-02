@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/21",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/21",
   "@type": "http://schema.org/GroceryStore",
   "name": "Brasserie Bendorf \ud83c\udf7a",
   "address": {
-    "@id": "/api/addresses/6272",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/6272",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

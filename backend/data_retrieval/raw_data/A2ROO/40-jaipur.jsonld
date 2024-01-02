@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/40",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/40",
   "@type": "http://schema.org/Restaurant",
   "name": "Ja\u00efpur",
   "address": {
-    "@id": "/api/addresses/4020",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/4020",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

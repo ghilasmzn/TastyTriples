@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/124",
+  "@id": "https://demo.coopcycle.org/api/restaurants/124",
   "@type": "http://schema.org/Restaurant",
   "name": "La pizza de don cangrejo",
   "address": {
-    "@id": "/api/addresses/14271",
+    "@id": "https://demo.coopcycle.org/api/addresses/14271",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

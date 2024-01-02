@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/21",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/21",
   "@type": "http://schema.org/Restaurant",
   "name": "LE BIOREK BRESTOIS",
   "address": {
-    "@id": "/api/addresses/723",
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/723",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

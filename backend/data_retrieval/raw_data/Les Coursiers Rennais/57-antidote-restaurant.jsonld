@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/57",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/57",
   "@type": "http://schema.org/Restaurant",
   "name": "Antidote Restaurant",
   "address": {
-    "@id": "/api/addresses/45432",
+    "@id": "https://lcr.coopcycle.org/api/addresses/45432",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

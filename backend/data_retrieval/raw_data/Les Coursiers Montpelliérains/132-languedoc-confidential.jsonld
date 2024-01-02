@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/132",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/132",
   "@type": "http://schema.org/Winery",
   "name": "Languedoc Confidential",
   "address": {
-    "@id": "/api/addresses/36071",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/36071",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

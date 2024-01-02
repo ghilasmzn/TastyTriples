@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/89",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/89",
   "@type": "http://schema.org/Restaurant",
   "name": "Krispy's \ud83c\udf57Burger & poulet frit\ud83c\udf54",
   "address": {
-    "@id": "/api/addresses/9466",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/9466",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/15",
+  "@id": "https://biclooo.coopcycle.org/api/restaurants/15",
   "@type": "http://schema.org/GroceryStore",
   "name": "Caf\u00e9 Litha",
   "address": {
-    "@id": "/api/addresses/507",
+    "@id": "https://biclooo.coopcycle.org/api/addresses/507",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

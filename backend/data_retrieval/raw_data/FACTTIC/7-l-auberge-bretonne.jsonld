@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/7",
+  "@id": "https://demo.coopcycle.org/api/restaurants/7",
   "@type": "http://schema.org/Restaurant",
   "name": "L'auberge bretonne",
   "address": {
-    "@id": "/api/addresses/57",
+    "@id": "https://demo.coopcycle.org/api/addresses/57",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

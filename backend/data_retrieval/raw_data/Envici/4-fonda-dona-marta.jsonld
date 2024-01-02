@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/4",
+  "@id": "https://envici.coopcycle.org/api/restaurants/4",
   "@type": "http://schema.org/Restaurant",
   "name": "Fonda Do\u00f1a Marta",
   "address": {
-    "@id": "/api/addresses/344",
+    "@id": "https://envici.coopcycle.org/api/addresses/344",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

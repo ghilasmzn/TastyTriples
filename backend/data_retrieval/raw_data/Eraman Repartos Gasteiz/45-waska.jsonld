@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/45",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/45",
   "@type": "http://schema.org/Restaurant",
   "name": "Waska",
   "address": {
-    "@id": "/api/addresses/55151",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/55151",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

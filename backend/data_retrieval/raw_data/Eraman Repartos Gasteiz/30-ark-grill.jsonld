@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/30",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/30",
   "@type": "http://schema.org/Restaurant",
   "name": "Ark Grill",
   "address": {
-    "@id": "/api/addresses/3481",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/3481",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

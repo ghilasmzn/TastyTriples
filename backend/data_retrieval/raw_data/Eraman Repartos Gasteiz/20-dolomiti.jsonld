@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/20",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/20",
   "@type": "http://schema.org/Restaurant",
   "name": "Dolomiti",
   "address": {
-    "@id": "/api/addresses/948",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/948",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

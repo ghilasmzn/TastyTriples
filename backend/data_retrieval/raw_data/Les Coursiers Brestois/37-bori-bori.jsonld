@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/37",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/37",
   "@type": "http://schema.org/Restaurant",
   "name": "Bori Bori",
   "address": {
-    "@id": "/api/addresses/8919",
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/8919",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

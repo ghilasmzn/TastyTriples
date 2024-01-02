@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/7",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/7",
   "@type": "http://schema.org/Restaurant",
   "name": "Chawp Shop Big",
   "address": {
-    "@id": "/api/addresses/84",
+    "@id": "https://lcr.coopcycle.org/api/addresses/84",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

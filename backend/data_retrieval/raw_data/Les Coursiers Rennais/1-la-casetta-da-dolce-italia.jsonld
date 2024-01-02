@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/1",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/1",
   "@type": "http://schema.org/Restaurant",
   "name": "La Casetta da Dolce Italia",
   "address": {
-    "@id": "/api/addresses/2",
+    "@id": "https://lcr.coopcycle.org/api/addresses/2",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

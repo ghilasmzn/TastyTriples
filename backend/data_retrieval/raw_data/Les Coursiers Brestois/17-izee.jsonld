@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/17",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/17",
   "@type": "http://schema.org/Restaurant",
   "name": "IZEE",
   "address": {
-    "@id": "/api/addresses/416",
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/416",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

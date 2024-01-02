@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/71",
+  "@id": "https://lapajara.coopcycle.org/api/restaurants/71",
   "@type": "http://schema.org/Restaurant",
   "name": "Mad Mad Vegan Chueca",
   "address": {
-    "@id": "/api/addresses/8632",
+    "@id": "https://lapajara.coopcycle.org/api/addresses/8632",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

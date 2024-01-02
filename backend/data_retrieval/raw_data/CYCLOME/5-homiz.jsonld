@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/5",
+  "@id": "https://cyclome.coopcycle.org/api/restaurants/5",
   "@type": "http://schema.org/Restaurant",
   "name": "Homiz",
   "address": {
-    "@id": "/api/addresses/199",
+    "@id": "https://cyclome.coopcycle.org/api/addresses/199",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

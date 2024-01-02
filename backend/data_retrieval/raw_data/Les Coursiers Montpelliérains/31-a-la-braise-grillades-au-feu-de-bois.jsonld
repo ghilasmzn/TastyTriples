@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/31",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/31",
   "@type": "http://schema.org/Restaurant",
   "name": "\u00c0 la braise\ud83e\udd69Grillades au feu de bois\ud83c\udf56",
   "address": {
-    "@id": "/api/addresses/2115",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/2115",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

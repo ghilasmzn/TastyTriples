@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/37",
+  "@id": "https://lescoursiersnanceiens.coopcycle.org/api/restaurants/37",
   "@type": "http://schema.org/Restaurant",
   "name": "S\u00e8ves",
   "address": {
-    "@id": "/api/addresses/1231",
+    "@id": "https://lescoursiersnanceiens.coopcycle.org/api/addresses/1231",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

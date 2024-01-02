@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/33",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/33",
   "@type": "http://schema.org/Restaurant",
   "name": "Ty Pietro",
   "address": {
-    "@id": "/api/addresses/5362",
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/5362",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

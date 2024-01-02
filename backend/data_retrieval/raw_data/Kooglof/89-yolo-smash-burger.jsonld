@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/89",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/89",
   "@type": "http://schema.org/Restaurant",
   "name": "Yolo Smash Burger \ud83c\udf54",
   "address": {
-    "@id": "/api/addresses/47896",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/47896",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

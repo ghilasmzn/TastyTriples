@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/47",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/47",
   "@type": "http://schema.org/Restaurant",
   "name": "Quinoa",
   "address": {
-    "@id": "/api/addresses/58395",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/58395",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

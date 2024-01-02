@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/81",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/81",
   "@type": "http://schema.org/Restaurant",
   "name": "Harmonie Bowl & Juice - Midi \ud83c\udf31\ud83c\udff7\ufe0f",
   "address": {
-    "@id": "/api/addresses/41938",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/41938",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

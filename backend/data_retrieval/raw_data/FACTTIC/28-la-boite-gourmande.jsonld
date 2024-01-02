@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/28",
+  "@id": "https://demo.coopcycle.org/api/restaurants/28",
   "@type": "http://schema.org/Restaurant",
   "name": "La bo\u00eete gourmande",
   "address": {
-    "@id": "/api/addresses/78",
+    "@id": "https://demo.coopcycle.org/api/addresses/78",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

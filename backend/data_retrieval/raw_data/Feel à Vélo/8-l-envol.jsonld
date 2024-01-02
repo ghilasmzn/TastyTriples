@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/8",
+  "@id": "https://feelavelo.coopcycle.org/api/restaurants/8",
   "@type": "http://schema.org/Restaurant",
   "name": "L'Envol",
   "address": {
-    "@id": "/api/addresses/139",
+    "@id": "https://feelavelo.coopcycle.org/api/addresses/139",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

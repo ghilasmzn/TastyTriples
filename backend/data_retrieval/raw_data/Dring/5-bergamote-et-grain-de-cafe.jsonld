@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/5",
+  "@id": "https://initiative-emploi.coopcycle.org/api/restaurants/5",
   "@type": "http://schema.org/GroceryStore",
   "name": "Bergamote et grain de caf\u00e9",
   "address": {
-    "@id": "/api/addresses/15",
+    "@id": "https://initiative-emploi.coopcycle.org/api/addresses/15",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

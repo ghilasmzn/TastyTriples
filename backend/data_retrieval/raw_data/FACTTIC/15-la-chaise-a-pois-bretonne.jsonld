@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/15",
+  "@id": "https://demo.coopcycle.org/api/restaurants/15",
   "@type": "http://schema.org/Restaurant",
   "name": "La chaise \u00e0 pois bretonne",
   "address": {
-    "@id": "/api/addresses/65",
+    "@id": "https://demo.coopcycle.org/api/addresses/65",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

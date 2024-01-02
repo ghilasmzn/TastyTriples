@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/12",
+  "@id": "https://feelavelo.coopcycle.org/api/restaurants/12",
   "@type": "http://schema.org/Restaurant",
   "name": "PAIHIA KITCHEN",
   "address": {
-    "@id": "/api/addresses/563",
+    "@id": "https://feelavelo.coopcycle.org/api/addresses/563",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

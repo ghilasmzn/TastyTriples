@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/9",
+  "@id": "https://feelavelo.coopcycle.org/api/restaurants/9",
   "@type": "http://schema.org/Restaurant",
   "name": "Restaurant Croc Epi",
   "address": {
-    "@id": "/api/addresses/144",
+    "@id": "https://feelavelo.coopcycle.org/api/addresses/144",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

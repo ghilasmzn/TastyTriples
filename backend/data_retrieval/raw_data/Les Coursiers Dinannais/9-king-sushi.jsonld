@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/9",
+  "@id": "https://dinan.coopcycle.org/api/restaurants/9",
   "@type": "http://schema.org/Restaurant",
   "name": "King Sushi",
   "address": {
-    "@id": "/api/addresses/472",
+    "@id": "https://dinan.coopcycle.org/api/addresses/472",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

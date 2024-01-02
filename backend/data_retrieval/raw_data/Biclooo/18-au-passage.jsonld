@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/18",
+  "@id": "https://biclooo.coopcycle.org/api/restaurants/18",
   "@type": "http://schema.org/Restaurant",
   "name": "Au Passage",
   "address": {
-    "@id": "/api/addresses/1369",
+    "@id": "https://biclooo.coopcycle.org/api/addresses/1369",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

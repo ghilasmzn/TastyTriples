@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/31",
+  "@id": "https://lapajara.coopcycle.org/api/restaurants/31",
   "@type": "http://schema.org/Restaurant",
   "name": "Mo\u00f1etes",
   "address": {
-    "@id": "/api/addresses/2779",
+    "@id": "https://lapajara.coopcycle.org/api/addresses/2779",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

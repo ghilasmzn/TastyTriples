@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/61",
+  "@id": "https://lapajara.coopcycle.org/api/restaurants/61",
   "@type": "http://schema.org/Restaurant",
   "name": "Viva Chapata",
   "address": {
-    "@id": "/api/addresses/6754",
+    "@id": "https://lapajara.coopcycle.org/api/addresses/6754",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/130",
+  "@id": "https://demo.coopcycle.org/api/restaurants/130",
   "@type": "http://schema.org/Restaurant",
   "name": "Test de designer",
   "address": {
-    "@id": "/api/addresses/14990",
+    "@id": "https://demo.coopcycle.org/api/addresses/14990",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

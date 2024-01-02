@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/7",
+  "@id": "https://initiative-emploi.coopcycle.org/api/restaurants/7",
   "@type": "http://schema.org/Restaurant",
   "name": "Via Veneto",
   "address": {
-    "@id": "/api/addresses/17",
+    "@id": "https://initiative-emploi.coopcycle.org/api/addresses/17",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

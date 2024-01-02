@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/36",
+  "@id": "https://lescoursiersnanceiens.coopcycle.org/api/restaurants/36",
   "@type": "http://schema.org/Restaurant",
   "name": "Le Strasbourg",
   "address": {
-    "@id": "/api/addresses/875",
+    "@id": "https://lescoursiersnanceiens.coopcycle.org/api/addresses/875",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

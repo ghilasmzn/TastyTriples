@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/34",
+  "@id": "https://fast-and-curious.coopcycle.org/api/restaurants/34",
   "@type": "http://schema.org/Restaurant",
   "name": "La Fille de Seitan",
   "address": {
-    "@id": "/api/addresses/1529",
+    "@id": "https://fast-and-curious.coopcycle.org/api/addresses/1529",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/30",
+  "@id": "https://demo.coopcycle.org/api/restaurants/30",
   "@type": "http://schema.org/Restaurant",
   "name": "La table \u00e0 pois qui fume",
   "address": {
-    "@id": "/api/addresses/80",
+    "@id": "https://demo.coopcycle.org/api/addresses/80",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

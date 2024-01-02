@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/39",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/39",
   "@type": "http://schema.org/Restaurant",
   "name": "Yamyam Bistro Cor\u00e9en",
   "address": {
-    "@id": "/api/addresses/25911",
+    "@id": "https://lcr.coopcycle.org/api/addresses/25911",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

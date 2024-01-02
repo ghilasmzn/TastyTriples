@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/13",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/13",
   "@type": "http://schema.org/Restaurant",
   "name": "Tandoori",
   "address": {
-    "@id": "/api/addresses/224",
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/224",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

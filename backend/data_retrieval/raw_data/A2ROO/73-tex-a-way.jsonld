@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/73",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/73",
   "@type": "http://schema.org/Restaurant",
   "name": "Tex A Way",
   "address": {
-    "@id": "/api/addresses/16092",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/16092",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

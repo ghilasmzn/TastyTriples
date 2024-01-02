@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/77",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/77",
   "@type": "http://schema.org/Restaurant",
   "name": "*Takkito Restaurant*",
   "address": {
-    "@id": "/api/addresses/7871",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/7871",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

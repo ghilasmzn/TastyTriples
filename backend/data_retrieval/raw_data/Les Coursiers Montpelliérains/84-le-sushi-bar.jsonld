@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/84",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/84",
   "@type": "http://schema.org/Restaurant",
   "name": "Le sushi bar\ud83c\udf63",
   "address": {
-    "@id": "/api/addresses/8611",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/8611",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

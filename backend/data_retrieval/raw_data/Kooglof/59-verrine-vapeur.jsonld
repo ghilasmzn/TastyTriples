@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/59",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/59",
   "@type": "http://schema.org/Restaurant",
   "name": "Verrine & Vapeur \ud83c\udf72\ud83c\udff7\ufe0f",
   "address": {
-    "@id": "/api/addresses/30761",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/30761",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

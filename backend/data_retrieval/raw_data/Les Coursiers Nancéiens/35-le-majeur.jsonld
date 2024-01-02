@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/35",
+  "@id": "https://lescoursiersnanceiens.coopcycle.org/api/restaurants/35",
   "@type": "http://schema.org/Restaurant",
   "name": "Le Majeur",
   "address": {
-    "@id": "/api/addresses/781",
+    "@id": "https://lescoursiersnanceiens.coopcycle.org/api/addresses/781",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

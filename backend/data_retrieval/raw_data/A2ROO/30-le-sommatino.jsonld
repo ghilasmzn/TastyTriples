@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/30",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/30",
   "@type": "http://schema.org/Restaurant",
   "name": "Le Sommatino",
   "address": {
-    "@id": "/api/addresses/2884",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/2884",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

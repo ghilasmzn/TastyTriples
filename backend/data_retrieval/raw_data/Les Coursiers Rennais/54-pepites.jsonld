@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/54",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/54",
   "@type": "http://schema.org/Restaurant",
   "name": "P\u00e9pites !",
   "address": {
-    "@id": "/api/addresses/40154",
+    "@id": "https://lcr.coopcycle.org/api/addresses/40154",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

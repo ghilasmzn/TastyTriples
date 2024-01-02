@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/51",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/51",
   "@type": "http://schema.org/Brewery",
   "name": "Brasserie Petitdemange - Les bi\u00e8res du fournil",
   "address": {
-    "@id": "/api/addresses/8440",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/8440",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

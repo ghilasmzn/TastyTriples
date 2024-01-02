@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/67",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/67",
   "@type": "http://schema.org/Restaurant",
   "name": "Le bon sens \ud83e\udd57",
   "address": {
-    "@id": "/api/addresses/5901",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/5901",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

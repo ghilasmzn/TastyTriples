@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/128",
+  "@id": "https://demo.coopcycle.org/api/restaurants/128",
   "@type": "http://schema.org/Restaurant",
   "name": "Pizzas on Fire",
   "address": {
-    "@id": "/api/addresses/14693",
+    "@id": "https://demo.coopcycle.org/api/addresses/14693",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

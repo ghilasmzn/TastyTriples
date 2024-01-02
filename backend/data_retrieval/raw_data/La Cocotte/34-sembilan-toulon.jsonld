@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://la-cocotte.coopcycle.org/api/restaurants/34",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Sembilan Toulon",
+  "address": {
+    "@id": "https://la-cocotte.coopcycle.org/api/addresses/1990",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.1231,
+      "longitude": 5.93137
+    },
+    "streetAddress": "9 Rue C\u00e9sar Vezzani, 83000 Toulon, France",
+    "telephone": "+33665174378",
+    "name": "Sembilan Toulon"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://la-cocotte.coopcycle.org/media/cache/restaurant_thumbnail/60/60/6060ceeec1507.jpg",
+  "sameAs": "https://www.facebook.com/sembilan.toulon",
+  "description": "Restaurant sp\u00e9cialis\u00e9 dans la cuisine malaisienne et la street food asiatique en g\u00e9n\u00e9ral.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://la-cocotte.coopcycle.org/fr/restaurant/34-sembilan-toulon",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "4.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://la-cocotte.coopcycle.org"
+  }
+}

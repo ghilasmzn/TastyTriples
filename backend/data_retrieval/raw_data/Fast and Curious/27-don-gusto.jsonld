@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/27",
+  "@id": "https://fast-and-curious.coopcycle.org/api/restaurants/27",
   "@type": "http://schema.org/Restaurant",
   "name": "Don Gusto",
   "address": {
-    "@id": "/api/addresses/910",
+    "@id": "https://fast-and-curious.coopcycle.org/api/addresses/910",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

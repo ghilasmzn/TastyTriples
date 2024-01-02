@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/15",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/15",
   "@type": "http://schema.org/Restaurant",
   "name": "Klaritxu",
   "address": {
-    "@id": "/api/addresses/267",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/267",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

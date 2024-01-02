@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/156",
+  "@id": "https://khora.berlin/api/restaurants/156",
   "@type": "http://schema.org/Restaurant",
   "name": "Khora's last restaurant",
   "address": {
-    "@id": "/api/addresses/39503",
+    "@id": "https://khora.berlin/api/addresses/39503",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

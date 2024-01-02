@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/31",
+  "@id": "https://beefast.coopcycle.org/api/restaurants/31",
   "@type": "http://schema.org/Restaurant",
   "name": "Via Pizza",
   "address": {
-    "@id": "/api/addresses/2930",
+    "@id": "https://beefast.coopcycle.org/api/addresses/2930",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

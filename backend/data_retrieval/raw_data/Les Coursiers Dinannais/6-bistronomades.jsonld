@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/6",
+  "@id": "https://dinan.coopcycle.org/api/restaurants/6",
   "@type": "http://schema.org/Restaurant",
   "name": "Bistronomades",
   "address": {
-    "@id": "/api/addresses/252",
+    "@id": "https://dinan.coopcycle.org/api/addresses/252",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

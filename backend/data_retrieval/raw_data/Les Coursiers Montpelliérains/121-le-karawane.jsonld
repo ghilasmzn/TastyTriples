@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/121",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/121",
   "@type": "http://schema.org/Restaurant",
   "name": "\ud83c\udf32Le Karawane\ud83c\udf32",
   "address": {
-    "@id": "/api/addresses/30462",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/30462",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

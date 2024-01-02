@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/39",
+  "@id": "https://cyclome.coopcycle.org/api/restaurants/39",
   "@type": "http://schema.org/Restaurant",
   "name": "Le Namaste",
   "address": {
-    "@id": "/api/addresses/16069",
+    "@id": "https://cyclome.coopcycle.org/api/addresses/16069",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

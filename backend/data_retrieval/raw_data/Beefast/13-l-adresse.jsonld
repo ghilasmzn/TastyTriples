@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/13",
+  "@id": "https://beefast.coopcycle.org/api/restaurants/13",
   "@type": "http://schema.org/Restaurant",
   "name": "L'Adresse",
   "address": {
-    "@id": "/api/addresses/359",
+    "@id": "https://beefast.coopcycle.org/api/addresses/359",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

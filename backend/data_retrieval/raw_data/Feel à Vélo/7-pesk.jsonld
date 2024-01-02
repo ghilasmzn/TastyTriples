@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/7",
+  "@id": "https://feelavelo.coopcycle.org/api/restaurants/7",
   "@type": "http://schema.org/Restaurant",
   "name": "Pesk",
   "address": {
-    "@id": "/api/addresses/136",
+    "@id": "https://feelavelo.coopcycle.org/api/addresses/136",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

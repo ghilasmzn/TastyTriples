@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/8",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/8",
   "@type": "http://schema.org/Restaurant",
   "name": "Le Puja / Cuisine Indienne et Mauricienne \ud83c\udf72",
   "address": {
-    "@id": "/api/addresses/285",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/285",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

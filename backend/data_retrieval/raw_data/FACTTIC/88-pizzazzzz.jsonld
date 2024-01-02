@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/88",
+  "@id": "https://demo.coopcycle.org/api/restaurants/88",
   "@type": "http://schema.org/Restaurant",
   "name": "pizzaZZZZ",
   "address": {
-    "@id": "/api/addresses/10572",
+    "@id": "https://demo.coopcycle.org/api/addresses/10572",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

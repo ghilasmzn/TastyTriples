@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/134",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/134",
   "@type": "http://schema.org/Restaurant",
   "name": "Bombay restaurant indien",
   "address": {
-    "@id": "/api/addresses/37341",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/37341",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

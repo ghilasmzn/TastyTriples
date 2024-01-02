@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/4",
+  "@id": "https://hull.coopcycle.org/api/restaurants/4",
   "@type": "http://schema.org/Restaurant",
   "name": "W . A . N . T",
   "address": {
-    "@id": "/api/addresses/63",
+    "@id": "https://hull.coopcycle.org/api/addresses/63",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

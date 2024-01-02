@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/2",
+  "@id": "https://botxoriders.coopcycle.org/api/restaurants/2",
   "@type": "http://schema.org/Restaurant",
   "name": "UMAMIE",
   "address": {
-    "@id": "/api/addresses/45",
+    "@id": "https://botxoriders.coopcycle.org/api/addresses/45",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

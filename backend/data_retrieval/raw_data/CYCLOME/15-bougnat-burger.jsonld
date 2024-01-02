@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/15",
+  "@id": "https://cyclome.coopcycle.org/api/restaurants/15",
   "@type": "http://schema.org/Restaurant",
   "name": "Bougnat Burger",
   "address": {
-    "@id": "/api/addresses/3731",
+    "@id": "https://cyclome.coopcycle.org/api/addresses/3731",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

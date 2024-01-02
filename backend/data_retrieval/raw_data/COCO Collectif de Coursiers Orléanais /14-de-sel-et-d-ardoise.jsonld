@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/14",
+  "@id": "https://le-rayon-vert.coopcycle.org/api/restaurants/14",
   "@type": "http://schema.org/Restaurant",
   "name": "De Sel et d'Ardoise",
   "address": {
-    "@id": "/api/addresses/41",
+    "@id": "https://le-rayon-vert.coopcycle.org/api/addresses/41",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

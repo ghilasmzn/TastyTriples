@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/48",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/48",
   "@type": "http://schema.org/Restaurant",
   "name": "Arkupe",
   "address": {
-    "@id": "/api/addresses/58645",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/58645",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/36",
+  "@id": "https://demo.coopcycle.org/api/restaurants/36",
   "@type": "http://schema.org/Restaurant",
   "name": "L'aubergine rouge espagnole",
   "address": {
-    "@id": "/api/addresses/86",
+    "@id": "https://demo.coopcycle.org/api/addresses/86",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

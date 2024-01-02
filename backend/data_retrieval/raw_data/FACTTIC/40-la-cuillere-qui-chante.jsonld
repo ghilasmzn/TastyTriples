@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/40",
+  "@id": "https://demo.coopcycle.org/api/restaurants/40",
   "@type": "http://schema.org/Restaurant",
   "name": "La cuill\u00e8re qui chante",
   "address": {
-    "@id": "/api/addresses/90",
+    "@id": "https://demo.coopcycle.org/api/addresses/90",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

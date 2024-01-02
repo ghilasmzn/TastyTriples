@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/12",
+  "@id": "https://initiative-emploi.coopcycle.org/api/restaurants/12",
   "@type": "http://schema.org/Restaurant",
   "name": "C'est mon Plaisir",
   "address": {
-    "@id": "/api/addresses/103",
+    "@id": "https://initiative-emploi.coopcycle.org/api/addresses/103",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

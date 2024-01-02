@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/9",
+  "@id": "https://fast-and-curious.coopcycle.org/api/restaurants/9",
   "@type": "http://schema.org/Restaurant",
   "name": "Le Denver",
   "address": {
-    "@id": "/api/addresses/9",
+    "@id": "https://fast-and-curious.coopcycle.org/api/addresses/9",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

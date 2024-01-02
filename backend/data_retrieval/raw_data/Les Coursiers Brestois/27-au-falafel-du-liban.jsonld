@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/27",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/27",
   "@type": "http://schema.org/Restaurant",
   "name": "Au Falafel Du Liban",
   "address": {
-    "@id": "/api/addresses/3003",
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/3003",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

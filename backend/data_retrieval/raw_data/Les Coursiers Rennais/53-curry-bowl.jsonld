@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/53",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/53",
   "@type": "http://schema.org/Restaurant",
   "name": "Curry Bowl",
   "address": {
-    "@id": "/api/addresses/39785",
+    "@id": "https://lcr.coopcycle.org/api/addresses/39785",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

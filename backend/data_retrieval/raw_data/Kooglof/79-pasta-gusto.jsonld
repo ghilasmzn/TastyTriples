@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/79",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/79",
   "@type": "http://schema.org/Restaurant",
   "name": "Pasta Gusto \ud83c\udf5d",
   "address": {
-    "@id": "/api/addresses/40963",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/40963",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

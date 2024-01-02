@@ -10,6 +10,7 @@ class ShopsExtractor:
         self.base_url = base_url
         self.restaurant_links = []
         self.fuseki_loader = fuseki_loader
+        self.service_data = []
 
     def extract_json_ld_from_page(self, url):
         response = requests.get(url)
@@ -56,11 +57,11 @@ class ShopsExtractor:
                 with open(os.path.join(service_directory, f"{restaurant_id}.jsonld"), "w", encoding="utf-8") as output_file:
                     for data in json_ld_data:
                         data_dict = json.loads(data)
+                        data_dict["@id"] = self.base_url+data_dict["@id"]
+                        if "address" in data_dict:
+                            data_dict["address"]["@id"] = self.base_url+data_dict["address"]["@id"]
                         data_dict["belongsToService"] = {"@id": self.base_url}
                         output_file.write(json.dumps(data_dict, indent=2))
-                
-                self.fuseki_loader.load_data(output_file.name, content_type='application/ld+json')
+                        output_file.close()
+                    self.fuseki_loader.load_data(output_file.name, content_type='application/ld+json')
                         
-                        
-
-

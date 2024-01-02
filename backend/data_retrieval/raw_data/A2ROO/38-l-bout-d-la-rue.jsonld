@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/38",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/38",
   "@type": "http://schema.org/Restaurant",
   "name": "L'bout d'la rue",
   "address": {
-    "@id": "/api/addresses/3765",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/3765",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/65",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/65",
   "@type": "http://schema.org/Restaurant",
   "name": "Tandoori",
   "address": {
-    "@id": "/api/addresses/88930",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/88930",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

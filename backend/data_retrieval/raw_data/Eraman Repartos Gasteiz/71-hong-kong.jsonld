@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/71",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/71",
   "@type": "http://schema.org/Restaurant",
   "name": "Hong Kong",
   "address": {
-    "@id": "/api/addresses/95595",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/95595",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

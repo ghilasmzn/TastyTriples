@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/40",
+  "@id": "https://cyclome.coopcycle.org/api/restaurants/40",
   "@type": "http://schema.org/Restaurant",
   "name": "Sergio's Deli",
   "address": {
-    "@id": "/api/addresses/16867",
+    "@id": "https://cyclome.coopcycle.org/api/addresses/16867",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

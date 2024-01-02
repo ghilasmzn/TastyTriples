@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/35",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/35",
   "@type": "http://schema.org/Restaurant",
   "name": "Bagel Z\u00e9e",
   "address": {
-    "@id": "/api/addresses/3457",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/3457",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

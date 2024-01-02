@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/5",
+  "@id": "https://la-cocotte.coopcycle.org/api/restaurants/5",
   "@type": "http://schema.org/Restaurant",
   "name": "Mamie K",
   "address": {
-    "@id": "/api/addresses/11",
+    "@id": "https://la-cocotte.coopcycle.org/api/addresses/11",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

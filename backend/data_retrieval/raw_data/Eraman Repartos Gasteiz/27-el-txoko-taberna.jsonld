@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/27",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/27",
   "@type": "http://schema.org/Restaurant",
   "name": "El Txoko Taberna",
   "address": {
-    "@id": "/api/addresses/1249",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/1249",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

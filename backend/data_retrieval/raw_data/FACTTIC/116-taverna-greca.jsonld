@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/116",
+  "@id": "https://demo.coopcycle.org/api/restaurants/116",
   "@type": "http://schema.org/Restaurant",
   "name": "Taverna Greca",
   "address": {
-    "@id": "/api/addresses/12876",
+    "@id": "https://demo.coopcycle.org/api/addresses/12876",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

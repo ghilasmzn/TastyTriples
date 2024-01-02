@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/174",
+  "@id": "https://khora.berlin/api/restaurants/174",
   "@type": "http://schema.org/Restaurant",
   "name": "Sp\u00e4tzlemacher",
   "address": {
-    "@id": "/api/addresses/58014",
+    "@id": "https://khora.berlin/api/addresses/58014",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

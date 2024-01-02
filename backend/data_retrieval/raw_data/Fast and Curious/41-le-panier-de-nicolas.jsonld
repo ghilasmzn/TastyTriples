@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/41",
+  "@id": "https://fast-and-curious.coopcycle.org/api/restaurants/41",
   "@type": "http://schema.org/GroceryStore",
   "name": "Le Panier de Nicolas",
   "address": {
-    "@id": "/api/addresses/2017",
+    "@id": "https://fast-and-curious.coopcycle.org/api/addresses/2017",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

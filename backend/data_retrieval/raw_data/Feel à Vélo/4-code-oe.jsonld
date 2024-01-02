@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/4",
+  "@id": "https://feelavelo.coopcycle.org/api/restaurants/4",
   "@type": "http://schema.org/Restaurant",
   "name": "Code \u00d8",
   "address": {
-    "@id": "/api/addresses/44",
+    "@id": "https://feelavelo.coopcycle.org/api/addresses/44",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

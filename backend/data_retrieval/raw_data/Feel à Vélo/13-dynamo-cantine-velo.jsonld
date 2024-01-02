@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/13",
+  "@id": "https://feelavelo.coopcycle.org/api/restaurants/13",
   "@type": "http://schema.org/Restaurant",
   "name": "DYNAMO Cantine & V\u00e9lo",
   "address": {
-    "@id": "/api/addresses/776",
+    "@id": "https://feelavelo.coopcycle.org/api/addresses/776",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

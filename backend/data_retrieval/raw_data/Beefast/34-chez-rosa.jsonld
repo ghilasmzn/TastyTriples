@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/34",
+  "@id": "https://beefast.coopcycle.org/api/restaurants/34",
   "@type": "http://schema.org/Restaurant",
   "name": "Chez Rosa",
   "address": {
-    "@id": "/api/addresses/6225",
+    "@id": "https://beefast.coopcycle.org/api/addresses/6225",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

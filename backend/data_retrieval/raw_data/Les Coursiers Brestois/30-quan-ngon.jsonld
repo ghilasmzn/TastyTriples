@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/30",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/30",
   "@type": "http://schema.org/Restaurant",
   "name": "Quan Ngon",
   "address": {
-    "@id": "/api/addresses/3592",
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/3592",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

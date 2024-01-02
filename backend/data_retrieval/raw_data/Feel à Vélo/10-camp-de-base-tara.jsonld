@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/10",
+  "@id": "https://feelavelo.coopcycle.org/api/restaurants/10",
   "@type": "http://schema.org/Restaurant",
   "name": "Camp de base TARA",
   "address": {
-    "@id": "/api/addresses/145",
+    "@id": "https://feelavelo.coopcycle.org/api/addresses/145",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/124",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/124",
   "@type": "http://schema.org/Restaurant",
   "name": "G\u00fcre Poke",
   "address": {
-    "@id": "/api/addresses/229420",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/229420",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

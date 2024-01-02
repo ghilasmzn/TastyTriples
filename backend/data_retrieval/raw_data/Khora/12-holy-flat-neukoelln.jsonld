@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/12",
+  "@id": "https://khora.berlin/api/restaurants/12",
   "@type": "http://schema.org/Restaurant",
   "name": "HOLY FLAT! Neuk\u00f6lln",
   "address": {
-    "@id": "/api/addresses/99",
+    "@id": "https://khora.berlin/api/addresses/99",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/3",
+  "@id": "https://initiative-emploi.coopcycle.org/api/restaurants/3",
   "@type": "http://schema.org/Florist",
   "name": "Virginie Lacroix Fleuriste",
   "address": {
-    "@id": "/api/addresses/13",
+    "@id": "https://initiative-emploi.coopcycle.org/api/addresses/13",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

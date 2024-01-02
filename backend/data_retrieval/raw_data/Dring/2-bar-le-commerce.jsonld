@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/2",
+  "@id": "https://initiative-emploi.coopcycle.org/api/restaurants/2",
   "@type": "http://schema.org/Restaurant",
   "name": "Bar le Commerce",
   "address": {
-    "@id": "/api/addresses/12",
+    "@id": "https://initiative-emploi.coopcycle.org/api/addresses/12",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/38",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/38",
   "@type": "http://schema.org/Restaurant",
   "name": "Jupp\u012dter Hamburger",
   "address": {
-    "@id": "/api/addresses/25189",
+    "@id": "https://lcr.coopcycle.org/api/addresses/25189",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/99",
+  "@id": "https://khora.berlin/api/restaurants/99",
   "@type": "http://schema.org/Restaurant",
   "name": "Cafe Mori",
   "address": {
-    "@id": "/api/addresses/21672",
+    "@id": "https://khora.berlin/api/addresses/21672",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

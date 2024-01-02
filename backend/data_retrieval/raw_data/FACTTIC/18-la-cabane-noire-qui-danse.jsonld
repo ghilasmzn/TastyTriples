@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/18",
+  "@id": "https://demo.coopcycle.org/api/restaurants/18",
   "@type": "http://schema.org/Restaurant",
   "name": "La cabane noire qui danse",
   "address": {
-    "@id": "/api/addresses/68",
+    "@id": "https://demo.coopcycle.org/api/addresses/68",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

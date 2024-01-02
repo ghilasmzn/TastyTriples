@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/18",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/18",
   "@type": "http://schema.org/Restaurant",
   "name": "Pollo Bueno",
   "address": {
-    "@id": "/api/addresses/704",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/704",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

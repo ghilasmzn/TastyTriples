@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/50",
+  "@id": "https://la-cocotte.coopcycle.org/api/restaurants/50",
   "@type": "http://schema.org/Restaurant",
   "name": "SF Thai",
   "address": {
-    "@id": "/api/addresses/3235",
+    "@id": "https://la-cocotte.coopcycle.org/api/addresses/3235",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

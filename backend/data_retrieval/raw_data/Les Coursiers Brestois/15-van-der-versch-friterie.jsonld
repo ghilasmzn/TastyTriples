@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/15",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/15",
   "@type": "http://schema.org/Restaurant",
   "name": "Van Der Versch Friterie",
   "address": {
-    "@id": "/api/addresses/339",
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/339",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

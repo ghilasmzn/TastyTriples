@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/8",
+  "@id": "https://la-cocotte.coopcycle.org/api/restaurants/8",
   "@type": "http://schema.org/Restaurant",
   "name": "Menthe Chocolat",
   "address": {
-    "@id": "/api/addresses/26",
+    "@id": "https://la-cocotte.coopcycle.org/api/addresses/26",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

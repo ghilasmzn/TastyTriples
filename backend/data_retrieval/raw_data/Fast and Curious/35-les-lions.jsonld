@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/35",
+  "@id": "https://fast-and-curious.coopcycle.org/api/restaurants/35",
   "@type": "http://schema.org/Restaurant",
   "name": "Les lions",
   "address": {
-    "@id": "/api/addresses/1645",
+    "@id": "https://fast-and-curious.coopcycle.org/api/addresses/1645",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

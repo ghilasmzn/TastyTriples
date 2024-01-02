@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/19",
+  "@id": "https://cyclome.coopcycle.org/api/restaurants/19",
   "@type": "http://schema.org/CafeOrCoffeeShop",
   "name": "L'Armoire \u00e0 cuill\u00e8res",
   "address": {
-    "@id": "/api/addresses/6693",
+    "@id": "https://cyclome.coopcycle.org/api/addresses/6693",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

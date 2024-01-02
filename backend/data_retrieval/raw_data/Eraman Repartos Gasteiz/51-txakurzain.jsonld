@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/51",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/51",
   "@type": "http://schema.org/PetStore",
   "name": "Txakurzain",
   "address": {
-    "@id": "/api/addresses/67140",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/67140",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

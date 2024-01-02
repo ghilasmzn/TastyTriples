@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/46",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/46",
   "@type": "http://schema.org/Restaurant",
   "name": "L'Audace des Saveurs - Le midi",
   "address": {
-    "@id": "/api/addresses/5375",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/5375",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

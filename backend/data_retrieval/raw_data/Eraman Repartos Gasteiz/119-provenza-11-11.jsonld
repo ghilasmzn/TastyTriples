@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/119",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/119",
   "@type": "http://schema.org/Restaurant",
   "name": "Provenza 11:11",
   "address": {
-    "@id": "/api/addresses/201063",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/201063",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

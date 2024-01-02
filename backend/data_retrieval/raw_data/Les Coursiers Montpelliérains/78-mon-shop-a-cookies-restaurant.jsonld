@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/78",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/78",
   "@type": "http://schema.org/Restaurant",
   "name": "Mon shop \u00e0 cookies [restaurant] \ud83c\udf6a\ud83d\ude0b",
   "address": {
-    "@id": "/api/addresses/8385",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/8385",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

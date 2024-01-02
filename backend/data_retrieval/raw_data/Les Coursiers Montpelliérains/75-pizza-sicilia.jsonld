@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/75",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/75",
   "@type": "http://schema.org/Restaurant",
   "name": "Pizza Sicilia \ud83c\udf55\ud83c\udf5d",
   "address": {
-    "@id": "/api/addresses/7746",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/7746",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

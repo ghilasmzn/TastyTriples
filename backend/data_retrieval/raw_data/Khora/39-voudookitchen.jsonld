@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/39",
+  "@id": "https://khora.berlin/api/restaurants/39",
   "@type": "http://schema.org/Restaurant",
   "name": "Voudookitchen",
   "address": {
-    "@id": "/api/addresses/2031",
+    "@id": "https://khora.berlin/api/addresses/2031",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

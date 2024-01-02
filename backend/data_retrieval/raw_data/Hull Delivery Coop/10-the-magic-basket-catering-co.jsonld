@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/10",
+  "@id": "https://hull.coopcycle.org/api/restaurants/10",
   "@type": "http://schema.org/Restaurant",
   "name": "The Magic Basket Catering Co",
   "address": {
-    "@id": "/api/addresses/4865",
+    "@id": "https://hull.coopcycle.org/api/addresses/4865",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/37",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/37",
   "@type": "http://schema.org/Restaurant",
   "name": "Les demoiselles de Montpellier",
   "address": {
-    "@id": "/api/addresses/2374",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/2374",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

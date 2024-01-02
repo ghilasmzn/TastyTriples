@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/39",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/39",
   "@type": "http://schema.org/Restaurant",
   "name": "Fleck & Co \ud83c\udf72",
   "address": {
-    "@id": "/api/addresses/16818",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/16818",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

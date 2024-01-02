@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/10",
+  "@id": "https://demo.coopcycle.org/api/restaurants/10",
   "@type": "http://schema.org/Restaurant",
   "name": "Au cochon qui fume",
   "address": {
-    "@id": "/api/addresses/60",
+    "@id": "https://demo.coopcycle.org/api/addresses/60",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

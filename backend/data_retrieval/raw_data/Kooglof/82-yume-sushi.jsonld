@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/82",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/82",
   "@type": "http://schema.org/Restaurant",
   "name": "Yume Sushi \ud83c\udf63\ud83c\udff7\ufe0f",
   "address": {
-    "@id": "/api/addresses/42216",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/42216",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

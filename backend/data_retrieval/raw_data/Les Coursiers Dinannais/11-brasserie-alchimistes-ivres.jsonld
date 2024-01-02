@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/11",
+  "@id": "https://dinan.coopcycle.org/api/restaurants/11",
   "@type": "http://schema.org/Brewery",
   "name": "Brasserie Alchimistes Ivres",
   "address": {
-    "@id": "/api/addresses/976",
+    "@id": "https://dinan.coopcycle.org/api/addresses/976",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

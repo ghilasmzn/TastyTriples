@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/191",
+  "@id": "https://khora.berlin/api/restaurants/191",
   "@type": "http://schema.org/Restaurant",
   "name": "Akkawy",
   "address": {
-    "@id": "/api/addresses/78850",
+    "@id": "https://khora.berlin/api/addresses/78850",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

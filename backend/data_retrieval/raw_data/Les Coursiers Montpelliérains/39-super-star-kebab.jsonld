@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/39",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/39",
   "@type": "http://schema.org/Restaurant",
   "name": "Super star kebab \ud83e\udd59",
   "address": {
-    "@id": "/api/addresses/3013",
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/3013",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

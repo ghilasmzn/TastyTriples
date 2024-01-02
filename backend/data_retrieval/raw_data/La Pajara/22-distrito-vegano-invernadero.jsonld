@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/22",
+  "@id": "https://lapajara.coopcycle.org/api/restaurants/22",
   "@type": "http://schema.org/Restaurant",
   "name": "Distrito Vegano Invernadero",
   "address": {
-    "@id": "/api/addresses/1624",
+    "@id": "https://lapajara.coopcycle.org/api/addresses/1624",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

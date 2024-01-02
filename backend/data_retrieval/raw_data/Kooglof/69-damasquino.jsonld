@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/69",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/69",
   "@type": "http://schema.org/Restaurant",
   "name": "Damasquino \ud83e\uddc6",
   "address": {
-    "@id": "/api/addresses/36489",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/36489",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/64",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/64",
   "@type": "http://schema.org/Restaurant",
   "name": "Dubble Food \ud83e\udd57\ud83c\udff7\ufe0f",
   "address": {
-    "@id": "/api/addresses/33964",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/33964",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

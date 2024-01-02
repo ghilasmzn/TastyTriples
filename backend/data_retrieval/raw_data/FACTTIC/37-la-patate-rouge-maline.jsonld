@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/37",
+  "@id": "https://demo.coopcycle.org/api/restaurants/37",
   "@type": "http://schema.org/Restaurant",
   "name": "La patate rouge maline",
   "address": {
-    "@id": "/api/addresses/87",
+    "@id": "https://demo.coopcycle.org/api/addresses/87",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

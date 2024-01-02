@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/48",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/48",
   "@type": "http://schema.org/Restaurant",
   "name": "L'audace des Saveurs - Le petit d\u00e9jeuner",
   "address": {
-    "@id": "/api/addresses/5872",
+    "@id": "https://a2roo.coopcycle.org/api/addresses/5872",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

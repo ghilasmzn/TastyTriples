@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/36",
+  "@id": "https://cyclome.coopcycle.org/api/restaurants/36",
   "@type": "http://schema.org/Restaurant",
   "name": "Dadino Pizze",
   "address": {
-    "@id": "/api/addresses/12590",
+    "@id": "https://cyclome.coopcycle.org/api/addresses/12590",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

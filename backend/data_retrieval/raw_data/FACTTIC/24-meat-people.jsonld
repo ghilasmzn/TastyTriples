@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/24",
+  "@id": "https://demo.coopcycle.org/api/restaurants/24",
   "@type": "http://schema.org/Restaurant",
   "name": "Meat people",
   "address": {
-    "@id": "/api/addresses/74",
+    "@id": "https://demo.coopcycle.org/api/addresses/74",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

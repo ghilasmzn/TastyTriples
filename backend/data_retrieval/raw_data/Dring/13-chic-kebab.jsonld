@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/13",
+  "@id": "https://initiative-emploi.coopcycle.org/api/restaurants/13",
   "@type": "http://schema.org/Restaurant",
   "name": "Chic Kebab",
   "address": {
-    "@id": "/api/addresses/203",
+    "@id": "https://initiative-emploi.coopcycle.org/api/addresses/203",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

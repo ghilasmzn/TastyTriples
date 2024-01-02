@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/34",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/34",
   "@type": "http://schema.org/Restaurant",
   "name": "Banco",
   "address": {
-    "@id": "/api/addresses/20804",
+    "@id": "https://lcr.coopcycle.org/api/addresses/20804",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

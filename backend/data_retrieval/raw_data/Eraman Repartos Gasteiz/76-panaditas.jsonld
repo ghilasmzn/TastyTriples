@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/76",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/76",
   "@type": "http://schema.org/Restaurant",
   "name": "Panaditas",
   "address": {
-    "@id": "/api/addresses/103345",
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/103345",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

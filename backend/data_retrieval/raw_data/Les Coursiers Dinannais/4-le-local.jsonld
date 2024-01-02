@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/4",
+  "@id": "https://dinan.coopcycle.org/api/restaurants/4",
   "@type": "http://schema.org/Restaurant",
   "name": "Le Local",
   "address": {
-    "@id": "/api/addresses/121",
+    "@id": "https://dinan.coopcycle.org/api/addresses/121",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

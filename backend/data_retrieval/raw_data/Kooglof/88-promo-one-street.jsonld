@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/88",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/88",
   "@type": "http://schema.org/Restaurant",
   "name": "Promo ! \ud83d\udd25 One Street \ud83c\udf54",
   "address": {
-    "@id": "/api/addresses/44573",
+    "@id": "https://kooglof.coopcycle.org/api/addresses/44573",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

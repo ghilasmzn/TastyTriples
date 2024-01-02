@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/37",
+  "@id": "https://fast-and-curious.coopcycle.org/api/restaurants/37",
   "@type": "http://schema.org/Restaurant",
   "name": "Bouchon Normand",
   "address": {
-    "@id": "/api/addresses/1792",
+    "@id": "https://fast-and-curious.coopcycle.org/api/addresses/1792",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

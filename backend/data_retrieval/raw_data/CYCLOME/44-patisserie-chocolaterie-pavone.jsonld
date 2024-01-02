@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/44",
+  "@id": "https://cyclome.coopcycle.org/api/restaurants/44",
   "@type": "http://schema.org/Restaurant",
   "name": "P\u00e2tisserie Chocolaterie Pavone",
   "address": {
-    "@id": "/api/addresses/18102",
+    "@id": "https://cyclome.coopcycle.org/api/addresses/18102",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

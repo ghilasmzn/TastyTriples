@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/12",
+  "@id": "https://coursiersbordelais.coopcycle.org/api/restaurants/12",
   "@type": "http://schema.org/Restaurant",
   "name": "Restaurant Son'",
   "address": {
-    "@id": "/api/addresses/5665",
+    "@id": "https://coursiersbordelais.coopcycle.org/api/addresses/5665",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

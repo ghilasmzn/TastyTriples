@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/12",
+  "@id": "https://cyclome.coopcycle.org/api/restaurants/12",
   "@type": "http://schema.org/Restaurant",
   "name": "La Fabrique du Hot Dog",
   "address": {
-    "@id": "/api/addresses/1662",
+    "@id": "https://cyclome.coopcycle.org/api/addresses/1662",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/115",
+  "@id": "https://khora.berlin/api/restaurants/115",
   "@type": "http://schema.org/Restaurant",
   "name": "Suppengr\u00fcn",
   "address": {
-    "@id": "/api/addresses/25826",
+    "@id": "https://khora.berlin/api/addresses/25826",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",

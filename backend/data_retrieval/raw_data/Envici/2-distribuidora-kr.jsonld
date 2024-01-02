@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "/api/restaurants/2",
+  "@id": "https://envici.coopcycle.org/api/restaurants/2",
   "@type": "http://schema.org/OfficeEquipmentStore",
   "name": "DISTRIBUIDORA \"KR\"",
   "address": {
-    "@id": "/api/addresses/27",
+    "@id": "https://envici.coopcycle.org/api/addresses/27",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
