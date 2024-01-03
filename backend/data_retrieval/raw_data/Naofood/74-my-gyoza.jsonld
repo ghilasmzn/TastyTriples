@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/74",
+  "@type": "http://schema.org/Restaurant",
+  "name": "My Gyoza",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/51198",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2141,
+      "longitude": -1.55864
+    },
+    "streetAddress": "1 Rue de la Fosse, 44000 Nantes, France",
+    "telephone": "+33251172829",
+    "name": "My Gyoza"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/62/5e/625e983859df8.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/62/5e/625e983859df8.jpg",
+  "sameAs": "https://www.mygyoza.fr/",
+  "description": "D\u00e9couvrez nos raviolis farcis au b\u0153uf, au porc, au poulet ou v\u00e9g\u00e9 (v\u00e9gan).",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/74-my-gyoza",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  }
+}

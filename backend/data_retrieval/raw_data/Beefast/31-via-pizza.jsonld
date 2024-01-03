@@ -1,0 +1,83 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://beefast.coopcycle.org/api/restaurants/31",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Via Pizza",
+  "address": {
+    "@id": "https://beefast.coopcycle.org/api/addresses/2930",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.8939,
+      "longitude": 2.29834
+    },
+    "streetAddress": "5 Rue des Sergents, 80000 Amiens, France",
+    "telephone": "+33322918300",
+    "name": "Via Pizza"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "22:15",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/62/4b/624b439d98d71.jpg",
+  "sameAs": "https://viapizza.fr/",
+  "description": "Chez Via Pizza, nous nous inspirons de la tradition italienne, tout en rajoutant le bon go\u00fbt \u00e0 la Fran\u00e7aise, en vous proposant par exemple la pizza Regina (reine), une invention bien de chez nous. Notre carte en un subtil m\u00e9lange de ces deux cultures pour le plaisir des grandes et des petites faims.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://beefast.coopcycle.org/fr/restaurant/31-via-pizza",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "12.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://beefast.coopcycle.org"
+  }
+}

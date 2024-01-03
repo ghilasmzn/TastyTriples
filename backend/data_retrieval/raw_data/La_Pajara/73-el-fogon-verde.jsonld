@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lapajara.coopcycle.org/api/restaurants/73",
+  "@type": "http://schema.org/Restaurant",
+  "name": "El fog\u00f3n verde",
+  "address": {
+    "@id": "https://lapajara.coopcycle.org/api/addresses/10555",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.4123273,
+      "longitude": -3.6940759
+    },
+    "streetAddress": "Calle de la Alameda, 4, 28014 Madrid, Espa\u00f1a",
+    "telephone": "+34911997938",
+    "name": "El fog\u00f3n verde"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lapajara.coopcycle.org/media/cache/restaurant_thumbnail/60/ef/60ef47db72a05.jpg",
+  "sameAs": "https://elfogonverde.net/",
+  "description": "100% agroecol\u00f3gico, vegetariano y cooperativo.\r\nNuestra cocina es 100% elaboraci\u00f3n propia, sin aditivos, ni productos procesados.\r\nProductos de temporada y de cercan\u00eda. Opci\u00f3n vegana y sin gluten.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lapajara.coopcycle.org/fr/restaurant/73-el-fogon-verde",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "10.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://lapajara.coopcycle.org"
+  }
+}

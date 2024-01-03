@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lescoursiersnantais.coopcycle.org/api/restaurants/36",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Brasserie La Cigale",
+  "address": {
+    "@id": "https://lescoursiersnantais.coopcycle.org/api/addresses/4817",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2128,
+      "longitude": -1.5621
+    },
+    "streetAddress": "4 Place Graslin, 44000 Nantes, France",
+    "telephone": "+33251849499",
+    "name": "Brasserie La Cigale"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:30",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersnantais.coopcycle.org/media/cache/restaurant_thumbnail/5f/aa/5faa7dc1f2328.jpg",
+  "bannerImage": "https://lescoursiersnantais.coopcycle.org/placeholder/restaurant_banner/placeholders/Pp1qabpNZ4Xz.jpg",
+  "sameAs": "https://www.lacigale.com/",
+  "description": "\u00ab Peut-\u00eatre la plus belle brasserie du monde \u00bb\r\n\r\nBrasserie incontournable et monument en ville, la Brasserie  La Cigale propose une carte traditionnelle qui met en avant des produits frais et locaux sans d\u00e9naturer leur go\u00fbts.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersnantais.coopcycle.org/fr/restaurant/36-brasserie-la-cigale",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "6.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "20.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersnantais.coopcycle.org"
+  }
+}

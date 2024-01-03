@@ -1,0 +1,73 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://khora.berlin/api/restaurants/98",
+  "@type": "http://schema.org/Restaurant",
+  "name": "MARIA  vegan comfort food",
+  "address": {
+    "@id": "https://khora.berlin/api/addresses/21599",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.4987298,
+      "longitude": 13.442773
+    },
+    "streetAddress": "Falckensteinstra\u00dfe 37, Berlin, Germany",
+    "telephone": "+493021449487",
+    "name": "MARIA  vegan comfort food"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/60/2c/602c519b3cb9a.jpg",
+  "sameAs": "http://mariamariamaria.com",
+  "description": "Vegan Comfort Food\r\nhausgemachte Burger, loaded Fries, leckere Suppen und Salate.\r\nBei uns ist alles selbstgemacht von der Mayo zum Burger Patty hin zum `meatball` aus Erbsenprotein.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/98-maria-vegan-comfort-food",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

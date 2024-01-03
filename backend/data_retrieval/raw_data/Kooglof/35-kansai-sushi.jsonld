@@ -1,0 +1,74 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/35",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Kansa\u00ef Sushi \ud83c\udf63",
+  "address": {
+    "@id": "https://kooglof.coopcycle.org/api/addresses/16091",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.582927,
+      "longitude": 7.75361
+    },
+    "streetAddress": "18 Rue des Soeurs, 67000 Strasbourg, France",
+    "telephone": "+33983351920",
+    "name": "Kansa\u00ef Sushi \ud83c\udf63"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:00",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e172b030a9.jpeg",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e12a15bb4b.jpg",
+  "sameAs": "https://www.kansaisushi.fr/",
+  "description": "Venez d\u00e9couvrir les saveurs du Japon chez Kansa\u00ef Sushi !\r\nNouveau sur Strasbourg, nous allons vous transporter dans le monde de la cuisine japonaise avec des produits frais et savoureux que vous pourrez partager entre amis et en famille.\r\n\r\nLivraison de sushis \u00e0 Strasbourg et alentours !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/35-kansai-sushi",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

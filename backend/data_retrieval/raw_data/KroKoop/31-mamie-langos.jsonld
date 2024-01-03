@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://krokoop.coopcycle.org/api/restaurants/31",
+  "@type": "http://schema.org/Restaurant",
+  "name": "MAMIE LANGOS",
+  "address": {
+    "@id": "https://krokoop.coopcycle.org/api/addresses/5162",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8375714,
+      "longitude": 4.3548375
+    },
+    "streetAddress": "6 Rue Racine, N\u00eemes, France",
+    "telephone": "+33466212604",
+    "name": "MAMIE LANGOS"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:50",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:50",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560e6abd19cd.png",
+  "sameAs": "https://www.instagram.com/mamielangos30/",
+  "description": "Non, ne vous m\u00e9prenez pas, ceci n\u2019est pas une Pizza mais bien un Langos, une sp\u00e9cialit\u00e9 venue de Hongrie \ud83c\udded\ud83c\uddfa dont Maxime & Diana, \u00e0 la t\u00eate de Mamie Langos d\u00e9tiennent fi\u00e8rement la recette, et pour cause ! \ud83d\udc41\ufe0f\u2728\r\n\r\nDiana, d\u2019origine Hongroise en connait tous le savoir-faire par sa grand-m\u00e8re, la fameuse Mamie Langos que l\u2019on retrouve sur le logo de l\u2019\u00e9tablissement et que notre jeune couple de restaurateurs a l\u2019honneur de nous faire d\u00e9couvrir, d\u2019autant qu\u2019il s\u2019agit du premier restaurant s'y consacrant enti\u00e8rement en France ! \ud83c\uddeb\ud83c\uddf7\r\n\r\nAccompagn\u00e9 par l\u2019expertise gastronomique de Maxime \ud83d\udc68\u200d\ud83c\udf73, N\u00eemois de naissance et ancien chef de partie \u00e0 la brasserie de l\u2019Imperator \ud83d\udc0a\ud83c\udfe8, vous retrouverez le Langos dans sa forme originelle mais \u00e9galement d\u00e9clin\u00e9e en diff\u00e9rentes saveurs pour une experience gustative toujours plus surprenante. Le tout \u00e0 base de produits frais et fait-maison, bien s\u00fbr \ud83d\udcaa. \r\n\r\nPS : Le Langos N\u00eemois existe avec une garniture de brandade \ud83d\udc1f \u00e0 laquelle on ne saurait resister, alors d\u00e9p\u00eachez-vous de d\u00e9vorer cette adresse, 6 rue Racine ! \ud83d\ude0b",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/31-mamie-langos",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

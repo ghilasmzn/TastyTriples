@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/132",
+  "@type": "http://schema.org/Winery",
+  "name": "Languedoc Confidential",
+  "address": {
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/36071",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.611308,
+      "longitude": 3.8789139
+    },
+    "streetAddress": "3 Rue Glaize, Montpellier, France",
+    "telephone": "+33650868173",
+    "name": "Languedoc Confidential"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "20:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/64/86/6486dea6e551f.jpg",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/placeholder/restaurant_banner/placeholders/R1Go0EGr7BVl.jpg",
+  "sameAs": "https://languedocconfidential.com",
+  "description": "Cave \u00e0 vins \ud83c\udf77\ud83c\udf7eind\u00e9pendante proposant une s\u00e9lection vari\u00e9e de vins de qualit\u00e9 de petits producteurs du Languedoc-Roussillon uniquement, \u00e0 des prix attractifs",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/132-languedoc-confidential",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://demo.coopcycle.org/api/restaurants/12",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La patate rouge qui danse",
+  "address": {
+    "@id": "https://demo.coopcycle.org/api/addresses/62",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.87279,
+      "longitude": 2.297001
+    },
+    "streetAddress": "Avenue des Champs Elys\u00e9es 133, 75008 Paris",
+    "telephone": "+33149368739",
+    "name": "La patate rouge qui danse"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:45",
+      "closes": "22:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:45",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "01:30",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://demo.coopcycle.org/img/cuisine/default.jpg",
+  "bannerImage": "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/3jp6ZY7doMnA.jpg",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://demo.coopcycle.org/fr/restaurant/12-la-patate-rouge-qui-danse",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://demo.coopcycle.org"
+  }
+}

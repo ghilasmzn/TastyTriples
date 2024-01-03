@@ -1,0 +1,50 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lescoursiersnanceiens.coopcycle.org/api/restaurants/37",
+  "@type": "http://schema.org/Restaurant",
+  "name": "S\u00e8ves",
+  "address": {
+    "@id": "https://lescoursiersnanceiens.coopcycle.org/api/addresses/1231",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.6923,
+      "longitude": 6.18147
+    },
+    "streetAddress": "5 Rue Saint-Dizier, 54000 Nancy, France",
+    "telephone": "+33767473731",
+    "name": "S\u00e8ves"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersnanceiens.coopcycle.org/media/cache/restaurant_thumbnail/61/e8/61e8147156713.jpeg",
+  "sameAs": "https://www.seves-latelier.com",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersnanceiens.coopcycle.org/fr/restaurant/37-seves",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersnanceiens.coopcycle.org"
+  }
+}

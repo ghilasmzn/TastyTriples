@@ -1,0 +1,73 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiers-stephanois.coopcycle.org/api/restaurants/29",
+  "@type": "http://schema.org/Restaurant",
+  "name": "L'Alsacien",
+  "address": {
+    "@id": "https://coursiers-stephanois.coopcycle.org/api/addresses/4442",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.4412,
+      "longitude": 4.38743
+    },
+    "streetAddress": "4 Place Jean Jaur\u00e8s, 42000 Saint-\u00c9tienne, France",
+    "telephone": "+33477570160",
+    "name": "L'Alsacien"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:15",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/67/656750af3ff9b.png",
+  "sameAs": "http://www.lalsacien.com/",
+  "description": "\ud83d\udc69\u200d\ud83c\udf73 L'Alsacien est le premier bar \u00e0 Flammekueche du monde. Un \u00e9tablissement convivial mettant \u00e0 l'honneur l'art culinaire alsacien au c\u0153ur de Saint-\u00c9tienne. Les Flammekueches avec les bords tress\u00e9s \u00e0 la main sont issue d'une tradition familiale. Vous trouverez \u00e9galement nos Flammes V\u00e9g\u00e9 et V\u00e9gan dans nos menus !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/restaurant/29-l-alsacien",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "14.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  }
+}

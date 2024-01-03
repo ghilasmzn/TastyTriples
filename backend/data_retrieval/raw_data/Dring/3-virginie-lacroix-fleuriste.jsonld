@@ -1,0 +1,81 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://initiative-emploi.coopcycle.org/api/restaurants/3",
+  "@type": "http://schema.org/Florist",
+  "name": "Virginie Lacroix Fleuriste",
+  "address": {
+    "@id": "https://initiative-emploi.coopcycle.org/api/addresses/13",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.8005,
+      "longitude": 2.28849
+    },
+    "streetAddress": "11 bis Rue de la Mairie, 92320 Ch\u00e2tillon, France",
+    "telephone": "+33632185370",
+    "name": "Virginie Lacroix Fleuriste"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "15:00",
+      "closes": "17:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "19:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://initiative-emploi.coopcycle.org/media/cache/restaurant_thumbnail/61/af/61af5ac7567d4.jpg",
+  "sameAs": "https://www.facebook.com/profile.php?id=100046370153115",
+  "description": "Virginie Lacroix propose des bouquets compos\u00e9s de fleurs de saison ou s\u00e9ch\u00e9es.\r\nAttention une majoration peut \u00eatre appliqu\u00e9e selon les arrivages.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://initiative-emploi.coopcycle.org/fr/store/3-virginie-lacroix-fleuriste",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "4.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://initiative-emploi.coopcycle.org"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://zampate.coopcycle.org/api/restaurants/5",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La Piparra",
+  "address": {
+    "@id": "https://zampate.coopcycle.org/api/addresses/5",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.6572365,
+      "longitude": -0.8844413
+    },
+    "streetAddress": "Calle de los Predicadores, 39, 50003 Zaragoza, Espa\u00f1a",
+    "telephone": "+34876161987",
+    "name": "La Piparra"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:45",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/63/b8/63b87f22770df.jpg",
+  "sameAs": "http://www.lapiparra.com",
+  "description": "La Piparra es un Bar-cafeter\u00eda vegano que ofrece comida casera con ingredientes de calidad.\r\nEntre semana preparan para la hora de comer  un plato combinado y un plato de cuchara que cambia cada d\u00eda, y su men\u00fa tiene una selecci\u00f3n de bocadillos, ensaladas y raciones, todo 100% vegetal\r\nSi t\u00fa (o alguien para el que est\u00e1s pidiendo la comida) tiene una alergia o intolerancia a alg\u00fan alimento, ll\u00e1manos o ind\u00edcalo en los comentarios",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://zampate.coopcycle.org/fr/restaurant/5-la-piparra",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "12.50"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://zampate.coopcycle.org"
+  }
+}

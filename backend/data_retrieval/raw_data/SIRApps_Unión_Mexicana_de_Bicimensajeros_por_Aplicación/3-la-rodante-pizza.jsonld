@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sirapps-cdmx.coopcycle.org/api/restaurants/3",
+  "@type": "http://schema.org/FastFoodRestaurant",
+  "name": "La Rodante Pizza",
+  "address": {
+    "@id": "https://sirapps-cdmx.coopcycle.org/api/addresses/46",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 19.4610051,
+      "longitude": -99.1807563
+    },
+    "streetAddress": "Grecia 139, San Alvaro, Ciudad de M\u00e9xico, CDMX, M\u00e9xico",
+    "telephone": "+525547567414",
+    "name": "La Rodante Pizza"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "14:00",
+      "closes": "21:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "14:00",
+      "closes": "20:00",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://sirapps-cdmx.coopcycle.org/media/cache/restaurant_thumbnail/62/2a/622a7d71cd791.jpg",
+  "sameAs": "https://www.facebook.com/LaRodantePizza/",
+  "description": "Deliciosas pizzas artesanales con ingredientes frescos y naturales.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sirapps-cdmx.coopcycle.org/fr/restaurant/3-la-rodante-pizza",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sirapps-cdmx.coopcycle.org"
+  }
+}

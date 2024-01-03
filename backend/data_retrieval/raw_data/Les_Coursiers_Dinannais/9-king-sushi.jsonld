@@ -1,0 +1,73 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://dinan.coopcycle.org/api/restaurants/9",
+  "@type": "http://schema.org/Restaurant",
+  "name": "King Sushi",
+  "address": {
+    "@id": "https://dinan.coopcycle.org/api/addresses/472",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.413386,
+      "longitude": -2.081753
+    },
+    "streetAddress": "63 Rte des Granits, 22100 Bobital, France",
+    "telephone": "+33983980800",
+    "name": "King Sushi"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:00",
+      "closes": "20:30",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://dinan.coopcycle.org/media/cache/restaurant_thumbnail/63/d3/63d3a4af6001c.jpg",
+  "sameAs": "http://kingsushi.fr/",
+  "description": "Restaurant japonais",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://dinan.coopcycle.org/fr/restaurant/9-king-sushi",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "4.80",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "0.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://dinan.coopcycle.org"
+  }
+}

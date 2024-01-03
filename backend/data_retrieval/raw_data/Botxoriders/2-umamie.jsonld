@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://botxoriders.coopcycle.org/api/restaurants/2",
+  "@type": "http://schema.org/Restaurant",
+  "name": "UMAMIE",
+  "address": {
+    "@id": "https://botxoriders.coopcycle.org/api/addresses/45",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.2556871,
+      "longitude": -2.9233086
+    },
+    "streetAddress": "Goienkale, 3, Bilbao, Espa\u00f1a",
+    "telephone": "+34688751448",
+    "name": "UMAMIE"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "16:30",
+      "dayOfWeek": [
+        "Monday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://botxoriders.coopcycle.org/media/cache/restaurant_thumbnail/63/98/639881cd04765.png",
+  "sameAs": "https://www.umamiebilbao.com/",
+  "description": "Comer algo saludable y nutritivo, pero que adem\u00e1s sea una experiencia placentera para el paladar es m\u00e1s facil que nunca. El Ramen de Am\u00e9n que ofrece UMAMIE en el casco viejo de Bilbao, quiere acercar al comensal a uno de los platos m\u00e1s apetecidos de la cocina Japonesa, la mezcla perfecta de un caldo aromatizado con una jugosa porci\u00f3n de prote\u00edna (ternera o pollo), acompa\u00f1ada de fideos, zanahoria, br\u00f3coli y coliflor al alcance y de todos y para disfrutar en casa. Al final lo que nos importa es que diariamente tengas opciones y sepas c\u00f3mo comes, adem\u00e1s de ofrecerte una escapada gastron\u00f3mica moment\u00e1nea.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://botxoriders.coopcycle.org/fr/restaurant/2-umamie",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.95",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "20.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://botxoriders.coopcycle.org"
+  }
+}

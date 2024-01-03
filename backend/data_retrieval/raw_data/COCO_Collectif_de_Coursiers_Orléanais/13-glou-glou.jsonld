@@ -1,0 +1,72 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://le-rayon-vert.coopcycle.org/api/restaurants/13",
+  "@type": "http://schema.org/LiquorStore",
+  "name": "Glou Glou",
+  "address": {
+    "@id": "https://le-rayon-vert.coopcycle.org/api/addresses/39",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.9003,
+      "longitude": 1.91176
+    },
+    "streetAddress": "157 Rue de Bourgogne, 45000 Orl\u00e9ans, France",
+    "telephone": "+33238686167",
+    "name": "Glou Glou"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "13:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://le-rayon-vert.coopcycle.org/media/cache/restaurant_thumbnail/60/b6/60b60d326d0ed.jpg",
+  "description": "Cave sp\u00e9cialis\u00e9e dans les vins natures.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://le-rayon-vert.coopcycle.org/fr/store/13-glou-glou",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "10.90",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://le-rayon-vert.coopcycle.org"
+  }
+}

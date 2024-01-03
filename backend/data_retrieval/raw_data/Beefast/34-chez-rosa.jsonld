@@ -1,0 +1,82 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://beefast.coopcycle.org/api/restaurants/34",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Chez Rosa",
+  "address": {
+    "@id": "https://beefast.coopcycle.org/api/addresses/6225",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.8956228,
+      "longitude": 2.2998668
+    },
+    "streetAddress": "12 Rue Flatters, Amiens, France",
+    "telephone": "+33322500221",
+    "name": "Chez Rosa"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "22:15",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/63/6e/636e1dbf443dd.jpg",
+  "sameAs": "https://chez-rosa.eatbu.com/?lang=fr",
+  "description": "Ici tout est fait maison avec des produits frais et locaux ou import\u00e9s directement  d'Italie.\r\nNotre Ristorante Italien Chez Rosa, vous accueillera dans une ambiance conviviale et familiale.\r\nVous pourrez y d\u00e9guster de d\u00e9licieuses pizzas et sp\u00e9cialit\u00e9s Italiennes.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://beefast.coopcycle.org/fr/restaurant/34-chez-rosa",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "12.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://beefast.coopcycle.org"
+  }
+}

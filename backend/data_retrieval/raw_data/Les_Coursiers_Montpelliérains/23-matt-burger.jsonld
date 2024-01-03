@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/23",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Matt burger \ud83c\udf54",
+  "address": {
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/1094",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6078078,
+      "longitude": 3.8760897
+    },
+    "streetAddress": "1 Rue en Gondeau, Montpellier, France",
+    "telephone": "+33467598607",
+    "name": "Matt burger \ud83c\udf54"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/62/2c/622c8ed26adc9.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/70/657094e4e31de.png",
+  "description": "Hamburgers maison avec des produits frais",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/23-matt-burger",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

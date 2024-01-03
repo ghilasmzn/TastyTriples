@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://colibri.coopcycle.org/api/restaurants/7",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Pizzeria Tasso",
+  "address": {
+    "@id": "https://colibri.coopcycle.org/api/addresses/10",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.8383908,
+      "longitude": 14.2232263
+    },
+    "streetAddress": "Via Tasso, 175, Napoli, NA, Italia",
+    "telephone": "+390817618989",
+    "name": "Pizzeria Tasso"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:30",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Monday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:30",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://colibri.coopcycle.org/media/cache/restaurant_thumbnail/63/53/63539adaaf87a.gif",
+  "description": "In caso di esigenze alimentari particolari o per ricevere specifiche sugli allergeni invitiamo a contattarci.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://colibri.coopcycle.org/fr/restaurant/7-pizzeria-tasso",
+      "inLanguage": "it",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://colibri.coopcycle.org"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiers-stephanois.coopcycle.org/api/restaurants/34",
+  "@type": "http://schema.org/Restaurant",
+  "name": "GreenBae Box",
+  "address": {
+    "@id": "https://coursiers-stephanois.coopcycle.org/api/addresses/5316",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.4359,
+      "longitude": 4.38824
+    },
+    "streetAddress": "2 Rue Jos\u00e9 Frappa, 42000 Saint-\u00c9tienne, France",
+    "telephone": "+33769652143",
+    "name": "GreenBae Box"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "20:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c97e8c4cd.jpg",
+  "sameAs": "https://www.greenbae-box.fr/",
+  "description": "Nous vous proposons des recettes savoureuses et vitamin\u00e9es \u00e0 base d'ingr\u00e9dients : 100 % naturels, 100 % fruits frais. Fait maison et press\u00e9s minutes, de nombreux plats sont v\u00e9g\u00e9tarien ou v\u00e9gans.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/restaurant/34-greenbae-box",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  }
+}

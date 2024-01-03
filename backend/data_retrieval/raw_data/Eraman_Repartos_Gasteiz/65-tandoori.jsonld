@@ -1,0 +1,74 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/65",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Tandoori",
+  "address": {
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/88930",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8435438,
+      "longitude": -2.696518
+    },
+    "streetAddress": "Zabalgana Hiribidea, 32, Vitoria-Gasteiz, Spain",
+    "telephone": "+34945029138",
+    "name": "Tandoori"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:45",
+      "closes": "16:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:45",
+      "closes": "23:45",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:45",
+      "closes": "22:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/61/f1/61f11ced507b6.png",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc13da5936330093969.jpg",
+  "sameAs": "https://www.tandoorivitoria.es/en/",
+  "description": "El Mejor Restaurante de Comida India y Pakistani en Vitoria Gasteiz",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/restaurant/65-tandoori",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiers-stephanois.coopcycle.org/api/restaurants/20",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Bol'app\u00e9tit",
+  "address": {
+    "@id": "https://coursiers-stephanois.coopcycle.org/api/addresses/2778",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.4481,
+      "longitude": 4.38349
+    },
+    "streetAddress": "9 Rue Clovis Hugues, 42000 Saint-\u00c9tienne, France",
+    "telephone": "+33477749315",
+    "name": "Bol'app\u00e9tit"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:45",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:00",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c892b0fb8.jpg",
+  "sameAs": "https://www.bolappetit.com/",
+  "description": "Bol'app\u00e9tit est un concept de restauration Asiatique Vietnamien \u00e0 Saint \u00c9tienne, bas\u00e9 sur un bol de nouilles saut\u00e9es cuit sur un grill g\u00e9ant face au public et vous proposant une cuisine spectacle \"Grill & Wok\" de Sa\u00efgon .\r\n\r\nOffrez-vous un repas exotique au restaurant Bol'app\u00e9tit dans une ambiance contemporaine, dont la Cheffe \u00c9milie B\u00e9al vous concocte des plats \"faits maison\" avec des produits frais et raffin\u00e9s.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/restaurant/20-bol-appetit",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "13.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  }
+}

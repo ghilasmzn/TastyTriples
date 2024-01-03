@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://cyclome.coopcycle.org/api/restaurants/36",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Dadino Pizze",
+  "address": {
+    "@id": "https://cyclome.coopcycle.org/api/addresses/12590",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.7791846,
+      "longitude": 3.0798641
+    },
+    "streetAddress": "13 Rue des Vieillards, Clermont-Ferrand, France",
+    "telephone": "+33463010101",
+    "name": "Dadino Pizze"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/62/82/6282a608441da.jpg",
+  "sameAs": "https://www.facebook.com/dadino.pizze/",
+  "description": "Pizze napolitaines, uniquement des produits frais et de qualit\u00e9, cuisin\u00e9s et faits maison.\r\n\r\nToutes les pizze sont servies avec de l'huile d'olive extra vierge et de l'origan.\r\n\r\nBase cr\u00e8me ou tomate sur demande.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://cyclome.coopcycle.org/fr/restaurant/36-dadino-pizze",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://cyclome.coopcycle.org"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/67",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le bon sens \ud83e\udd57",
+  "address": {
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/5901",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6082724,
+      "longitude": 3.8717561
+    },
+    "streetAddress": "15 Rue du Faubourg du Courreau, 34000 Montpellier, France",
+    "telephone": "+33467121980",
+    "name": "Le bon sens \ud83e\udd57"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/64/55/64552d3e90f25.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6e/656e157b43687.png",
+  "sameAs": "https://lebon-sens.com/",
+  "description": "Ici c\u2019est vous le chef, composez vos plats et boissons avec des produits locaux, de saison ou bio\ud83e\udd57\ud83c\udf2f\u2615\ufe0f\ud83e\udd64\r\n\u00c7a fait du bien aux papilles et \u00e0 la plan\u00e8te \ud83c\udf43 \r\nPeut convenir \u00e0 tout type de r\u00e9gime alimentaire: v\u00e9g\u00e9tarien, v\u00e9gan, sans gluten, sans lactose, flexitarien, etc. \r\nIl y en a pour tous les go\u00fbt  et pour toutes les heures: petit d\u00e9jeuner, d\u00e9jeuner, go\u00fbter et m\u00eame diner si vous vous y prenez assez t\u00f4t \u23f0",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/67-le-bon-sens",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

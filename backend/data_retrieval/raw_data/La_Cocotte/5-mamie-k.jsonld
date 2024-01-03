@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://la-cocotte.coopcycle.org/api/restaurants/5",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Mamie K",
+  "address": {
+    "@id": "https://la-cocotte.coopcycle.org/api/addresses/11",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.1231,
+      "longitude": 5.93137
+    },
+    "streetAddress": "9 Rue C\u00e9sar Vezzani, 83000 Toulon, France",
+    "telephone": "+33494242581",
+    "name": "Mamie K"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:15",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://la-cocotte.coopcycle.org/media/cache/restaurant_thumbnail/62/69/6269875c72b1f.jpg",
+  "sameAs": "https://www.instagram.com/chez.mamie.k/",
+  "description": "Snacking de Gourmets & Plats cuisin\u00e9s / FAST GOOD locavore",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://la-cocotte.coopcycle.org/fr/restaurant/5-mamie-k",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "4.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://la-cocotte.coopcycle.org"
+  }
+}

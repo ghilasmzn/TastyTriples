@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/84",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Artepan",
+  "address": {
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/113116",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8438462,
+      "longitude": -2.6669636
+    },
+    "streetAddress": "Calle Jes\u00fas Guridi, 2, Vitoria-Gasteiz, Spain",
+    "telephone": "+34945278888",
+    "name": "Artepan"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/62/98/6298f13c810b1.png",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc0ae9c378561726106.jpg",
+  "sameAs": "https://www.artepan.com/",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/restaurant/84-artepan",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://khora.berlin/api/restaurants/192",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Pizza Koons Neuk\u00f6lln",
+  "address": {
+    "@id": "https://khora.berlin/api/addresses/79990",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.477286,
+      "longitude": 13.42499
+    },
+    "streetAddress": "Herrfurthstra\u00dfe 31, 12049 Berlin, Deutschland",
+    "telephone": "+493023306671",
+    "name": "Pizza Koons Neuk\u00f6lln"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/61/9f/619fa8ffe5172.jpg",
+  "sameAs": "http://www.pizza-koons.de",
+  "description": "Your favorite Pizza is back in NKLN \ud83c\udf55\r\n\ud83d\udd25 freshly prepared with Italian quality products \ud83c\udfcd\r\n\u2728 pick up | walk in | delivery",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/192-pizza-koons-neukoelln",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "20.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

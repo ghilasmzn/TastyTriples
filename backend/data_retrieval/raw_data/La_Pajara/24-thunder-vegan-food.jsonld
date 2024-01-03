@@ -1,0 +1,88 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lapajara.coopcycle.org/api/restaurants/24",
+  "@type": "http://schema.org/Restaurant",
+  "name": "THUNDER Vegan Food",
+  "address": {
+    "@id": "https://lapajara.coopcycle.org/api/addresses/1976",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.424533,
+      "longitude": -3.702365
+    },
+    "streetAddress": "Calle Don Felipe, 4, Madrid, Spain",
+    "telephone": "+34912858518",
+    "name": "THUNDER Vegan Food"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:45",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:45",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://lapajara.coopcycle.org/media/cache/restaurant_thumbnail/63/41/6341225e31f11.jpg",
+  "sameAs": "https://thunderveganfood.com/",
+  "description": "POWERED BY PLANTS",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lapajara.coopcycle.org/fr/restaurant/24-thunder-vegan-food",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "10.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://lapajara.coopcycle.org"
+  }
+}

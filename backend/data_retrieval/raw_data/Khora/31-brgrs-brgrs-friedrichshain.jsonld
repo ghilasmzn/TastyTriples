@@ -1,0 +1,73 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://khora.berlin/api/restaurants/31",
+  "@type": "http://schema.org/Restaurant",
+  "name": "BRGRS BRGRS Friedrichshain",
+  "address": {
+    "@id": "https://khora.berlin/api/addresses/1410",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.5153758,
+      "longitude": 13.4734358
+    },
+    "streetAddress": "Pettenkoferstra\u00dfe 2B, Berlin, Deutschland",
+    "telephone": "+4915252077932",
+    "name": "BRGRS BRGRS Friedrichshain"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/5e/81/5e810ec1acb5e.jpg",
+  "sameAs": "http://www.burgersburgers.de",
+  "description": "BRGRS BRGRS - Organic Burgers Friedrichshain",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/31-brgrs-brgrs-friedrichshain",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://envici.coopcycle.org/api/restaurants/2",
+  "@type": "http://schema.org/OfficeEquipmentStore",
+  "name": "DISTRIBUIDORA \"KR\"",
+  "address": {
+    "@id": "https://envici.coopcycle.org/api/addresses/27",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 19.0084107,
+      "longitude": -98.1965495
+    },
+    "streetAddress": "R\u00edo Papaloapan 5728, Jardines de San Manuel, Heroica Puebla de Zaragoza, Pue., M\u00e9xico",
+    "telephone": "+522221967330",
+    "name": "DISTRIBUIDORA \"KR\""
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "17:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "12:00",
+      "dayOfWeek": [
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://envici.coopcycle.org/media/cache/restaurant_thumbnail/60/f5/60f5caea7206c.JPG",
+  "description": "Somos una empresa joven comprometida con la mejora continua de nuestros procesos y los intereses del cliente, ubicada en la ciudad de Puebla, dedicada a la venta de materiales, instrumentos e insumos para laboratorio e industria.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://envici.coopcycle.org/fr/store/2-distribuidora-kr",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "MXN",
+      "price": "0.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "MXN",
+        "price": "50.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://envici.coopcycle.org"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://demo.coopcycle.org/api/restaurants/24",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Meat people",
+  "address": {
+    "@id": "https://demo.coopcycle.org/api/addresses/74",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.8549,
+      "longitude": 2.35514
+    },
+    "streetAddress": "4 Rue des Barres, 75004 Paris 4e Arrondissement, France",
+    "telephone": "+33585612937",
+    "name": "Meat people"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:30",
+      "closes": "14:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:15",
+      "closes": "22:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:15",
+      "closes": "15:15",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "00:30",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://demo.coopcycle.org/media/cache/restaurant_thumbnail/5f/d5/5fd5d0f5bd787.jpg",
+  "bannerImage": "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/g6DkdGmZWwMP.jpg",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://demo.coopcycle.org/fr/restaurant/24-meat-people",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://demo.coopcycle.org"
+  }
+}

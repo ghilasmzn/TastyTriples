@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/30",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Sommatino",
+  "address": {
+    "@id": "https://a2roo.coopcycle.org/api/addresses/2884",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.315888,
+      "longitude": 5.044923
+    },
+    "streetAddress": "7 Rue d'Auxonne, 21000 Dijon, France",
+    "telephone": "+33380676914",
+    "name": "Le Sommatino"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/65/0d/650d46f02d06a.jpg",
+  "sameAs": "https://www.facebook.com/RestaurantLeSommatino",
+  "description": "Venez d\u00e9guster les d\u00e9licieuses pizzas et hamburgers au Sommatino. \r\n\r\nUn bout d'Italie au bout de la rue d'Auxonne",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/30-le-sommatino",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}

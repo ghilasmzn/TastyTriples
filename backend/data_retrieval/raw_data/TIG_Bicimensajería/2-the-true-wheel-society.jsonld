@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://tig.coopcycle.org/api/restaurants/2",
+  "@type": "http://schema.org/BikeStore",
+  "name": "THE TRUE WHEEL SOCIETY",
+  "address": {
+    "@id": "https://tig.coopcycle.org/api/addresses/46",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 19.4267035,
+      "longitude": -99.1570639
+    },
+    "streetAddress": "Calle Marsella 17, Ju\u00e1rez, CDMX, Mexico",
+    "telephone": "+525551089055",
+    "name": "THE TRUE WHEEL SOCIETY"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://tig.coopcycle.org/media/cache/restaurant_thumbnail/61/2d/612d345dbc582.jpeg",
+  "sameAs": "https://www.instagram.com/thetruewheelsociety/",
+  "description": "Servicio profesional de ruedas de bicicleta: armado, nivelado, centrado y reparaci\u00f3n.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://tig.coopcycle.org/fr/store/2-the-true-wheel-society",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://tig.coopcycle.org"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/80",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Back Bay",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/56944",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2122,
+      "longitude": -1.55602
+    },
+    "streetAddress": "11 Quai Turenne, 44000 Nantes, France",
+    "telephone": "+33749708314",
+    "name": "Back Bay"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:55",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:55",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/64/a9/64a96e5892d04.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/64/a9/64a96e5892d04.jpg",
+  "sameAs": "https://www.backbay.fr/",
+  "description": "Retrouvez des classiques de la street food am\u00e9ricaine tels que le Pulled Pork, le Po Boy, le Grilled Cheese...\ud83e\udd6a \ud83c\udf54",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/80-back-bay",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  }
+}

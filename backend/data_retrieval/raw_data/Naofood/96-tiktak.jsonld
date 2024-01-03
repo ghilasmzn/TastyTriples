@@ -1,0 +1,80 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/96",
+  "@type": "http://schema.org/Restaurant",
+  "name": "TIKTAK",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/65819",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2157,
+      "longitude": -1.55545
+    },
+    "streetAddress": "9 Rue des Halles, 44000 Nantes",
+    "telephone": "+33255098984",
+    "name": "TIKTAK"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/65/36/6536745f2cf87.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/65/36/6536745f2cf87.jpg",
+  "sameAs": "https://www.instagram.com/tiktak.resto.bubbletea",
+  "description": "2\u00e8me Tiktak, Gare Nord : 26 Bd de Stalingrad, 44000 Nantes",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/96-tiktak",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  }
+}

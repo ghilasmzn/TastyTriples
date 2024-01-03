@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/54",
+  "@type": "http://schema.org/Restaurant",
+  "name": "P\u00e9pites !",
+  "address": {
+    "@id": "https://lcr.coopcycle.org/api/addresses/40154",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.126919,
+      "longitude": -1.6648424
+    },
+    "streetAddress": "204 Av. G\u00e9n\u00e9ral George S. Patton, 35700 Rennes, France",
+    "telephone": "+33221650757",
+    "name": "P\u00e9pites !"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/65/56/65563b7d28424.jpg",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e4f144555e.png",
+  "description": "Bistro - fait maison - traditionnel - influence diff\u00e9rentes du monde\r\n\r\nPour toute demande sp\u00e9cifique de livraison, contactez le restaurant \ud83d\udcde : volume important (panier de + de 100\u20ac) / zone de livraison p\u00e9riph\u00e9rique (Saint Gr\u00e9goire, Cesson-S\u00e9vign\u00e9, Chantepie, Saint Jacques de la Lande, Vezin le Coquet) ; horaires d\u00e9cal\u00e9s (matin, apr\u00e8s-midi).",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/54-pepites",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

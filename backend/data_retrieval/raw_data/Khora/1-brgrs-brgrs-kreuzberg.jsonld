@@ -1,0 +1,73 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://khora.berlin/api/restaurants/1",
+  "@type": "http://schema.org/Restaurant",
+  "name": "BRGRS BRGRS Kreuzberg",
+  "address": {
+    "@id": "https://khora.berlin/api/addresses/1",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.5115059,
+      "longitude": 13.4169483
+    },
+    "streetAddress": "Br\u00fcckenstra\u00dfe 1A, Berlin, Deutschland",
+    "telephone": "+4917621406582",
+    "name": "BRGRS BRGRS Kreuzberg"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/5e/80/5e80fafd9d978.jpg",
+  "sameAs": "https://www.burgersburgers.de/",
+  "description": "Burger mit regionalem Bio-Fleisch",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/1-brgrs-brgrs-kreuzberg",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

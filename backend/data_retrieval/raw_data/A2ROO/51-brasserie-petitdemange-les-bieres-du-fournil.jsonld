@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/51",
+  "@type": "http://schema.org/Brewery",
+  "name": "Brasserie Petitdemange - Les bi\u00e8res du fournil",
+  "address": {
+    "@id": "https://a2roo.coopcycle.org/api/addresses/8440",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.332348,
+      "longitude": 5.014639
+    },
+    "streetAddress": "28 Boulevard des Clomiers, 21240 Talant, France",
+    "telephone": "+33954119604",
+    "name": "Brasserie Petitdemange - Les bi\u00e8res du fournil"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:30",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "14:30",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/62/6a/626a76828f61a.png",
+  "sameAs": "https://www.lesbieresdufournil.fr/",
+  "description": "Depuis 2016, Geoffrey, votre artisan brasseur de Talant, travaille seul dans son petit atelier certifi\u00e9 BIO. Les bi\u00e8res sont brass\u00e9es de fa\u00e7on traditionnelle \u00e0 la main avec un fourquet en bois, non filtr\u00e9es, non pasteuris\u00e9es et referment\u00e9es en bouteilles \u00e0 bouchons m\u00e9caniques consign\u00e9es.\r\n\r\nLes malts sont issus de c\u00e9r\u00e9ales fran\u00e7aises, les houblons proviennent de C\u00f4te d'Or et d\u2019Alsace, le sucre du Nord de la France, le miel du Morvan et les levures sont sans OGM. \r\n\r\nVotre artisan n\u2019utilise pas de colorant, d\u2019ar\u00f4me, d\u2019additif, d\u2019enzymes, de clarifiant ou encore de sulfite.\r\n\r\nCette fabrication saine et artisanale implique du temps, la bi\u00e8re sera affin\u00e9e entre 2 et 3 mois \u00e0 la brasserie avant de pouvoir \u00eatre d\u00e9gust\u00e9e.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/51-brasserie-petitdemange-les-bieres-du-fournil",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}

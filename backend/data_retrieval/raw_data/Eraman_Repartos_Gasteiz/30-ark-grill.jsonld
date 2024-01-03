@@ -1,0 +1,74 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/30",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Ark Grill",
+  "address": {
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/3481",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8596103,
+      "longitude": -2.6781621
+    },
+    "streetAddress": "Calle de Paraguay, 21, Vitoria-Gasteiz, Espa\u00f1a",
+    "telephone": "+34688674100",
+    "name": "Ark Grill"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:30",
+      "closes": "23:35",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:30",
+      "closes": "16:15",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:45",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/65/04/65044a28e3f67.jpg",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbfa042d7d109185077.jpg",
+  "sameAs": "https://www.arkgrill.es/",
+  "description": "Sabores y carne de la mejor calidad, con el restaurante Ark Grill, las mejores hamburguesas y raciones directas a d\u00f3nde t\u00fa elijas.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/restaurant/30-ark-grill",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  }
+}

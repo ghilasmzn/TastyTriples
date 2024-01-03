@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sicklo.coopcycle.org/api/restaurants/89",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La Bonne P\u00e2te \ud83c\udf5d",
+  "address": {
+    "@id": "https://sicklo.coopcycle.org/api/addresses/36880",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.1904,
+      "longitude": 5.73055
+    },
+    "streetAddress": "3 Rue Alphand, 38000 Grenoble, France",
+    "telephone": "+33984421143",
+    "name": "La Bonne P\u00e2te \ud83c\udf5d"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:20",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/61/95/61951167f1e1a.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656db685a2e32.png",
+  "sameAs": "https://www.la-bonne-pate.fr/",
+  "description": "Restaurant de p\u00e2tes fraiches, sauces et desserts 100% fait maison, le tout dans une d\u00e9marche \u00e9co responsable, favorisant les circuits courts et les fournisseurs locaux dans le respect des produits de saison.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/89-la-bonne-pate",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}

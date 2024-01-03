@@ -1,0 +1,70 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://zampate.coopcycle.org/api/restaurants/14",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Barrio Sur",
+  "address": {
+    "@id": "https://zampate.coopcycle.org/api/addresses/5601",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.651707,
+      "longitude": -0.875331
+    },
+    "streetAddress": "Calle de San Jorge 29, 50001 Zaragoza, Espa\u00f1a",
+    "telephone": "+34876650739",
+    "name": "Barrio Sur"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Wednesday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/60/d1/60d1883613aa8.jpeg",
+  "sameAs": "http://barriosurzaragoza@hotmail.com",
+  "description": "Restaurante de comida mediterr\u00e1nea casera",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://zampate.coopcycle.org/fr/restaurant/14-barrio-sur",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "12.50"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://zampate.coopcycle.org"
+  }
+}

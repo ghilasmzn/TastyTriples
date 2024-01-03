@@ -1,0 +1,74 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/9",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Coucou Rennais",
+  "address": {
+    "@id": "https://lcr.coopcycle.org/api/addresses/508",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1153,
+      "longitude": -1.67902
+    },
+    "streetAddress": "20 Rue d'Antrain, 35700 Rennes, France",
+    "telephone": "+33973148872",
+    "name": "Le Coucou Rennais"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:50",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/62/3d/623ddcfb862f5.png",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e14cede474.png",
+  "sameAs": "https://coucourennais.fr/",
+  "description": "Restaurant local et bio, burgers maison, v\u00e9g\u00e9taliens et produits fermiers.\r\n\r\nSp\u00e9cialit\u00e9s de poulet et de dinde en fili\u00e8re courte provenant directement des producteurs des environs, mais aussi sp\u00e9cialit\u00e9 de falafels, steak lentille corails, accompagn\u00e9 de frites maisons et pommes de terres saut\u00e9es.\r\n Les desserts (maison eux aussi) viennent compl\u00e9ter un menu 100% bio et local en cas de petite envie de sucr\u00e9.\r\n\r\nFormules salades, sandwichs, poulet r\u00f4ti, wraps, mezze, burgers, il y en a pour tous les go\u00fbts chez le Coucou.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/9-le-coucou-rennais",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

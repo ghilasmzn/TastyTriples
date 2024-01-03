@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://fast-and-curious.coopcycle.org/api/restaurants/2",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Punjab",
+  "address": {
+    "@id": "https://fast-and-curious.coopcycle.org/api/addresses/2",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.4878,
+      "longitude": 0.11177
+    },
+    "streetAddress": "5 Rue du G\u00e9n\u00e9ral Faidherbe, 76600 Le Havre, France",
+    "telephone": "+33235210265",
+    "name": "Le Punjab"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "22:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://fast-and-curious.coopcycle.org/media/cache/restaurant_thumbnail/60/e2/60e25e491ace3.jpg",
+  "description": "Restaurant indien et pakistanais.\r\nCuisine faite maison et avec amour!",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://fast-and-curious.coopcycle.org/fr/restaurant/2-le-punjab",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://fast-and-curious.coopcycle.org"
+  }
+}

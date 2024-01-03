@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://dinan.coopcycle.org/api/restaurants/11",
+  "@type": "http://schema.org/Brewery",
+  "name": "Brasserie Alchimistes Ivres",
+  "address": {
+    "@id": "https://dinan.coopcycle.org/api/addresses/976",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.4550865,
+      "longitude": -2.0634452
+    },
+    "streetAddress": "33 Avenue Ren\u00e9 Cassin, Dinan, France",
+    "telephone": "+33768357221",
+    "name": "Brasserie Alchimistes Ivres"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://dinan.coopcycle.org/media/cache/restaurant_thumbnail/64/b7/64b7a2710a21f.png",
+  "sameAs": "https://www.alchimistes-ivres.com/",
+  "description": "Micro brasserie \u00e0 Dinan. \r\nEmbarquez dans un voyage o\u00f9 la magie se m\u00eale aux saveurs de nos bi\u00e8res m\u00e9di\u00e9vales fantastiques ! Notre sp\u00e9cialit\u00e9 r\u00e9side dans les bi\u00e8res brunes, un \u00e9lixir sombre et myst\u00e9rieux. Chaque gorg\u00e9e r\u00e9v\u00e8le des ar\u00f4mes riches, des saveurs complexes et une texture velout\u00e9e qui s\u00e9duira les palais les plus exigeants.\r\n\r\nQue vous soyez un connaisseur averti ou simplement curieux de d\u00e9couvrir de nouvelles sensations, nous esp\u00e9rons que nos bi\u00e8res \u00e9veilleront vos sens.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://dinan.coopcycle.org/fr/restaurant/11-brasserie-alchimistes-ivres",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://dinan.coopcycle.org"
+  }
+}

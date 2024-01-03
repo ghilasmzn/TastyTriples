@@ -1,0 +1,86 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/119",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Provenza 11:11",
+  "address": {
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/201063",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8451168,
+      "longitude": -2.686531
+    },
+    "streetAddress": "Pintor Obdulio Lopez de Uralde Kalea, 1, Vitoria-Gasteiz, Spain",
+    "telephone": "+34945031559",
+    "name": "Provenza 11:11"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:50",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:50",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:50",
+      "closes": "23:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:50",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:50",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/64/24/64240cd8e28a0.jpg",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656db9e7deb48888816530.jpg",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/restaurant/119-provenza-11-11",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  }
+}

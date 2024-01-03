@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://robinfood.coopcycle.org/api/restaurants/35",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Etto Sushi",
+  "address": {
+    "@id": "https://robinfood.coopcycle.org/api/addresses/3174",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.7986097,
+      "longitude": 11.2456837
+    },
+    "streetAddress": "Via Taddeo Alderotti, 33r, Firenze, FI, Italia",
+    "telephone": "+390559758122",
+    "name": "Etto Sushi"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:50",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/63/f8/63f8d13e978c3.jpeg",
+  "sameAs": "https://ettosushi-firenze.it/",
+  "description": "**_Sushi e Poke a Firenze. Sashimi, tempura, tartare e carpacci._**",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://robinfood.coopcycle.org/fr/restaurant/35-etto-sushi",
+      "inLanguage": "it",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://robinfood.coopcycle.org"
+  }
+}

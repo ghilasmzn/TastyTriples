@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lescoursiersnanceiens.coopcycle.org/api/restaurants/35",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Majeur",
+  "address": {
+    "@id": "https://lescoursiersnanceiens.coopcycle.org/api/addresses/781",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.6873,
+      "longitude": 6.18027
+    },
+    "streetAddress": "13 Rue Gd Rabbin Haguenauer, 54000 Nancy, France",
+    "telephone": "+33951135394",
+    "name": "Le Majeur"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersnanceiens.coopcycle.org/media/cache/restaurant_thumbnail/61/49/6149e4139cebe.jpeg",
+  "sameAs": "https://www.lemajeurnancy.fr/",
+  "description": "Le Majeur, c\u2019est la cantine de Laure & Matthieu implant\u00e9e dans le quartier Nancy c\u0153ur de ville.\r\nNous sommes un restaurant proposant une carte courte \u00e0 base de produits frais et de saison.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersnanceiens.coopcycle.org/fr/restaurant/35-le-majeur",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersnanceiens.coopcycle.org"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/39",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Super star kebab \ud83e\udd59",
+  "address": {
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/3013",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6031,
+      "longitude": 3.87151
+    },
+    "streetAddress": "30 Avenue Georges Clemenceau, 34000 Montpellier, France",
+    "telephone": "+33699102424",
+    "name": "Super star kebab \ud83e\udd59"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:35",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/57/6557e8bfede31.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/70/6570a41ed12e0.png",
+  "description": "D\u00f6ner kebab",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/39-super-star-kebab",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sicklo.coopcycle.org/api/restaurants/160",
+  "@type": "http://schema.org/Restaurant",
+  "name": "NOUVEAU \ud83d\udd25 BAGEL CORNER \ud83e\udd6f",
+  "address": {
+    "@id": "https://sicklo.coopcycle.org/api/addresses/95981",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.1915509,
+      "longitude": 5.7276697
+    },
+    "streetAddress": "4 Pl. Grenette, 38000 Grenoble, France",
+    "telephone": "+33650136641",
+    "name": "NOUVEAU \ud83d\udd25 BAGEL CORNER \ud83e\udd6f"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:10",
+      "closes": "14:50",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:50",
+      "closes": "21:50",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/65/79/6579db3bbcd8f.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/73/657327dc566d1.jpg",
+  "sameAs": "https://restaurants.bagelcorner.fr/",
+  "description": "Bagel Corner est la premi\u00e8re enseigne \u00e0 introduire en France le bagel de qualit\u00e9 et plus r\u00e9cemment le donut en adoptant une d\u00e9marche \u00e9co-responsable.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/160-nouveau-bagel-corner",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}

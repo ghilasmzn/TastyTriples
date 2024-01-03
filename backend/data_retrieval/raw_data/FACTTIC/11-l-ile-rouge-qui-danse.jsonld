@@ -1,0 +1,92 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://demo.coopcycle.org/api/restaurants/11",
+  "@type": "http://schema.org/FastFoodRestaurant",
+  "name": "L'\u00eele rouge qui danse",
+  "address": {
+    "@id": "https://demo.coopcycle.org/api/addresses/61",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.856721,
+      "longitude": 2.360141
+    },
+    "streetAddress": "Rue des Rosiers 5 bis, 75004 Paris",
+    "telephone": "+33411908922",
+    "name": "L'\u00eele rouge qui danse"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "14:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:30",
+      "closes": "23:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:45",
+      "closes": "14:15",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:45",
+      "closes": "00:15",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://demo.coopcycle.org/img/cuisine/default.jpg",
+  "bannerImage": "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/jrxnZjNZWVzm.jpg",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://demo.coopcycle.org/fr/restaurant/11-l-ile-rouge-qui-danse",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://demo.coopcycle.org"
+  }
+}

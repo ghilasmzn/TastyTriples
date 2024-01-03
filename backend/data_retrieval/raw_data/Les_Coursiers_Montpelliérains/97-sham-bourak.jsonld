@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/97",
+  "@type": "http://schema.org/Restaurant",
+  "name": "SHAM BOURAK \ud83c\uddf8\ud83c\uddfe\ud83c\udf2f",
+  "address": {
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/13786",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6208,
+      "longitude": 3.87292
+    },
+    "streetAddress": "74 Rue du Faubourg Boutonnet, 34090 Montpellier, France",
+    "telephone": "+33983668747",
+    "name": "SHAM BOURAK \ud83c\uddf8\ud83c\uddfe\ud83c\udf2f"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/46/6546a7bc42334.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbdf3013cd.png",
+  "description": "# Bienvenue chez SHAM BOURAK \ud83c\uddf8\ud83c\uddfe\ud83c\udf2f\r\n\r\nD\u00e9couvrez la richesse de la cuisine syrienne au c\u0153ur de Montpellier. Chez SHAM BOURAK, chaque plat est une c\u00e9l\u00e9bration des saveurs authentiques du Moyen-Orient.\r\n\r\n## Notre Menu \ud83c\udf7d\ufe0f\r\n- **Mezz\u00e9s** : Assortiment de petites bouch\u00e9es m\u00e9diterran\u00e9ennes pour \u00e9veiller vos papilles.\r\n- **Bourak** : Nos fameux bouraks sont une invitation au voyage, croustillants et g\u00e9n\u00e9reusement garnis.\r\n- **Grillades** : Savourez la finesse de nos grillades, mariages parfait entre \u00e9pices et grillades.\r\n- **Desserts Orientaux** : Terminez votre repas sur une note sucr\u00e9e avec nos p\u00e2tisseries traditionnelles.\r\n\r\nNous nous r\u00e9jouissons de vous accueillir et de partager avec vous un moment gourmand et convivial !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/97-sham-bourak",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

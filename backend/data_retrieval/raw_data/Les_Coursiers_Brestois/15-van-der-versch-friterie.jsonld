@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/15",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Van Der Versch Friterie",
+  "address": {
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/339",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.3903,
+      "longitude": -4.4854
+    },
+    "streetAddress": "21 Place de la Libert\u00e9, 29200 Brest, France",
+    "telephone": "+33229637136",
+    "name": "Van Der Versch Friterie"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:15",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:15",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/62/00/6200ee0858ef3.jpg",
+  "sameAs": "https://vanderversch.fr/",
+  "description": "Van Der Versch est une authentique friterie tout droit import\u00e9e de Belgique une fois ! Des frites, des snacks, des burgers, des mitraillettes (pas les fusils hein), des bi\u00e8res (belges \u00e9videmment), des gaufres et bien plus sont \u00e0 d\u00e9couvrir chez nous \u00e0 tout moment de la journ\u00e9e.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersbrestois.coopcycle.org/fr/restaurant/15-van-der-versch-friterie",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersbrestois.coopcycle.org"
+  }
+}

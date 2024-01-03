@@ -1,0 +1,92 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://demo.coopcycle.org/api/restaurants/36",
+  "@type": "http://schema.org/Restaurant",
+  "name": "L'aubergine rouge espagnole",
+  "address": {
+    "@id": "https://demo.coopcycle.org/api/addresses/86",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.876433,
+      "longitude": 2.327455
+    },
+    "streetAddress": "Rue de Budapest 7, 75009 Paris",
+    "telephone": "+33921163575",
+    "name": "L'aubergine rouge espagnole"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:30",
+      "closes": "22:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "08:45",
+      "closes": "14:45",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:15",
+      "closes": "00:30",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://demo.coopcycle.org/img/cuisine/default.jpg",
+  "bannerImage": "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/9kKQEx5ZeRXN.jpg",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://demo.coopcycle.org/fr/restaurant/36-l-aubergine-rouge-espagnole",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://demo.coopcycle.org"
+  }
+}

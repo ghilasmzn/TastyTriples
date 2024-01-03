@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://demo.coopcycle.org/api/restaurants/124",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La pizza de don cangrejo",
+  "address": {
+    "@id": "https://demo.coopcycle.org/api/addresses/14271",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 25.7451289,
+      "longitude": -100.3596916
+    },
+    "streetAddress": "Tolteca 1112, Unidad Modelo, Monterrey, Nuevo Leon, Mexico",
+    "telephone": "+526461512847",
+    "name": "La pizza de don cangrejo"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "00:00",
+      "closes": "23:59",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://demo.coopcycle.org/media/cache/restaurant_thumbnail/64/3e/643ec0fa129f2.avif",
+  "bannerImage": "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/g6DkdGVnlWwM.jpg",
+  "description": "es la mejor para t\u00ed y para m\u00ed",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://demo.coopcycle.org/fr/restaurant/124-la-pizza-de-don-cangrejo",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "0.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "0.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://demo.coopcycle.org"
+  }
+}

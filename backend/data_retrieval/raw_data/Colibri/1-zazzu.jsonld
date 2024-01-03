@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://colibri.coopcycle.org/api/restaurants/1",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Zazzu",
+  "address": {
+    "@id": "https://colibri.coopcycle.org/api/addresses/1",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.8482309,
+      "longitude": 14.247855
+    },
+    "streetAddress": "Via Tarsia, 27, Napoli, NA, Italia",
+    "telephone": "+3908119286498",
+    "name": "Zazzu"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:30",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://colibri.coopcycle.org/media/cache/restaurant_thumbnail/63/45/63458a6082d5f.jpeg",
+  "sameAs": "http://www.gustosanonapoletano.it",
+  "description": "I men\u00f9 sono giornalieri e sono presenti varianti, in caso di esigenze alimentari particolari o per ricevere specifiche sugli allergeni invitiamo a contattarci.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://colibri.coopcycle.org/fr/restaurant/1-zazzu",
+      "inLanguage": "it",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://colibri.coopcycle.org"
+  }
+}

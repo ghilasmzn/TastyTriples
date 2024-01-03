@@ -1,0 +1,74 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/77",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Donatien Maitre Eclair \ud83c\udf70",
+  "address": {
+    "@id": "https://kooglof.coopcycle.org/api/addresses/40607",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5812672,
+      "longitude": 7.7452862
+    },
+    "streetAddress": "111 Grand'Rue, 67000 Strasbourg, France",
+    "telephone": "+33951679955",
+    "name": "Donatien Maitre Eclair \ud83c\udf70"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:01",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:01",
+      "closes": "20:00",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:01",
+      "closes": "20:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e168020d14.png",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e0fa2917bc.JPG",
+  "sameAs": "https://donatien-maitre-eclair.fr/",
+  "description": "Donatien Maitre Eclair : sp\u00e9cialiste des \u00e9clairs et de la p\u00e2te \u00e0 choux \u00e0 Strasbourg !\r\n\r\nLivraison \u00e0 Strasbourg et alentours !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/77-donatien-maitre-eclair",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

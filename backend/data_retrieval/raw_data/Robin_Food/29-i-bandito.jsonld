@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://robinfood.coopcycle.org/api/restaurants/29",
+  "@type": "http://schema.org/Restaurant",
+  "name": "I' Bandito",
+  "address": {
+    "@id": "https://robinfood.coopcycle.org/api/addresses/2179",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.7751152,
+      "longitude": 11.2347069
+    },
+    "streetAddress": "Ponte alla Vittoria, Firenze, FI, Italia",
+    "telephone": "+390552052072",
+    "name": "I' Bandito"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:50",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:50",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/62/bc/62bc77f57865e.jpg",
+  "description": "**_I' Bandito, storica paninoteca fiorentina, \u00e8 felice di deliziarvi con tutti i panini ispirati a storici banditi! Lampredotto, Salsiccia, Hamburger, Wurstel, Trippa e tanto altro!_**",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://robinfood.coopcycle.org/fr/restaurant/29-i-bandito",
+      "inLanguage": "it",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://robinfood.coopcycle.org"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://fast-and-curious.coopcycle.org/api/restaurants/34",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La Fille de Seitan",
+  "address": {
+    "@id": "https://fast-and-curious.coopcycle.org/api/addresses/1529",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.4878504,
+      "longitude": 0.1060385
+    },
+    "streetAddress": "52 Rue Jules Masurier, Le Havre, France",
+    "telephone": "+33981640173",
+    "name": "La Fille de Seitan"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://fast-and-curious.coopcycle.org/media/cache/restaurant_thumbnail/63/4a/634ab67b1fa9f.jpg",
+  "description": "Petit \u00e9tablissement 100% v\u00e9gane.\r\nVente \u00e0 emporter du mercredi au samedi 12h-14h.\r\nSalon de th\u00e9 les mercredis et samedis de 15h \u00e0 18h.\r\nService traiteur \u263a",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://fast-and-curious.coopcycle.org/fr/restaurant/34-la-fille-de-seitan",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://fast-and-curious.coopcycle.org"
+  }
+}

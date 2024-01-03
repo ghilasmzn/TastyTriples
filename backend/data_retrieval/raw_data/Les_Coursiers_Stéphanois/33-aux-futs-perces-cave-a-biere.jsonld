@@ -1,0 +1,70 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiers-stephanois.coopcycle.org/api/restaurants/33",
+  "@type": "http://schema.org/GroceryStore",
+  "name": "Aux F\u00fbts Perc\u00e9s - Cave \u00e0 Bi\u00e8re",
+  "address": {
+    "@id": "https://coursiers-stephanois.coopcycle.org/api/addresses/4930",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.4327,
+      "longitude": 4.38891
+    },
+    "streetAddress": "28 Rue Gambetta, 42000 Saint-\u00c9tienne, France",
+    "telephone": "+33699016228",
+    "name": "Aux F\u00fbts Perc\u00e9s - Cave \u00e0 Bi\u00e8re"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "15:00",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "13:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "14:00",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/61/25/6125fa4a0436c.jpg",
+  "sameAs": "https://auxfutsperces.com/",
+  "description": "Avec nous, parcourez les routes du monde \u00e0 la recherche des meilleures saveurs de bi\u00e8re ! Houblon, malt et bl\u00e9 vous attendent fermement ou plut\u00f4t ferment\u00e9s, pour un d\u00e9paysement gustatif total ! Que vous soyez un particulier, une association ou une entreprise, nous vous accompagnons  avec un choix de bi\u00e8res qui ne pourront que satisfaire vos papilles et celles de vos convives.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/store/33-aux-futs-perces-cave-a-biere",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  }
+}

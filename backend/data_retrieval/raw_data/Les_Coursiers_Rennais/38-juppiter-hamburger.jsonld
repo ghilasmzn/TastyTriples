@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/38",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Jupp\u012dter Hamburger",
+  "address": {
+    "@id": "https://lcr.coopcycle.org/api/addresses/25189",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1106732,
+      "longitude": -1.6758756
+    },
+    "streetAddress": "7 Place Saint-Germain, Rennes, France",
+    "telephone": "+33299224963",
+    "name": "Jupp\u012dter Hamburger"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:40",
+      "closes": "21:55",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:40",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/63/77/6377ac500b630.jpg",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e53c2910a2.png",
+  "sameAs": "https://www.instagram.com/juppiterhamburger",
+  "description": "\ud83c\udf54 SmashBurgers frais \ud83c\udff8\r\n\ud83c\udf5f Frites & Sauces cheddar maison \ud83e\uddc0\r\n\ud83c\udf4b Limonades & Bi\u00e8res artisanales \ud83c\udf7b",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/38-juppiter-hamburger",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

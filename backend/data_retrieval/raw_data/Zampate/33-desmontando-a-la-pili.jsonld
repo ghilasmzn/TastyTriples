@@ -1,0 +1,60 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://zampate.coopcycle.org/api/restaurants/33",
+  "@type": "http://schema.org/ToyStore",
+  "name": "DESMONTANDO A LA PILI",
+  "address": {
+    "@id": "https://zampate.coopcycle.org/api/addresses/16612",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.6533998,
+      "longitude": -0.8747233
+    },
+    "streetAddress": "Calle de Don Juan de Arag\u00f3n, 21, Zaragoza, Espa\u00f1a",
+    "telephone": "+34876164036",
+    "name": "DESMONTANDO A LA PILI"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "13:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:30",
+      "closes": "20:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/63/4a/634ae93b5b65f.jpg",
+  "sameAs": "https://desmontandoalapili.com/",
+  "description": "Desmontando a la Pili es una cooperativa de salud sexual formada por un equipo de sex\u00f3logas desde 2010.\r\nOfrecemos talleres de Educaci\u00f3n Sexual, Asesor\u00eda y terapia sexol\u00f3gica, realizamos tuppersex diferentes y vendemos productos er\u00f3ticos y terap\u00e9uticos; todo desde la sexolog\u00eda, el feminismo, la diversidad y la econom\u00eda solidaria.\r\n\r\nA trav\u00e9s de Z\u00e1mpate podr\u00e1s recibir en tu domicilio algunos de nuestros productos de la tienda.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://zampate.coopcycle.org/fr/store/33-desmontando-a-la-pili",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://zampate.coopcycle.org"
+  }
+}

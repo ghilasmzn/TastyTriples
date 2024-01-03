@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://robinfood.coopcycle.org/api/restaurants/37",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Tripperia Vegana | TAN8",
+  "address": {
+    "@id": "https://robinfood.coopcycle.org/api/addresses/3317",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.7971968,
+      "longitude": 11.2213738
+    },
+    "streetAddress": "Viale Alessandro Guidoni, 85, Firenze, FI, Italia",
+    "telephone": "+393772977098",
+    "name": "Tripperia Vegana | TAN8"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/64/2b/642b21b38363e.jpeg",
+  "description": "**_Tripperia Vegana da un Chiosco Volante!_**\r\n\r\n<span style=\"color:red\"> _**CONSEGNA GRATUITA NEI QUARTIERI 4 & 5!**_ </span>",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://robinfood.coopcycle.org/fr/restaurant/37-tripperia-vegana-tan8",
+      "inLanguage": "it",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://robinfood.coopcycle.org"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://robinfood.coopcycle.org/api/restaurants/32",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Chiosco Di Mare",
+  "address": {
+    "@id": "https://robinfood.coopcycle.org/api/addresses/2746",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.7700479,
+      "longitude": 11.2656862
+    },
+    "streetAddress": "Via dei Macci, 61r, Firenze, FI, Italia",
+    "telephone": "+393475866253",
+    "name": "Chiosco Di Mare"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/63/35/63355aba25a2b.jpg",
+  "description": "**_Ristorante di pesce con una proposta gourmet, light e dal sapore internazionale, tutto realizzato con prodotti freschi del territorio e controllati per offrire una nuova esperienza di gusto_**",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://robinfood.coopcycle.org/fr/restaurant/32-chiosco-di-mare",
+      "inLanguage": "it",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://robinfood.coopcycle.org"
+  }
+}

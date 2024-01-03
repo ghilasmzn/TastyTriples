@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://khora.berlin/api/restaurants/79",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Neue Republik Reger",
+  "address": {
+    "@id": "https://khora.berlin/api/addresses/12880",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.49036,
+      "longitude": 13.44909
+    },
+    "streetAddress": "Bouch\u00e9stra\u00dfe 79A, 12435 Berlin, Deutschland",
+    "telephone": "+493023566918",
+    "name": "Neue Republik Reger"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "20:40",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:30",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "20:40",
+      "dayOfWeek": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/60/51/6051f664c4779.JPG",
+  "sameAs": "https://www.republik.sexy/",
+  "description": "100% pflanzlich, ziemlich bio, bisschen sexy\r\nBURGER DISKO BIER",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/79-neue-republik-reger",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

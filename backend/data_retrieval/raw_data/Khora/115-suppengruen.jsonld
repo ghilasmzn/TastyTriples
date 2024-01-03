@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://khora.berlin/api/restaurants/115",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Suppengr\u00fcn",
+  "address": {
+    "@id": "https://khora.berlin/api/addresses/25826",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.5121449,
+      "longitude": 13.4127419
+    },
+    "streetAddress": "Inselstra\u00dfe 1A, Berlin, Deutschland",
+    "telephone": "+493024781390",
+    "name": "Suppengr\u00fcn"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:40",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/61/6d/616d95dd104eb.jpg",
+  "sameAs": "https://www.suppengruen.net/",
+  "description": "Die besten Suppen und Salate seit 2002. T\u00e4glich frisch gekocht und hausgebacken.\r\nSuppen, Salate, und verf\u00fchrerische Desserts.\r\nDer Umwelt zu Liebe werden alle Speisen in Pfandboxen verpackt.\r\nDie Pfandbeh\u00e4lter (ausgesp\u00fclt) k\u00f6nnen gerne w\u00e4hrend der \u00d6ffnungszeiten im Suppengr\u00fcn zur\u00fcckgegeben werden.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/115-suppengruen",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

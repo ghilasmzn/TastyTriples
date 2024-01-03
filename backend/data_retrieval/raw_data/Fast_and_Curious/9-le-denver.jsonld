@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://fast-and-curious.coopcycle.org/api/restaurants/9",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Denver",
+  "address": {
+    "@id": "https://fast-and-curious.coopcycle.org/api/addresses/9",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.4921,
+      "longitude": 0.106786
+    },
+    "streetAddress": "21 Rue Robert de la Villeherve, 76600 Le Havre, France",
+    "telephone": "+33235477836",
+    "name": "Le Denver"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:25",
+      "closes": "15:15",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:25",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://fast-and-curious.coopcycle.org/media/cache/restaurant_thumbnail/60/e2/60e25f9d0ef65.png",
+  "description": "Le Denver est un restaurant am\u00e9ricain utilisant exclusivement comme ingr\u00e9dients des produits frais et locaux. Situ\u00e9s en face de la mairie du Havre, nous mettons tout en oeuvre pour vous faire vivre le temps d'un repas le r\u00eave am\u00e9ricain. D\u00e9paysement garanti par la d\u00e9coration et la musique !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://fast-and-curious.coopcycle.org/fr/restaurant/9-le-denver",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://fast-and-curious.coopcycle.org"
+  }
+}

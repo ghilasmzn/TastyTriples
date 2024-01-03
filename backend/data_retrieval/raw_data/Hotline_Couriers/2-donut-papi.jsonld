@@ -1,0 +1,51 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://hotlinecouriers.coopcycle.org/api/restaurants/2",
+  "@type": "http://schema.org/Bakery",
+  "name": "Donut Papi",
+  "address": {
+    "@id": "https://hotlinecouriers.coopcycle.org/api/addresses/8",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -33.893,
+      "longitude": 151.207172
+    },
+    "streetAddress": "34A Redfern Street, 2016 Redfern, Australia",
+    "telephone": "+61432610546",
+    "name": "Donut Papi"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://hotlinecouriers.coopcycle.org/media/cache/restaurant_thumbnail/61/4b/614bd09e3f7f8.jpg",
+  "sameAs": "https://donutpapi.com/",
+  "description": "Donuts & other baked treats are offered in a range of inventive flavours at this cosy donut shop.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://hotlinecouriers.coopcycle.org/fr/restaurant/2-donut-papi",
+      "inLanguage": "en",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://hotlinecouriers.coopcycle.org"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lapajara.coopcycle.org/api/restaurants/14",
+  "@type": "http://schema.org/Restaurant",
+  "name": "L'Ador\u00e9",
+  "address": {
+    "@id": "https://lapajara.coopcycle.org/api/addresses/71",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.4109748,
+      "longitude": -3.7074469
+    },
+    "streetAddress": "Plaza de Cascorro, 20, Madrid, Espa\u00f1a",
+    "telephone": "+34687629639",
+    "name": "L'Ador\u00e9"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:45",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lapajara.coopcycle.org/media/cache/restaurant_thumbnail/5c/a5/5ca5e1bec7f16.jpg",
+  "sameAs": "https://www.instagram.com/panadoremadrid",
+  "description": "Cocina casera francesca, peque\u00f1o Bistrot que ofrece calidad y productos nuevos de confecci\u00f3n artesanal a diario.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lapajara.coopcycle.org/fr/restaurant/14-l-adore",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "10.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://lapajara.coopcycle.org"
+  }
+}

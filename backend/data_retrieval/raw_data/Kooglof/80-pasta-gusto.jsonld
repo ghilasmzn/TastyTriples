@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/80",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Pasta Gusto \ud83c\udf5d\ud83c\udff7\ufe0f",
+  "address": {
+    "@id": "https://kooglof.coopcycle.org/api/addresses/41180",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5831353,
+      "longitude": 7.7539884
+    },
+    "streetAddress": "37 Rue des Fr\u00e8res, Strasbourg, France",
+    "telephone": "+33369747558",
+    "name": "Pasta Gusto \ud83c\udf5d\ud83c\udff7\ufe0f"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:01",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6f/656f51a8bcb93.png",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6f/656f518346da4.png",
+  "sameAs": "https://fr.restaurantguru.com/Papa-Ciccio-Centre-Ville-Strasbourg",
+  "description": "\u27a1\ufe0f Chez vous ou au bureau ! Livraison \u00e0 partir de 2,90 euros \ud83c\udf89\r\n\r\nLivraison de repas \u00e0 Strasbourg et alentours !\r\nPasta Gusto : p\u00e2tes traditionnelles et sauces maison !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/80-pasta-gusto",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

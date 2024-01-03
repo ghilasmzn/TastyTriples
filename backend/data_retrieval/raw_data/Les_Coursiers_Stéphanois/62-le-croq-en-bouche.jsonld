@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiers-stephanois.coopcycle.org/api/restaurants/62",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Croq'en bouche",
+  "address": {
+    "@id": "https://coursiers-stephanois.coopcycle.org/api/addresses/16808",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.4347635,
+      "longitude": 4.3931625
+    },
+    "streetAddress": "25 Place Chavanelle, Saint-\u00c9tienne, France",
+    "telephone": "+33477339083",
+    "name": "Le Croq'en bouche"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c8efeb91b.jpg",
+  "sameAs": "https://www.lecroqenbouche.fr/",
+  "description": "La boulangerie le Croq'en bouche vous propose des produits travaill\u00e9s avec des mati\u00e8res premi\u00e8res de qualit\u00e9, en faisant appel \u00e0 des producteurs locaux. \r\nPetite douceur ou pause d\u00e9jeuner, Xavier et son \u00e9quipe r\u00e9pondent \u00e0 vos besoins avec de belles cr\u00e9ations qui allient innovation et di\u00e9t\u00e9tique !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/restaurant/62-le-croq-en-bouche",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://feelavelo.coopcycle.org/api/restaurants/8",
+  "@type": "http://schema.org/Restaurant",
+  "name": "L'Envol",
+  "address": {
+    "@id": "https://feelavelo.coopcycle.org/api/addresses/139",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.7503492,
+      "longitude": -3.3621538
+    },
+    "streetAddress": "1 Rue de Clisson, Lorient, France",
+    "telephone": "+33783835257",
+    "name": "L'Envol"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://feelavelo.coopcycle.org/media/cache/restaurant_thumbnail/5e/aa/5eaaa51cb1ebc.jpg",
+  "sameAs": "https://www.lenvolrestaurant.com/",
+  "description": "L'ENVOL vous propose des repas Bio, \u00e9quilibr\u00e9s et gourmands. Notre cuisine trouve l\u2019inspiration dans notre beau terroir Breton entre Terre et Mer\u00a0: produits locaux, de saison et surtout nous cuisinons avec beaucoup de passion. R\u00e9galez-vous . Livr\u00e9 sans couverts",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://feelavelo.coopcycle.org/fr/restaurant/8-l-envol",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "5.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "0.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://feelavelo.coopcycle.org"
+  }
+}
