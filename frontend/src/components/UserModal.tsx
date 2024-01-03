@@ -19,7 +19,7 @@ const UserModal = () => {
           <span className="sr-only">Open user menu</span>
           <img
             className="w-8 h-8 rounded-full"
-            src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+            src="assets/images/user-icon.png"
             alt="user icon"
           />
         </button>
@@ -41,11 +41,11 @@ const UserModal = () => {
                   <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
                 </svg>
               </button>
-              <div className="flex items-center">
+              <div className="flex items-center mt-3">
                 <div>
                   <img
                     className="w-8 h-8 rounded-full"
-                    src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+                    src="assets/images/user-icon.png"
                     alt="user icon"
                   />
                 </div>

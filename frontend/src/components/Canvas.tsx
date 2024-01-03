@@ -17,12 +17,10 @@ const Canvas: FC = () => {
   }, []);
 
   return (
-    <>
       <CanvasContext.Provider value={{ context }}>
         <canvas id="canvas" ref={canvasRef} width={width} height={220}></canvas>
         <Wave />
       </CanvasContext.Provider>
-    </>
   );
 };
 
