@@ -1,0 +1,60 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sicklo.coopcycle.org/api/restaurants/60",
+  "@type": "http://schema.org/Restaurant",
+  "name": "C'MIDI \ud83e\udd67",
+  "address": {
+    "@id": "https://sicklo.coopcycle.org/api/addresses/18144",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.1916,
+      "longitude": 5.73105
+    },
+    "streetAddress": "3 Rue Jean-Fran\u00e7ois Hache, 38000 Grenoble, France",
+    "telephone": "+33662709701",
+    "name": "C'MIDI \ud83e\udd67"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/64/24/642409c75de1d.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc81ef09aa.jpg",
+  "sameAs": "https://cmidigrenoble.info/",
+  "description": "Bistrot traiteur situ\u00e9 en plein centre ville de Grenoble. Venez d\u00e9couvrir une s\u00e9lection des salades, tartes, lasagnes et gratins ax\u00e9e sur les produits frais, \u00e9quilibr\u00e9s et sains avec des recettes maison.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/60-c-midi",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}

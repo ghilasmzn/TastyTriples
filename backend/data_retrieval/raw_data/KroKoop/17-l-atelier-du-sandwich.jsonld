@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://krokoop.coopcycle.org/api/restaurants/17",
+  "@type": "http://schema.org/Restaurant",
+  "name": "L'ATELIER DU SANDWICH",
+  "address": {
+    "@id": "https://krokoop.coopcycle.org/api/addresses/832",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8385293,
+      "longitude": 4.3614107
+    },
+    "streetAddress": "2 Place Bellecroix, N\u00eemes, France",
+    "telephone": "+33973166443",
+    "name": "L'ATELIER DU SANDWICH"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:55",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65496bbe0cf95.png",
+  "sameAs": "https://www.facebook.com/ateliedusandwich/",
+  "description": "Le sandwich gagne peu \u00e0 peu ses lettres de noblesse \u00e0 N\u00eemes et L'atelier du Sandwich s y est assur\u00e9ment pour quelque chose.\r\n\r\nPour cause : les produits sont frais, si possible locaux, faits maison (jusqu\u2019\u00e0 la brandade !) et subtilement combin\u00e9s pour offrir \u00e0 chaque cr\u00e9ation un go\u00fbt fin et \u00e9quilibr\u00e9.\r\n\r\nC\u2019est le parti prit de Steve Clamart qui apr\u00e8s avoir travaill\u00e9 pour plusieurs restaurants gastronomiques s\u2019est lanc\u00e9 dans l\u2019aventure en 2019.\r\n\r\nOriginaire de Belgique, le chef y propose \u00e9galement sa sp\u00e9cialit\u00e9 :\r\nla Gaufre de Li\u00e8ge, enti\u00e8rement confectionn\u00e9e sur place.\r\n\r\nBref, de quoi se faire plaisir en savourant les innombrables autres p\u00e9pites que nous r\u00e9serve l\u2019\u00e9tablissement.\r\n\r\nBonne d\u00e9gustation !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/17-l-atelier-du-sandwich",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

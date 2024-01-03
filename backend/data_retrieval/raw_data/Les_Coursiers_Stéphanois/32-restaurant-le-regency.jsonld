@@ -1,0 +1,74 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiers-stephanois.coopcycle.org/api/restaurants/32",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Restaurant Le R\u00e9gency",
+  "address": {
+    "@id": "https://coursiers-stephanois.coopcycle.org/api/addresses/4812",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.448177,
+      "longitude": 4.3884
+    },
+    "streetAddress": "17 Boulevard Jules Janin, 42000 Saint-\u00c9tienne, France",
+    "telephone": "+33477742706",
+    "name": "Restaurant Le R\u00e9gency"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:30",
+      "closes": "21:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560ca48674df.jpg",
+  "sameAs": "https://www.restaurantleregency.fr/",
+  "description": "Amoureux de la nature, le chef Alexis Bessette privil\u00e9gie les circuits courts, avec une s\u00e9lection de produits bruts saisis sur les march\u00e9s locaux, au gr\u00e9 de l'humeur et des saisons. S'en suit une cuisine instinctive, \u00e9pur\u00e9e et contemporaine qui revisite les classiques et sait surprendre le palais des fins gourmets.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/restaurant/32-restaurant-le-regency",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "14.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  }
+}

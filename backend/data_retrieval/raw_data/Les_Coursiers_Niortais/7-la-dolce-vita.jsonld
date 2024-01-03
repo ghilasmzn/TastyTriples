@@ -1,0 +1,51 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://niort.coopcycle.org/api/restaurants/7",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La Dolce Vita",
+  "address": {
+    "@id": "https://niort.coopcycle.org/api/addresses/7",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 46.3234,
+      "longitude": -0.463439
+    },
+    "streetAddress": "46 Rue Saint-Jean, 79000 Niort, France",
+    "telephone": "+33549171489",
+    "name": "La Dolce Vita"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:27",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://niort.coopcycle.org/media/cache/restaurant_thumbnail/63/4e/634ed4b7c7e60.jpg",
+  "sameAs": "https://ladolcevita-niort.fr/",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://niort.coopcycle.org/fr/restaurant/7-la-dolce-vita",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://niort.coopcycle.org"
+  }
+}

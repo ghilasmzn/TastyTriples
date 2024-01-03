@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sicklo.coopcycle.org/api/restaurants/58",
+  "@type": "http://schema.org/Restaurant",
+  "name": "CAF\u00c9 FOCH \ud83c\udf31",
+  "address": {
+    "@id": "https://sicklo.coopcycle.org/api/addresses/15318",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.181491,
+      "longitude": 5.724706
+    },
+    "streetAddress": "20 Boulevard Mar\u00e9chal Foch, 38000 Grenoble, France",
+    "telephone": "+33457134392",
+    "name": "CAF\u00c9 FOCH \ud83c\udf31"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:15",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/64/8f/648f4b5ea1641.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc64e28161.jpg",
+  "sameAs": "http://www.cafefoch.fr",
+  "description": "Le Caf\u00e9 Foch est un restaurant de quartier, ouvert le midi pour de la restauration sur place ou \u00e0 emporter.\r\nUne cuisine faite maison avec des produits frais et avec amour !\r\n\r\nChaque semaine nous vous proposerons une carte diff\u00e9rente et de saison, il y en a pour tout les go\u00fbts :)\r\n\r\nPensez aux formules avec les plats du jour ! ;)\r\n\r\nSuivez notre actualit\u00e9 sur notre site : www.cafefoch.fr\r\nRetrouvez nous aussi sur les r\u00e9seaux FB et Insta.\r\n\r\nA plus au Foch !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/58-cafe-foch",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}

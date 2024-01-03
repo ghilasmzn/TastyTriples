@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://krokoop.coopcycle.org/api/restaurants/14",
+  "@type": "http://schema.org/Restaurant",
+  "name": "SAIN BOL",
+  "address": {
+    "@id": "https://krokoop.coopcycle.org/api/addresses/306",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8363073,
+      "longitude": 4.3576169
+    },
+    "streetAddress": "24 Boulevard Victor Hugo, N\u00eemes, France",
+    "telephone": "+33466066665",
+    "name": "SAIN BOL"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:20",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/6549719ac078e.png",
+  "sameAs": "https://www.facebook.com/profile.php?id=100063539920120",
+  "description": "Sain Bol c'est une \u00eele, le sable et la mer en plein centre-ville. En bref ? C'est Hawa\u00ef qui s'implante \u00e0 N\u00eemes !\r\n\r\nSain Bol, c'est aussi une entreprise familiale g\u00e9r\u00e9e par Julie & Marine, deux soeurs qui donnent du coeur \u00e0 l'ouvrage pour proposer et r\u00e9inventer un plat embl\u00e9matique : le Poke Bowl !\r\n\r\nAvis aux cr\u00e9atifs : vous pourrez choisir vous-m\u00eames vos propres ingr\u00e9dients pour une composition personnalis\u00e9e qui s'adapte \u00e0 vos envies. \r\n\r\nLe tout fait maison, avec des produits si possible locaux et de saison !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/14-sain-bol",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

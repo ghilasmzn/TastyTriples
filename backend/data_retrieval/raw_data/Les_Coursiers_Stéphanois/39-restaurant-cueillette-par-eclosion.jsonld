@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiers-stephanois.coopcycle.org/api/restaurants/39",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Restaurant Cueillette par Eclosion",
+  "address": {
+    "@id": "https://coursiers-stephanois.coopcycle.org/api/addresses/6597",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.4339,
+      "longitude": 4.38778
+    },
+    "streetAddress": "2 Cours Victor Hugo, 42000 Saint-\u00c9tienne, France",
+    "telephone": "+33428044441",
+    "name": "Restaurant Cueillette par Eclosion"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c90f3734c.jpg",
+  "description": "Cuisine de march\u00e9 au c\u0153ur des halles de St \u00c9tienne.\r\nTOUT EST SERVI EN LIAISON FROIDE : conseils pour r\u00e9chauffer fournis avec les plats.\r\n\r\nMenu sp\u00e9cial pour notre premier anniversaire :",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/restaurant/39-restaurant-cueillette-par-eclosion",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "20.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  }
+}

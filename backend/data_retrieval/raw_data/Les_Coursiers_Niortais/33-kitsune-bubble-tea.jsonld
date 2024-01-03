@@ -1,0 +1,51 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://niort.coopcycle.org/api/restaurants/33",
+  "@type": "http://schema.org/CafeOrCoffeeShop",
+  "name": "Kitsun\u00e9 Bubble Tea",
+  "address": {
+    "@id": "https://niort.coopcycle.org/api/addresses/6626",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 46.3236346,
+      "longitude": -0.4616121
+    },
+    "streetAddress": "25 Rue Sainte-Marthe, Niort, France",
+    "telephone": "+33769397889",
+    "name": "Kitsun\u00e9 Bubble Tea"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "19:15",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://niort.coopcycle.org/media/cache/restaurant_thumbnail/65/72/6572de59eb10c.png",
+  "sameAs": "https://kitsunebubbletea.com/",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://niort.coopcycle.org/fr/restaurant/33-kitsune-bubble-tea",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://niort.coopcycle.org"
+  }
+}

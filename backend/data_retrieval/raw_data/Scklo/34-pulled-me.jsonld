@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sicklo.coopcycle.org/api/restaurants/34",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Pulled Me \ud83e\udd6a",
+  "address": {
+    "@id": "https://sicklo.coopcycle.org/api/addresses/3642",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.1901062,
+      "longitude": 5.7165901
+    },
+    "streetAddress": "48 Avenue Alsace Lorraine, Grenoble, France",
+    "telephone": "+33981620979",
+    "name": "Pulled Me \ud83e\udd6a"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:20",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/61/a8/61a8e02e70064.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656db9932f41f.png",
+  "sameAs": "https://pulledme.com/",
+  "description": "PULLED ME, C\u2019EST LA SOMME DES INFLUENCES STREET FOOD DE NOS PAYS PR\u00c9F\u00c9R\u00c9S... o\u00f9 vous mangerez gourmand et rapidement: FAST GOOD\r\n\r\nIci, chaque produit est soigneusement s\u00e9lectionn\u00e9, puis cuisin\u00e9 pour vous offrir le meilleur dans un sandwich\r\nPour chaque recette, des viandes cuites longuement, fum\u00e9es et effiloch\u00e9es pour des sandwichs gourmands & savoureux.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/34-pulled-me",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}

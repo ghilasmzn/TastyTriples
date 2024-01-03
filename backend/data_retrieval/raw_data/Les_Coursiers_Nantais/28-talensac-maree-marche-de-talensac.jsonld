@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lescoursiersnantais.coopcycle.org/api/restaurants/28",
+  "@type": "http://schema.org/GroceryStore",
+  "name": "Talensac Mar\u00e9e - March\u00e9 de Talensac",
+  "address": {
+    "@id": "https://lescoursiersnantais.coopcycle.org/api/addresses/1278",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2211425,
+      "longitude": -1.5562849
+    },
+    "streetAddress": "Rue Talensac, Nantes, France",
+    "telephone": "+33787053448",
+    "name": "Talensac Mar\u00e9e - March\u00e9 de Talensac"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "08:00",
+      "closes": "12:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersnantais.coopcycle.org/media/cache/restaurant_thumbnail/5e/b4/5eb410f703478.PNG",
+  "bannerImage": "https://lescoursiersnantais.coopcycle.org/placeholder/restaurant_banner/placeholders/kZYVGwranwrQ.jpg",
+  "description": "Poissonnerie proposant des poissons de petits bateaux, plateaux de fruits de mer et crustac\u00e9s vivants en direct du Croisic",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersnantais.coopcycle.org/fr/store/28-talensac-maree-marche-de-talensac",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "6.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "20.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersnantais.coopcycle.org"
+  }
+}

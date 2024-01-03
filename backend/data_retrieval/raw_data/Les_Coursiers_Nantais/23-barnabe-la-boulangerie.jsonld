@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lescoursiersnantais.coopcycle.org/api/restaurants/23",
+  "@type": "http://schema.org/GroceryStore",
+  "name": "Barnab\u00e9 La boulangerie",
+  "address": {
+    "@id": "https://lescoursiersnantais.coopcycle.org/api/addresses/332",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2059759,
+      "longitude": -1.5491291
+    },
+    "streetAddress": "10 Boulevard Babin Chevaye, Nantes, France",
+    "telephone": "+33631613032",
+    "name": "Barnab\u00e9 La boulangerie"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "08:00",
+      "closes": "18:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersnantais.coopcycle.org/media/cache/restaurant_thumbnail/5e/90/5e909d3692224.PNG",
+  "bannerImage": "https://lescoursiersnantais.coopcycle.org/placeholder/restaurant_banner/placeholders/Po6eG4ENE1QB.jpg",
+  "sameAs": "http://www.barnabe-boulangerie.fr",
+  "description": "Boulangerie artisanale",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersnantais.coopcycle.org/fr/store/23-barnabe-la-boulangerie",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "6.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "1.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersnantais.coopcycle.org"
+  }
+}

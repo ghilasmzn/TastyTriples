@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/4",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La Poke",
+  "address": {
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/24",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.3898,
+      "longitude": -4.49093
+    },
+    "streetAddress": "38 Rue de Lyon, 29200 Brest, France",
+    "telephone": "+33762171824",
+    "name": "La Poke"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:15",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:20",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/61/f5/61f5724c1d987.jpg",
+  "sameAs": "https://www.lapoke.fr/",
+  "description": "Chez \"La pok\u00e9 Brest\", on vous pr\u00e9pare d'authentiques Pok\u00e9 Bowls g\u00e9n\u00e9reux, color\u00e9s, adapt\u00e9s \u00e0 votre quotidien et \u00e0 vos besoins !\r\n\r\nNotre sp\u00e9cificit\u00e9 ? Nos pok\u00e9s sont pr\u00e9par\u00e9s devant vos yeux avec des produits frais re\u00e7us le matin-m\u00eame.\r\n\r\nEt pour que le plaisir soit total, vous pourrez d\u00e9guster vos pok\u00e9s avec des desserts et des sauces enti\u00e8rement \u00ab fait maison \u00bb !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersbrestois.coopcycle.org/fr/restaurant/4-la-poke",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersbrestois.coopcycle.org"
+  }
+}

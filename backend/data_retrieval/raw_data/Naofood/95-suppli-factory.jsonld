@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/95",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Suppli Factory",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/63435",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2167,
+      "longitude": -1.55315
+    },
+    "streetAddress": "10 Rue de Briord, 44000 Nantes, France",
+    "telephone": "+33240204015",
+    "name": "Suppli Factory"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/61/ea/61eabe37ce083.jpeg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/61/ea/61eabe37ce083.jpeg",
+  "sameAs": "http://supplifactory.com/",
+  "description": "Le r\u00e9sultat d\u2019un voyage, de tentatives culinaires, et une vraie d\u00e9couverte ! Les suppli et les arancini. Une cuisine de qualit\u00e9, savoureuse, faite \u00e0 partir de produits bruts.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/95-suppli-factory",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  }
+}

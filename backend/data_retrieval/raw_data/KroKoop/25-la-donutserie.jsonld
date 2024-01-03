@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://krokoop.coopcycle.org/api/restaurants/25",
+  "@type": "http://schema.org/Restaurant",
+  "name": "LA DONUTSERIE",
+  "address": {
+    "@id": "https://krokoop.coopcycle.org/api/addresses/1905",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8367784,
+      "longitude": 4.3652031
+    },
+    "streetAddress": "18 Rue Notre Dame, N\u00eemes, France",
+    "telephone": "+33646518700",
+    "name": "LA DONUTSERIE"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:45",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/6549532a4ccbf.png",
+  "sameAs": "https://www.ladonutserie.fr/",
+  "description": "La Donutserie a la m\u00e9thode pour vous faire fondre de plaisirs sucr\u00e9s (et m\u00eame sal\u00e9s) avec le beignet le plus embl\u00e9matique des \u00c9tats-Unis : le Donuts.\r\n\r\nOuvert par Victoria & Nefty, jeune couple franco-am\u00e9ricain, l\u2019\u00e9tablissement est la premi\u00e8re boutique N\u00eemoise \u00e0 se sp\u00e9cialiser dans la pr\u00e9paration artisanale de cette gourmandise avec la ferme volont\u00e9 d\u2019en explorer toutes les possibilit\u00e9s visuelles et gustatives.\r\n\r\nFaits maisons, vous les retrouverez sous leurs formes traditionnelles mais aussi plus cr\u00e9atives avec une proposition r\u00e9duite de six nouveaux donuts par mois.\r\n\r\nAlors aux amateurs de bons plaisirs, c\u2019est le moment pour commander !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/25-la-donutserie",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

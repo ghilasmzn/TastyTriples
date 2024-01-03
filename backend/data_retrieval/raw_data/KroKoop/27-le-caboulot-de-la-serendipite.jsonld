@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://krokoop.coopcycle.org/api/restaurants/27",
+  "@type": "http://schema.org/Restaurant",
+  "name": "LE CABOULOT DE LA S\u00c9RENDIPIT\u00c9",
+  "address": {
+    "@id": "https://krokoop.coopcycle.org/api/addresses/2106",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8339965,
+      "longitude": 4.3578712
+    },
+    "streetAddress": "26 Rue Jean Reboul, N\u00eemes, France",
+    "telephone": "+33466230212",
+    "name": "LE CABOULOT DE LA S\u00c9RENDIPIT\u00c9"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:50",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:20",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/654968db487d8.png",
+  "sameAs": "https://www.facebook.com/restaurantlecaboulotdelaserendipite/?locale=fr_FR",
+  "description": "Chez Le Caboulot de la S\u00e9rendipit\u00e9 , c\u2019est d\u2019abord le nom qui surprend et interroge : une \u00e9nigme po\u00e9tique, hors du temps, o\u00f9 l\u2019audace et la curiosit\u00e9 viennent donner corps \u00e0 ce lieu libre, champ\u00eatre et raffin\u00e9.\r\n\r\nAgitateur de bonnes id\u00e9es, l\u2019\u00e9tablissement tenu par Leen Willems est le premier restaurant 100% v\u00e9g\u00e9tarien \u00e0 rejoindre la plateforme avec la belle ambition de nous faire (re)d\u00e9couvrir une nouvelle mani\u00e8re de consommer. Et pour nous surprendre encore, la carte se r\u00e9invente chaque semaines par des recettes toujours plus inspirantes et savoureuses, avec en ma\u00eetre de cuisine Juliette Wall pour faire vibrer votre palais !\r\n\r\nAlors pour les amoureux de beaux partages et d\u2019authenticit\u00e9, de produits frais et minutieusement s\u00e9lectionn\u00e9s, il est temps de vous faire plaisir dans cette parenth\u00e8se inattendue situ\u00e9e en plein Centre-Ville.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/27-le-caboulot-de-la-serendipite",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

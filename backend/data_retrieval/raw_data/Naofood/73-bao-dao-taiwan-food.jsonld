@@ -1,0 +1,75 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/73",
+  "@type": "http://schema.org/Restaurant",
+  "name": "BAO DAO Taiwan Food",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/51192",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2154,
+      "longitude": -1.55696
+    },
+    "streetAddress": "5 Rue de la Clavurerie, 44000 Nantes, France",
+    "telephone": "+33255549471",
+    "name": "BAO DAO Taiwan Food"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:55",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:55",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/61/ba/61ba039e58a27.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/61/ba/61ba039e58a27.jpg",
+  "sameAs": "https://www.baodao.fr/",
+  "description": "Le premier restaurant Ta\u00efwanais \u00e0 Nantes, fait maison, avec ses principaux ingr\u00e9dients BIO et locaux. Toutes les recettes sont pr\u00e9par\u00e9es sur place avec beaucoup d'amour, nous voulons partager notre belle culture avec vous.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/73-bao-dao-taiwan-food",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://zampate.coopcycle.org/api/restaurants/2",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Alma Criolla",
+  "address": {
+    "@id": "https://zampate.coopcycle.org/api/addresses/2",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.6529286,
+      "longitude": -0.8747754
+    },
+    "streetAddress": "Calle Mayor, 53, 50001 Zaragoza, Espa\u00f1a",
+    "telephone": "+34976961365",
+    "name": "Alma Criolla"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/63/b8/63b88327b3c65.jpg",
+  "sameAs": "http://almacriollaempanadabar.com",
+  "description": "Empanadas hechas con alma, cuidado y con conciencia ecol\u00f3gica.\r\nPoniendo el acento en la materia prima, en su gran mayor\u00eda con certificaci\u00f3n ecol\u00f3gica,proveniente de peque\u00f1os productores y empresas familiares y de cercan\u00eda. Trabajamos con productos de la tierra y apoyamos las iniciativas que creemos pueden contribuir a mejorar el sistema.\r\n\r\nConsiguiendo un producto final sano y de calidad.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://zampate.coopcycle.org/fr/restaurant/2-alma-criolla",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "12.50"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://zampate.coopcycle.org"
+  }
+}

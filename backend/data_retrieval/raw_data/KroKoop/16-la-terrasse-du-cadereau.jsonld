@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://krokoop.coopcycle.org/api/restaurants/16",
+  "@type": "http://schema.org/Restaurant",
+  "name": "LA TERRASSE DU CADEREAU",
+  "address": {
+    "@id": "https://krokoop.coopcycle.org/api/addresses/774",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8373856,
+      "longitude": 4.3458408
+    },
+    "streetAddress": "22B Rue de Sauve, N\u00eemes, France",
+    "telephone": "+33611686069",
+    "name": "LA TERRASSE DU CADEREAU"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:50",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65498f7321840.png",
+  "sameAs": "https://www.facebook.com/LaTerrasseduCadereau/",
+  "description": "Cet espace hybride alliant \u00e9picerie fine & restauration a plus d'un tour dans son sac pour vous surprendre en changeant chaque semaine son menu, toujours avec des produits de qualit\u00e9, frais, faits maison et le plus possible locaux. \r\n\r\nUn mod\u00e8le \u00e9thique et convivial qui rejoint les convictions des deux ma\u00eetres \u00e0 l'oeuvre : Camille & Adrien, un jeune couple ambitieux & engag\u00e9 dans la recherche de consommations alternatives, toujours plus proche du vivant, et rien que pour \u00e7a, on les en remercie !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/16-la-terrasse-du-cadereau",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

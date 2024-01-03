@@ -1,0 +1,69 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://zampate.coopcycle.org/api/restaurants/19",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Asador Mari Carmen",
+  "address": {
+    "@id": "https://zampate.coopcycle.org/api/addresses/9024",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.6507134,
+      "longitude": -0.8798665
+    },
+    "streetAddress": "Calle de San Miguel 14, 50001 Zaragoza, Espa\u00f1a",
+    "telephone": "+34976228632",
+    "name": "Asador Mari Carmen"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:45",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/60/d4/60d446ca8e96b.jpg",
+  "sameAs": "https://asadormaricarmen.com/",
+  "description": "Uno de los primeros asadores de pollos de Zaragoza ofreciendo al p\u00fablico sabrosos asados y rellenos desde 1970.  Poseemos una gran variedad de pollos, aves, carnes varias y de caza y  sabrosos rellenos. Comida tradicional. \r\nTodos los asados son sin gluten.\r\nExisten opciones sin gluten para el resto de los productos. Por favor, ind\u00edcalo en Comentarios y te daremos el mejor servicio posible. Adem\u00e1s de cualquier otra informaci\u00f3n sobre al\u00e9rgenos.\r\nHaz tu pedido en Z\u00e1mpate y elige la opci\u00f3n de reparto a domicilio o la de recogida en el local!!",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://zampate.coopcycle.org/fr/restaurant/19-asador-mari-carmen",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "12.50"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://zampate.coopcycle.org"
+  }
+}

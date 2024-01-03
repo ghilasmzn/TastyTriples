@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://krokoop.coopcycle.org/api/restaurants/7",
+  "@type": "http://schema.org/Restaurant",
+  "name": "BIG BROTHERS",
+  "address": {
+    "@id": "https://krokoop.coopcycle.org/api/addresses/39",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8378,
+      "longitude": 4.35194
+    },
+    "streetAddress": "9 Rue Bernard Lazare, 30900 N\u00eemes, France",
+    "telephone": "+33468656979",
+    "name": "BIG BROTHERS"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:50",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65498e4acb6c0.png",
+  "sameAs": "https://www.facebook.com/Big.Brothers.streetfood",
+  "description": "Ouvert par Etienne, ce snacking a d\u00e9j\u00e0 pu mettre d'accord les \u00e9tudiants du lyc\u00e9e St Stanislas, situ\u00e9 juste en face.\r\n\r\nStreet Food Artisanale, vous y retrouverez des burgers gourmets, avec des buns & pains faits maisons servis avec des frites fra\u00eeches, s'il vous plait !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/7-big-brothers",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

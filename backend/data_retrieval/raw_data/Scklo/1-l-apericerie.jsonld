@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sicklo.coopcycle.org/api/restaurants/1",
+  "@type": "http://schema.org/Restaurant",
+  "name": "L'Ap\u00e9ricerie \ud83c\udf3f",
+  "address": {
+    "@id": "https://sicklo.coopcycle.org/api/addresses/21",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.1842914,
+      "longitude": 5.7180811000001
+    },
+    "streetAddress": "83 Cours Jean Jaur\u00e8s, 38000 Grenoble, France",
+    "telephone": "+33476433088",
+    "name": "L'Ap\u00e9ricerie \ud83c\udf3f"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:50",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/61/8a/618a8cf09a2b7.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6e/656e11746458a.png",
+  "sameAs": "https://apericerie.fr/",
+  "description": "Contraction r\u00e9ussie d'\u00e9picerie et d'ap\u00e9ritif, Ap\u00e9ricerie est l'adresse des ap\u00e9ros r\u00e9ussis. Alors, jusque-l\u00e0, c'est plut\u00f4t pas mal, mais pas fou fou non plus. Sauf que... Cet espace 100% ap\u00e9ro colle bien \u00e0 l'esprit du moment, militant pour un ap\u00e9ritif responsable, artisanal et le plus souvent local !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/1-l-apericerie",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}

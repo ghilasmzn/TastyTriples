@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sicklo.coopcycle.org/api/restaurants/93",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La Casa de Pitou \ud83e\udd57",
+  "address": {
+    "@id": "https://sicklo.coopcycle.org/api/addresses/38249",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.190801,
+      "longitude": 5.71013
+    },
+    "streetAddress": "9 Rue du Vercors, 38000 Grenoble, France",
+    "telephone": "+33476490738",
+    "name": "La Casa de Pitou \ud83e\udd57"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/64/3f/643fff1a60f7f.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc50b012d6.jpg",
+  "sameAs": "https://lacasadepitou.metro.bar/?lang=fr",
+  "description": "Venez d\u00e9couvrir une cuisine familiale maison, des formules \u00e0 l'ardoise avec tous les jours : Un plat viande, un plat v\u00e9g\u00e9tarien , le tout accompagn\u00e9 de l\u00e9gumes et/ou f\u00e9culents mais aussi une vari\u00e9t\u00e9 de quiches et tartes maisons, soupes, paninis, salades... sans oublier nos d\u00e9licieux desserts !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/93-la-casa-de-pitou",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}
