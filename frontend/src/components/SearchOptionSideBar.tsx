@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import LogInHeader from './LogInHeader';
 
 const SearchOptionsSidebar: React.FC = () => {
+
+  const [rangeValue, setRangeValue] = useState(50);
+
+  const handleRangeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setRangeValue(Number(event.target.value));
+  };
+
+
   return (
     <>
       <LogInHeader />
@@ -30,6 +38,26 @@ const SearchOptionsSidebar: React.FC = () => {
                 className="w-full border border-gray-300 rounded-md px-3 py-2 focus:border-primary focus:outline-none dark:bg-gray-700 dark:text-gray-200"
                 placeholder="Enter location"
               />
+            </div>
+
+              {/* Filter: Distance range with slider input */}
+              <div>
+                <label htmlFor="default-range" className="block space-y-4 mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                  Search range
+                </label>
+                <div className="flex items-center justify-center space-x-4">
+                  <input
+                    id="default-range"
+                    type="range"
+                    value={rangeValue}
+                    min={0}
+                    max={150}
+                    step={1}
+                    className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
+                    onChange={handleRangeChange}
+                  />
+                  <span className="text-gray-700 dark:text-gray-300">{rangeValue}</span>
+                </div>
             </div>
 
             {/* Filter: Cuisine */}
