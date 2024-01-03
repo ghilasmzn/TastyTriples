@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiers-stephanois.coopcycle.org/api/restaurants/54",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Munchies",
+  "address": {
+    "@id": "https://coursiers-stephanois.coopcycle.org/api/addresses/9427",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.4392,
+      "longitude": 4.39335
+    },
+    "streetAddress": "39 Rue de la R\u00e9publique, 42000 Saint-\u00c9tienne, France",
+    "telephone": "+33765837739",
+    "name": "Munchies"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560ca9f762fa.jpg",
+  "sameAs": "https://munchies-republique.eatbu.com/?lang=fr",
+  "description": "Munchies, c'est l'envie de faire partager une cuisine simple, chaleureuse et travaill\u00e9e, qui prend son inspiration de la street-food du monde ! \r\nDes plats populaires qu'on mange sur le pouce ou en prenant son temps mais surtout qu'on d\u00e9guste !\r\nDes recettes qui s'inspirent de l'Am\u00e9rique centrale, de l'Asie ou du Moyen-Orient. L'important pour nous, c'est de proposer des recettes \u00e9quilibr\u00e9es, avec des produits de qualit\u00e9 et surtout travailler en local.\r\n\r\nD\u00e9gustez nos tacos mexicains et d\u00e9couvrir nos menus hebdomadaires, enti\u00e8rement fait maison, \u00e9labor\u00e9s avec des produits frais et de qualit\u00e9.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/restaurant/54-munchies",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "13.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  }
+}

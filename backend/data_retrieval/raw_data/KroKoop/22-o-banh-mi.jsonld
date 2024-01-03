@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://krokoop.coopcycle.org/api/restaurants/22",
+  "@type": "http://schema.org/Restaurant",
+  "name": "O BANH MI",
+  "address": {
+    "@id": "https://krokoop.coopcycle.org/api/addresses/1233",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8388805,
+      "longitude": 4.3571342
+    },
+    "streetAddress": "12 Rue du Grand Couvent, N\u00eemes, France",
+    "telephone": "+33770547809",
+    "name": "O BANH MI"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:50",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65498ea5a5c7e.png",
+  "description": "Tenu par Virasak (plus commun\u00e9ment surnomm\u00e9 \u00ab Vira \u00bb dans le milieu N\u00eemois), le restaurant ne d\u00e9semplit jamais et s\u00e9duit autant les simples voyageurs que les plus fid\u00e8les habitants de la Ville pour sa modernit\u00e9 et sa fraicheur d\u00e9j\u00e0 l\u00e9gendaire.\r\n\r\nIssu d\u2019une famille de restaurateurs, c\u2019est tout naturellement que l\u2019entrepreneur a d\u00e9cid\u00e9 de cr\u00e9er son propre \u00e9tablissement en 2018 autour d\u2019une cuisine saine, personnelle et ancestrale, apr\u00e8s s\u2019\u00eatre fait conna\u00eetre dans le milieu du coaching sportif.\r\n\r\nAccompagn\u00e9 en cuisine par sa M\u00e8re et sa Soeur, ils revisitent les plats typiques de la street food Vietnamienne et Tha\u00eflandaise. Nems, Bobuns, Pad Tha\u00ef, Salades traditionnelles savamment assaisonn\u00e9es et le Banh Mi (incontournable sandwich qui donne son nom).",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/22-o-banh-mi",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

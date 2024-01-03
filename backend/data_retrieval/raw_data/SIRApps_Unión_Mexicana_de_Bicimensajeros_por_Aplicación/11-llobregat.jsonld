@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sirapps-cdmx.coopcycle.org/api/restaurants/11",
+  "@type": "http://schema.org/FastFoodRestaurant",
+  "name": "Llobregat",
+  "address": {
+    "@id": "https://sirapps-cdmx.coopcycle.org/api/addresses/80",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 19.4650283,
+      "longitude": -99.1816314
+    },
+    "streetAddress": "Av. Claver\u00eda 151B, Claveria, Ciudad de M\u00e9xico, CDMX, M\u00e9xico",
+    "telephone": "+525513879199",
+    "name": "Llobregat"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://sirapps-cdmx.coopcycle.org/media/cache/restaurant_thumbnail/61/8f/618f531d20b1f.jpg",
+  "description": "Churros y Tamales",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sirapps-cdmx.coopcycle.org/fr/restaurant/11-llobregat",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sirapps-cdmx.coopcycle.org"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://feelavelo.coopcycle.org/api/restaurants/4",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Code \u00d8",
+  "address": {
+    "@id": "https://feelavelo.coopcycle.org/api/addresses/44",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.7399299,
+      "longitude": -3.3689832
+    },
+    "streetAddress": "5 Rue de Carnel, Lorient, France",
+    "telephone": "+33297063713",
+    "name": "Code \u00d8"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://feelavelo.coopcycle.org/media/cache/restaurant_thumbnail/5d/6b/5d6bd607c9d86.png",
+  "sameAs": "http://www.cafecode0.fr",
+  "description": "caf\u00e9 de sp\u00e9cialit\u00e9 \u00b7 cuisine de saison \u00b7 d\u00e9marche 0 d\u00e9chet // Le montant de la consigne est pr\u00e9cis\u00e9 dans la description de chaque produit, les repas sont livr\u00e9s sans couverts sauf demande en commentaire",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://feelavelo.coopcycle.org/fr/restaurant/4-code-oe",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://feelavelo.coopcycle.org"
+  }
+}

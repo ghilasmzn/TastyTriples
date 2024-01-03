@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/38",
+  "@type": "http://schema.org/Restaurant",
+  "name": "L'bout d'la rue",
+  "address": {
+    "@id": "https://a2roo.coopcycle.org/api/addresses/3765",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.3241,
+      "longitude": 5.04398
+    },
+    "streetAddress": "52 Rue Verrerie, 21000 Dijon, France",
+    "telephone": "+33380713792",
+    "name": "L'bout d'la rue"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/64/ab/64abcd3b001c0.png",
+  "sameAs": "https://www.restaurant-lboutdlarue.com/",
+  "description": "1er restaurant de moules frites \u00e0 s'installer \u00e0 Dijon en 1991, on peut dire que les recettes font toujours succ\u00e8s.\r\n\r\n30 ans plus tard, J\u00e9r\u00e9my et Virginie perp\u00e9tuent la cuisine familiale. \r\nR\u00e9galez vous avec des recettes originales pr\u00e9par\u00e9es \u00e0 partir de moules fra\u00eeches AOC Mont Saint Michel (de juin \u00e0 fin f\u00e9vrier) et de v\u00e9ritables frites belges.\r\n\r\nA d\u00e9guster \u00e0 emporter ou en livraison !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/38-l-bout-d-la-rue",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}

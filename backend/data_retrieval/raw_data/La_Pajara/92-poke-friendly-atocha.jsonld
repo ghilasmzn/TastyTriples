@@ -1,0 +1,88 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lapajara.coopcycle.org/api/restaurants/92",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Pok\u00e9 Friendly Atocha",
+  "address": {
+    "@id": "https://lapajara.coopcycle.org/api/addresses/21103",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.4029155,
+      "longitude": -3.6973025
+    },
+    "streetAddress": "Paseo de Santa Mar\u00eda de la Cabeza, 41, 28045 Madrid, Espa\u00f1a",
+    "telephone": "+34912851287",
+    "name": "Pok\u00e9 Friendly Atocha"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:45",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:45",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://lapajara.coopcycle.org/media/cache/restaurant_thumbnail/61/4c/614c536602ab0.jpg",
+  "sameAs": "https://www.pokefriendly.com/",
+  "description": "Natural Fast Food. Protagonismo a la ensalada, nutritiva, ligera y equilibrada.\r\nComida healthy de inspiraci\u00f3n hawaiana, japonesa e internacional.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lapajara.coopcycle.org/fr/restaurant/92-poke-friendly-atocha",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "10.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://lapajara.coopcycle.org"
+  }
+}

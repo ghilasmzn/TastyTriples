@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/57",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Antidote Restaurant",
+  "address": {
+    "@id": "https://lcr.coopcycle.org/api/addresses/45432",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.103696,
+      "longitude": -1.6765038
+    },
+    "streetAddress": "5 Boulevard de Beaumont, Rennes, France",
+    "telephone": "+33299314285",
+    "name": "Antidote Restaurant"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "20:45",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/65/42/65425af4eb2aa.jpg",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e4cd3bc340.png",
+  "description": "Notre concept: Le voyage! Embarquez pour un voyage culinaire \u00e0 la d\u00e9couverte de saveurs du monde.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/57-antidote-restaurant",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

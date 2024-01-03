@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://demo.coopcycle.org/api/restaurants/88",
+  "@type": "http://schema.org/Restaurant",
+  "name": "pizzaZZZZ",
+  "address": {
+    "@id": "https://demo.coopcycle.org/api/addresses/10572",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.465236,
+      "longitude": 6.352662
+    },
+    "streetAddress": "Heegerm\u00fchler Stra\u00dfe 4, 16225 Eberswalde, Deutschland",
+    "telephone": "+493334282330",
+    "name": "pizzaZZZZ"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "00:00",
+      "closes": "23:59",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://demo.coopcycle.org/media/cache/restaurant_thumbnail/61/f3/61f3a967a2319.jfif",
+  "bannerImage": "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/K5zplrrylDjk.jpg",
+  "description": "beste steinoffenpizza der stadt",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://demo.coopcycle.org/fr/restaurant/88-pizzazzzz",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://demo.coopcycle.org"
+  }
+}

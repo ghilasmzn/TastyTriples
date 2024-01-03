@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://envici.coopcycle.org/api/restaurants/3",
+  "@type": "http://schema.org/Restaurant",
+  "name": "BERENJENA -CENTRO-",
+  "address": {
+    "@id": "https://envici.coopcycle.org/api/addresses/64",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 19.0417059,
+      "longitude": -98.1953548
+    },
+    "streetAddress": "Calle 3 Ote. 407, Centro hist\u00f3rico de Puebla, 72000 Puebla, Pue., M\u00e9xico",
+    "telephone": "+522226884754",
+    "name": "BERENJENA -CENTRO-"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "14:00",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "14:00",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://envici.coopcycle.org/media/cache/restaurant_thumbnail/61/09/610988f1e392b.JPG",
+  "sameAs": "http://www.laberenjenapizza.com/",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://envici.coopcycle.org/fr/restaurant/3-berenjena-centro",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "MXN",
+      "price": "0.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "MXN",
+        "price": "200.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://envici.coopcycle.org"
+  }
+}

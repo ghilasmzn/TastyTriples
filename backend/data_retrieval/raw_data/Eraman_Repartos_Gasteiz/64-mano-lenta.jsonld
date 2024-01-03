@@ -1,0 +1,65 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/64",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Mano Lenta",
+  "address": {
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/88329",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8486343,
+      "longitude": -2.6823217
+    },
+    "streetAddress": "Tomas Alfaro Kalea, 11, Vitoria-Gasteiz, Espa\u00f1a",
+    "telephone": "+34945012277",
+    "name": "Mano Lenta"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:30",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:10",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/62/0e/620e3362ae351.jpg",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc2889b3ad969775283.jpg",
+  "sameAs": "https://www.manolentarestaurante.es/",
+  "description": "COCINAMOS TODO A MANO, CON MIMO Y PACIENCIA, COMO SE HA HECHO SIEMPRE, PORQUE AS\u00cd LA COMIDA SABE MEJOR.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/restaurant/64-mano-lenta",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  }
+}

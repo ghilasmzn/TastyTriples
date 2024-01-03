@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/21",
+  "@type": "http://schema.org/GroceryStore",
+  "name": "Brasserie Bendorf \ud83c\udf7a",
+  "address": {
+    "@id": "https://kooglof.coopcycle.org/api/addresses/6272",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5801402,
+      "longitude": 7.7332065
+    },
+    "streetAddress": "17 Rue de Rosheim, Strasbourg, France",
+    "telephone": "+33670557208",
+    "name": "Brasserie Bendorf \ud83c\udf7a"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:01",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "15:01",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e17e38d544.png",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e13b52c231.jpg",
+  "sameAs": "https://brasserie-bendorf.fr/",
+  "description": "Livraison \u00e0 Strasbourg et alentours !\r\n\r\nLes bi\u00e8res artisanales de la brasserie Bendorf ! Une microbrasserie urbaine et dynamique, implant\u00e9e \u00e0 Strasbourg. En plus de proposer des bi\u00e8res artisanales qui continuent de forger leur r\u00e9putation, la brasserie Bendorf utilise des malts et houblons issus de l'agriculture biologique. Innovant et qualitatif !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/store/21-brasserie-bendorf",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

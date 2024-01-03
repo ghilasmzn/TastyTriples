@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://robinfood.coopcycle.org/api/restaurants/36",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Thai Food Living",
+  "address": {
+    "@id": "https://robinfood.coopcycle.org/api/addresses/3175",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.7693412,
+      "longitude": 11.2845706
+    },
+    "streetAddress": "Via Aretina, 57, Firenze, FI, Italia",
+    "telephone": "+390550249299",
+    "name": "Thai Food Living"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/63/5e/635e7cc12cae8.jpg",
+  "sameAs": "https://www.thaifoodliving.it/",
+  "description": "**_Si mangia anche con gli occhi.\r\nParte del piacere di assaggiare un piatto Thai si ritrova nell'aspetto estetico.\r\nTentati con i piatti tipici di Thai Food Living._**",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://robinfood.coopcycle.org/fr/restaurant/36-thai-food-living",
+      "inLanguage": "it",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://robinfood.coopcycle.org"
+  }
+}

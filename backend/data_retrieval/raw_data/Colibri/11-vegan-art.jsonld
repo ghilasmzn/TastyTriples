@@ -1,0 +1,51 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://colibri.coopcycle.org/api/restaurants/11",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Vegan Art",
+  "address": {
+    "@id": "https://colibri.coopcycle.org/api/addresses/189",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.8502847,
+      "longitude": 14.2600884
+    },
+    "streetAddress": "Via Duomo, 238, Napoli, NA, Italia",
+    "telephone": "+393485635823",
+    "name": "Vegan Art"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:30",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://colibri.coopcycle.org/media/cache/restaurant_thumbnail/63/ce/63ce5d845f06f.jpeg",
+  "description": "Ristorante Vegano nel cuore del Centro Storico.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://colibri.coopcycle.org/fr/restaurant/11-vegan-art",
+      "inLanguage": "it",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://colibri.coopcycle.org"
+  }
+}

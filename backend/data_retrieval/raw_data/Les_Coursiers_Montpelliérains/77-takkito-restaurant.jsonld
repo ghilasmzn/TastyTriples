@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/77",
+  "@type": "http://schema.org/Restaurant",
+  "name": "*Takkito Restaurant*",
+  "address": {
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/7871",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6095726,
+      "longitude": 3.8759883
+    },
+    "streetAddress": "8 Rue du Bras de Fer, Montpellier, France",
+    "telephone": "+33635234462",
+    "name": "*Takkito Restaurant*"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/62/2c/622c96303afe6.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/70/6570993a7acd0.png",
+  "sameAs": "http://www.takkito.com",
+  "description": "Cuisine gourmande et savoureuse, inspir\u00e9e des voyages. Recettes d'effiloch\u00e9 de poulet et recettes vegan, pour que tout le monde s'y retrouve! Boissons & desserts maison hyper gourmands. Et pour couronner le tout, toute notre carte est sans gluten.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/77-takkito-restaurant",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

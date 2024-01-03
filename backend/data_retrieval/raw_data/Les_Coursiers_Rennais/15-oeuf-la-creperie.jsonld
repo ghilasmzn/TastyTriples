@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/15",
+  "@type": "http://schema.org/Restaurant",
+  "name": "OEUF La Cr\u00eaperie",
+  "address": {
+    "@id": "https://lcr.coopcycle.org/api/addresses/1202",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.116512,
+      "longitude": -1.680769
+    },
+    "streetAddress": "38 Rue Saint-Malo, 35000 Rennes, France",
+    "telephone": "+33982477225",
+    "name": "OEUF La Cr\u00eaperie"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/60/9b/609bbdb33dd3e.png",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e5780b5d1a.png",
+  "sameAs": "https://oeuf.bzh/",
+  "description": "OEUF La Cr\u00eaperie est une n\u00e9ocr\u00eaperie, une cr\u00eaperie inspir\u00e9e par l'univers de la bistronomie. \u00c0 partir de produits frais et locaux, nous proposons une cuisine faite maison qui allie la tradition bretonne et les cr\u00e9ations du chef R\u00e9gis. Une carte influenc\u00e9e par la cuisine familale, la street food et les gastronomies du monde. \r\n\r\nOEUF, c'est l'histoire d'une amiti\u00e9. Celle qui nous unit depuis l'enfance, nous, R\u00e9gis, Damien et Benjamin. Toutes nos cr\u00e9ations portent le surnom d'un ami d'enfance ou le pr\u00e9nom d'un enfant de notre bande. On Est Une Famille, rassemblez les initiales et vous obtenez OEUF.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/15-oeuf-la-creperie",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/24",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Peck & Co",
+  "address": {
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/1897",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.3905412,
+      "longitude": -4.4910029
+    },
+    "streetAddress": "23 Rue Fautras, Brest, France",
+    "telephone": "+33298433013",
+    "name": "Peck & Co"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:15",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/62/c1/62c1d55c9bc2f.png",
+  "sameAs": "https://peckandco.fr/",
+  "description": "Un concept store de la gastronomie, une boutique \u00e0 manger aux inspirations diverses, un lieu o\u00f9 l\u2019on peut picorer de 9:00 \u00e0 19:30.\r\n\r\nD\u00e9couvrez les coins et recoins de notre Poulailler ;)",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersbrestois.coopcycle.org/fr/restaurant/24-peck-co",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersbrestois.coopcycle.org"
+  }
+}

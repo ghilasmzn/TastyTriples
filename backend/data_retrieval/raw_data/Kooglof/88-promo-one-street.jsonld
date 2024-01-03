@@ -1,0 +1,72 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/88",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Promo ! \ud83d\udd25 One Street \ud83c\udf54",
+  "address": {
+    "@id": "https://kooglof.coopcycle.org/api/addresses/44573",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5789932,
+      "longitude": 7.7430713
+    },
+    "streetAddress": "49 Rue Finkwiller, Strasbourg, France",
+    "telephone": "+33369320517",
+    "name": "Promo ! \ud83d\udd25 One Street \ud83c\udf54"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:00",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6d/656dcf995bde6.png",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6d/656dcb325faed.png",
+  "sameAs": "https://one-street-burger-strasbourg.eatbu.com/?lang=fr",
+  "description": "One Street ce sont des plats d\u00e9licieux faits maison, d\u00e9couvrez une gamme authentique avec des produits frais et s\u00e9lectionn\u00e9s \ud83d\udc4c\r\n\r\nLivraison de burgers \u00e0 Strasbourg et alentours !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/88-promo-one-street",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

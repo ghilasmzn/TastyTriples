@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://biclooo.coopcycle.org/api/restaurants/18",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Au Passage",
+  "address": {
+    "@id": "https://biclooo.coopcycle.org/api/addresses/1369",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 44.348449,
+      "longitude": 2.576083
+    },
+    "streetAddress": "21 Place Du Bourg, 12000 Rodez, France",
+    "telephone": "+33532412711",
+    "name": "Au Passage"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://biclooo.coopcycle.org/media/cache/restaurant_thumbnail/61/69/6169be2dc8d9e.jpg",
+  "sameAs": "https://aupassage-fastfoodrestaurant.business.site/",
+  "description": "Piadinerie au c\u0153ur du centre-ville. Produits exclusivement frais, locaux et/ou artisanaux.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://biclooo.coopcycle.org/fr/restaurant/18-au-passage",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.90",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://biclooo.coopcycle.org"
+  }
+}

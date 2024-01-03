@@ -1,0 +1,62 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://la-cocotte.coopcycle.org/api/restaurants/8",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Menthe Chocolat",
+  "address": {
+    "@id": "https://la-cocotte.coopcycle.org/api/addresses/26",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.1115,
+      "longitude": 5.93933
+    },
+    "streetAddress": "4 Place Monseigneur Deydier, 83000 Toulon, France",
+    "telephone": "+33951558655",
+    "name": "Menthe Chocolat"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://la-cocotte.coopcycle.org/media/cache/restaurant_thumbnail/61/bc/61bc8ad837cdd.jpg",
+  "description": "Restaurant familial, cuisine v\u00e9g\u00e9tale, fait maison et produits de saison.\r\nViennoiseries, cannel\u00e9, cookies et muffins maison et frais tous les jours !\r\nTartes sal\u00e9es et plats du jour qui varient au gr\u00e9 des envies du chef...\r\nTartes sucr\u00e9es et g\u00e2teaux qui changent aussi selon les inspirations de la semaine...\r\nBrunch le week-end !! \r\nOuvert du mardi au dimanche de 9h \u00e0 18h ( ferme \u00e0 15h le dimanche).",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://la-cocotte.coopcycle.org/fr/restaurant/8-menthe-chocolat",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "4.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://la-cocotte.coopcycle.org"
+  }
+}

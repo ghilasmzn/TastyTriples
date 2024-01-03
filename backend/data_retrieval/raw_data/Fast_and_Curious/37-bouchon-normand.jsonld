@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://fast-and-curious.coopcycle.org/api/restaurants/37",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Bouchon Normand",
+  "address": {
+    "@id": "https://fast-and-curious.coopcycle.org/api/addresses/1792",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.4912,
+      "longitude": 0.104264
+    },
+    "streetAddress": "77 Rue Louis Brindeau, 76600 Le Havre, France",
+    "telephone": "+33952152373",
+    "name": "Bouchon Normand"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "14:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "22:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://fast-and-curious.coopcycle.org/media/cache/restaurant_thumbnail/61/47/61476d2cc8bcb.jpg",
+  "description": "Le Bouchon Normand c'est du fait maison! sp\u00e9cialiste de la cuisine traditionnelle Fran\u00e7aise et des Burgers",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://fast-and-curious.coopcycle.org/fr/restaurant/37-bouchon-normand",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://fast-and-curious.coopcycle.org"
+  }
+}

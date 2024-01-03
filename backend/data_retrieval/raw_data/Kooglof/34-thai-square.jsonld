@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/34",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Tha\u00ef Square \ud83c\udf5b",
+  "address": {
+    "@id": "https://kooglof.coopcycle.org/api/addresses/14582",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.586888,
+      "longitude": 7.7432
+    },
+    "streetAddress": "7 Place Cl\u00e9ment, 67000 Strasbourg, France",
+    "telephone": "+33388229775",
+    "name": "Tha\u00ef Square \ud83c\udf5b"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:50",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/63/71/6371ef4d84781.jpg",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6f/656f47bf25340.png",
+  "sameAs": "https://thaisquare.eatbu.com/",
+  "description": "Ce restaurant \u00e0 l'\u00e9l\u00e9gance contemporaine propose des sp\u00e9cialit\u00e9s tha\u00eflandaises typiques et parfum\u00e9es.\r\n\r\nLivraison de repas \u00e0 Strasbourg et alentours !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/34-thai-square",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  }
+}

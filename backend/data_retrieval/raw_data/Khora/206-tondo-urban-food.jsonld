@@ -1,0 +1,72 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://khora.berlin/api/restaurants/206",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Tondo - Urban Food",
+  "address": {
+    "@id": "https://khora.berlin/api/addresses/88167",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.48071,
+      "longitude": 13.433229
+    },
+    "streetAddress": "Boddinstra\u00dfe 61, 12053 Berlin, Deutschland",
+    "telephone": "+491627076175",
+    "name": "Tondo - Urban Food"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "19:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "20:40",
+      "dayOfWeek": [
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://khora.berlin/media/cache/restaurant_thumbnail/62/72/62721f32d7e74.png",
+  "sameAs": "http://www.tondo-urbanfood.com",
+  "description": "The Masterpiece of italian street food! \r\nHot & crispy Focaccia and Puccia sandwiches filled with Porchetta IGP, Artisanal Salumi and fresh, homemade and high quality ingredients.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://khora.berlin/fr/restaurant/206-tondo-urban-food",
+      "inLanguage": "de",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://khora.berlin"
+  }
+}

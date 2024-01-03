@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/147",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Ichizen",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/101018",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2132576,
+      "longitude": -1.546293
+    },
+    "streetAddress": "11 Rue Four\u00e9, Nantes, France",
+    "telephone": "+33251820570",
+    "name": "Ichizen"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/63/f0/63f0e6ee99d34.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/63/f0/63f0e6ee99d34.jpg",
+  "sameAs": "https://ichigoichie.fr/",
+  "description": "Ichizen vous propose un panel de Donburi pour d\u00e9couvrir ou se replonger dans la culture Nippone. Notre sp\u00e9cialit\u00e9: Le Katsu Don, le plus populaire des Donburi ! Ici tout est frais et fait maison.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/147-ichizen",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  }
+}

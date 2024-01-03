@@ -1,0 +1,51 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/17",
+  "@type": "http://schema.org/Restaurant",
+  "name": "IZEE",
+  "address": {
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/416",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.3903,
+      "longitude": -4.4848
+    },
+    "streetAddress": "5 Place de la Libert\u00e9, 29200 Brest, France",
+    "telephone": "+33298432403",
+    "name": "IZEE"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:15",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/62/13/62135db83d54e.png",
+  "sameAs": "https://www.izee.fr/",
+  "description": "Parce que FAST peut mais doit aussi rimer avec GOOD, nous avons toujours mis la qualit\u00e9 au c\u0153ur de notre travail de cuisinier(e)s et de commer\u00e7ant(e)s.\r\n\r\nComment ? En cuisinant chaque jour, dans notre cuIZEEne du Relecq Kerhuon, des plats \u00abmaison\u00bb \u00e9quilibr\u00e9s et gourmands \u00e9labor\u00e9s \u00e0 partir de produits frais, d\u00e8s que possible BIO et locaux.\r\n\r\nNotre carte permanente \u00e9volue au fil des saisons avec les fruits et l\u00e9gumes frais. Chaque semaine, nous ajoutons \u00e0 la carte, les \u00absuggestions de la semaine\u00bb pour enrichir et renouveler nos recettes constamment.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersbrestois.coopcycle.org/fr/restaurant/17-izee",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersbrestois.coopcycle.org"
+  }
+}

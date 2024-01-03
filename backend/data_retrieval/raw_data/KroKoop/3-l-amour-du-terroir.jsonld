@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://krokoop.coopcycle.org/api/restaurants/3",
+  "@type": "http://schema.org/Restaurant",
+  "name": "L'AMOUR DU TERROIR",
+  "address": {
+    "@id": "https://krokoop.coopcycle.org/api/addresses/5",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.837,
+      "longitude": 4.35953
+    },
+    "streetAddress": "2 Plan de l'Aspic, 30000 N\u00eemes, France",
+    "telephone": "+33411719491",
+    "name": "L'AMOUR DU TERROIR"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/654993a9ea27e.png",
+  "sameAs": "https://lamour-du-terroir.business.site",
+  "description": "L'Amour du Terroir est un \u00e9tablissement port\u00e9 par deux passionn\u00e9s de gastronomie fran\u00e7aise et plus pr\u00e9cis\u00e9ment des sp\u00e9cialit\u00e9s venues tout droit du Sud-Ouest !\r\n\r\nVous y retrouverez des produits authentiques & labellis\u00e9s qui vous feront raffoler les papilles.\r\n\r\nDe la r\u00f4tisserie \u00e0 la charcuterie, du fromage aux ap\u00e9ritifs finement s\u00e9lectionn\u00e9s, tout y est pr\u00e9par\u00e9 pour vous faire voyager dans les saveurs culinaires du pays de Cyrano.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/3-l-amour-du-terroir",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://samo.coopcycle.org/api/restaurants/4",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Bistro du March\u00e9",
+  "address": {
+    "@id": "https://samo.coopcycle.org/api/addresses/25",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.792315,
+      "longitude": 2.516395
+    },
+    "streetAddress": "7 Place de Stalingrad, 94210 Saint-Maur-des-Foss\u00e9s, France",
+    "telephone": null,
+    "name": "Le Bistro du March\u00e9"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:45",
+      "closes": "10:30",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:30",
+      "closes": "11:15",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:15",
+      "closes": "12:00",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://samo.coopcycle.org/media/cache/restaurant_thumbnail/60/84/608431d7ebcb0.jpeg",
+  "bannerImage": "https://samo.coopcycle.org/placeholder/restaurant_banner/placeholders/2Qm5Kr9lv7BD.jpg",
+  "sameAs": "https://www.facebook.com/BDMLaVarenne",
+  "description": "Le Bistro du March\u00e9 vous propose de d\u00e9licieux brunch en livraison le dimanche matin.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://samo.coopcycle.org/fr/restaurant/4-le-bistro-du-marche",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "5.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "0.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://samo.coopcycle.org"
+  }
+}

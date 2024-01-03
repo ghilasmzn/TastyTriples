@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lescoursiersbrestois.coopcycle.org/api/restaurants/2",
+  "@type": "http://schema.org/Restaurant",
+  "name": "AU P'TY LYONNAIS",
+  "address": {
+    "@id": "https://lescoursiersbrestois.coopcycle.org/api/addresses/9",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.39,
+      "longitude": -4.4912
+    },
+    "streetAddress": "44 Rue de Lyon, 29200 Brest, France",
+    "telephone": "+33750489978",
+    "name": "AU P'TY LYONNAIS"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:15",
+      "closes": "21:00",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:15",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/61/f5/61f572a518f17.jpg",
+  "sameAs": "https://www.restaurant-pty-lyonnais.fr/",
+  "description": "Authentique lyonnais, nous sommes heureux de vous faire aussi connaitre quelqu\u2019une de nos sp\u00e9cialit\u00e9s r\u00e9gionales.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersbrestois.coopcycle.org/fr/restaurant/2-au-p-ty-lyonnais",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersbrestois.coopcycle.org"
+  }
+}

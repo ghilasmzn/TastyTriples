@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/47",
+  "@type": "http://schema.org/Restaurant",
+  "name": "L'Alsacien",
+  "address": {
+    "@id": "https://a2roo.coopcycle.org/api/addresses/5720",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.3232,
+      "longitude": 5.03657
+    },
+    "streetAddress": "3 Rue Mably, 21000 Dijon, France",
+    "telephone": "+33380608478",
+    "name": "L'Alsacien"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/62/0f/620f5fa6695db.png",
+  "sameAs": "http://www.lalsacien.com/restaurant-alsacien-flammekueche-dijon/",
+  "description": "L'Alsacien Dijon vous ouvre ses portes pour vous faire d\u00e9couvrir ou red\u00e9couvrir les tartes flamb\u00e9es (flammekueches) dans la plus pure tradition alsacienne. Nos Flammekueches, sur lesquelles vous d\u00e9couvrirez un bord tress\u00e9 \u00e0 la main en Alsace, sont issues d'un savoir-faire familial issu de plusieurs g\u00e9n\u00e9rations. Le concept de L'Alsacien arrive enfin en Bourgogne Franche-Comt\u00e9 avec l'ambition de ravir les fin palais bourguignons.\r\n\r\nVenez go\u00fbter nos Flammekueches traditionnelles accompagn\u00e9es de nombreux produits locaux sp\u00e9cialement s\u00e9lectionn\u00e9s pour vous faire d\u00e9couvrir le terroir alsacien. Entre amis ou en famille, pour un \u00e9v\u00e9nement professionnel ou un anniversaire, l'Alsace se rapproche encore un peu plus de chez vous !\r\n\r\nL'Alsacien vous propose \u00e9galement une carte de vins alsaciens s\u00e9lectionn\u00e9s aupr\u00e8s des meilleurs domaines vignerons d'Alsace (Achill\u00e9e, Joseph Koehli ou encore Julien Klein). L'Alsacien met \u00e9galement \u00e0 votre disposition des tireuses en libre service pour une ambiance festive et conviviale. Nous vous attendons avec impatience pour partager avec nous cette nouvelle exp\u00e9rience. S'gilt !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/47-l-alsacien",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}

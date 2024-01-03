@@ -1,0 +1,59 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://ziclop.coopcycle.org/api/restaurants/5",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Pulcinella",
+  "address": {
+    "@id": "https://ziclop.coopcycle.org/api/addresses/14",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8156963,
+      "longitude": -1.6454058
+    },
+    "streetAddress": "Calle de San Miguel, 22, 31001 Pamplona, Espa\u00f1a",
+    "telephone": "+34948222023",
+    "name": "Pulcinella"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "14:20",
+      "dayOfWeek": [
+        "Thursday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:30",
+      "closes": "22:30",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://ziclop.coopcycle.org/media/cache/restaurant_thumbnail/63/12/6312571cd318f.png",
+  "sameAs": "https://www.pizzeriapulcinella.es/",
+  "description": "Lugar de comida italiana, pizzas y derivados /// Italiarra janari-lekua, pizzak eta deribatuak",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://ziclop.coopcycle.org/fr/restaurant/5-pulcinella",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://ziclop.coopcycle.org"
+  }
+}

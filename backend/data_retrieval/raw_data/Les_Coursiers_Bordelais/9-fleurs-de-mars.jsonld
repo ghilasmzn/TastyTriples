@@ -1,0 +1,124 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiersbordelais.coopcycle.org/api/restaurants/9",
+  "@type": "http://schema.org/Florist",
+  "name": "Fleurs de Mars",
+  "address": {
+    "@id": "https://coursiersbordelais.coopcycle.org/api/addresses/4491",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 44.8516869,
+      "longitude": -0.5747883
+    },
+    "streetAddress": "1 Rue de la Course, 33000 Bordeaux, France",
+    "telephone": "+33980389564",
+    "name": "Fleurs de Mars"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "11:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "12:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "15:00",
+      "closes": "16:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "16:00",
+      "closes": "17:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:00",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersbordelais.coopcycle.org/media/cache/restaurant_thumbnail/5e/df/5edf65b654bfb.jpg",
+  "sameAs": "http://www.fleursdemars.fr",
+  "description": "Fleurs de Mars est \u00e0 l'origine un atelier de d\u00e9coration florale sp\u00e9cialis\u00e9 en \u00e9v\u00e9nementiel, connu pour ses grands d\u00e9cors, la boutique est situ\u00e9e dans la m\u00eame rue que l'atelier, sur la place Paul Doumer, proche du Jardin Public .\r\n\r\nNous sommes labellis\u00e9 \u00e9co-responsable, nous privil\u00e9gions les fleurs de saison et locales \ud83c\uddeb\ud83c\uddf7: des fleurs coup\u00e9es, des fleurs s\u00e9ch\u00e9es, des plantes d'int\u00e9rieur et d'ext\u00e9rieur, des pots et tout le n\u00e9cessaire pour prendre soin de vos plantes vous est propos\u00e9 par des artisans fleuristes qualifi\u00e9es & souriantes.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersbordelais.coopcycle.org/fr/store/9-fleurs-de-mars",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersbordelais.coopcycle.org"
+  }
+}

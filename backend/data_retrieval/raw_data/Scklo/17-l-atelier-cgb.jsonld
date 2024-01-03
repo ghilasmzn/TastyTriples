@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sicklo.coopcycle.org/api/restaurants/17",
+  "@type": "http://schema.org/Restaurant",
+  "name": "L'Atelier CGB \ud83c\udf31",
+  "address": {
+    "@id": "https://sicklo.coopcycle.org/api/addresses/486",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.1894021,
+      "longitude": 5.7280783
+    },
+    "streetAddress": "24 Rue Saint-Jacques, Grenoble, France",
+    "telephone": "+33476001465",
+    "name": "L'Atelier CGB \ud83c\udf31"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/64/3f/643ffb835677b.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc28f99e29.png",
+  "sameAs": "https://lateliercgb.com/",
+  "description": "L'Atelier - Caf\u00e9, G\u00e2teaux & Boulot \r\n\r\nDes bowls pleins de l\u00e9gumes de saisons et au maximum locaux\r\nUn club sandwich \u00e0 l\u2019avocat et au cheddar\r\nDes soupes aux l\u00e8gumes de saisons\r\n\r\nChoix de p\u00e2tisseries gourmandes, sans gluten et parfois m\u00eame vegan !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/17-l-atelier-cgb",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}

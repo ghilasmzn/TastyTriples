@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lescoursiersnantais.coopcycle.org/api/restaurants/27",
+  "@type": "http://schema.org/Winery",
+  "name": "Les C\u00f4teaux de Talensac - March\u00e9 de Talensac",
+  "address": {
+    "@id": "https://lescoursiersnantais.coopcycle.org/api/addresses/1062",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2211425,
+      "longitude": -1.5562849
+    },
+    "streetAddress": "Rue Talensac, Nantes, France",
+    "telephone": "+33240480006",
+    "name": "Les C\u00f4teaux de Talensac - March\u00e9 de Talensac"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "13:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lescoursiersnantais.coopcycle.org/media/cache/restaurant_thumbnail/5e/b6/5eb6b646aa635.PNG",
+  "bannerImage": "https://lescoursiersnantais.coopcycle.org/placeholder/restaurant_banner/placeholders/kE1xKr2K5W6X.jpg",
+  "sameAs": "http://www.cavesdescoteaux.com/",
+  "description": "Cave a vin au coeur du march\u00e9 de talensac !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lescoursiersnantais.coopcycle.org/fr/restaurant/27-les-coteaux-de-talensac-marche-de-talensac",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lescoursiersnantais.coopcycle.org"
+  }
+}

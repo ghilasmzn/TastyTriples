@@ -1,0 +1,70 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/122",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Asador Don Pollo",
+  "address": {
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/212510",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8526894,
+      "longitude": -2.6719353
+    },
+    "streetAddress": "San Ignacio de Loyola Kalea, 15, Vitoria-Gasteiz, Espa\u00f1a",
+    "telephone": "+34945311400",
+    "name": "Asador Don Pollo"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "16:30",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/64/66/6466187506e63.png",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656db8c9a81c9247355377.jpg",
+  "sameAs": "https://asadordonpollo.negocio.site/?utm_source=gmb&utm_medium=referral",
+  "description": "Si te apetece comer la comida que comer\u00edas a diario en casa, pero de una manera r\u00e1pida y c\u00f3moda, Asador Don Pollo, de Gasteiz, te lo pone f\u00e1cil, los mejores pollos asados de la zona y la mayor variedad de platos para complacer los gustos m\u00e1s exigentes. Te lo llevamos a domicilio \u00a1Ol\u00e9!",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/restaurant/122-asador-don-pollo",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  }
+}

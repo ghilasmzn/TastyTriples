@@ -1,0 +1,75 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://le-rayon-vert.coopcycle.org/api/restaurants/7",
+  "@type": "http://schema.org/ToyStore",
+  "name": "Sulo",
+  "address": {
+    "@id": "https://le-rayon-vert.coopcycle.org/api/addresses/17",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.888636,
+      "longitude": 1.912073
+    },
+    "streetAddress": "1 Venelle des Anguignis, 45100 Orl\u00e9ans, France",
+    "telephone": "+33785854542",
+    "name": "Sulo"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "10:00",
+      "closes": "13:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://le-rayon-vert.coopcycle.org/media/cache/restaurant_thumbnail/60/48/6048ddc549921.JPG",
+  "sameAs": "https://www.sulo-puzzle.com/",
+  "description": "Des puzzles responsables fabriqu\u00e9s en France et en \u00e9dition limit\u00e9e, en collaboration avec des artistes du monde entier !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://le-rayon-vert.coopcycle.org/fr/store/7-sulo",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "10.90",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "35.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://le-rayon-vert.coopcycle.org"
+  }
+}

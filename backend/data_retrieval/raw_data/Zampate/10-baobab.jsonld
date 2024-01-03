@@ -1,0 +1,79 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://zampate.coopcycle.org/api/restaurants/10",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Baobab",
+  "address": {
+    "@id": "https://zampate.coopcycle.org/api/addresses/2224",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.6401104,
+      "longitude": -0.8968991
+    },
+    "streetAddress": "Calle del Arzobispo Apaolaza, 10, Zaragoza, Espa\u00f1a",
+    "telephone": "+34976359011",
+    "name": "Baobab"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:00",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:00",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/63/b8/63b87d7395107.JPG",
+  "sameAs": "http://www.restaurantebaobab.com",
+  "description": "Somos un restaurante sin dogmas ni complejos. \r\nNuestra misi\u00f3n traer algo de Belleza al mundo.\r\nNuestra intenci\u00f3n, no tanto convencerte, m\u00e1s bien seducirte.  \r\nNuestro deseo compartir esta experiencia contigo.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://zampate.coopcycle.org/fr/restaurant/10-baobab",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "12.50"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://zampate.coopcycle.org"
+  }
+}

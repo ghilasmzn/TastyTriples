@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://krokoop.coopcycle.org/api/restaurants/2",
+  "@type": "http://schema.org/Restaurant",
+  "name": "ORIGINE",
+  "address": {
+    "@id": "https://krokoop.coopcycle.org/api/addresses/2",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.8396,
+      "longitude": 4.35754
+    },
+    "streetAddress": "6 Rue de l'Agau, 30000 N\u00eemes, France",
+    "telephone": "+33983653150",
+    "name": "ORIGINE"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:20",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:00",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/654975c6c4e45.png",
+  "sameAs": "https://origine-pizza.business.site",
+  "description": "Situ\u00e9 \u00e0 deux pas des Halles, l'\u00e9tablissement est une parenth\u00e8se famili\u00e8re qui nous conduit, \u00e0 base de produits bio et locaux, dans les saveurs tendres de notre r\u00e9gion. Un retour \u00e0 l'essentiel donc, qui vient finalement donner son nom !\r\n\r\nDes pizzas raffin\u00e9es, des p\u00e2tes gourmets, mais aussi des salades, des planches de charcuterie aux plats du moment soigneusement \u00e9tudi\u00e9s, le chef restaurateur Julien Barrera r\u00e9invente chaque recette pour trouver l'\u00e9quilibre entre tradition & modernit\u00e9.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://krokoop.coopcycle.org/fr/restaurant/2-origine",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://krokoop.coopcycle.org"
+  }
+}

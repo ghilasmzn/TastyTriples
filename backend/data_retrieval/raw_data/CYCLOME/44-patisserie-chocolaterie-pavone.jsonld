@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://cyclome.coopcycle.org/api/restaurants/44",
+  "@type": "http://schema.org/Restaurant",
+  "name": "P\u00e2tisserie Chocolaterie Pavone",
+  "address": {
+    "@id": "https://cyclome.coopcycle.org/api/addresses/18102",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.7762996,
+      "longitude": 3.0810282
+    },
+    "streetAddress": "6 Rue Mar\u00e9chal Foch, Clermont-Ferrand, France",
+    "telephone": "+33473166260",
+    "name": "P\u00e2tisserie Chocolaterie Pavone"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "17:00",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/65/5f/655f4cdbc2e96.JPG",
+  "sameAs": "http://www.patisserie-pavone.fr/",
+  "description": "\"Pavone, la P\u00e2tisserie-Chocolaterie qui prend soin de vous !\r\n\r\n4 \u00e9picuriens partageant la passion du Go\u00fbt, qui ont d\u00e9cid\u00e9 de d\u00e9fier les lois de la P\u00e2tisserie traditionnelle en rempla\u00e7ant les sucres raffin\u00e9s, les farines blanches et autres ar\u00f4mes ou colorants, par des alternatives 100% naturelles et saines.\r\n\r\nPour que la Gourmandise ne soit d\u00e9finitivement plus un vilain d\u00e9faut !\"",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://cyclome.coopcycle.org/fr/restaurant/44-patisserie-chocolaterie-pavone",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://cyclome.coopcycle.org"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://fast-and-curious.coopcycle.org/api/restaurants/41",
+  "@type": "http://schema.org/GroceryStore",
+  "name": "Le Panier de Nicolas",
+  "address": {
+    "@id": "https://fast-and-curious.coopcycle.org/api/addresses/2017",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 49.4918,
+      "longitude": 0.103908
+    },
+    "streetAddress": "54 Rue Victor Hugo, 76600 Le Havre, France",
+    "telephone": "+33615672885",
+    "name": "Le Panier de Nicolas"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "12:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "19:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://fast-and-curious.coopcycle.org/media/cache/restaurant_thumbnail/62/39/6239d58fb8ab1.png",
+  "sameAs": "http://lepanierdenicolas.fr",
+  "description": "Envie de bons produits locaux normands, fran\u00e7ais, bio ? Ici, ni abonnement, ni panier impos\u00e9 : 100% libert\u00e9 !\r\nProduits du coin, accessoires utiles, cadeaux, vous trouverez votre bonheur!",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://fast-and-curious.coopcycle.org/fr/store/41-le-panier-de-nicolas",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://fast-and-curious.coopcycle.org"
+  }
+}

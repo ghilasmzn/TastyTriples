@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/35",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Bagel Z\u00e9e",
+  "address": {
+    "@id": "https://a2roo.coopcycle.org/api/addresses/3457",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.32183,
+      "longitude": 5.03677
+    },
+    "streetAddress": "9 Rue du Chapeau Rouge, 21000 Dijon, France",
+    "telephone": "+33986734819",
+    "name": "Bagel Z\u00e9e"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/60/d2/60d2039ac8cf2.jpg",
+  "sameAs": "https://bagelzee.eatbu.com/",
+  "description": "Cach\u00e9 au fond de la galerie Bossuet, vous trouverez les meilleurs bagels de Dijon. \r\n\r\nSal\u00e9s ou sucr\u00e9s, les cr\u00e9ations d'Olivier vous r\u00e9galeront midis et soirs !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/35-bagel-zee",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}

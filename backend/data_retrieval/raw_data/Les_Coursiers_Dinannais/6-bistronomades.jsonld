@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://dinan.coopcycle.org/api/restaurants/6",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Bistronomades",
+  "address": {
+    "@id": "https://dinan.coopcycle.org/api/addresses/252",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.4681459,
+      "longitude": -2.0480394
+    },
+    "streetAddress": "33 Le Domaine, Taden, France",
+    "telephone": "+33749510852",
+    "name": "Bistronomades"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:30",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://dinan.coopcycle.org/media/cache/restaurant_thumbnail/63/52/635258f9dcbba.png",
+  "sameAs": "https://bistronomades.fr/",
+  "description": "\"Vous cherchez un repas \u00e9quilibr\u00e9, original, de qualit\u00e9 et facile \u00e0 consommer \u00e0 votre bureau, chez vous, en d\u00e9placement, seul, entre coll\u00e8gues ou entres amis, la gamme Bistronomades\u00ae est faite pour vous. Nous livrons sur commande dans les entreprises partenaires (selon le planning affich\u00e9 dans votre entreprise) ou nous d\u00e9posons vos commandes dans nos point relais. Vous pouvez, de chez vous, programmer vos d\u00e9jeuners pour la semaine en variant les plaisirs, entre viandes, poissons ou repas v\u00e9g\u00e9tariens. Nos propositions, sont vari\u00e9es et renouvel\u00e9es r\u00e9guli\u00e8rement en fonction de l\u2019inspiration des chefs.\"",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://dinan.coopcycle.org/fr/restaurant/6-bistronomades",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "0.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "0.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://dinan.coopcycle.org"
+  }
+}

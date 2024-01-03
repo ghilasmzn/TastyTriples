@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sicklo.coopcycle.org/api/restaurants/110",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Promo ! \ud83d\udd25 Tacos LeBrizFaim \ud83c\udf2f",
+  "address": {
+    "@id": "https://sicklo.coopcycle.org/api/addresses/45446",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.1873,
+      "longitude": 5.7276
+    },
+    "streetAddress": "24 Rue Lesdigui\u00e8res, 38000 Grenoble, France",
+    "telephone": "+33953450348",
+    "name": "Promo ! \ud83d\udd25 Tacos LeBrizFaim \ud83c\udf2f"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/62/28/6228a1db87c2b.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656daee7a61a3.jpg",
+  "sameAs": "https://tacos-lebrizfaim.eatbu.com/?lang=fr",
+  "description": "LeBrizFaim vous propose de d\u00e9guster de d\u00e9licieux burgers, tacos et autres sandwichs sans attendre. Laissez-vous s\u00e9duire par notre large choix de menu qu\u2019il s\u2019agisse de snacks gourmands ou de plats copieux pour une faim de loup. Petit plus, Lebrizfaim propose \u00e9galement des tacos v\u00e9g\u00e9tariens ainsi qu\u2019une cuisson au four, pour davantage de saveurs !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/110-promo-tacos-lebrizfaim",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}

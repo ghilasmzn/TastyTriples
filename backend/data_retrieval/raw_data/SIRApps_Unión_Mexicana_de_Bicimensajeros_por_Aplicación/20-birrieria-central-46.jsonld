@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sirapps-cdmx.coopcycle.org/api/restaurants/20",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Birrieria central 46",
+  "address": {
+    "@id": "https://sirapps-cdmx.coopcycle.org/api/addresses/357",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 19.4199279,
+      "longitude": -99.1430494
+    },
+    "streetAddress": "Eje Central L\u00e1zaro C\u00e1rdenas 46, Obrera, Ciudad de M\u00e9xico, CDMX, M\u00e9xico",
+    "telephone": "+525589402215",
+    "name": "Birrieria central 46"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "23:59",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "23:59",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://sirapps-cdmx.coopcycle.org/media/cache/restaurant_thumbnail/61/ac/61ac0c1d55e27.jpg",
+  "sameAs": "http://Http/ central46.negocios.site",
+  "description": "Comida y antojos mexicanos",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sirapps-cdmx.coopcycle.org/fr/restaurant/20-birrieria-central-46",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sirapps-cdmx.coopcycle.org"
+  }
+}

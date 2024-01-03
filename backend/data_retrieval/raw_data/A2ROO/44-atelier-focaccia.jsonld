@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/44",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Atelier Focaccia",
+  "address": {
+    "@id": "https://a2roo.coopcycle.org/api/addresses/4875",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.3191,
+      "longitude": 5.03488
+    },
+    "streetAddress": "2 Place \u00c9mile Zola, 21000 Dijon, France",
+    "telephone": "+33984115350",
+    "name": "Atelier Focaccia"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/64/ab/64abcd4b5c38a.png",
+  "sameAs": "http://www.atelierfocaccia.com/",
+  "description": "Bienvenue \u00e0 l'Atelier Focaccia !\r\n\r\nD\u00e9couvrez la street food \u00e0 l'italienne dijonnaise autour de la focaccia. \r\nTout est fait maison \u00e0 la mano. En effet, notre concept est la combinaison entre savoir faire boulanger et les produits que nous importons d'Italie.\r\nLa p\u00e2te fermente pendant 48h pour une onctuosit\u00e9 et croustillant gr\u00e2ce \u00e0 notre recette \u00e0 l'huile d'olive extra vierge.\r\n\r\nD\u00e9couvrez nos focaccia avec une fougasse, une soupe ou une salade d'accompagnement et nos desserts maison : tiramisu revisit\u00e9, panna cotta et cookies\r\n\r\n![Insta](https://www.a2roo-dijon.fr/assets/insta.png) [atelier_focaccia](https://www.instagram.com/latelier_focaccia/)",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/44-atelier-focaccia",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  }
+}

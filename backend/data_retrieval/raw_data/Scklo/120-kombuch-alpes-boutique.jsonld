@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sicklo.coopcycle.org/api/restaurants/120",
+  "@type": "http://schema.org/Brewery",
+  "name": "kombuch'alpes boutique",
+  "address": {
+    "@id": "https://sicklo.coopcycle.org/api/addresses/52054",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.1962635,
+      "longitude": 5.7306516
+    },
+    "streetAddress": "57 Rue Saint-Laurent, Grenoble, France",
+    "telephone": "+33634552570",
+    "name": "kombuch'alpes boutique"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/62/8e/628e2298f276e.png",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/70/6570ad4c53b41.jpg",
+  "sameAs": "https://www.kombuchalpes.com/",
+  "description": "Aux pieds des Alpes se trouvait une \u00abbullerie\u00bb : une fabrique magique d\u2019o\u00f9 sortait des boissons incroyables, p\u00e9tillantes, vivantes et d\u00e9licieuses, m\u00e9li-m\u00e9lo de savoirs ancestraux et nouveaux... Des breuvages toujours plus vertueux pour votre petit corps et notre grande plan\u00e8te.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/120-kombuch-alpes-boutique",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  }
+}

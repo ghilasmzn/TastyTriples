@@ -1,0 +1,64 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/24",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le p'tit  taureau \ud83c\udf54\ud83d\udc02",
+  "address": {
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/1095",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6121486,
+      "longitude": 3.8763441
+    },
+    "streetAddress": "7 Rue de l'Universit\u00e9, Montpellier, France",
+    "telephone": "+33981879915",
+    "name": "Le p'tit  taureau \ud83c\udf54\ud83d\udc02"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/46/6546a56fdeb41.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbcfe090fc.png",
+  "description": "Hamburgers de taureau & sp\u00e9cialit\u00e9s Camarguaises. \r\nTous les burgers sont accompagn\u00e9s de frites maison",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/24-le-p-tit-taureau",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  }
+}

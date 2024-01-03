@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://cyclome.coopcycle.org/api/restaurants/12",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La Fabrique du Hot Dog",
+  "address": {
+    "@id": "https://cyclome.coopcycle.org/api/addresses/1662",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.7773,
+      "longitude": 3.08532
+    },
+    "streetAddress": "4 Rue Saint-G\u00e8nes, 63000 Clermont-Ferrand, France",
+    "telephone": "+33954310022",
+    "name": "La Fabrique du Hot Dog"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:35",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/60/3e/603e321b7448a.jpg",
+  "description": "D\u00e9couvrez le l\u00e9gendaire sandwich New-Yorkais revisit\u00e9 \u00e0 l'auvergnate !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://cyclome.coopcycle.org/fr/restaurant/12-la-fabrique-du-hot-dog",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://cyclome.coopcycle.org"
+  }
+}

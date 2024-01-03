@@ -1,0 +1,82 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/93",
+  "@type": "http://schema.org/Restaurant",
+  "name": "DAKOO",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/61648",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2134,
+      "longitude": -1.55337
+    },
+    "streetAddress": "17 Rue Bon Secours, 44000 Nantes, France",
+    "telephone": "+33272021596",
+    "name": "DAKOO"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:55",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:55",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:55",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:55",
+      "closes": "21:15",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/61/d1/61d194d21890f.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/61/d1/61d194d21890f.jpg",
+  "sameAs": "https://dakoo.fr/",
+  "description": "Your favorite Korean food in town ! Dakoo propose des plats, des finger food et des boissons issus de la street food cor\u00e9enne. Nos plats sont fait maison et cuisin\u00e9s par notre cheffe, Yeongun !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/93-dakoo",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  }
+}

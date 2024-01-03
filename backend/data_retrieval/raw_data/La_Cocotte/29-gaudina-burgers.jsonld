@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://la-cocotte.coopcycle.org/api/restaurants/29",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Gaudina Burgers",
+  "address": {
+    "@id": "https://la-cocotte.coopcycle.org/api/addresses/1503",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.1248,
+      "longitude": 5.92697
+    },
+    "streetAddress": "45 Rue Jean Jaur\u00e8s, 83000 Toulon, France",
+    "telephone": "+33682831083",
+    "name": "Gaudina Burgers"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "14:15",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://la-cocotte.coopcycle.org/media/cache/restaurant_thumbnail/60/3e/603e209c4420a.jpg",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://la-cocotte.coopcycle.org/fr/restaurant/29-gaudina-burgers",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "4.00",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://la-cocotte.coopcycle.org"
+  }
+}
