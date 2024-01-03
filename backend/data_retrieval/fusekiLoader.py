@@ -6,7 +6,7 @@ import time
 class FusekiLoader:
     def __init__(self, dataset_url):
         self.dataset_url = dataset_url
-        self.fuseki_path = './apache-jena-fuseki-4.10.0/fuseki-server'
+        self.fuseki_path = '../apache-jena-fuseki-4.10.0/fuseki-server'
         self.server_process = None
 
     def is_running(self):

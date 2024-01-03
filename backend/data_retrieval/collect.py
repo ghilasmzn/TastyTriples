@@ -40,7 +40,6 @@ def insert_data():
 
     converter.export_to_file(ttl_output_path, format='turtle')
     fuseki_loader = FusekiLoader('http://localhost:3030/Coopcycle')
-
     if not fuseki_loader.is_running():
         fuseki_loader.start_server()
 
