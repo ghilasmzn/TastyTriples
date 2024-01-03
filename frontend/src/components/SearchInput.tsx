@@ -8,12 +8,11 @@ interface SearchInputProps {
 
 const SearchInput: React.FC<SearchInputProps> = ({ setResults }) => {
 
-  const search = async () => {
+  const onSearch = async () => {
     const keywords = (document.getElementById('keyword') as HTMLInputElement).value;
 
-    const searchService = new SearchService();
-    const results = await searchService.searchRestaurants(keywords);
-    console.log(results?.length);
+    const search = new SearchService();
+    const results = await search.byName(keywords);
 
     setResults(results ?? []);
   }
@@ -33,7 +32,7 @@ const SearchInput: React.FC<SearchInputProps> = ({ setResults }) => {
             placeholder="Enter keywords..."
             onKeyPress={(e) => {
               if (e.key === 'Enter') {
-                search();
+                onSearch();
               }
             }}
           />
@@ -41,7 +40,7 @@ const SearchInput: React.FC<SearchInputProps> = ({ setResults }) => {
 
         <div className="text-center">
           <button
-            onClick={search}
+            onClick={onSearch}
             className="bg-red-700 hover:bg-red-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="button"
           >

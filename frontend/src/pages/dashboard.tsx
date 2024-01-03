@@ -12,7 +12,7 @@ const DashboardComponent: React.FC = () => {
   return (
     <div className="flex bg-gray-100 min-h-screen">
       <div className="hidden md:block w-64">
-        <SearchOptionsSidebar />
+        <SearchOptionsSidebar setResults={setResults} />
       </div>
 
       {results.length === 0 ? (
@@ -54,6 +54,7 @@ const DashboardComponent: React.FC = () => {
                   description={result.description}
                   image={result.image}
                   telephone={result.telephone}
+                  price={result.price}
                 />
               ))}
             </div>

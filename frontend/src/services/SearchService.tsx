@@ -7,28 +7,78 @@ class SearchService {
     this.queryHandler = new SparqlQueryHandler();
   }
 
-  private parseResults(data: any[]): any[] {
-    data.forEach((result: any) => {
-      Object.keys(result).forEach((key: string) => {
-        const value = result[key];
-        if (value.type === 'literal') {
-          result[key] = value.value;
-        }
-      });
-    });
-
-    return data;
-  }
-  
   private async search(query: string) {
     return await this.queryHandler.select(query);
   }
 
-  public async searchRestaurants(keywords: string): Promise<any[] | undefined> {
+  public async withFilters(location: string, distance: number, days: string[], minPrice: number, maxPrice: number, sortByPrice: boolean): Promise<any[] | undefined> {
+    let dayHaving = '';
+    if (days.length > 0) {
+      const daysContainer: string[] = [];
+      days.forEach(day => {
+        daysContainer.push(`CONTAINS(GROUP_CONCAT(DISTINCT ?dayOfWeek; SEPARATOR=","), "${day}")`);
+      });
+      dayHaving = `HAVING (${daysContainer.join(' && ')})`;
+    }
+
+    let priceFilter = '';
+    if (maxPrice > 0) {
+      priceFilter = `FILTER (xsd:float(?price) >= ${minPrice} && xsd:float(?price) <= ${maxPrice})`;
+    }
+
+    let orderBy = '';
+    if (sortByPrice) {
+      orderBy = 'ORDER BY xsd:float(?price)';
+    }
+
+    let query = `
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        PREFIX ns1: <http://schema.org/>
+
+        SELECT ?restaurant ?name ?description ?image ?streetAddress ?telephone ?price ?latitude ?longitude
+              (GROUP_CONCAT(DISTINCT ?dayOfWeek; SEPARATOR=",") AS ?openDays)
+        WHERE {
+          ?restaurant a ns1:Restaurant ;
+            ns1:name ?name ;
+            ns1:description ?description ;
+            ns1:image ?image ;
+            ns1:address/ns1:streetAddress ?streetAddress ;
+            ns1:address/ns1:telephone ?telephone ;
+            ns1:address/ns1:geo/ns1:latitude ?latitude ;
+            ns1:address/ns1:geo/ns1:longitude ?longitude .
+
+          # Price filter
+          OPTIONAL {
+            ?restaurant ns1:potentialAction/ns1:priceSpecification/ns1:price ?price .
+          }
+          
+          ${priceFilter}
+
+          OPTIONAL {
+            ?restaurant ns1:openingHoursSpecification [
+              ns1:dayOfWeek ?dayOfWeek ;
+              ns1:opens ?opens ;
+              ns1:closes ?closes
+            ]
+          }
+        }
+        GROUP BY ?restaurant ?name ?description ?image ?streetAddress ?telephone ?price ?latitude ?longitude
+        ${dayHaving}
+        ${orderBy}
+    `;
+
+    console.log(query);
+
+    const result = await this.search(query);
+    return result;
+  }
+
+
+  public async byName(keywords: string): Promise<any[] | undefined> {
     const query = `
           PREFIX ns1: <http://schema.org/>
 
-          SELECT ?restaurant ?name ?description ?image ?streetAddress ?telephone
+          SELECT ?restaurant ?name ?description ?image ?streetAddress ?telephone ?price
           WHERE {
             ?restaurant a ns1:Restaurant ;
                         ns1:name ?name ;
@@ -40,6 +90,10 @@ class SearchService {
                     ns1:streetAddress ?streetAddress ;
                     ns1:geo ?geo ;
                     ns1:telephone ?telephone .
+          
+            OPTIONAL {
+              ?restaurant ns1:potentialAction/ns1:priceSpecification/ns1:price ?price .
+            }
 
             FILTER(
               regex(str(?name), "${keywords}", "i") || 

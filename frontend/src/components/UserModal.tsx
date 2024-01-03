@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const UserModal = () => {
+const UserModal: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleModal = () => {
