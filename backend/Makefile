@@ -11,6 +11,8 @@ help:
 	@echo "  make help - Display this help message"
 	@echo "  make install - Install requirements"
 	@echo "  make collect - Collect data from the web and store it in the triplestore"
+	@echo "  make query - Make queries to the triplestore and display the results"
+
 
 install:
 	$(PYTHON) -m pip install -r requirements.txt
@@ -20,3 +22,6 @@ clean:
 
 collect:
 	$(PYTHON) data_retrieval/collect.py $(ARGS)
+
+query:
+	$(PYTHON) data_retrieval/query.py $(ARGS)
