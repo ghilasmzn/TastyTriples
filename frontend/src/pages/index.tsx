@@ -9,30 +9,10 @@ import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 import Product from '../components/Product';
 
-import SparqlQueryHandler from '../utils/SparqlQueryHandler';
 import Dashboard from './dashboard';
 
 const App = () => {
   const [isLogin, setIsLogin] = React.useState(false);
-
-  useEffect(() => {
-    const query = `
-      PREFIX ns1:<http://schema.org/>
-      SELECT ?service ?name ?description
-      WHERE {
-          ?service a ns1:ProfessionalService ;
-          ns1:name ?name ;
-          ns1:description ?description .
-          FILTER(LANG(?description) = 'fr')
-      }
-    `;
-
-    const sparqlQueryHandler = new SparqlQueryHandler();
-   
-    sparqlQueryHandler.select(query).then((data) => {
-      console.log(data);
-    });
-  }, []);
 
   useEffect(() => {
     const isLoggedIn = localStorage.getItem('isLoggedIn');

@@ -11,7 +11,7 @@ class SearchService {
     return await this.queryHandler.select(query);
   }
 
-  public async withFilters(location: string, distance: number, days: string[], minPrice: number, maxPrice: number, sortByPrice: boolean): Promise<any[] | undefined> {
+  public async withFilters(city: string, geoLocation: number[], radius: number, days: string[], minPrice: number, maxPrice: number, sortByPrice: boolean): Promise<any[] | undefined> {
     let dayHaving = '';
     if (days.length > 0) {
       const daysContainer: string[] = [];
@@ -30,6 +30,29 @@ class SearchService {
     if (sortByPrice) {
       orderBy = 'ORDER BY xsd:float(?price)';
     }
+    
+    let cityFilter = '';
+    if (city.length > 0 && radius === 0) {
+      cityFilter = `FILTER (regex(str(?streetAddress), "${city}", "i"))`;
+    }
+
+    let radiusFilter = '';
+    if (radius > 0 && geoLocation[0] && geoLocation[1]) {
+      const longitude = geoLocation[0];
+      const latitude = geoLocation[1];
+
+      const latLowerBound = latitude - radius / 111;
+      const latUpperBound = latitude + radius / 111;
+      const lonLowerBound = longitude - radius / (111 * Math.cos((latitude * Math.PI) / 180));
+      const lonUpperBound = longitude + radius / (111 * Math.cos((latitude * Math.PI) / 180));
+
+      radiusFilter = `
+          FILTER (
+              ?latitude >= ${latLowerBound} && ?latitude <= ${latUpperBound} &&
+              ?longitude >= ${lonLowerBound} && ?longitude <= ${lonUpperBound}
+          )
+        `;
+    }
 
     let query = `
         PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -47,12 +70,13 @@ class SearchService {
             ns1:address/ns1:geo/ns1:latitude ?latitude ;
             ns1:address/ns1:geo/ns1:longitude ?longitude .
 
-          # Price filter
           OPTIONAL {
             ?restaurant ns1:potentialAction/ns1:priceSpecification/ns1:price ?price .
           }
           
           ${priceFilter}
+          ${radiusFilter}
+          ${cityFilter}
 
           OPTIONAL {
             ?restaurant ns1:openingHoursSpecification [
@@ -66,8 +90,6 @@ class SearchService {
         ${dayHaving}
         ${orderBy}
     `;
-
-    console.log(query);
 
     const result = await this.search(query);
     return result;
@@ -128,7 +150,9 @@ class SearchService {
             }
 
             BIND(COALESCE(?descEN, ?otherDesc) AS ?serviceDescription)
-            ?serviceUri ns1:mail ?serviceMail .
+            OPTIONAL {
+              ?serviceUri ns1:mail ?serviceMail .
+            }
 
             FILTER (?restaurant = <${id}>)
           }

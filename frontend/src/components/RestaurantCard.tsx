@@ -109,7 +109,7 @@ const RestaurantCard: React.FC<RestaurantCardProps> = ({
                   <div className="flex items-center flex-row">
                     <strong className="text-gray-600 mr-3">Price: </strong>
                     <div className="bg-gray-200 rounded-md py-1 px-3">
-                      <p className="text-sm text-gray-700 font-semibold">{restaurantDetails.price} €</p>
+                      <p className="text-sm text-gray-700 font-semibold">{restaurantDetails?.price} €</p>
                     </div>
                   </div>
                   <div>

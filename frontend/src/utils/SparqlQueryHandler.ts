@@ -72,7 +72,6 @@ class SparqlQueryHandler {
   async update(query: string): Promise<void> {
     try {
       await this.client.query.update(query);
-      console.log("Update query executed successfully");
     } catch (error) {
       console.error(error);
     }

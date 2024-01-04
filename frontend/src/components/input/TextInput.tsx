@@ -6,6 +6,8 @@ interface TextInputProps {
   name: string;
   value: string;
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  onBlur?: (event: React.FocusEvent<HTMLInputElement>) => void;
+  onFocus?: (event: React.FocusEvent<HTMLInputElement>) => void;
 }
 
 const TextInput: React.FC<TextInputProps> = ({
@@ -14,6 +16,8 @@ const TextInput: React.FC<TextInputProps> = ({
   name,
   value,
   onChange,
+  onBlur,
+  onFocus,
 }) => {
   return (
     <div>
@@ -30,6 +34,8 @@ const TextInput: React.FC<TextInputProps> = ({
         value={value}
         placeholder={placeholder}
         onChange={onChange}
+        onBlur={onBlur}
+        onFocus={onFocus}
         className="w-full border border-gray-300 rounded-md px-3 py-2 focus:border-primary focus:outline-none dark:bg-gray-700 dark:text-gray-200"
       />
     </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import LogInHeader from './LogInHeader';
 import Select from 'react-select';
@@ -14,9 +14,14 @@ interface SearchOptionsSidebarProps {
 
 const SearchOptionsSidebar: React.FC<SearchOptionsSidebarProps> = ({ setResults }) => {
   const [rangeValue, setRangeValue] = useState(50);
+
+  const [geoLocation, setGeoLocation] = useState<number[]>([]);
   const [location, setLocation] = useState<string>("");
 
-  const [selectedDays, setSelectedDays] = useState<string[]>([]);
+  const [suggestedCommunes, setSuggestedCommunes] = useState<any[]>([]);
+  const [isLocationInputFocused, setIsLocationInputFocused] = useState(false);
+
+  const [selectedDays, setSelectedDays] = useState<any[]>([]);
 
   const [minPrice, setMinPrice] = useState<number>(0);
   const [maxPrice, setMaxPrice] = useState<number>(0);
@@ -48,18 +53,60 @@ const SearchOptionsSidebar: React.FC<SearchOptionsSidebarProps> = ({ setResults 
   const handleMaxPriceChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setMaxPrice(Number(event.target.value));
   };
+
   const handleDeliveryPriceToggle = () => {
     setSortByDeliveryPrice((prevSort) => !prevSort);
+  };
+
+  const handleFocus = () => {
+    setIsLocationInputFocused(true);
+  };
+
+  const handleBlur = () => {
+    setTimeout(() => {
+      setIsLocationInputFocused(false);
+    }, 100);
+  }
+
+  const fetchCommuneSuggestions = async (searchQuery: string) => {
+    try {
+      const response = await fetch(`https://api-adresse.data.gouv.fr/search/?q=${searchQuery}&type=municipality&autocomplete=1`, {
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        }
+      });
+      if (!response.ok) {
+        throw new Error(`Request failed with status ${response.status}`);
+      }
+      const data = await response.json();
+      setSuggestedCommunes(data.features);
+    } catch (error) {
+      console.warn("Error fetching commune suggestions: ", error);
+      setSuggestedCommunes([]);
+    }
   };
 
   const onSearch = async () => {
     const search = new SearchService();
 
     const days: string[] = selectedDays.map(day => day.label);
-    console.log(sortByDeliveryPrice);
-    const results = await search.withFilters(location, location ? rangeValue : 0, days, minPrice, maxPrice, sortByDeliveryPrice);
+    const results = await search.withFilters(location, geoLocation, location ? rangeValue : 0, days, minPrice, maxPrice, sortByDeliveryPrice);
     setResults(results ?? []);
   }
+
+  const handleSelectCommune = (selectedCommune: any) => {
+    setLocation(selectedCommune.properties.city);
+    setGeoLocation(selectedCommune.geometry.coordinates);
+  };
+
+  useEffect(() => {
+    if (location.trim() !== "") {
+      fetchCommuneSuggestions(location);
+    } else {
+      setSuggestedCommunes([]);
+    }
+  }, [location]);
 
 
   return (
@@ -76,13 +123,32 @@ const SearchOptionsSidebar: React.FC<SearchOptionsSidebarProps> = ({ setResults 
           </h2>
           <div className="space-y-4">
             {/* Filter: Location */}
-            <TextInput
-              label="Location"
-              name="location"
-              value={location}
-              placeholder="Enter location"
-              onChange={(event) => setLocation(event.target.value)}
-            />
+            <div className="relative">
+              <TextInput
+                label="Location"
+                name="location"
+                value={location}
+                placeholder="Enter location"
+                onChange={(event) => setLocation(event.target.value)}
+                onBlur={handleBlur}
+                onFocus={handleFocus}
+              />
+
+              {isLocationInputFocused && suggestedCommunes.length > 0 && (
+                <ul className="absolute top-full left-0 w-full bg-white shadow-md py-2 mt-1 rounded-md border border-gray-300 z-50">
+                  {suggestedCommunes.map((commune) => (
+                    <li key={commune.properties.id} className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                      <button onClick={() => handleSelectCommune(commune)} className="w-full text-left focus:outline-none">
+                        <div>
+                          <p className="font-semibold mb-1">{commune.properties.municipality}</p>
+                          <p className="text-sm text-gray-600">{commune.properties.context}</p>
+                        </div>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
 
             {/* Filter: Distance range with slider input */}
             {location && (
