@@ -49,7 +49,8 @@ const DashboardComponent: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {results.map((result: any) => (
                 <RestaurantCard
-                  key={result.restaurant.value}
+                  key={result.restaurant}
+                  id={result.restaurant}
                   name={result.name}
                   description={result.description}
                   image={result.image}
