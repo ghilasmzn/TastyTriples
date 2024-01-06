@@ -15,6 +15,7 @@ def main():
                         help='Filter restaurants by location. Specify latitude and longitude.')
     parser.add_argument('-m', '--max', type=float, help='max delivery price.')
     parser.add_argument('-r', '--rankBy', type=int, help='rank by price or rating.')
+    parser.add_argument('-p', '--preference', type=str, help='take a preference as input.')
     
     args = parser.parse_args()
 
@@ -29,9 +30,11 @@ def main():
         # Seulement la localisation et le rayon sont définis
         results = query_handler.query_by_location(latitude=args.location[0], longitude=args.location[1], radius=args.location[2])
     elif args.max and not (args.time or args.day or args.location, args.rankBy):
-        print("APPEL DE QUERY BY PRICE")
         # Seulement le prix est défini
         results = query_handler.query_by_price(max_delivery_price=args.max)
+    elif args.preference and not (args.time or args.day or args.location or args.max):
+        # Seulement le prix est défini
+        results = query_handler.query_by_preferences(args.preference)
     else:
         results = query_handler.query_combined(args.day, args.time, location=args.location, max_delivery_price=args.max, rank_by=args.rankBy)
 
@@ -40,8 +43,8 @@ def main():
     print(f"Filtres utilisés.\nTemps: {(args.time if args.time else 'Non spécifiée')}\nJour: {(args.day if args.day else 'Non spécifiée')}\nLocalisation: {(args.location if args.location else 'Non spécifiée')}\nRayon: {(args.location[2] if args.location else 'Non spécifié')}\nPrix de livraison maximum: {(args.max if args.max else 'Non spécifié')}\nrankBy: {(args.rankBy if args.rankBy else 'Non spécifié')}")
 
 
+    
     query_handler.display_results(results)
-   
     
 
 if __name__ == "__main__":

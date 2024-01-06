@@ -115,6 +115,8 @@ class QueryHandler:
         return self.execute_query(query)
     
     def query_combined(query_handler, day=None, time=None, location=None, max_delivery_price=None, rank_by=None):
+        print("query_combined \n")
+        print(location)
         # Construire la requête SPARQL en fonction des paramètres fournis
         query = """
             PREFIX schema: <http://schema.org/>
@@ -169,11 +171,56 @@ class QueryHandler:
         query += "}\n"
 
         # Ajouter le classement par prix ou par distance si l'argument est fourni
-        if int(rank_by) == 1:
+        if rank_by == 1:
             query += "ORDER BY ?price\n"
         
-
+        print(query)
         return query_handler.execute_query(query)
+
+    def query_by_preferences(self, given_name):
+        # Prepare the SPARQL query with the given_name parameter
+        query = f"""
+            PREFIX schema: <http://schema.org/>
+            SELECT ?name ?max_delivery_price ?latitude ?longitude ?radius
+            WHERE {{
+                ?user a schema:Person ;
+                    schema:name ?name ;
+                    schema:seeks [
+                        schema:priceSpecification [
+                            schema:maxPrice ?max_delivery_price ;
+                            schema:priceCurrency "EUR" 
+                        ] ;
+                        schema:availableAtOrFrom [
+                            schema:geoWithin [
+                                a schema:GeoCircle ;
+                                schema:geoMidpoint [
+                                    schema:longitude ?longitude ;
+                                    schema:latitude ?latitude
+                                ] ;
+                                schema:geoRadius ?radius
+                            ]
+                        ] ;
+                ] .
+                FILTER(?name = "{given_name}")
+            }}
+        """
+        preferences = self.execute_query(query)
+        # Extract values from preferences
+        if preferences:
+            preference = preferences[0]  # Assuming there is only one result
+            name = preference.get('name', None)
+            max_delivery_price = float(preference.get('max_delivery_price', {}).get('value', 0))
+            # Extract latitude, longitude, and radius values
+            latitude = float(preference.get('latitude', {}).get('value', 0))
+            longitude = float(preference.get('longitude', {}).get('value', 0)) #(latitude, longitude,radius)
+            radius = float(preference.get('radius', {}).get('value', 0))
+            print("max_price",max_delivery_price,"\nlatitude ",latitude,"\nlongitude: ",longitude,"\nradius: ",radius, max_delivery_price)
+            # Call query_combined with the extracted values
+            result_combined = self.query_combined(day=None, time=None, location=(longitude,latitude, radius), max_delivery_price=max_delivery_price, rank_by=1)
+            return result_combined
+
+        # Execute the query
+        
 
 
     
