@@ -1,0 +1,152 @@
++-------------------------------+-------------------------------------------------------------------------+-------+
+|              Name             |                              Street Address                             | Price |
++-------------------------------+-------------------------------------------------------------------------+-------+
+|  L'aubergine rouge espagnole  |                      Rue de Budapest 7, 75009 Paris                     |  N/A  |
+|    Pizzeria da Cristianotto   |             Via Cesare Sersale, 1, 80139 Napoli, NA, Italia             |  N/A  |
+|    La table à pois qui fume   |                      Rue de Varenne 56, 75007 Paris                     |  N/A  |
+|   La patate rouge qui danse   |                Avenue des Champs Elysées 133, 75008 Paris               |  N/A  |
+|   La cabane noire qui danse   |                        Rue d'Ulm 18, 75005 Paris                        |  N/A  |
+|         Taverna Greca         |                Via Cesario Console, 3, Napoli, NA, Italia               |  N/A  |
+|    La pizza de don cangrejo   |        Tolteca 1112, Unidad Modelo, Monterrey, Nuevo Leon, Mexico       |  N/A  |
+|        Test de designer       |                  64 Rue Alexandre Dumas, Paris, France                  |  N/A  |
+|           pizzaZZZZ           |           Heegermühler Straße 4, 16225 Eberswalde, Deutschland          |  N/A  |
+|       L'auberge bretonne      |                 Avenue Claude Vellefaux 12, 75010 Paris                 |  N/A  |
+|     La casserole qui fume     |                Boulevard Saint-michel 58 bis, 75006 Paris               |  N/A  |
+|     La cuillère qui chante    |                Allée Adrienne Lecouvreur 47, 75007 Paris                |  N/A  |
+|       La boîte gourmande      |                        Rue Manin 2 c, 75019 Paris                       |  N/A  |
+|      L'aubergine joyeuse      |                        Villa Ballu 8, 75009 Paris                       |  N/A  |
+|       Au cochon qui fume      |                      Rue Pirandello 10, 75013 Paris                     |  N/A  |
+|     La patate rouge maline    |                        Rue Carcel 2, 75015 Paris                        |  N/A  |
+|          Meat people          |         4 Rue des Barres, 75004 Paris 4e Arrondissement, France         |  N/A  |
+|   La chaise à pois bretonne   |                       Quai d'Orsay 90, 75007 Paris                      |  N/A  |
+|    Khora's last restaurant    |               Oranienstraße 66, 10969 Berlin, Deutschland               |  N/A  |
+|      Birrieria central 46     |  Eje Central Lázaro Cárdenas 46, Obrera, Ciudad de México, CDMX, México |  N/A  |
+|     Tamales cielito lindo     |  Avenida Unión 380, Agrícola Pantitlán, Ciudad de México, CDMX, México  |  N/A  |
+|          CC Telefonia         |      Oriente 233, Agrícola Oriental, Ciudad de México, CDMX, México     |  N/A  |
+|      Mauricette Traiteur      |                 2 Place Jean Paul II, 57000 Metz, France                |  N/A  |
+|        Richard Traiteur       |             2 Cours Victor Hugo, 42000 Saint-Étienne, France            |  N/A  |
+|         Maison DUSSAP         |             1 Cours Victor Hugo, 42000 Saint-Étienne, France            |  N/A  |
+|         Bistronomades         |                       33 Le Domaine, Taden, France                      |  N/A  |
+|        Fonda Doña Marta       | Avenida 2 Poniente 3117, Amor, Heroica Puebla de Zaragoza, Pue., México |  N/A  |
+| More restaurants coming soon! |                     Finsbury Park, Islington, N4 2DH                    |  N/A  |
+|      De Sel et d'Ardoise      |            44 Rue du Faubourg Bannier, 45000 Orléans, France            |  N/A  |
++-------------------------------+-------------------------------------------------------------------------+-------+
+make: *** Aucune règle pour fabriquer la cible « -d ». Arrêt.
+bizak@bizak-Latitude-E7270:~/Documents/SemanticWeb/TastyTriples/backend$ make query -- -d Saturday -m 4.30
+python3 data_retrieval/query.py -d Saturday -m 4.30
+Bienvenue sur TastyTriples! 
+Votre recherche vient d'être lancée
+Filtres utilisés.
+Temps: None
+Jour: Saturday
+Localisation: None
+Rayon: None
+Prix de livraison maximum: 4.3
++------------------------------------+----------------------------------------------------------------------------------+-------+
+|                Name                |                                  Street Address                                  | Price |
++------------------------------------+----------------------------------------------------------------------------------+-------+
+|             Au Passage             |                      21 Place Du Bourg, 12000 Rodez, France                      |  3.90 |
+|            Alma Criolla            |                     Calle Mayor, 53, 50001 Zaragoza, España                      |  3.50 |
+|             Barrio Sur             |                  Calle de San Jorge 29, 50001 Zaragoza, España                   |  3.50 |
+|            PIZZA  NEGRA            |                Calle Escultor Félix Burriel, 7, Zaragoza, España                 |  3.50 |
+|            Beer Corner             |                       Calle Heroísmo, 2, Zaragoza, España                        |  3.50 |
+|       Repostería La Ciclería       |                         Calle Gavín 6, Zaragoza, España                          |  3.50 |
+|       SYRIANA (CALLE MAYOR)        |                       Calle Mayor, 28-30, Zaragoza, España                       |  3.50 |
+|              MONONOKE              |                   Camino de las Torres, 116, Zaragoza, España                    |  3.50 |
+|         Asador Mari Carmen         |                  Calle de San Miguel 14, 50001 Zaragoza, España                  |  3.50 |
+|             Malteadora             |                 Calle Juan José Rivas, 6, 50006 Zaragoza, España                 |  3.50 |
+|               Baobab               |                Calle del Arzobispo Apaolaza, 10, Zaragoza, España                |  3.50 |
+|            SUSHI WASABI            |                Calle del Arzobispo Apaolaza, 5, Zaragoza, España                 |  3.50 |
+|             La Piparra             |              Calle de los Predicadores, 39, 50003 Zaragoza, España               |  3.50 |
+|    L'aubergine rouge espagnole     |                          Rue de Budapest 7, 75009 Paris                          |  3.50 |
+|      La table à pois qui fume      |                          Rue de Varenne 56, 75007 Paris                          |  3.50 |
+|     La patate rouge qui danse      |                    Avenue des Champs Elysées 133, 75008 Paris                    |  3.50 |
+|           ORIGINE PIZZA            |                         12 Rue de l'Agau, Nîmes, France                          |  0.00 |
+|     La cabane noire qui danse      |                            Rue d'Ulm 18, 75005 Paris                             |  3.50 |
+|           Pizzas on Fire           |                  601 West Cordova Street, Vancouver, BC, Canada                  |  0.00 |
+|      La pizza de don cangrejo      |            Tolteca 1112, Unidad Modelo, Monterrey, Nuevo Leon, Mexico            |  0.00 |
+|          Test de designer          |                      64 Rue Alexandre Dumas, Paris, France                       |  0.00 |
+|         L'auberge bretonne         |                     Avenue Claude Vellefaux 12, 75010 Paris                      |  3.50 |
+|       La casserole qui fume        |                    Boulevard Saint-michel 58 bis, 75006 Paris                    |  3.50 |
+|         La boîte gourmande         |                            Rue Manin 2 c, 75019 Paris                            |  3.50 |
+|        L'aubergine joyeuse         |                            Villa Ballu 8, 75009 Paris                            |  3.50 |
+|     La chaise à pois bretonne      |                           Quai d'Orsay 90, 75007 Paris                           |  3.50 |
+|   La Alpargata - Taberna Vegana    |                      Calle Embajadores, 41, Madrid, España                       |  3.50 |
+|              B13 Bar               |                     Calle de la Ballesta, 13, Madrid, España                     |  3.50 |
+|         THUNDER Vegan Food         |                        Calle Don Felipe, 4, Madrid, Spain                        |  3.50 |
+|              Coco Bar              |                   Calle del Espíritu Santo, 36, Madrid, España                   |  3.50 |
+|           Pizzi & Dixie            |                 Calle de San Vicente Ferrer, 16, Madrid, España                  |  3.50 |
+|       Poké Friendly Chamberi       |                     Calle de Vallehermoso 36, Madrid, España                     |  3.50 |
+|         Los Andenes Vegan          |                Calle de Fernández de los Ríos, 43, Madrid, España                |  3.50 |
+|             La Dorrego             |                        Calle de Belvis 3, Madrid, España                         |  3.50 |
+|     Mandrake Greek Street Food     |                      Calle del Almendro, 21, Madrid, España                      |  3.50 |
+|           El fogón verde           |                   Calle de la Alameda, 4, 28014 Madrid, España                   |  3.50 |
+|            Sr. Matambre            |                       Calle del Amparo, 12, Madrid, Spain                        |  3.50 |
+|           La Oveja Negra           |                       Calle Buenavista, 42, Madrid, España                       |  3.50 |
+|    Distrito Vegano Invernadero     |                 Calle del Conde de Romanones, 10, Madrid, España                 |  3.50 |
+|        Mad Mad Vegan Chueca        |                    Calle de Pelayo, 19, 28004 Madrid, España                     |  3.50 |
+|            Viva Chapata            |                     Calle del Ave María, 43, Madrid, España                      |  3.50 |
+|      La Alegría de la Huerta       |               Calle de las Dos Hermanas, 22, 28012 Madrid, España                |  3.50 |
+|        Poké Friendly Atocha        |           Paseo de Santa María de la Cabeza, 41, 28045 Madrid, España            |  3.50 |
+|              L'Adoré               |                      Plaza de Cascorro, 20, Madrid, España                       |  3.50 |
+|              Moñetes               |                     Calle de Santa Isabel, 5, Madrid, España                     |  3.50 |
+|       Pizzeria Emma y Julia        |                       Calle Cava Baja, 19, Madrid, España                        |  3.50 |
+|              Menomale              |                    Calle de San Bernardo, 85, Madrid, Espanya                    |  3.50 |
+|      Khora's last restaurant       |                   Oranienstraße 66, 10969 Berlin, Deutschland                    |  3.00 |
+|        Pizza Koons Neukölln        |                  Herrfurthstraße 31, 12049 Berlin, Deutschland                   |  3.00 |
+|           Spätzlemacher            |                 Marchlewskistraße 57, 10243 Berlin, Deutschland                  |  4.00 |
+|               UMAMIE               |                           Goienkale, 3, Bilbao, España                           |  3.95 |
+|          Gaudina Burgers           |                     45 Rue Jean Jaurès, 83000 Toulon, France                     |  4.00 |
+|          Sembilan Toulon           |                    9 Rue César Vezzani, 83000 Toulon, France                     |  4.00 |
+|     Sayuri Sushi Asian Bistro      |               387 Littoral Frédéric Mistral, 83000 Toulon, France                |  4.00 |
+|          Menthe Chocolat           |                4 Place Monseigneur Deydier, 83000 Toulon, France                 |  4.00 |
+|              SF Thai               |                   7 bis Rue de Chabannes, 83000 Toulon, France                   |  4.00 |
+|              Mamie K               |                    9 Rue César Vezzani, 83000 Toulon, France                     |  4.00 |
+|           La Manufacture           |                       5 Rue de Metz, 80000 Amiens, France                        |  3.50 |
+|             Robin Room             |                       9 Rue Flatters, 80000 Amiens, France                       |  3.50 |
+|              Le Teuf               |                     105 Rue Lucien Lecointe, Amiens, France                      |  3.50 |
+|           Moana Poké 🌺            |                    5 Rue Henri Barbusse, 80000 Amiens, France                    |  3.50 |
+|            La Mamma Mia            |                 169 Avenue du Général Foy, 80000 Amiens, France                  |  3.50 |
+|             Via Pizza              |                     5 Rue des Sergents, 80000 Amiens, France                     |  3.50 |
+|               Mealk                |                   14 Avenue Paul Claudel, 80000 Amiens, France                   |  3.50 |
+|             L'Adresse              |                    70 Rue des Jacobins, 80000 Amiens, France                     |  3.50 |
+|             Chez Rosa              |                         12 Rue Flatters, Amiens, France                          |  3.50 |
+|           W . A . N . T            |           Unit 2, 23, Arthur St, Kingston upon Hull, City of, HU3 6BH            |  2.00 |
+|    The Magic Basket Catering Co    | Lonsdale Community Centre, Lonsdale Street, Kingston upon Hull, City of, HU3 6PA |  2.50 |
+|            Pecados Café            |                  Avenida Domingo Santa María 4084, Renca, Chile                  |  0.00 |
+|        Restaurant Croc Epi         |              2 Rue Antoine de Saint-Exupéry, 56100 Lorient, France               |  3.50 |
+|           PAIHIA KITCHEN           |                  9 Avenue de la Perrière, 56100 Lorient, France                  |  3.00 |
+|       DYNAMO Cantine & Vélo        |                             62 Avenue de la Perrière                             |  3.00 |
+|               Code Ø               |                         5 Rue de Carnel, Lorient, France                         |  3.50 |
+|         Camp de base TARA          |                 10 Rue Raymond Rallier du Baty, Lorient, France                  |  3.00 |
+|                Pesk                |                    20 Avenue de la Perrière, Lorient, France                     |  3.50 |
+|          Rice Noodle 🥡🏷️          |                   2 Place de Paris, 67300 Schiltigheim, France                   |  0.00 |
+|            La pizzeria             |                     Rue Crève-Coeur 3, 4000 Liège, Belgique                      |  3.50 |
+|          La Belle Etoile           |                  115 Quai Maurice Métayer, 79000 Niort, France                   |  3.50 |
+|       Restaurant Le Régency        |              17 Boulevard Jules Janin, 42000 Saint-Étienne, France               |  3.50 |
+|               Pokawa               |                 37 Place du Peuple, 42000 Saint-Étienne, France                  |  3.50 |
+| Restaurant Cueillette par Eclosion |                 2 Cours Victor Hugo, 42000 Saint-Étienne, France                 |  3.50 |
+|              GreenBae              |                  2 Rue José Frappa, 42000 Saint-Étienne, France                  |  3.50 |
+|             Tsing Tao              |                  47 Rue du Vernay, 42100 Saint-Étienne, France                   |  3.50 |
+|            Basilic & Co            |                     4 Rue Faure-Belon, Saint-Étienne, France                     |  3.50 |
+|         La Fleur au Fusil          |                   7 Rue Camille Colard, Saint-Étienne, France                    |  3.50 |
+|  Spice Lounge - Cuisine indienne   |                  23 Rue Pnte Cadet, 42000 Saint-Étienne, France                  |  3.50 |
+|      Little garden restaurant      |                       2 Rue Dormoy, Saint-Étienne, France                        |  3.50 |
+|         Le Croq'en bouche          |                    25 Place Chavanelle, Saint-Étienne, France                    |  3.50 |
+|              Munchies              |               39 Rue de la République, 42000 Saint-Étienne, France               |  3.50 |
+|               Oyisi                |                 2 Cours Victor Hugo, 42000 Saint-Étienne, France                 |  3.50 |
+|          Richard Traiteur          |                 2 Cours Victor Hugo, 42000 Saint-Étienne, France                 |  3.50 |
+|               Byblos               |                24 Rue du 11 Novembre, 42100 Saint-Étienne, France                |  3.50 |
+|           Maison DUSSAP            |                 1 Cours Victor Hugo, 42000 Saint-Étienne, France                 |  3.50 |
+|            Bol'appétit             |                 9 Rue Clovis Hugues, 42000 Saint-Étienne, France                 |  3.50 |
+|             L'Alsacien             |                 4 Place Jean Jaurès, 42000 Saint-Étienne, France                 |  3.50 |
+|            GreenBae Box            |                  2 Rue José Frappa, 42000 Saint-Étienne, France                  |  3.50 |
+|           Jean Les Crocs           |                 10 Place Villeboeuf, 42100 Saint-Étienne, France                 |  3.50 |
+|           Bistronomades            |                           33 Le Domaine, Taden, France                           |  0.00 |
+|             Chic Kebab             |                   80 Avenue de Paris, 92320 Châtillon, France                    |  4.00 |
+|          Bar le Commerce           |                   10 Avenue de Paris, 92320 Châtillon, France                    |  4.00 |
+|             Via Veneto             |                    6 Rue de la Gare, 92320 Châtillon, France                     |  4.00 |
+|         C'est mon Plaisir          |                   35 Rue Gabriel Péri, 92320 Châtillon, France                   |  4.00 |
+|          Le Neuf de Thaï           |                   12 Avenue de Paris, 92320 Châtillon, France                    |  4.00 |
+|         BERENJENA -CENTRO-         |     Calle 3 Ote. 407, Centro histórico de Puebla, 72000 Puebla, Pue., México     |  0.00 |
++------------------------------------+----------------------------------------------------------------------------------+-------+

@@ -11,32 +11,38 @@ def main():
     parser = argparse.ArgumentParser(description='Find open restaurants at a given date and time.')
     parser.add_argument('-t', '--time', help='Time to check in the format "HH:MM".')
     parser.add_argument('-d', '--day', help='Day of the week.')
-    parser.add_argument('-l', '--location', nargs=2, type=float, metavar=('LATITUDE', 'LONGITUDE'),
+    parser.add_argument('-l', '--location', nargs=3, type=float, metavar=('LATITUDE', 'LONGITUDE','RADIUS'),
                         help='Filter restaurants by location. Specify latitude and longitude.')
-    parser.add_argument('-r', '--radius', type=float, help='Radius (in meters) for location-based filtering.')
+    parser.add_argument('-m', '--max', type=float, help='max delivery price.')
+    parser.add_argument('-r', '--rankBy', type=int, help='rank by price or rating.')
     
     args = parser.parse_args()
 
     query_handler = QueryHandler()
 
-    open_restaurants_results = set()
-    location_results = set()
-
-    if args.time and args.day and args.location and args.radius:
-        # Si le temps, le jour, la localisation et le rayon sont fournis, exécuter la requête combinant les deux conditions
-        results = query_handler.query_combined(args.day, args.time, args.location[0], args.location[1], args.radius)
-    elif args.time and args.day:
-        # Si le temps et le jour sont fournis, exécuter la requête pour trouver les restaurants ouverts à cette date et heure
-        results = query_handler.query_combined(args.day, args.time)
-    elif args.location and args.radius:
-        # Si la localisation et le rayon sont fournis exécuter la requête pour trouver les restaurants dans ce rayon
-        results = query_handler.query_combined(latitude=args.location[0], longitude=args.location[1], radius=args.radius)
+    if args.time and not (args.day or args.location or args.max or args.rankBy):
+        results = query_handler.query_by_time(args.day, args.time)
+    elif args.day and not (args.time or args.location or args.max or args.rankBy):
+        # Seulement le jour est défini
+        results = query_handler.query_by_day(args.day)
+    elif args.location and not (args.time or args.day or args.max or args.rankBy):
+        # Seulement la localisation et le rayon sont définis
+        results = query_handler.query_by_location(latitude=args.location[0], longitude=args.location[1], radius=args.location[2])
+    elif args.max and not (args.time or args.day or args.location, args.rankBy):
+        print("APPEL DE QUERY BY PRICE")
+        # Seulement le prix est défini
+        results = query_handler.query_by_price(max_delivery_price=args.max)
     else:
-        # Aucun des cas ci-dessus n'est rempli, afficher un message d'erreur ou gérer de manière appropriée
-        print("Veuillez fournir des arguments valides.")
-        return
+        results = query_handler.query_combined(args.day, args.time, location=args.location, max_delivery_price=args.max, rank_by=args.rankBy)
+
+    print("Bienvenue sur TastyTriples! \nVotre recherche vient d'être lancée")
+    
+    print(f"Filtres utilisés.\nTemps: {(args.time if args.time else 'Non spécifiée')}\nJour: {(args.day if args.day else 'Non spécifiée')}\nLocalisation: {(args.location if args.location else 'Non spécifiée')}\nRayon: {(args.location[2] if args.location else 'Non spécifié')}\nPrix de livraison maximum: {(args.max if args.max else 'Non spécifié')}\nrankBy: {(args.rankBy if args.rankBy else 'Non spécifié')}")
+
 
     query_handler.display_results(results)
+   
+    
 
 if __name__ == "__main__":
     main()
