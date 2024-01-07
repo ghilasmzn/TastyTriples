@@ -1,6 +1,6 @@
 from SPARQLWrapper import SPARQLWrapper, POST, JSON
-from jsonldconverter import JSONLDConverter
-from shopsExtractor import ShopsExtractor
+from backend.data_retrieval.collect.jsonldconverter import JSONLDConverter
+from backend.data_retrieval.collect.shopsExtractor import ShopsExtractor
 from fusekiLoader import FusekiLoader
 
 import argparse

@@ -1,11 +1,6 @@
-from SPARQLWrapper import SPARQLWrapper, JSON
 import argparse
-from queryHandler import QueryHandler  # Assurez-vous d'avoir le bon import du module
-
-
-def combine_results(open_restaurants_results, location_results):
-    # Vous pouvez ajuster cela selon vos besoins, par exemple, utiliser intersection, union, etc.
-    return open_restaurants_results.intersection(location_results)
+from queryHandler import QueryHandler 
+from colorama import Fore,Style
 
 def main():
     parser = argparse.ArgumentParser(description='Find open restaurants at a given date and time.')
@@ -38,13 +33,12 @@ def main():
     else:
         results = query_handler.query_combined(args.day, args.time, location=args.location, max_delivery_price=args.max, rank_by=args.rankBy)
 
-    print("Bienvenue sur TastyTriples! \nVotre recherche vient d'être lancée")
+    print(Fore.BLUE+"Bienvenue sur TastyTriples!"+Style.RESET_ALL)
     
-    print(f"Filtres utilisés.\nTemps: {(args.time if args.time else 'Non spécifiée')}\nJour: {(args.day if args.day else 'Non spécifiée')}\nLocalisation: {(args.location if args.location else 'Non spécifiée')}\nRayon: {(args.location[2] if args.location else 'Non spécifié')}\nPrix de livraison maximum: {(args.max if args.max else 'Non spécifié')}\nrankBy: {(args.rankBy if args.rankBy else 'Non spécifié')}")
+    print(Fore.YELLOW+f"Filtres utilisés.\nTemps: {(args.time if args.time else 'Non spécifié')}\nJour: {(args.day if args.day else 'Non spécifié')}\nLocalisation: {(args.location if args.location else 'Non spécifié')}\nRayon: {(args.location[2] if args.location else 'Non spécifié')}\nPrix de livraison maximum: {(args.max if args.max else 'Non spécifié')}\nrankBy: {(args.rankBy if args.rankBy else 'Non spécifié')}"+Style.RESET_ALL)
 
-
-    
-    query_handler.display_results(results)
+    if results:
+        query_handler.display_results(results)
     
 
 if __name__ == "__main__":

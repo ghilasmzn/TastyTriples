@@ -12,6 +12,8 @@ help:
 	@echo "  make install - Install requirements"
 	@echo "  make collect - Collect data from the web and store it in the triplestore"
 	@echo "  make query - Make queries to the triplestore and display the results"
+	@echo "  make describe - Create user preferences and store them in the triplestore"
+	
 
 
 install:
@@ -21,7 +23,10 @@ clean:
 	rm -rf data_retrevial/__pycache__ 
 
 collect:
-	$(PYTHON) data_retrieval/collect.py $(ARGS)
+	$(PYTHON) data_retrieval/collect/collect.py $(ARGS)
 
 query:
-	$(PYTHON) data_retrieval/query.py $(ARGS)
+	$(PYTHON) data_retrieval/query/query.py $(ARGS)
+
+describe:
+	$(PYTHON) data_retrieval/describe/describe.py $(ARGS)

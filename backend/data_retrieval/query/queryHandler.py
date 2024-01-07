@@ -1,8 +1,7 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 from prettytable import PrettyTable
-from math import radians, sin, cos, sqrt, atan2
+from math import radians, cos
 
-from rdflib import XSD
 class QueryHandler:
     def __init__(self):
         self.sparql = SPARQLWrapper("http://localhost:3030/Coopcycle/query")
@@ -205,6 +204,7 @@ class QueryHandler:
             }}
         """
         preferences = self.execute_query(query)
+        print(preferences)
         # Extract values from preferences
         if preferences:
             preference = preferences[0]  # Assuming there is only one result
@@ -219,7 +219,6 @@ class QueryHandler:
             result_combined = self.query_combined(day=None, time=None, location=(longitude,latitude, radius), max_delivery_price=max_delivery_price, rank_by=1)
             return result_combined
 
-        # Execute the query
         
 
 

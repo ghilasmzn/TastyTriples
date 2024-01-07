@@ -1,12 +1,12 @@
 import requests
 import subprocess
 import time
-
+from colorama import Fore, Style
 
 class FusekiLoader:
     def __init__(self, dataset_url):
         self.dataset_url = dataset_url
-        self.fuseki_path = '../apache-jena-fuseki-4.10.0/fuseki-server'
+        self.fuseki_path = '../../apache-jena-fuseki-4.10.0/fuseki-server'
         self.server_process = None
 
     def is_running(self):
@@ -34,7 +34,7 @@ class FusekiLoader:
         response = requests.post(f'{self.dataset_url}/data', data=rdf_data_encoded, headers=headers)
 
         if response.status_code == 200:
-            print('Data of ' + file_path + ' loaded successfully.')
+            print(Fore.GREEN+'Data of ' + file_path + ' loaded successfully.'+Style.RESET_ALL)
         else:
-            print(f"Failed to load data of {file_path} | Status code: {response.status_code}")
+            print(Fore.RED+f"Failed to load data of {file_path} | Status code: {response.status_code}"+Style.RESET_ALL)
             print(response.text)
