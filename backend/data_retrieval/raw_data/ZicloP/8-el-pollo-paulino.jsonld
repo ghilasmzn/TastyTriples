@@ -47,5 +47,9 @@
   },
   "belongsToService": {
     "@id": "https://ziclop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Poller\u00eda",
+    "Mediterr\u00e1nea"
+  ]
 }

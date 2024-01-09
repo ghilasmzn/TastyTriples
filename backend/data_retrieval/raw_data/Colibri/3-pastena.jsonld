@@ -65,5 +65,11 @@
   },
   "belongsToService": {
     "@id": "https://colibri.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Contemporanea",
+    "Italiana",
+    "Pasta",
+    "Vegetariana"
+  ]
 }

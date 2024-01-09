@@ -48,5 +48,9 @@
   },
   "belongsToService": {
     "@id": "https://krokoop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Hawa\u00efenne",
+    "Bol Poke"
+  ]
 }

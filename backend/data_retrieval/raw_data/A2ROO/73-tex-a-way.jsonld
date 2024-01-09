@@ -47,5 +47,11 @@
   },
   "belongsToService": {
     "@id": "https://a2roo.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Sans gluten",
+    "Tex Mex",
+    "Vegan",
+    "V\u00e9g\u00e9tarienne"
+  ]
 }

@@ -1,0 +1,55 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://demo.coopcycle.org/api/restaurants/118",
+  "@type": "http://schema.org/IceCreamShop",
+  "name": "Mennella II gelateria",
+  "address": {
+    "@id": "https://demo.coopcycle.org/api/addresses/12901",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.8436012,
+      "longitude": 14.249096
+    },
+    "streetAddress": "Via Toledo, 110, Napoli, NA, Italia",
+    "telephone": "+39081404458",
+    "name": "Mennella II gelateria"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "23:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://demo.coopcycle.org/img/cuisine/default.jpg",
+  "bannerImage": "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/63MplpnXEam9.jpg",
+  "sameAs": "http://www.pasticerriamennella.it",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://demo.coopcycle.org/fr/restaurant/118-mennella-ii-gelateria",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://demo.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

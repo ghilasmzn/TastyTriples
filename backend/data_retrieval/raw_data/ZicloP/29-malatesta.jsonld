@@ -55,5 +55,12 @@
   },
   "belongsToService": {
     "@id": "https://ziclop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Local",
+    "Org\u00e1nica",
+    "Pizzer\u00eda",
+    "Vegana",
+    "Vegetariana"
+  ]
 }

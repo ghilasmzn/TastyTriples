@@ -66,5 +66,8 @@
   },
   "belongsToService": {
     "@id": "https://cyclome.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Hawa\u00efenne"
+  ]
 }

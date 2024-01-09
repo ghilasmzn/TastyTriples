@@ -48,5 +48,12 @@
   },
   "belongsToService": {
     "@id": "https://khora.berlin"
-  }
+  },
+  "cuisineTypes": [
+    "Gluten Free",
+    "Salad",
+    "Soup",
+    "Vegan",
+    "Vegetarian"
+  ]
 }

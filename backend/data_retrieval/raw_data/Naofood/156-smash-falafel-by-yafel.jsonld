@@ -1,0 +1,82 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/156",
+  "@type": "http://schema.org/Restaurant",
+  "name": "SMASH Falafel by Yafel",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/135954",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2202634,
+      "longitude": -1.5488616
+    },
+    "streetAddress": "83 Rue Mar\u00e9chal Joffre, Nantes, France",
+    "telephone": "+33255104759",
+    "name": "SMASH Falafel by Yafel"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/65/95/6595601ad080f.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/65/95/65956000b21d7.jpg",
+  "description": "Chez SMASH Falafel, pas de galette de soja surgel\u00e9e fade et industrielle. On te propose une vraie alternative : tous nos burgers sont v\u00e9g\u00e9tariens ou vegan, et pr\u00e9par\u00e9s \u00e0 partir d'un steak de falafel bio et fait maison. Disponible uniquement en livraison \ud83d\udef5",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/156-smash-falafel-by-yafel",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

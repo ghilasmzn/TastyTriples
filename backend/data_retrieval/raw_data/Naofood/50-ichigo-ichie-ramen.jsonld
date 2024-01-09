@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/50",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Ichigo Ichie Ramen",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/10448",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2115,
+      "longitude": -1.54679
+    },
+    "streetAddress": "31 Rue Foure, 44000 Nantes, France",
+    "telephone": "+33240353430",
+    "name": "Ichigo Ichie Ramen"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/60/22/6022ebc7a0540.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/60/22/6022ebc7a0540.jpg",
+  "sameAs": "https://ichigoichie.fr",
+  "description": "Ichigo Ichie vous propose un panel de Ramen pour d\u00e9couvrir ou se replonger dans la culture Nippone. Notre sp\u00e9cialit\u00e9: Le Tonkotsu Ramen de Hakata! Ici tout est fait maison (nouille, bouillon et topping).\r\n\r\n*Si vous planifier de manger vos Ramen chez vous, nous vous recommandons de commander les nouilles ramen fraiche (choisir l'option) et de les cuir vous m\u00eame au dernier moment (une minute dans l'eau bouillante) pour garantir une experience ultime!",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/50-ichigo-ichie-ramen",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

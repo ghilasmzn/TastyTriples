@@ -43,6 +43,7 @@
     }
   ],
   "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c9ba7b3a6.jpg",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983ab638fa6.webp",
   "sameAs": "https://www.saint-etienne.greenbae.fr/",
   "description": "Envie d'un voyage culinaire ? Pas de probl\u00e8me, notre chef au talent inimitable vous fera d\u00e9couvrir ses d\u00e9licieuses recettes pour que vous passiez un bon moment autour de votre repas. Goutez \u00e0 nos d\u00e9licieux sandwichs ou plats v\u00e9g\u00e9tariens et v\u00e9gans aux saveurs m\u00e9diterran\u00e9ennes.",
   "potentialAction": {
@@ -72,5 +73,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-stephanois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

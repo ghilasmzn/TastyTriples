@@ -11,6 +11,7 @@ def main():
     parser.add_argument('-m', '--max', type=float, help='max delivery price.')
     parser.add_argument('-r', '--rankBy', type=int, help='rank by price or rating.')
     parser.add_argument('-p', '--preference', type=str, help='take a preference as input.')
+    parser.add_argument('-f', '--food', type=str, help='take a type of food as input.') 
     
     args = parser.parse_args()
 
@@ -30,13 +31,15 @@ def main():
     elif args.preference and not (args.time or args.day or args.location or args.max):
         # Seulement le prix est défini
         results = query_handler.query_by_preferences(args.preference)
+    elif args.food and not (args.time or args.day or args.location or args.max):
+        results = query_handler.query_by_food(args.food)
     else:
         results = query_handler.query_combined(args.day, args.time, location=args.location, max_delivery_price=args.max, rank_by=args.rankBy)
 
     print(Fore.BLUE+"Bienvenue sur TastyTriples!"+Style.RESET_ALL)
     
     print(Fore.YELLOW+f"Filtres utilisés.\nTemps: {(args.time if args.time else 'Non spécifié')}\nJour: {(args.day if args.day else 'Non spécifié')}\nLocalisation: {(args.location if args.location else 'Non spécifié')}\nRayon: {(args.location[2] if args.location else 'Non spécifié')}\nPrix de livraison maximum: {(args.max if args.max else 'Non spécifié')}\nrankBy: {(args.rankBy if args.rankBy else 'Non spécifié')}"+Style.RESET_ALL)
-
+    
     if results:
         query_handler.display_results(results)
     

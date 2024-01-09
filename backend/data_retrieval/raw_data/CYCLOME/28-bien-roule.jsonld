@@ -55,5 +55,9 @@
   },
   "belongsToService": {
     "@id": "https://cyclome.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Fran\u00e7aise",
+    "Traditionelle"
+  ]
 }

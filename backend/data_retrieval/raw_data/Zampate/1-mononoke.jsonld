@@ -75,5 +75,9 @@
   },
   "belongsToService": {
     "@id": "https://zampate.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Sin Gluten",
+    "Pizzer\u00eda"
+  ]
 }

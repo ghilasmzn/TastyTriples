@@ -4,6 +4,7 @@ import re
 from urllib.parse import urlparse
 from geopy.geocoders import Nominatim
 from fusekiLoader import FusekiLoader
+import pyshacl
 
 class MemberCreator:
     def __init__(self, uri):
@@ -19,6 +20,86 @@ class MemberCreator:
         except requests.exceptions.RequestException as e:
             print(f"Error fetching HTML content from {uri}: {e}")
             return None
+    
+    def write_shacl_shapes(self, output_path):
+        shacl_shapes = """
+            @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+            @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+            @prefix sh: <http://www.w3.org/ns/shacl#> .
+            @prefix ns1: <http://schema.org/> .
+
+            ns1:ProfessionalServiceShape
+                a sh:NodeShape ;
+                sh:targetClass ns1:ProfessionalService ;
+                sh:property [
+                    sh:path ns1:city ;
+                    sh:minCount 1 ;
+                    sh:message "City is required." ;
+                ] ;
+                sh:property [
+                    sh:path ns1:coopcycle_url ;
+                    sh:minCount 1 ;
+                    sh:message "Coopcycle URL is required." ;
+                ] ;
+                sh:property [
+                    sh:path ns1:country ;
+                    sh:minCount 1 ;
+                    sh:message "Country is required." ;
+                ] ;
+                sh:property [
+                    sh:path ns1:description ;
+                    sh:minCount 1 ;
+                    sh:message "Description is required." ;
+                ] ;
+                sh:property [
+                    sh:path ns1:latitude ;
+                    sh:minCount 1 ;
+                    sh:message "Latitude is required." ;
+                ] ;
+                sh:property [
+                    sh:path ns1:longitude ;
+                    sh:minCount 1 ;
+                    sh:message "Longitude is required." ;
+                ] ;
+                sh:property [
+                    sh:path ns1:mail ;
+                    sh:minCount 1 ;
+                    sh:message "Mail is required." ;
+                ] ;
+                sh:property [
+                    sh:path ns1:name ;
+                    sh:minCount 1 ;
+                    sh:message "Name is required." ;
+                ] ;
+                sh:property [
+                    sh:path ns1:sameAs ;
+                    sh:minCount 1 ;
+                    sh:message "SameAs is required." ;
+                ] .
+        """
+
+        with open(output_path, "w") as shacl_file:
+            shacl_file.write(shacl_shapes)
+    
+    def validate_rdf_graph(self, graph_path, shacl_shapes_path):
+        """Valide le RDF graph avec les formes SHACL."""
+        rdf_graph = open(graph_path, 'rb').read()
+        shacl_shapes = open(shacl_shapes_path, 'rb').read()
+
+        conforms, report_graph, _ = pyshacl.validate(
+            data_graph=rdf_graph,
+            shacl_graph=shacl_shapes,
+            format="turtle",
+            inference="rdfs",
+            debug=True
+        )
+
+        if not conforms:
+            print("Validation failed. SHACL Errors:")
+            print(report_graph.serialize(format="turtle").decode())
+        else:
+            print("Validation succeeded.")
+
 
     def extract_location(self, soup):
         # Essayez de trouver l'élément avec l'ID 'geocode-earth'
@@ -114,6 +195,11 @@ class MemberCreator:
                 ns1:sameAs "{phone}" .
         """
         ttl_output_path="data_retrieval/raw_data/"+self.name+".ttl"
+
+        shacl_output_path="data_retrieval/raw_data/coopcycle_member.shacl"
+        self.write_shacl_shapes(shacl_output_path)
+        self.validate_rdf_graph(ttl_output_path, shacl_output_path)
+        
         print(ttl_graph,file=open(ttl_output_path,"w"))
         fuseki_loader = FusekiLoader('http://localhost:3030/Coopcycle')
         fuseki_loader.load_data_from_file(ttl_output_path)

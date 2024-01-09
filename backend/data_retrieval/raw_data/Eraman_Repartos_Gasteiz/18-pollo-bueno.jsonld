@@ -49,5 +49,6 @@
   },
   "belongsToService": {
     "@id": "https://eramangasteiz.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

@@ -45,5 +45,12 @@
   },
   "belongsToService": {
     "@id": "https://ziclop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Vasca",
+    "Hamburguesas",
+    "Sin Gluten",
+    "Mediterr\u00e1nea",
+    "Bocadillos"
+  ]
 }

@@ -48,5 +48,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-metz.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

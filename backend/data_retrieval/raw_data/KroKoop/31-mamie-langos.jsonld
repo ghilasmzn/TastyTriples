@@ -62,5 +62,9 @@
   },
   "belongsToService": {
     "@id": "https://krokoop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Europe de l'Est",
+    "Fait maison"
+  ]
 }

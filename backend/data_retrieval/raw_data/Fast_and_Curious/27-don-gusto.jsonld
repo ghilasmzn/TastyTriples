@@ -62,5 +62,9 @@
   },
   "belongsToService": {
     "@id": "https://fast-and-curious.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Italienne",
+    "Pizza"
+  ]
 }

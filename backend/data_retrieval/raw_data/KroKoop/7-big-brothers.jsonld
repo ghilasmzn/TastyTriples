@@ -61,5 +61,9 @@
   },
   "belongsToService": {
     "@id": "https://krokoop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Am\u00e9ricaine",
+    "Burgers"
+  ]
 }

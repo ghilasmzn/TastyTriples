@@ -30,6 +30,7 @@
     }
   ],
   "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560ca0e004cc.jpg",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983bc15557f.jpg",
   "sameAs": "https://jeanlescrocs.fr/",
   "description": "Salades, sandwichs et plats faits maison, cuisin\u00e9s essentiellement \u00e0 partir de produits locaux.\r\n\r\nRestaurant \u00e9coresponsable ax\u00e9 principalement sur la r\u00e9duction des d\u00e9chets: achats en vrac, compost des biod\u00e9chets de cuisine, bocaux en verre ou emballages compostables en bagasse.\r\n\r\nLes salades et plats sont servis froids (liaison froide), et se conservent tr\u00e8s bien au frigo, ils peuvent donc \u00eatre command\u00e9s le midi pour le soir.\r\n\r\nNOUVEAUTE: d\u00e9sormais les produits command\u00e9s \u00e0 la carte sont livr\u00e9s dans les bocaux en verre consign\u00e9s! Vous pourrez rendre le bocal vide et propre aux Coursiers St\u00e9phanois \u00e0 la livraison suivante, et la consigne vous sera rembours\u00e9e sur votre compte.\r\nL'int\u00e9gration des consignes n'est pas encore possible pour les commandes de menus, mais ces emballages-ci sont toujours compostables!\r\n\r\n! Tous nos produits contiennent des allerg\u00e8nes !  Tout le d\u00e9tail sur notre site ou au 07 87 38 76 19",
   "potentialAction": {
@@ -59,5 +60,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-stephanois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

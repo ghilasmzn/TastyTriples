@@ -48,5 +48,8 @@
   },
   "belongsToService": {
     "@id": "https://cyclome.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "P\u00e2tisseries"
+  ]
 }

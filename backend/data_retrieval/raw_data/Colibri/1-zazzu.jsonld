@@ -48,5 +48,11 @@
   },
   "belongsToService": {
     "@id": "https://colibri.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Bistro",
+    "Italiana",
+    "Vegana",
+    "Vegetariana"
+  ]
 }

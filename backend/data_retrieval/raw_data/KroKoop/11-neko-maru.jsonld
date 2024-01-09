@@ -60,5 +60,9 @@
   },
   "belongsToService": {
     "@id": "https://krokoop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Japonaise",
+    "Traditionelle"
+  ]
 }

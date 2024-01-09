@@ -48,6 +48,7 @@
     }
   ],
   "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/61/25/6125fa4a0436c.jpg",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983b054abed.png",
   "sameAs": "https://auxfutsperces.com/",
   "description": "Avec nous, parcourez les routes du monde \u00e0 la recherche des meilleures saveurs de bi\u00e8re ! Houblon, malt et bl\u00e9 vous attendent fermement ou plut\u00f4t ferment\u00e9s, pour un d\u00e9paysement gustatif total ! Que vous soyez un particulier, une association ou une entreprise, nous vous accompagnons  avec un choix de bi\u00e8res qui ne pourront que satisfaire vos papilles et celles de vos convives.",
   "potentialAction": {
@@ -66,5 +67,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-stephanois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

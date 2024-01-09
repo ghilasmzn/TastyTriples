@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/6",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Dolce Italia - Traiteur italien",
+  "address": {
+    "@id": "https://lcr.coopcycle.org/api/addresses/27",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1083,
+      "longitude": -1.67908
+    },
+    "streetAddress": "11 Rue Jules Simon, 35000 Rennes, France",
+    "telephone": "+33299790619",
+    "name": "Dolce Italia - Traiteur italien"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/60/9b/609bfbb21b01a.png",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e5ed7a6a6d.png",
+  "sameAs": "https://dolceitalia-traiteur.com/",
+  "description": "Traiteur italien familial / restauration sur place ou \u00e0 emporter situ\u00e9 en plein coeur de Rennes dans le quartier du march\u00e9 de la Cri\u00e9e.\r\n\r\nNous mettons \u00e0 votre disposition Ici sur le site LCR les grands classiques de Dolce, menu mis \u00e0 jour r\u00e9guli\u00e8rement !\r\nUne offre 100% italienne !  Des dizaines de plats frais et desserts pr\u00e9par\u00e9s sur place par nos cuisiniers avec amore, \u00e9picerie fine et tout un assortiment de produits frais italiens : charcuterie, antipasti, fromages.\r\n\r\nCon tanto amore! Buon appetito!",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/6-dolce-italia-traiteur-italien",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

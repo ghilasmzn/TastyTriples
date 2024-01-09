@@ -77,5 +77,8 @@
   },
   "belongsToService": {
     "@id": "https://initiative-emploi.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Tha\u00eflandaise"
+  ]
 }

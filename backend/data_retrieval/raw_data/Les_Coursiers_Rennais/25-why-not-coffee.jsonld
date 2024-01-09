@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/25",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Why not Coffee",
+  "address": {
+    "@id": "https://lcr.coopcycle.org/api/addresses/10339",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1086,
+      "longitude": -1.67888
+    },
+    "streetAddress": "10 Rue Vasselot, 35000 Rennes, France",
+    "telephone": "+33630026368",
+    "name": "Why not Coffee"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/61/65/6165d9603d3df.jpg",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e566945719.png",
+  "sameAs": "https://www.instagram.com/whynot.coffeebar/?hl=fr",
+  "description": "Restaurant sp\u00e9cialis\u00e9 dans les pancakes sal\u00e9s et sucr\u00e9s",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/25-why-not-coffee",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

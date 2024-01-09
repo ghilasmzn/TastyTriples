@@ -55,5 +55,13 @@
   },
   "belongsToService": {
     "@id": "https://ziclop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Asi\u00e1tica",
+    "Sin Gluten",
+    "Japonesa",
+    "Sopa",
+    "Vegana",
+    "Vegetariana"
+  ]
 }

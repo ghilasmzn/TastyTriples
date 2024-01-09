@@ -48,5 +48,13 @@
   },
   "belongsToService": {
     "@id": "https://envici.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Bagels",
+    "Sans gluten",
+    "Mexicaine",
+    "Pizza",
+    "Vegan",
+    "V\u00e9g\u00e9tarienne"
+  ]
 }

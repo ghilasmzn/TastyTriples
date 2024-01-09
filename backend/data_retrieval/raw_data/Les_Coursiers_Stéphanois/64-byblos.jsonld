@@ -30,6 +30,7 @@
     }
   ],
   "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c8b1a0b6c.jpg",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983993a1a69.png",
   "sameAs": "https://www.restaurantlebyblos.com/",
   "description": "Restaurant traditionnel cuisine libanaise !",
   "potentialAction": {
@@ -59,5 +60,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-stephanois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

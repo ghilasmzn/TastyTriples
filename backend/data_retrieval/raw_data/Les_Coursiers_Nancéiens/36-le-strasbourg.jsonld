@@ -48,5 +48,10 @@
   },
   "belongsToService": {
     "@id": "https://lescoursiersnanceiens.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Armenian",
+    "Bistrot",
+    "Fran\u00e7aise"
+  ]
 }

@@ -37,6 +37,7 @@
     }
   ],
   "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c9447d0b6.jpg",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983a688b0f1.jpg",
   "sameAs": "https://www.maisondussap.fr/",
   "potentialAction": {
     "@type": "OrderAction",
@@ -65,5 +66,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-stephanois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

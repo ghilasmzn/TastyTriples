@@ -55,5 +55,9 @@
   },
   "belongsToService": {
     "@id": "https://ziclop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Italiana",
+    "Pizzer\u00eda"
+  ]
 }

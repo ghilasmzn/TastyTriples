@@ -80,5 +80,6 @@
   },
   "belongsToService": {
     "@id": "https://initiative-emploi.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

@@ -54,5 +54,10 @@
   },
   "belongsToService": {
     "@id": "https://a2roo.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Caf\u00e9",
+    "Fait maison",
+    "P\u00e2tisseries"
+  ]
 }

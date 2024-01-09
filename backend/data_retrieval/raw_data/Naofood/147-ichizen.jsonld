@@ -59,5 +59,6 @@
   },
   "belongsToService": {
     "@id": "https://naofood.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

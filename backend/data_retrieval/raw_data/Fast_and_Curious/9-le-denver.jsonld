@@ -61,5 +61,11 @@
   },
   "belongsToService": {
     "@id": "https://fast-and-curious.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Am\u00e9ricaine",
+    "Burgers",
+    "Cheesesteaks",
+    "Bifteck"
+  ]
 }

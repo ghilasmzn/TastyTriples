@@ -57,5 +57,10 @@
   },
   "belongsToService": {
     "@id": "https://ziclop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Comida R\u00e1pida",
+    "Turca",
+    "Vegetariana"
+  ]
 }

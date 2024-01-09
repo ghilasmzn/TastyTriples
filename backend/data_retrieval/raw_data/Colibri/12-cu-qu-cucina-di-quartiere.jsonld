@@ -57,5 +57,6 @@
   },
   "belongsToService": {
     "@id": "https://colibri.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

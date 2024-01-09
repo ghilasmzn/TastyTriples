@@ -57,5 +57,6 @@
   },
   "belongsToService": {
     "@id": "https://dinan.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

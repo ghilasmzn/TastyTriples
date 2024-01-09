@@ -62,5 +62,6 @@
   },
   "belongsToService": {
     "@id": "https://sicklo.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

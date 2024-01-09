@@ -59,5 +59,10 @@
   },
   "belongsToService": {
     "@id": "https://lescoursiersbrestois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Cr\u00eapes",
+    "Locale",
+    "Vegan"
+  ]
 }

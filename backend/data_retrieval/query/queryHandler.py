@@ -113,6 +113,20 @@ class QueryHandler:
         """
         return self.execute_query(query)
     
+    def query_by_food(self, food):
+        query = f"""
+            PREFIX schema: <http://schema.org/>
+            SELECT ?restaurant ?name ?streetAddress
+            WHERE {{
+                ?restaurant a schema:Restaurant ;
+                            schema:address ?address ;
+                            schema:name ?name .
+                ?address schema:streetAddress ?streetAddress .
+                ?restaurant schema:cuisineTypes "{food}" .
+            }}
+        """
+        return self.execute_query(query)
+    
     def query_combined(query_handler, day=None, time=None, location=None, max_delivery_price=None, rank_by=None):
         print("query_combined \n")
         print(location)

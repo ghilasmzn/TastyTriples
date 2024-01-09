@@ -56,6 +56,7 @@
     }
   ],
   "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560cab689e95.jpg",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983a37197e7.JPEG",
   "sameAs": "https://www.restaurant-japonais-oyisi.com/",
   "description": "Restaurant japonais.\r\nSp\u00e9cialiste des sushis, OYISI vous propose une large gamme de mets typiques tels que des yakitoris, makis et sashimis. \r\nPoisson tr\u00e8s frais, achet\u00e9 le jour m\u00eame.",
   "potentialAction": {
@@ -85,5 +86,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-stephanois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

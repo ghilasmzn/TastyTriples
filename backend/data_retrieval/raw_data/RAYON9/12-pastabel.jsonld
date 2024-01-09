@@ -46,5 +46,6 @@
   },
   "belongsToService": {
     "@id": "https://rayon9.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

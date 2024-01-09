@@ -19,7 +19,7 @@
     {
       "@type": "OpeningHoursSpecification",
       "opens": "18:40",
-      "closes": "21:55",
+      "closes": "21:50",
       "dayOfWeek": [
         "Tuesday",
         "Wednesday",
@@ -62,5 +62,6 @@
   },
   "belongsToService": {
     "@id": "https://lcr.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

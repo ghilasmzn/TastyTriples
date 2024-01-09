@@ -56,5 +56,6 @@
   },
   "belongsToService": {
     "@id": "https://chorlton-bike-deliveries.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

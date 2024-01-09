@@ -120,5 +120,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiersbordelais.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

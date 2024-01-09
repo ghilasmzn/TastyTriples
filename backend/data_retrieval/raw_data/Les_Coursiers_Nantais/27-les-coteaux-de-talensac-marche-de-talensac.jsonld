@@ -49,5 +49,6 @@
   },
   "belongsToService": {
     "@id": "https://lescoursiersnantais.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

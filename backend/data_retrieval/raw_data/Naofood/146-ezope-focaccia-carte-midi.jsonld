@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/146",
+  "@type": "http://schema.org/Restaurant",
+  "name": "EZOPE FOCACCIA (carte midi)",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/96128",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2191432,
+      "longitude": -1.5552884
+    },
+    "streetAddress": "13 Rue L\u00e9on Blum, Nantes, France",
+    "telephone": "+33982585667",
+    "name": "EZOPE FOCACCIA (carte midi)"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/63/b2/63b2b5d8eec3d.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/63/b2/63b2b5d8eec3d.jpg",
+  "description": "EZOPE vous propose des recettes de saison gourmandes en version focaccia ou salade, c'est au choix ! \ud83e\udd57 \ud83e\udd6a\r\nFoca-quoi ? La focaccia, c\u2019est un pain traditionnel italien, au levain et \u00e0 l\u2019huile d\u2019olive. Chez nous, il est fait maison chaque jour par Antoine, \u00e0 base de farine bio et locale. \ud83d\udc9b",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/146-ezope-focaccia-carte-midi",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

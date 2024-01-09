@@ -50,5 +50,6 @@
   },
   "belongsToService": {
     "@id": "https://demo.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

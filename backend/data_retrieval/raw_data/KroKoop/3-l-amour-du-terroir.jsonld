@@ -48,5 +48,9 @@
   },
   "belongsToService": {
     "@id": "https://krokoop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Fran\u00e7aise",
+    "Traditionelle"
+  ]
 }

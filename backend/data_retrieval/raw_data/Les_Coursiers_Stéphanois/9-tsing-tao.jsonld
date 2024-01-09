@@ -43,6 +43,7 @@
     }
   ],
   "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560cb11be922.jpg",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983ba8497f6.png",
   "sameAs": "https://tsingtao-saint-etienne.fr/tsing-tao/saint-etienne-2/2366/0/11150/page.htm",
   "description": "Assortiment de sushis, makis, sashimis et de bien d'autres d\u00e9lices asiatiques.\r\nConfectionn\u00e9s avec savoir-faire et minutie.",
   "potentialAction": {
@@ -72,5 +73,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-stephanois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

@@ -30,6 +30,7 @@
     }
   ],
   "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c9d65738c.jpg",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983b5ab7b57.jpg",
   "sameAs": "https://www.restaurant-lajavableue.fr/",
   "description": "Bistrot \u00e0 viande dans une ambiance des ann\u00e9es 50. Vous y trouverez que de la viande exclusivement fran\u00e7aise de qualit\u00e9, des frites maison, des burgers gourmets et des salades.",
   "potentialAction": {
@@ -48,5 +49,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-stephanois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

@@ -62,5 +62,9 @@
   },
   "belongsToService": {
     "@id": "https://le-rayon-vert.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Bistrot",
+    "Fran\u00e7aise"
+  ]
 }

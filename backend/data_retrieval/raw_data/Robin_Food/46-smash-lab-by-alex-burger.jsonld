@@ -59,5 +59,8 @@
   },
   "belongsToService": {
     "@id": "https://robinfood.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Burgers"
+  ]
 }

@@ -61,5 +61,11 @@
   },
   "belongsToService": {
     "@id": "https://robinfood.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Asiatique",
+    "Fusion",
+    "Bol Poke",
+    "Sushi"
+  ]
 }

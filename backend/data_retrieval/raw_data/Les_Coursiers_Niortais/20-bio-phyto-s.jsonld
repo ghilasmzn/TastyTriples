@@ -27,6 +27,25 @@
         "Friday",
         "Saturday"
       ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:15",
+      "closes": "21:20",
+      "dayOfWeek": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:15",
+      "closes": "20:30",
+      "dayOfWeek": [
+        "Wednesday"
+      ]
     }
   ],
   "image": "https://niort.coopcycle.org/media/cache/restaurant_thumbnail/62/e1/62e12cd746ae4.jpg",
@@ -48,5 +67,12 @@
   },
   "belongsToService": {
     "@id": "https://niort.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Burgers",
+    "Fran\u00e7aise",
+    "Biologique",
+    "Salades",
+    "Sandwiches"
+  ]
 }

@@ -1,0 +1,72 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sicklo.coopcycle.org/api/restaurants/72",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Dragonne Pizza \ud83c\udf55",
+  "address": {
+    "@id": "https://sicklo.coopcycle.org/api/addresses/28685",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.187043,
+      "longitude": 5.712345
+    },
+    "streetAddress": "34 Rue Abb\u00e9 Gr\u00e9goire, 38000 Grenoble, France",
+    "telephone": "+33972616833",
+    "name": "Dragonne Pizza \ud83c\udf55"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:55",
+      "closes": "20:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:55",
+      "closes": "20:00",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/64/3f/643ffd36cfec1.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc5c030608.jpg",
+  "sameAs": "http://dragonnepizza.fr/",
+  "description": "Pizzas romaines \u00e0 la part  certifi\u00e9es biologiques, v\u00e9g\u00e9tariennes (options v\u00e9ganes et/ou sans gluten) aux l\u00e9gumes de saison exclusivement. Information cruciale : Les pizzas sont livr\u00e9es \u00e0 temp\u00e9rature ambiante, nous vous sugg\u00e9rons donc fortement une fois la livraison r\u00e9ceptionn\u00e9e, de mettre les pizzas \u00e0 200\u00b0C pendant au moins 5 minutes pour une meilleure croustillance (d'apr\u00e8s une expertise aupr\u00e8s d'un cabinet de conseil ind\u00e9pendant le facteur plaisir est multipli\u00e9 par 1,9 environ). Les parts se conservent sans probl\u00e8me le lendemain, le surlendemain voire sur des dur\u00e9es sup\u00e9rieures, en les stockant au frigo. Bonne d\u00e9gustation et n'h\u00e9sitez pas \u00e0 nous mettre un super avis sur les r\u00e9seaux, ou \u00e0 nous faire un retour par mail pour que nous puissions nous am\u00e9liorer.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/72-dragonne-pizza",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

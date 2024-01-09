@@ -67,5 +67,6 @@
   },
   "belongsToService": {
     "@id": "https://envici.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

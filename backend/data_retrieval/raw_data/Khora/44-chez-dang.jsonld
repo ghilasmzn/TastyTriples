@@ -61,5 +61,12 @@
   },
   "belongsToService": {
     "@id": "https://khora.berlin"
-  }
+  },
+  "cuisineTypes": [
+    "Asian",
+    "Gluten Free",
+    "Vegan",
+    "Vegetarian",
+    "Vietnamese"
+  ]
 }

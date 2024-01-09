@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/8",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La Machine \u00e0 Cr\u00eapes",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/8",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2115812,
+      "longitude": -1.5518353
+    },
+    "streetAddress": "11 Chauss\u00e9e de la Madeleine, 44000 Nantes, France",
+    "telephone": "+33251827139",
+    "name": "La Machine \u00e0 Cr\u00eapes"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/5f/f7/5ff742a2ac9c3.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/5f/f7/5ff742a2ac9c3.jpg",
+  "sameAs": "https://www.lamachineacrepes.com/#site-title",
+  "description": "Une cr\u00e9ation nantaise unique au monde !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/8-la-machine-a-crepes",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

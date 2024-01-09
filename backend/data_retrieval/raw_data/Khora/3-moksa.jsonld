@@ -61,5 +61,9 @@
   },
   "belongsToService": {
     "@id": "https://khora.berlin"
-  }
+  },
+  "cuisineTypes": [
+    "Fusion",
+    "Indienne"
+  ]
 }

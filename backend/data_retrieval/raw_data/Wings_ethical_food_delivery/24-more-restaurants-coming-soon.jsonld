@@ -61,5 +61,6 @@
   },
   "belongsToService": {
     "@id": "https://london.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

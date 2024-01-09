@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sirapps-cdmx.coopcycle.org/api/restaurants/22",
+  "@type": "http://schema.org/WholesaleStore",
+  "name": "SIRAPPS Webstore",
+  "address": {
+    "@id": "https://sirapps-cdmx.coopcycle.org/api/addresses/376",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 19.3849254,
+      "longitude": -99.0732319
+    },
+    "streetAddress": "Av. Canal de Tezontle 40, Cuchillas del Moral II y III, Ciudad de M\u00e9xico, CDMX, M\u00e9xico",
+    "telephone": "+525520846433",
+    "name": "SIRAPPS Webstore"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "18:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://sirapps-cdmx.coopcycle.org/media/cache/restaurant_thumbnail/65/99/65991cffd0962.jpg",
+  "sameAs": "http://facebook.com/sirapps.019",
+  "description": "Tienda de almac\u00e9n mayorista. Entrega de 24 a 48 horas.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sirapps-cdmx.coopcycle.org/fr/store/22-sirapps-webstore",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sirapps-cdmx.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

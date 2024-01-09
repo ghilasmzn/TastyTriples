@@ -50,6 +50,7 @@
     }
   ],
   "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560cacfc48c2.jpg",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983b473b0cc.png",
   "sameAs": "https://www.pokawa.com/",
   "description": "Pokawa vous invite \u00e0 d\u00e9guster de d\u00e9licieux pok\u00e9s bowls sains et gourmands. Plat traditionnel hawa\u00efen, il se compose de poisson cru marin\u00e9, de poulet ou encore de falafels, accompagn\u00e9 de fruits et l\u00e9gumes hyper frais sur une base de riz vinaigr\u00e9.",
   "potentialAction": {
@@ -79,5 +80,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-stephanois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

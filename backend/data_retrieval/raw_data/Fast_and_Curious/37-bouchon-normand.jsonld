@@ -63,5 +63,11 @@
   },
   "belongsToService": {
     "@id": "https://fast-and-curious.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Burgers",
+    "Fish and Chips",
+    "Locale",
+    "Traditionelle"
+  ]
 }

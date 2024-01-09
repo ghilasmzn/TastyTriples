@@ -39,6 +39,7 @@
     }
   ],
   "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c90f3734c.jpg",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983ace49957.jpg",
   "description": "Cuisine de march\u00e9 au c\u0153ur des halles de St \u00c9tienne.\r\nTOUT EST SERVI EN LIAISON FROIDE : conseils pour r\u00e9chauffer fournis avec les plats.\r\n\r\nMenu sp\u00e9cial pour notre premier anniversaire :",
   "potentialAction": {
     "@type": "OrderAction",
@@ -67,5 +68,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-stephanois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

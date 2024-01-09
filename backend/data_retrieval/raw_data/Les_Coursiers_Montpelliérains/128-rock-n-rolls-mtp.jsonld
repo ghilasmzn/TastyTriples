@@ -62,5 +62,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiersmontpellier.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

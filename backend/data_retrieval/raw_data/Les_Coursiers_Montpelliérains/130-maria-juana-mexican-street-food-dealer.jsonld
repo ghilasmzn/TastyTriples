@@ -18,7 +18,7 @@
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "opens": "12:00",
+      "opens": "12:10",
       "closes": "13:40",
       "dayOfWeek": [
         "Tuesday",
@@ -61,5 +61,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiersmontpellier.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

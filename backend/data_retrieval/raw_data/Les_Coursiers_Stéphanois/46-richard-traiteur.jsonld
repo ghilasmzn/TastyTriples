@@ -37,6 +37,7 @@
     }
   ],
   "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560caeceab8e.jpg",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983a4d1c69d.jpg",
   "sameAs": "https://richardtraiteur.fr/les-halles-mazerat/",
   "description": "Cuisine fran\u00e7aise, maison ap\u00e9ritive.",
   "potentialAction": {
@@ -66,5 +67,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-stephanois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

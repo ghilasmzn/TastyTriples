@@ -58,5 +58,11 @@
   },
   "belongsToService": {
     "@id": "https://lescoursiersbrestois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Fast food",
+    "Kebab",
+    "Libanaise",
+    "Moyen-Orientale"
+  ]
 }

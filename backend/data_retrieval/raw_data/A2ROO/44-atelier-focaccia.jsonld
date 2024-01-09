@@ -48,5 +48,8 @@
   },
   "belongsToService": {
     "@id": "https://a2roo.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Italienne"
+  ]
 }

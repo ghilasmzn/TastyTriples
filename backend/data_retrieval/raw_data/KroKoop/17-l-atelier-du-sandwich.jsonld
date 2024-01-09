@@ -49,5 +49,10 @@
   },
   "belongsToService": {
     "@id": "https://krokoop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Salades",
+    "Sandwiches",
+    "Soupes"
+  ]
 }

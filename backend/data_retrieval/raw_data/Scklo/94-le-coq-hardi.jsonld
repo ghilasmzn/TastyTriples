@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sicklo.coopcycle.org/api/restaurants/94",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Coq Hardi \u200b\ud83d\udc13",
+  "address": {
+    "@id": "https://sicklo.coopcycle.org/api/addresses/38724",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.1905,
+      "longitude": 5.72516
+    },
+    "streetAddress": "19 Rue de Belgrade, 38000 Grenoble, France",
+    "telephone": "+33476438022",
+    "name": "Le Coq Hardi \u200b\ud83d\udc13"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/62/0d/620d044136513.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbe92c4f6a.jpeg",
+  "sameAs": "https://www.lecoqhardigrenoble.fr",
+  "description": "Brasserie, Restaurant, cuisine traditionnelle ,burgers.  Institution depuis 1934, le Coq Hardi vous propose une v\u00e9ritable cuisine de brasserie.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/94-le-coq-hardi",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

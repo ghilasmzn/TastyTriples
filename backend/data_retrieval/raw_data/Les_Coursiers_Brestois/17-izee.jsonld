@@ -47,5 +47,11 @@
   },
   "belongsToService": {
     "@id": "https://lescoursiersbrestois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Fast food",
+    "Fran\u00e7aise",
+    "Salades",
+    "Sandwiches"
+  ]
 }

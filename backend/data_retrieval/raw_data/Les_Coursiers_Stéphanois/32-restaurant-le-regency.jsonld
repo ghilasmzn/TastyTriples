@@ -41,6 +41,7 @@
     }
   ],
   "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560ca48674df.jpg",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/96/6596899862142.png",
   "sameAs": "https://www.restaurantleregency.fr/",
   "description": "Amoureux de la nature, le chef Alexis Bessette privil\u00e9gie les circuits courts, avec une s\u00e9lection de produits bruts saisis sur les march\u00e9s locaux, au gr\u00e9 de l'humeur et des saisons. S'en suit une cuisine instinctive, \u00e9pur\u00e9e et contemporaine qui revisite les classiques et sait surprendre le palais des fins gourmets.",
   "potentialAction": {
@@ -70,5 +71,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-stephanois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

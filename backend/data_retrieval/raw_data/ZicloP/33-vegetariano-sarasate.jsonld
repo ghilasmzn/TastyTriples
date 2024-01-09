@@ -56,5 +56,12 @@
   },
   "belongsToService": {
     "@id": "https://ziclop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Sin Gluten",
+    "Hecho a mano",
+    "Tradicional",
+    "Vegana",
+    "Vegetariana"
+  ]
 }

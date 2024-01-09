@@ -1,0 +1,58 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://a2roo.coopcycle.org/api/restaurants/4",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La Menuiserie",
+  "address": {
+    "@id": "https://a2roo.coopcycle.org/api/addresses/24",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.3245,
+      "longitude": 5.0381
+    },
+    "streetAddress": "28 Rue des Godrans, Dijon, France",
+    "telephone": "+33380304607",
+    "name": "La Menuiserie"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "09:00",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/63/3b/633b4355bec5f.png",
+  "sameAs": "https://lamenuiseriedijon.fr",
+  "description": "La Menuiserie, c\u2019est un caf\u00e9 restaurant locavore o\u00f9 est servie une cuisine savoureuse et engag\u00e9e, un petit rade o\u00f9 boire un verre soigneusement s\u00e9lectionn\u00e9. \r\n\r\nNotre bistrot a obtenu la labellisation 3 \u00c9COTABLES : qu\u2019ils soient \u00e0 boire ou \u00e0 manger, nos produits sont locaux, nos l\u00e9gumes de saison et bio dans la mesure du possible, nos plats enti\u00e8rement \u00e9labor\u00e9s sur place avec amour. \r\nNous nous fournissons en circuit-court chez les producteurs, principalement sous les halles de Dijon. Nous proposons des viandes locales, des plats v\u00e9g\u00e9tariens et de quoi satisfaire tous les r\u00e9gimes. Nous souhaitons que soient respect\u00e9s et valoris\u00e9s l\u2019ensemble des acteurs et collaborateurs, producteurs ou \u00e9leveurs.\r\n\r\n## COMMENT \u00c7A MARCHE ?\r\n\r\nCr\u00e9ez votre compte [sur Bocaux & Co.fr](https://conso.bocaux-and-co.fr), chargez votre cagnotte de consigne. Lors de la livraison, le coursier scannera votre QR code pour d\u00e9duire les bocaux livr\u00e9s de votre consigne. \r\n\r\nVous n'avez pas de compte ou ne souhaitez pas en cr\u00e9er ? Pas de probl\u00e8me votre coursier pourra encaisser directement sur place la consigne.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/4-la-menuiserie",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://a2roo.coopcycle.org"
+  },
+  "cuisineTypes": [
+    "Fran\u00e7aise",
+    "Fait maison",
+    "Locale",
+    "Biologique"
+  ]
+}

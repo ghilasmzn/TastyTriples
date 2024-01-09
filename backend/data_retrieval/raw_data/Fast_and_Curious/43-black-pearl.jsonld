@@ -60,5 +60,11 @@
   },
   "belongsToService": {
     "@id": "https://fast-and-curious.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Cr\u00eapes",
+    "Fran\u00e7aise",
+    "Sans gluten",
+    "V\u00e9g\u00e9tarienne"
+  ]
 }

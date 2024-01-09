@@ -57,5 +57,9 @@
   },
   "belongsToService": {
     "@id": "https://cyclome.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Algerienne",
+    "Marocaine"
+  ]
 }

@@ -58,5 +58,6 @@
   },
   "belongsToService": {
     "@id": "https://feelavelo.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

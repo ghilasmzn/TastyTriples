@@ -57,5 +57,9 @@
   },
   "belongsToService": {
     "@id": "https://lescoursiersbrestois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Asiatique",
+    "Vietnamienne"
+  ]
 }

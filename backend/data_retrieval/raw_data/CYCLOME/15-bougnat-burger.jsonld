@@ -66,5 +66,12 @@
   },
   "belongsToService": {
     "@id": "https://cyclome.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Auvergnate",
+    "Burgers",
+    "Salades",
+    "V\u00e9g\u00e9tarienne",
+    "Wraps"
+  ]
 }

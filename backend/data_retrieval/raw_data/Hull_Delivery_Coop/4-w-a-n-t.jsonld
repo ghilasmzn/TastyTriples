@@ -54,5 +54,6 @@
   },
   "belongsToService": {
     "@id": "https://hull.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/122",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La Table Des Po\u00e8tes \ud83c\udf74\ud83c\udde8\ud83c\uddf5",
+  "address": {
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/30807",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6049,
+      "longitude": 3.869
+    },
+    "streetAddress": "2 Rue Desmazes, 34000 Montpellier, France",
+    "telephone": "+33499611959",
+    "name": "La Table Des Po\u00e8tes \ud83c\udf74\ud83c\udde8\ud83c\uddf5"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/63/bd/63bdeae4a0f0a.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6e/656e10c6e822f.jpg",
+  "sameAs": "http://www.latabledespoetes.com",
+  "description": "La Table des Po\u00e8tes est une cantine gourmande, locavore o\u00f9 l'on pr\u00e9pare une cuisine \u00e0 base de produits bio et bon. \u00c9picurien dot\u00e9 d\u2019une solide exp\u00e9rience professionnelle, Thomas R\u00e9a compose \u00e0 l\u2019instinct une cuisine du march\u00e9 inventive. Profitez des diff\u00e9rentes compositions quotidiennes pour vos d\u00e9jeuners et faites vous livrer ou que vous soyez.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/122-la-table-des-poetes",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

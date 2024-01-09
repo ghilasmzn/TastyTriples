@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/60",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Ohmyfish",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/31115",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2173,
+      "longitude": -1.55242
+    },
+    "streetAddress": "21 Rue de Strasbourg, 44000 Nantes, France",
+    "telephone": "+33983721221",
+    "name": "Ohmyfish"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/65/07/65074d0e2a154.JPG",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/65/07/65074d0e2a154.JPG",
+  "sameAs": "http://www.ohmyfish.fr",
+  "description": "Street food de la mer 100% poisson frais ! OHMYFISH c'est un nouveau concept food \u00e0 Nantes. La carte change r\u00e9guli\u00e8rement selon les cours de la p\u00eache et la saisonnalit\u00e9 des produits.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/60-ohmyfish",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

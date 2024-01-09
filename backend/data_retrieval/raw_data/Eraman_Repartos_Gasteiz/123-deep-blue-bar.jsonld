@@ -1,0 +1,63 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/123",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Deep Blue Bar",
+  "address": {
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/222682",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8428775,
+      "longitude": -2.699545
+    },
+    "streetAddress": "Avenida de la Ilustraci\u00f3n, 48, Vitoria-Gasteiz, Espa\u00f1a",
+    "telephone": "+34620820156",
+    "name": "Deep Blue Bar"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:30",
+      "closes": "15:30",
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:30",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/64/b6/64b6776ecb234.jpeg",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656db84332731707873835.jpg",
+  "description": "\u00a1Bienvenidos a Deep Blue Bar! El nuevo bar de burgers en el barrio de Zabalgana \ud83c\udf54\ud83d\udc99 <br>\r\nUn espacio con mucha variedad gastron\u00f3mica, platos \u00fanicos y pintxos hechos con la especialidad de la casa",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/restaurant/123-deep-blue-bar",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

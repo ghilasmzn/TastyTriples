@@ -47,5 +47,11 @@
   },
   "belongsToService": {
     "@id": "https://lescoursiersbrestois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Gastronomique",
+    "Fait main",
+    "Salades",
+    "Sandwiches"
+  ]
 }

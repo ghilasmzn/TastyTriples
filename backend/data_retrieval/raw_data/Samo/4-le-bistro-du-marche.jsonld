@@ -72,5 +72,6 @@
   },
   "belongsToService": {
     "@id": "https://samo.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

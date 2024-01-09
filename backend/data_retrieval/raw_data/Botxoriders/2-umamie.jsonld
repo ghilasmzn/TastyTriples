@@ -58,5 +58,11 @@
   },
   "belongsToService": {
     "@id": "https://botxoriders.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Vasca",
+    "Casero",
+    "Local",
+    "Tradicional"
+  ]
 }

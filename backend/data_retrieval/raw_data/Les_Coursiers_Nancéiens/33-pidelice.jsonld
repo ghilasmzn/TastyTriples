@@ -46,5 +46,9 @@
   },
   "belongsToService": {
     "@id": "https://lescoursiersnanceiens.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Fast food",
+    "Turque"
+  ]
 }

@@ -43,6 +43,7 @@
     }
   ],
   "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c86bcbbd9.jpg",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/659839deafe93.jpg",
   "sameAs": "https://basilic-and-co.com/restaurants/pizzeria-saint-etienne-les-halles/",
   "description": "Pizzas pr\u00e9par\u00e9es autour d'ingr\u00e9dients embl\u00e9matiques de terroirs gastronomiques d\u2019ici (ravioles du Dauphin\u00e9 IGP Label Rouge, jambon sec d\u2019Ard\u00e8che IGP, reblochon de Savoie AOP, etc.), et d\u2019ailleurs (mozzarella di Bufala Campana DOP, cheddar au lait cru AOP affin\u00e9, etc.).",
   "potentialAction": {
@@ -72,5 +73,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-stephanois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }
