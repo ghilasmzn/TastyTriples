@@ -98,8 +98,8 @@ class QueryHandler:
                 ?restaurant a schema:Restaurant ;
                             schema:address ?address ;
                             schema:name ?name .
-                ?address schema:streetAddress ?streetAddress ;
-                         schema:geo ?geo .
+                OPTIONAL {{ ?address schema:streetAddress ?streetAddress ;
+                         schema:geo ?geo . }}
                 ?geo schema:latitude ?restaurantLatitude ;
                      schema:longitude ?restaurantLongitude .
 
@@ -116,13 +116,17 @@ class QueryHandler:
     def query_by_food(self, food):
         query = f"""
             PREFIX schema: <http://schema.org/>
-            SELECT ?restaurant ?name ?streetAddress
+            SELECT ?restaurant ?name ?streetAddress ?price
             WHERE {{
                 ?restaurant a schema:Restaurant ;
                             schema:address ?address ;
-                            schema:name ?name .
+                            schema:name ?name ;
+                            schema:potentialAction ?potentialAction .
                 ?address schema:streetAddress ?streetAddress .
                 ?restaurant schema:cuisineTypes "{food}" .
+                OPTIONAL {{
+                 ?restaurant schema:potentialAction/schema:priceSpecification/schema:price ?price .
+                }}
             }}
         """
         return self.execute_query(query)
@@ -140,15 +144,21 @@ class QueryHandler:
             SELECT DISTINCT ?restaurant ?name ?streetAddress ?price
             WHERE {
                 ?restaurant a schema:Restaurant ;
-                            schema:openingHoursSpecification ?ohs ;
                             schema:name ?name ;
                             schema:address ?address ;
                             schema:potentialAction ?potentialAction .
                 ?address schema:streetAddress ?streetAddress .
-                ?ohs schema:dayOfWeek ?day ;
+                OPTIONAL{{
+                    ?restaurant schema:openingHoursSpecification ?ohs .
+                    ?ohs schema:dayOfWeek ?day ;
                     schema:opens ?opens ;
                     schema:closes ?closes .
-                ?potentialAction ns1:priceSpecification/ns1:price ?price .
+                    }}
+               OPTIONAL {{
+              ?restaurant schema:potentialAction/schema:priceSpecification/schema:price ?price .
+                }}
+                
+                
         """
 
         # Ajouter des filtres pour la localisation si les paramètres sont fournis
