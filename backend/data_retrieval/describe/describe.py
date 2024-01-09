@@ -17,6 +17,6 @@ def main():
     preferences_file_path = preferences_creator.add_person_preferences(name, postal_code, locality, seller_uri, max_price, currency, latitude, longitude, radius)
     #preferences_creator.add_person_preferences("Meziane", "42000", "Saint-Etienne", "https://coursiers-stephanois.coopcycle.org/api/restaurants/24", 4.5, "EUR", 5.03942, 47.3238, 10.0)
     fusekiLoader = FusekiLoader('http://localhost:3030/Coopcycle')
-    fusekiLoader.load_data(preferences_file_path)
+    fusekiLoader.load_data_from_file(preferences_file_path)
 if __name__ == "__main__":
     main()

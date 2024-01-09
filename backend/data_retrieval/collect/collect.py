@@ -1,8 +1,8 @@
 from SPARQLWrapper import SPARQLWrapper, POST, JSON
-from backend.data_retrieval.collect.jsonldconverter import JSONLDConverter
-from backend.data_retrieval.collect.shopsExtractor import ShopsExtractor
+from jsonldconverter import JSONLDConverter
+from shopsExtractor import ShopsExtractor
 from fusekiLoader import FusekiLoader
-
+from memberCreator import MemberCreator
 import argparse
 import json
 import os
@@ -42,7 +42,7 @@ def insert_data():
     if not fuseki_loader.is_running():
         fuseki_loader.start_server()
 
-    fuseki_loader.load_data(ttl_output_path)
+    fuseki_loader.load_data_from_file(ttl_output_path)
 
     json_files = [os.path.join(root, file)
                   for root, _, files in os.walk(RAW_DATA_DIR)
@@ -52,7 +52,7 @@ def insert_data():
         if file == SERVICE_FILE_PATH:
             continue
 
-        fuseki_loader.load_data(file, content_type='application/ld+json')
+        fuseki_loader.load_data_from_file(file, content_type='application/ld+json')
 
     fuseki_loader.stop_server()
 
@@ -70,6 +70,8 @@ def scrap_data():
             print(f"Skipping service {service_name} as coopcycle_url is missing.")
 
 
+
+
 def main():
     parser = argparse.ArgumentParser(description='Process command-line options.')
 
@@ -77,6 +79,8 @@ def main():
                         help='Inject the data into the triplestore')
     parser.add_argument('-s', '--scrapping', action='store_true',
                         help='Scrap the data from the website and save it inside the raw_data folder')
+    parser.add_argument('-u', '--uri',  type=str,
+                        help='Scrap the data of a coopcycle member from its uri')
 
     args = parser.parse_args()
 
@@ -85,7 +89,11 @@ def main():
 
     if args.scrapping:
         scrap_data()
-
-
+    if args.uri:
+        member = MemberCreator(args.uri)
+        member.create_member()
+        extractor = ShopsExtractor(member.name, args.uri)
+        extractor.process_and_save_data()
+        
 if __name__ == "__main__":
     main()

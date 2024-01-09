@@ -2,6 +2,7 @@ import requests
 import subprocess
 import time
 from colorama import Fore, Style
+from SPARQLWrapper import SPARQLWrapper, POST
 
 class FusekiLoader:
     def __init__(self, dataset_url):
@@ -23,8 +24,20 @@ class FusekiLoader:
             self.server_process.terminate()
             self.server_process.wait()
             print('Server stopped.')
+    
+    def load_data(self, data, graph_uri=None, content_type='text/turtle'):
+        sparql = SPARQLWrapper(self.dataset_url + "/data")
+        sparql.setMethod(POST)
+        sparql.addParameter('Content-Type', content_type)
+        if graph_uri:
+            sparql.addParameter('graph-uri', graph_uri)
+        sparql.setQuery(data)
+        sparql.query()
 
-    def load_data(self, file_path, content_type='text/turtle'):
+
+
+
+    def load_data_from_file(self, file_path, content_type='text/turtle'):
         with open(file_path, 'r', encoding='utf-8') as file:
             rdf_data = file.read()
 

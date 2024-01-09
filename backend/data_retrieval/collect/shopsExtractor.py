@@ -22,6 +22,7 @@ class ShopsExtractor:
             json_ld_data = [script.string for script in json_ld_scripts]
             return json_ld_data
         else:
+            print(url)
             print(f"Failed to retrieve the page. Status code: {response.status_code}")
             return None
 
@@ -59,7 +60,7 @@ class ShopsExtractor:
 
             if json_ld_data:
 
-                service_directory = os.path.join("backend", "data_retrieval", "raw_data", self.service_name)
+                service_directory = os.path.join("data_retrieval", "raw_data", self.service_name)
                 os.makedirs(service_directory, exist_ok=True)
 
                 with open(os.path.join(service_directory, f"{restaurant_id}.jsonld"), "w", encoding="utf-8") as output_file:
