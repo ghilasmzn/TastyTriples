@@ -62,3 +62,26 @@ TastyTriples/
         index.html
     README.md
 ```
+
+---
+
+# TastyTriples Web Application
+
+Launch the development server with :
+```bash
+yarn
+yarn dev
+```
+
+Your database should have a main graph named `http://localhost:3030/Coopcycle` and a sub graph named `http://localhost:3030/Coopcycle/users`.
+The first time you launch the server, you should create the sub graph with the following query :
+
+```bash
+INSERT DATA {
+  GRAPH <http://localhost:3030/Coopcycle/users> {
+    _:user a schema:Person ;
+      schema:email "admin@gmail.com" ;
+      ex:password "admin" .
+  }
+}
+```
