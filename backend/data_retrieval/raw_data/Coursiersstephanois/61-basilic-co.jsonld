@@ -1,0 +1,78 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiers-stephanois.coopcycle.org/api/restaurants/61",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Basilic & Co",
+  "address": {
+    "@id": "https://coursiers-stephanois.coopcycle.org/api/addresses/13219",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.4333021,
+      "longitude": 4.3883586
+    },
+    "streetAddress": "4 Rue Faure-Belon, Saint-\u00c9tienne, France",
+    "telephone": "+33477900627",
+    "name": "Basilic & Co"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:00",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c86bcbbd9.jpg",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/659839deafe93.jpg",
+  "sameAs": "https://basilic-and-co.com/restaurants/pizzeria-saint-etienne-les-halles/",
+  "description": "Pizzas pr\u00e9par\u00e9es autour d'ingr\u00e9dients embl\u00e9matiques de terroirs gastronomiques d\u2019ici (ravioles du Dauphin\u00e9 IGP Label Rouge, jambon sec d\u2019Ard\u00e8che IGP, reblochon de Savoie AOP, etc.), et d\u2019ailleurs (mozzarella di Bufala Campana DOP, cheddar au lait cru AOP affin\u00e9, etc.).",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/restaurant/61-basilic-co",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "15.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

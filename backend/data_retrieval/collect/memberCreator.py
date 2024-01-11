@@ -6,6 +6,8 @@ from geopy.geocoders import Nominatim
 from fusekiLoader import FusekiLoader
 import pyshacl
 
+from colorama import init, Fore, Back, Style
+
 class MemberCreator:
     def __init__(self, uri):
         self.uri = uri
@@ -27,54 +29,63 @@ class MemberCreator:
             @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
             @prefix sh: <http://www.w3.org/ns/shacl#> .
             @prefix ns1: <http://schema.org/> .
+            @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
             ns1:ProfessionalServiceShape
                 a sh:NodeShape ;
                 sh:targetClass ns1:ProfessionalService ;
                 sh:property [
                     sh:path ns1:city ;
+                    sh:datatype xsd:string ;
                     sh:minCount 1 ;
                     sh:message "City is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:coopcycle_url ;
+                    sh:datatype xsd:string ;
                     sh:minCount 1 ;
                     sh:message "Coopcycle URL is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:country ;
+                    sh:datatype xsd:string ;
                     sh:minCount 1 ;
                     sh:message "Country is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:description ;
+                    sh:datatype xsd:string ;
                     sh:minCount 1 ;
                     sh:message "Description is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:latitude ;
+                    sh:datatype xsd:float ;
                     sh:minCount 1 ;
                     sh:message "Latitude is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:longitude ;
+                    sh:datatype xsd:float ;
                     sh:minCount 1 ;
                     sh:message "Longitude is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:mail ;
+                    sh:datatype xsd:string ;
                     sh:minCount 1 ;
                     sh:message "Mail is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:name ;
+                    sh:datatype xsd:string ;
                     sh:minCount 1 ;
                     sh:message "Name is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:sameAs ;
-                    sh:minCount 1 ;
-                    sh:message "SameAs is required." ;
+                    sh:datatype xsd:string ;
+                    sh:message "SameAs is optional." ;
                 ] .
         """
 
@@ -167,6 +178,12 @@ class MemberCreator:
             self.extract_description_from_banner(soup) or ''
         )
 
+        # remove all non alphanumeric characters
+        description = re.sub(r'\W+', ' ', description)
+        
+        # remove the new line characters
+        description = description.replace(u'\n', ' ').replace(u'\r', ' ')
+
         footer = soup.find('footer')
         mail_element = footer.find('a', href=re.compile(r'mailto:'))
         mail = mail_element.get_text(strip=True) if mail_element else ''
@@ -183,24 +200,28 @@ class MemberCreator:
         # Générer le graph RDF sous forme de chaîne TTL
         ttl_graph = f"""
             @prefix ns1: <http://schema.org/> .
+            @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
             <{self.uri}> a ns1:ProfessionalService ;
-                ns1:city "{city}" ;
-                ns1:coopcycle_url "{self.uri}" ;
-                ns1:country "{country}" ;
-                ns1:description "{description}" ;
-                ns1:latitude {latitude} ;
-                ns1:longitude {longitude} ;
-                ns1:mail "{mail}" ;
-                ns1:name "{self.name}" ;
-                ns1:sameAs "{phone}" .
+                ns1:city '{city}'^^xsd:string ;
+                ns1:coopcycle_url '{self.uri}'^^xsd:string ;
+                ns1:country '{country}'^^xsd:string ;
+                ns1:description '{description}'^^xsd:string ;
+                ns1:latitude '{latitude}'^^xsd:float ;
+                ns1:longitude '{longitude}'^^xsd:float ;
+                ns1:mail '{mail}'^^xsd:string ;
+                ns1:name '{self.name}'^^xsd:string ;
+                ns1:sameAs '{phone}'^^xsd:string .
         """
-        ttl_output_path="data_retrieval/raw_data/"+self.name+".ttl"
+        ttl_output_path="data_retrieval/raw_data/"+ self.name +".ttl"
+        print(ttl_graph, file=open(ttl_output_path,"w", encoding="utf-8"))
 
         shacl_output_path="data_retrieval/raw_data/coopcycle_member.shacl"
         self.write_shacl_shapes(shacl_output_path)
-        self.validate_rdf_graph(ttl_output_path, shacl_output_path)
-        
-        print(ttl_graph,file=open(ttl_output_path,"w"))
-        fuseki_loader = FusekiLoader('http://localhost:3030/Coopcycle')
-        fuseki_loader.load_data_from_file(ttl_output_path)
+        try :
+            self.validate_rdf_graph(ttl_output_path, shacl_output_path)
+        except Exception as e:
+            print(f"{Fore.RED}Error validating RDF graph: {e}{Style.RESET_ALL}")
+            return False
 
+        return True

@@ -48,6 +48,7 @@ class ShopsExtractor:
 
     def process_and_save_data(self):
         response = requests.get(self.base_url + "/fr/shops")
+        need_to_be_inserted_file = []
         if response.status_code == 200:
             html_content = response.text
             soup = BeautifulSoup(html_content, 'html.parser')
@@ -86,11 +87,20 @@ class ShopsExtractor:
 
                             if "address" in data_dict:
                                 data_dict["address"]["@id"] = self.base_url + data_dict["address"]["@id"]
+                                if "geo" in data_dict.get("address", {}):
+                                    geo = data_dict["address"]["geo"]
+                                    if "latitude" in geo:
+                                        geo["latitude"] = {"@value": geo["latitude"], "@type": "xsd:float"}
+                                    if "longitude" in geo:
+                                        geo["longitude"] = {"@value": geo["longitude"], "@type": "xsd:float"}
 
                             data_dict["belongsToService"] = {"@id": self.base_url}
                             data_dict["cuisineTypes"] = cuisine_types 
                             output_file.write(json.dumps(data_dict, indent=2))
+                            
+                            need_to_be_inserted_file.append(os.path.join(service_directory, f"{restaurant_id}.jsonld"))
                             output_file.close()
+            return need_to_be_inserted_file
         else:
             print(f"Failed to retrieve the base page. Status code: {response.status_code}")
 

@@ -3,53 +3,62 @@
             @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
             @prefix sh: <http://www.w3.org/ns/shacl#> .
             @prefix ns1: <http://schema.org/> .
+            @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
             ns1:ProfessionalServiceShape
                 a sh:NodeShape ;
                 sh:targetClass ns1:ProfessionalService ;
                 sh:property [
                     sh:path ns1:city ;
+                    sh:datatype xsd:string ;
                     sh:minCount 1 ;
                     sh:message "City is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:coopcycle_url ;
+                    sh:datatype xsd:string ;
                     sh:minCount 1 ;
                     sh:message "Coopcycle URL is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:country ;
+                    sh:datatype xsd:string ;
                     sh:minCount 1 ;
                     sh:message "Country is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:description ;
+                    sh:datatype xsd:string ;
                     sh:minCount 1 ;
                     sh:message "Description is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:latitude ;
+                    sh:datatype xsd:float ;
                     sh:minCount 1 ;
                     sh:message "Latitude is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:longitude ;
+                    sh:datatype xsd:float ;
                     sh:minCount 1 ;
                     sh:message "Longitude is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:mail ;
+                    sh:datatype xsd:string ;
                     sh:minCount 1 ;
                     sh:message "Mail is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:name ;
+                    sh:datatype xsd:string ;
                     sh:minCount 1 ;
                     sh:message "Name is required." ;
                 ] ;
                 sh:property [
                     sh:path ns1:sameAs ;
-                    sh:minCount 1 ;
-                    sh:message "SameAs is required." ;
+                    sh:datatype xsd:string ;
+                    sh:message "SameAs is optional." ;
                 ] .
         

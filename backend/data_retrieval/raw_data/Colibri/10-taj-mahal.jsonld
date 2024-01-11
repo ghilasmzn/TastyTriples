@@ -8,8 +8,14 @@
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 40.8399454,
-      "longitude": 14.2550115
+      "latitude": {
+        "@value": 40.8399454,
+        "@type": "xsd:float"
+      },
+      "longitude": {
+        "@value": 14.2550115,
+        "@type": "xsd:float"
+      }
     },
     "streetAddress": "Piazza Francese, 29/30, Napoli NA, Italia",
     "telephone": "+3908119910274",

@@ -8,8 +8,14 @@
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 40.8482309,
-      "longitude": 14.247855
+      "latitude": {
+        "@value": 40.8482309,
+        "@type": "xsd:float"
+      },
+      "longitude": {
+        "@value": 14.247855,
+        "@type": "xsd:float"
+      }
     },
     "streetAddress": "Via Tarsia, 27, Napoli, NA, Italia",
     "telephone": "+3908119286498",

@@ -91,9 +91,17 @@ def main():
         scrap_data()
     if args.uri:
         member = MemberCreator(args.uri)
-        member.create_member()
-        extractor = ShopsExtractor(member.name, args.uri)
-        extractor.process_and_save_data()
+        status = member.create_member()
+        
+        ttl_output_path = 'data_retrieval/raw_data/' + member.name + '.ttl' 
+        fuseki_loader = FusekiLoader('http://localhost:3030/Coopcycle')
+        fuseki_loader.load_data_from_file(ttl_output_path)
+        
+        if status:
+            extractor = ShopsExtractor(member.name, args.uri)
+            need_to_be_inserted = extractor.process_and_save_data()
+            for file in need_to_be_inserted:
+                fuseki_loader.load_data_from_file(file, content_type='application/ld+json')
         
 if __name__ == "__main__":
     main()

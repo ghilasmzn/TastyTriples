@@ -1,0 +1,77 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiers-stephanois.coopcycle.org/api/restaurants/68",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Spice Lounge - Cuisine indienne",
+  "address": {
+    "@id": "https://coursiers-stephanois.coopcycle.org/api/addresses/24205",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.4342594,
+      "longitude": 4.3914214
+    },
+    "streetAddress": "23 Rue Pnte Cadet, 42000 Saint-\u00c9tienne, France",
+    "telephone": "+33427408512",
+    "name": "Spice Lounge - Cuisine indienne"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:30",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/74/657463d3407f8.png",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983c5c63259.png",
+  "sameAs": "https://www.facebook.com/profile.php?id=61554148888565",
+  "description": "Le temps d\u2019un repas, laissez-vous transporter en Inde ! Nous vous proposons un grand choix de plats, v\u00e9g\u00e9tariens ou non, aux multiples saveurs et concoct\u00e9s par nos soins : curry ou cuisson au tandoor traditionnel, riz basmati, naans\u2026 \r\n\r\nN'h\u00e9sitez pas \u00e0 demander un plat plus ou moins \u00e9pic\u00e9 en commentaires. \r\nLISTE DES ALLERGENES SUR DEMANDE.\r\nToutes nos viandes sont halal.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiers-stephanois.coopcycle.org/fr/restaurant/68-spice-lounge-cuisine-indienne",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "12.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://coursiers-stephanois.coopcycle.org"
+  },
+  "cuisineTypes": []
+}
