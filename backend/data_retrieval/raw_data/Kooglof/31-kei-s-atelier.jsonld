@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/31",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Kei's Atelier \ud83e\udd61",
+  "address": {
+    "@id": "https://kooglof.coopcycle.org/api/addresses/12395",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5793,
+      "longitude": 7.76077
+    },
+    "streetAddress": "16 Rue de l'Abreuvoir, 67000 Strasbourg, France",
+    "telephone": "+33388362250",
+    "name": "Kei's Atelier \ud83e\udd61"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "15:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e173ce17cc.png",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e12f6ec49c.jpg",
+  "sameAs": "https://www.facebook.com/keisatelierstrasbourg",
+  "description": "Kei's Atelier vous propose une cuisine cor\u00e9enne fra\u00eeche, color\u00e9e, go\u00fbteuse et authentique !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/31-kei-s-atelier",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

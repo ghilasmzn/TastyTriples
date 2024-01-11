@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sicklo.coopcycle.org/api/restaurants/156",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Nouveau \ud83d\udd25 Poutine QUEBEC - (crispy)",
+  "address": {
+    "@id": "https://sicklo.coopcycle.org/api/addresses/95199",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.1899922,
+      "longitude": 5.7283823
+    },
+    "streetAddress": "11 Rue Raoul Blanchard, 38000 Grenoble, France",
+    "telephone": "+33476250321",
+    "name": "Nouveau \ud83d\udd25 Poutine QUEBEC - (crispy)"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:00",
+      "closes": "14:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:50",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/65/97/6597c9fe06f5a.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/97/6597ca38c563d.jpg",
+  "sameAs": "https://poutine-quebec.fr/fr",
+  "description": "Poutine Qu\u00e9bec, c'est probablement le meilleur endroit pour venir manger des poutines faites \u00e0 base de frites maison sur Grenoble. Viens d\u00e9couvrir nos plats pr\u00e9par\u00e9s \u00e0 la commande dans un cadre d\u00e9contract\u00e9. Parmi nos sp\u00e9cialit\u00e9s qu\u00e9becoises, tu trouveras de savoureuses poutines tartiflettes et poutines montagnardes. Tous nos plats sont fait \u00e0 base de produits frais et pr\u00e9par\u00e9s avec attention, ce qui leur donnent des saveurs qui vont te r\u00e9galer. A bient\u00f4t chez Poutine Qu\u00e9bec ! (crispy)",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/156-nouveau-poutine-quebec-crispy",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

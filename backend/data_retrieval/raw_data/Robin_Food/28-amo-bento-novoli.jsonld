@@ -60,5 +60,13 @@
   },
   "belongsToService": {
     "@id": "https://robinfood.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Asiatique",
+    "Pratique (Bento)",
+    "Fish and Chips",
+    "Fusion",
+    "Bol Poke",
+    "Sushi"
+  ]
 }

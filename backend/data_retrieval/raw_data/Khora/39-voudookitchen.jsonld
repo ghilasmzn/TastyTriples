@@ -67,5 +67,10 @@
   },
   "belongsToService": {
     "@id": "https://khora.berlin"
-  }
+  },
+  "cuisineTypes": [
+    "American",
+    "Burgers",
+    "Fast Food"
+  ]
 }

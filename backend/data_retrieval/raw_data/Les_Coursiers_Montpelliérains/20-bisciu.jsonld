@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/20",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Bisci\u00f9 \ud83c\uddee\ud83c\uddf9\ud83c\udf55\ud83c\udf5d",
+  "address": {
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/950",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6154132,
+      "longitude": 3.8812345
+    },
+    "streetAddress": "6 Rue Proudhon, Montpellier, France",
+    "telephone": "+33953975472",
+    "name": "Bisci\u00f9 \ud83c\uddee\ud83c\uddf9\ud83c\udf55\ud83c\udf5d"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/4d/654d1b3a9c50b.jpg",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6e/656e4bb200109.png",
+  "sameAs": "https://lesritals.com/",
+  "description": "Pizzeria Italienne.\r\nP\u00e2tes fra\u00eeches faites maison",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/20-bisciu",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

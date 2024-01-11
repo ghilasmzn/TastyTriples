@@ -1,0 +1,55 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://demo.coopcycle.org/api/restaurants/117",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Da Giorgino e figli",
+  "address": {
+    "@id": "https://demo.coopcycle.org/api/addresses/12877",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.8454447,
+      "longitude": 14.2229895
+    },
+    "streetAddress": "Via Giuseppe Ribera, 10, Napoli, NA, Italia",
+    "telephone": "+390815794135",
+    "name": "Da Giorgino e figli"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "23:59",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://demo.coopcycle.org/media/cache/restaurant_thumbnail/63/20/63205cffb07d8.jpg",
+  "bannerImage": "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/QaePZXQylxrY.jpg",
+  "sameAs": "http://www.dagiorginoefigli.it",
+  "description": "Da Giorgino e figli potrete provare il vero sapore della pizza napoletana.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://demo.coopcycle.org/fr/restaurant/117-da-giorgino-e-figli",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://demo.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

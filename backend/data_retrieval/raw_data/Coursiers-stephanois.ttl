@@ -1,0 +1,13 @@
+
+            @prefix ns1: <http://schema.org/> .
+            <https://coursiers-stephanois.coopcycle.org> a ns1:ProfessionalService ;
+                ns1:city 'Saint-Étienne' ;
+                ns1:coopcycle_url 'https://coursiers-stephanois.coopcycle.org' ;
+                ns1:country 'fr' ;
+                ns1:description 'De bons petits plats livrés de manière éthique et écologique ! :) Une livraison offerte avec le code "BIENVENUE"' ;
+                ns1:latitude 45.439651 ;
+                ns1:longitude 4.387810 ;
+                ns1:mail 'contact@coursiers-stephanois.fr' ;
+                ns1:name 'Coursiers-stephanois' ;
+                ns1:sameAs '07 77 03 93 46' .
+        

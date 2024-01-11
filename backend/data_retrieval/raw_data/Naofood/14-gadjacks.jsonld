@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/14",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Gadjacks",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/18",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2115967,
+      "longitude": -1.5519177
+    },
+    "streetAddress": "9 Chauss\u00e9e de la Madeleine, Nantes, Francep",
+    "telephone": "+33240896314",
+    "name": "Gadjacks"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/5f/5e/5f5e0b6089b26.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/5f/5e/5f5e0b6089b26.jpg",
+  "sameAs": "https://www.gadjaks.fr/",
+  "description": "Gadjaks, c'est la streetfood Mauricienneppppp",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/14-gadjacks",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

@@ -68,5 +68,10 @@
   },
   "belongsToService": {
     "@id": "https://khora.berlin"
-  }
+  },
+  "cuisineTypes": [
+    "Deli",
+    "Italian",
+    "Sandwiches"
+  ]
 }

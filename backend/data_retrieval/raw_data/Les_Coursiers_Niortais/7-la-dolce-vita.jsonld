@@ -27,6 +27,18 @@
         "Friday",
         "Saturday"
       ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:15",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
     }
   ],
   "image": "https://niort.coopcycle.org/media/cache/restaurant_thumbnail/63/4e/634ed4b7c7e60.jpg",
@@ -47,5 +59,8 @@
   },
   "belongsToService": {
     "@id": "https://niort.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Italienne"
+  ]
 }

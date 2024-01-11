@@ -48,5 +48,6 @@
   },
   "belongsToService": {
     "@id": "https://kooglof.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

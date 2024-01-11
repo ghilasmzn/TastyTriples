@@ -40,6 +40,7 @@
     }
   ],
   "image": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/67/656750af3ff9b.png",
+  "bannerImage": "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983b1d428b3.png",
   "sameAs": "http://www.lalsacien.com/",
   "description": "\ud83d\udc69\u200d\ud83c\udf73 L'Alsacien est le premier bar \u00e0 Flammekueche du monde. Un \u00e9tablissement convivial mettant \u00e0 l'honneur l'art culinaire alsacien au c\u0153ur de Saint-\u00c9tienne. Les Flammekueches avec les bords tress\u00e9s \u00e0 la main sont issue d'une tradition familiale. Vous trouverez \u00e9galement nos Flammes V\u00e9g\u00e9 et V\u00e9gan dans nos menus !",
   "potentialAction": {
@@ -69,5 +70,6 @@
   },
   "belongsToService": {
     "@id": "https://coursiers-stephanois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

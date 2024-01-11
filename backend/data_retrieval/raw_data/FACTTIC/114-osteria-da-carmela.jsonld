@@ -1,0 +1,56 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://demo.coopcycle.org/api/restaurants/114",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Osteria da Carmela",
+  "address": {
+    "@id": "https://demo.coopcycle.org/api/addresses/12873",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.8519155,
+      "longitude": 14.2543382
+    },
+    "streetAddress": "Via Conte di Ruvo, 11/12, Napoli, NA, Italia",
+    "telephone": "+390815499738",
+    "name": "Osteria da Carmela"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:00",
+      "closes": "23:59",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://demo.coopcycle.org/media/cache/restaurant_thumbnail/63/20/632051f4d80c1.jpg",
+  "bannerImage": "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/L3rGEN7qZDzj.jpg",
+  "sameAs": "https://www.osteriadacarmela.it/",
+  "description": "L\u2019Osteria nasce nel 1967 nel centro storico di Napoli, sotto uno dei teatri pi\u00f9 famosi della citt\u00e0. Il fondatore, Don Vincenzo, uomo di grande coraggio, gi\u00e0 direttore di due locali aveva un sogno: una piccola attivit\u00e0 a conduzione familiare dove la parola d\u2019ordine fosse accoglienza e benessere a misura d\u2019uomo\u2026 ma fu proprio una donna la musa ispiratrice del progetto: donna Carmela, sua moglie, dai modi amorevoli e dalla cucina solida e appetitosa. Dal suo amore, legato alla pi\u00f9 autentica tradizione napoletana e da ricette antiche imparate dalla madre (a sua volta allieva della propria e cos\u00ec via) nacquero manicaretti che velocemente divennero un mito, tanto che, trascorsi solo 2 anni dall\u2019inaugurazione, l\u2019osteria ampli\u00f2 i suoi locali, proseguendo una marcia inarrestabile. Oggi l\u2019Osteria \u00e8 gestita da Rosario, l\u2019ultimo dei quattro figli, che prosegue con passione l\u2019opera, consapevole della grande responsabilit\u00e0 ereditata, certo non priva di gratificazioni: ancor oggi, molti dei clienti, allora studenti delle vicine facolt\u00e0 universitarie che frequentavano l\u2019Osteria, amano tornare qui e ricordare l\u2019amorevolezza di donna Carmela, e dei suoi piatti della tradizione.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://demo.coopcycle.org/fr/restaurant/114-osteria-da-carmela",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://demo.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

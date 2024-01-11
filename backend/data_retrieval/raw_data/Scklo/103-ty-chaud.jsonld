@@ -1,0 +1,54 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://sicklo.coopcycle.org/api/restaurants/103",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Ty Chaud \ud83e\udd62",
+  "address": {
+    "@id": "https://sicklo.coopcycle.org/api/addresses/43295",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 45.189061,
+      "longitude": 5.712626
+    },
+    "streetAddress": "14 Rue Abb\u00e9 Gr\u00e9goire, 38000 Grenoble, France",
+    "telephone": "+33952100341",
+    "name": "Ty Chaud \ud83e\udd62"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "14:30",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/64/fe/64fede6a3ae02.jpg",
+  "bannerImage": "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656da732b886b.jpg",
+  "sameAs": "http://tychaud.fr",
+  "description": "Cuisine maison franco japonaise familiale \ud83c\udf74\ud83e\udd62",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://sicklo.coopcycle.org/fr/restaurant/103-ty-chaud",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://sicklo.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

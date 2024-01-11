@@ -68,5 +68,6 @@
   },
   "belongsToService": {
     "@id": "https://le-rayon-vert.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

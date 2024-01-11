@@ -66,5 +66,10 @@
   },
   "belongsToService": {
     "@id": "https://cyclome.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Pizza",
+    "Vegan",
+    "V\u00e9g\u00e9tarienne"
+  ]
 }

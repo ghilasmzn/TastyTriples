@@ -45,5 +45,8 @@
   },
   "belongsToService": {
     "@id": "https://lescoursiersnanceiens.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Tha\u00eflandaise"
+  ]
 }

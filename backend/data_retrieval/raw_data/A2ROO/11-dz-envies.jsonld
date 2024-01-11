@@ -60,5 +60,8 @@
   },
   "belongsToService": {
     "@id": "https://a2roo.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Fran\u00e7aise"
+  ]
 }

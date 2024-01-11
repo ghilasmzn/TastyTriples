@@ -68,5 +68,6 @@
   },
   "belongsToService": {
     "@id": "https://porlachita.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

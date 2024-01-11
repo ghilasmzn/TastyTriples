@@ -1,0 +1,61 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://eramangasteiz.coopcycle.org/api/restaurants/25",
+  "@type": "http://schema.org/Restaurant",
+  "name": "El 7",
+  "address": {
+    "@id": "https://eramangasteiz.coopcycle.org/api/addresses/1215",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8478304,
+      "longitude": -2.6708439
+    },
+    "streetAddress": "Calle Cuchiller\u00eda, 3, Vitoria-Gasteiz, Espa\u00f1a",
+    "telephone": "+34945272298",
+    "name": "El 7"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:30",
+      "closes": "23:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:40",
+      "closes": "23:45",
+      "dayOfWeek": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/60/ec/60ec16e97e256.jpg",
+  "bannerImage": "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbef13705f749113825.jpg",
+  "description": "En la Kutxi, la mejor calle del mundo!\r\n\r\nPara pedir tu bocata con pan celiaco, a\u00f1ade un \"Pan celiaco\" que est\u00e1 al final del men\u00fa, y en los comentarios del pedido nos puedes avisar para que bocata es, gracias!",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://eramangasteiz.coopcycle.org/fr/restaurant/25-el-7",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://eramangasteiz.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

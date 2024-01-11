@@ -67,5 +67,11 @@
   },
   "belongsToService": {
     "@id": "https://khora.berlin"
-  }
+  },
+  "cuisineTypes": [
+    "Burgers",
+    "Fast Food",
+    "Vegan",
+    "Vegetarian"
+  ]
 }

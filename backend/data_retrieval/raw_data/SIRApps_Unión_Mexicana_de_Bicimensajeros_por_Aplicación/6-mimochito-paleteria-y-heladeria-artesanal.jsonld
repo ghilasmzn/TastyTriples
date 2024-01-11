@@ -50,5 +50,10 @@
   },
   "belongsToService": {
     "@id": "https://sirapps-cdmx.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Glace",
+    "Italienne",
+    "Mexicaine"
+  ]
 }

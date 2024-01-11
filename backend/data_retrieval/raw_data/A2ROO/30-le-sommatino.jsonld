@@ -48,5 +48,11 @@
   },
   "belongsToService": {
     "@id": "https://a2roo.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Burgers",
+    "Italienne",
+    "P\u00e2tes",
+    "Pizza"
+  ]
 }

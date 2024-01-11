@@ -59,5 +59,10 @@
   },
   "belongsToService": {
     "@id": "https://lescoursiersbrestois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Africaine",
+    "Cajun",
+    "S\u00e9n\u00e9galaise"
+  ]
 }

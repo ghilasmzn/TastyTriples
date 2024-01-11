@@ -67,5 +67,10 @@
   },
   "belongsToService": {
     "@id": "https://khora.berlin"
-  }
+  },
+  "cuisineTypes": [
+    "M\u00e9diterran\u00e9enne",
+    "Vegan",
+    "V\u00e9g\u00e9tarienne"
+  ]
 }

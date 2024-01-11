@@ -87,5 +87,12 @@
   },
   "belongsToService": {
     "@id": "https://khora.berlin"
-  }
+  },
+  "cuisineTypes": [
+    "German",
+    "Ice Cream",
+    "Salad",
+    "Soup",
+    "Traditional"
+  ]
 }

@@ -62,5 +62,9 @@
   },
   "belongsToService": {
     "@id": "https://krokoop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Tha\u00eflandaise",
+    "Traditionelle"
+  ]
 }

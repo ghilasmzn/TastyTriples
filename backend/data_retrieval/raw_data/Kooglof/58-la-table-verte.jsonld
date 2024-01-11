@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/58",
+  "@type": "http://schema.org/Restaurant",
+  "name": "La Table Verte \ud83c\udf43 \ud83c\udff7\ufe0f",
+  "address": {
+    "@id": "https://kooglof.coopcycle.org/api/addresses/30343",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.614506,
+      "longitude": 7.694492
+    },
+    "streetAddress": "73 Rue Principale, 67206 Mittelhausbergen, France",
+    "telephone": "+33388230260",
+    "name": "La Table Verte \ud83c\udf43 \ud83c\udff7\ufe0f"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:15",
+      "closes": "12:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "12:15",
+      "closes": "13:15",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6f/656f4c24632d1.png",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6f/656f4acca5d64.png",
+  "sameAs": "https://www.latableverte.com/",
+  "description": "\u27a1\ufe0f Chez vous ou au bureau ! B\u00e9n\u00e9ficiez d'une livraison gratuite ou r\u00e9duite* \r\n\r\nLivraison de repas \u00e0 Strasbourg et alentours !\r\n- Frais de livraison \u00e0 2.90\u20ac \ud83c\udf89\r\n- Livraison offerte \u00e0 partir de 30\u20ac \ud83c\udf89\r\n- Zone desservie : Mittelhausbergen, Espace Europ\u00e9en de l'entreprise, Cronenbourg, Quartier Gare, Contades \ud83d\udccd\r\n\r\nRetrouvez le plaisir de la pause d\u00e9jeuner !\r\n\r\nC'est la promesse bien tenue de La Table Verte. Ce restaurant vous propose une cuisine pleine de couleurs et de saveurs, pr\u00e9par\u00e9e au jour le jour avec des produits frais et bio. \r\n\r\nPlats du jour, salades gourmandes, gratin, sp\u00e4etzle, velout\u00e9, cocktail de jus de fruits, gourmandises et v\u00e9ritables douceurs sont de la partie.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/58-la-table-verte",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

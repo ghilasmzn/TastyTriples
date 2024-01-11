@@ -32,11 +32,18 @@
     {
       "@type": "OpeningHoursSpecification",
       "opens": "18:55",
-      "closes": "21:30",
+      "closes": "21:45",
       "dayOfWeek": [
         "Monday",
         "Wednesday",
-        "Thursday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:55",
+      "closes": "22:00",
+      "dayOfWeek": [
         "Friday",
         "Saturday",
         "Sunday"
@@ -63,5 +70,6 @@
   },
   "belongsToService": {
     "@id": "https://naofood.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

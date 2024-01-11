@@ -59,5 +59,8 @@
   },
   "belongsToService": {
     "@id": "https://coursiersbordelais.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Fran\u00e7aise"
+  ]
 }

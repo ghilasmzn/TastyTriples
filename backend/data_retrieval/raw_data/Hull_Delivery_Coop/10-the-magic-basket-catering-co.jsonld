@@ -55,5 +55,12 @@
   },
   "belongsToService": {
     "@id": "https://hull.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Saine",
+    "Locale",
+    "Base v\u00e9g\u00e9tale",
+    "Vegan",
+    "V\u00e9g\u00e9tarienne"
+  ]
 }

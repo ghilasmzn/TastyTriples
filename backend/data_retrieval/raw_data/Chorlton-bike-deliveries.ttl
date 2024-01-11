@@ -1,0 +1,13 @@
+
+            @prefix ns1: <http://schema.org/> .
+            <https://chorlton-bike-deliveries.coopcycle.org> a ns1:ProfessionalService ;
+                ns1:city "Manchester" ;
+                ns1:coopcycle_url "https://chorlton-bike-deliveries.coopcycle.org" ;
+                ns1:country "gb" ;
+                ns1:description "We are a not-for-profit cooperative offering deliveries from our local independent retailers directly to your home. Our friendly team of e-cargo bike cyclists can deliver within a 5 mile radius of Chorlton. We also pick up and deliver for local community organisations and food banks. We were born out of the impact of Covid 19 pandemic in our community. We are affiliated to Greater Manchester WalkRide campaign for clean air, safer neighbourghoods and active travel. We are members of the Federation of CoopCycles committed to democratic, socialist and ethical economic practices." ;
+                ns1:latitude 53.447634 ;
+                ns1:longitude -2.278181 ;
+                ns1:mail "hello@chorltonbikedeliveries.coop" ;
+                ns1:name "Chorlton-bike-deliveries" ;
+                ns1:sameAs "07561 737986" .
+        

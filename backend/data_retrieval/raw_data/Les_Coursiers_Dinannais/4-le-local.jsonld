@@ -58,5 +58,8 @@
   },
   "belongsToService": {
     "@id": "https://dinan.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Fran\u00e7aise"
+  ]
 }

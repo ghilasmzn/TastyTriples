@@ -1,0 +1,14 @@
+
+            @prefix ns1: <http://schema.org/> .
+            @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+            <https://colibri.coopcycle.org> a ns1:ProfessionalService ;
+                ns1:city 'Naples'^^xsd:string ;
+                ns1:coopcycle_url 'https://colibri.coopcycle.org'^^xsd:string ;
+                ns1:country 'it'^^xsd:string ;
+                ns1:description 'Colibrì è un servizio di delivery etico e sostenibile che si basa su innovazione e imprenditoria sociale Il progetto nasce da una riflessione scaturita dopo il lockdown 2020 per rispondere dal basso a uno dei nuovi bisogni dei napoletani e al contempo per creare opportunità lavorative solidali tramite processi di inclusione e formazione dei rider che ad oggi non godono di adeguate tutele e diritti Inizialmente presentato come CoopCycle Napoli decidiamo di convertire il naming in un omaggio al Colibrì Scopri il perché nella pagina Team L obiettivo del progetto è coinvolgere come beneficiari e parte attiva del progetto al fine di co progettare uno spin off Colibrì è un progetto dell associazione Cleanap in partenariato con International Napoli Network ed è vincitore del bando Quartieri dell Innovazione dell Assessorato alle Politiche Sociali e del Lavoro del Comune di Napoli Azione 3 3 1 del PON Metro Napoli Spazi di Innovazione Sociale progetti NA3 3 1a Spazi di Innovazione Sociale Percorsi di accompagnamento al lavoro e NA3 ib Spazi di Innovazione Sociale Percorsi di inclusione attiva Il progetto è co finanziato da fondi strutturali e di investimento europei Colibrì aderisce alla federazione Coopcycle org'^^xsd:string ;
+                ns1:latitude '40.839981'^^xsd:float ;
+                ns1:longitude '14.252540'^^xsd:float ;
+                ns1:mail 'colibri@cleanap.org'^^xsd:string ;
+                ns1:name 'Colibri'^^xsd:string .
+        

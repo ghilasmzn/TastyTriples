@@ -70,5 +70,9 @@
   },
   "belongsToService": {
     "@id": "https://khora.berlin"
-  }
+  },
+  "cuisineTypes": [
+    "Italian",
+    "Pizza"
+  ]
 }

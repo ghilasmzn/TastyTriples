@@ -66,5 +66,6 @@
   },
   "belongsToService": {
     "@id": "https://zampate.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

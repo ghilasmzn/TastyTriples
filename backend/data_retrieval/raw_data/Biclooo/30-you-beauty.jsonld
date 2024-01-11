@@ -73,5 +73,6 @@
   },
   "belongsToService": {
     "@id": "https://biclooo.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

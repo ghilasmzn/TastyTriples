@@ -57,5 +57,8 @@
   },
   "belongsToService": {
     "@id": "https://sirapps-cdmx.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Mexicaine"
+  ]
 }

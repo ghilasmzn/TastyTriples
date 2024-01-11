@@ -1,0 +1,67 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://lcr.coopcycle.org/api/restaurants/55",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Le Lapin Noir",
+  "address": {
+    "@id": "https://lcr.coopcycle.org/api/addresses/43281",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1109545,
+      "longitude": -1.6774968
+    },
+    "streetAddress": "2 Rue du Vau Saint-Germain, Rennes, France",
+    "telephone": "+33603827414",
+    "name": "Le Lapin Noir"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:55",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    }
+  ],
+  "image": "https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/65/11/6511ebed978cb.jpg",
+  "bannerImage": "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e4de72964d.png",
+  "description": "\ud83e\udd0cCuisine maison et v\u00e9g\u00e9tale\r\n\ud83c\udf54\ud83c\udf31 Burgers / frites / Buddha bowling",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://lcr.coopcycle.org/fr/restaurant/55-le-lapin-noir",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://lcr.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

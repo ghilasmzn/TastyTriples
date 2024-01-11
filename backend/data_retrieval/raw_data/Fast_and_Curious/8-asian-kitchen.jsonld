@@ -60,5 +60,9 @@
   },
   "belongsToService": {
     "@id": "https://fast-and-curious.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Asiatique",
+    "Fait maison"
+  ]
 }

@@ -1,0 +1,55 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/74",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Restaurant les vignes \ud83c\udf7d\ufe0f\ud83c\udde8\ud83c\uddf5",
+  "address": {
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/7485",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6117434,
+      "longitude": 3.8770378
+    },
+    "streetAddress": "2 Rue Bonnier d'Alco, Montpellier, France",
+    "telephone": "+33467604842",
+    "name": "Restaurant les vignes \ud83c\udf7d\ufe0f\ud83c\udde8\ud83c\uddf5"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/46/6546b041dfdaf.png",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbe5632cab.png",
+  "sameAs": "http://www.lesvignesrestaurant.com",
+  "description": "# Pizza Sicilia : Voyage Culinaire en Italie \ud83c\udf55\ud83c\uddee\ud83c\uddf9\r\n\r\n**Pizza Sicilia** vous transporte au c\u0153ur de l'Italie avec ses pizzas authentiques cuites au feu de bois. Nos recettes traditionnelles, h\u00e9rit\u00e9es des ma\u00eetres pizzaiolos siciliens, sont une c\u00e9l\u00e9bration des saveurs italiennes authentiques. Rejoignez-nous pour une aventure culinaire inoubliable sous le soleil m\u00e9diterran\u00e9en, ici, \u00e0 Montpellier.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/74-restaurant-les-vignes",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

@@ -46,5 +46,10 @@
   },
   "belongsToService": {
     "@id": "https://khora.berlin"
-  }
+  },
+  "cuisineTypes": [
+    "Am\u00e9ricaine",
+    "Bagels",
+    "Deli"
+  ]
 }

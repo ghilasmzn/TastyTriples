@@ -79,5 +79,6 @@
   },
   "belongsToService": {
     "@id": "https://lescoliporteursnz.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

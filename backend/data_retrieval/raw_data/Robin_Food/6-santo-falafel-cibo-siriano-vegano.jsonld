@@ -60,5 +60,10 @@
   },
   "belongsToService": {
     "@id": "https://robinfood.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Saine",
+    "Moyen-Orientale",
+    "Vegan"
+  ]
 }

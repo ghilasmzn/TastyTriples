@@ -1,0 +1,66 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://kooglof.coopcycle.org/api/restaurants/10",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Jabiru Caf\u00e9 \ud83e\uddc6",
+  "address": {
+    "@id": "https://kooglof.coopcycle.org/api/addresses/11",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.5787694,
+      "longitude": 7.7587553
+    },
+    "streetAddress": "60 Rue de Zurich, 67000 Strasbourg, France",
+    "telephone": "+33388234795",
+    "name": "Jabiru Caf\u00e9 \ud83e\uddc6"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "14:00",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:30",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e17f652f6b.jpeg",
+  "bannerImage": "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e1443c10db.jpg",
+  "sameAs": "https://jabirucafe.com/",
+  "description": "Le Jabiru Caf\u00e9 propose une cuisine inspir\u00e9e de la culture afrop\u00e9enne contemporaine.\r\n\r\nLivraison de repas \u00e0 Strasbourg et alentours !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://kooglof.coopcycle.org/fr/restaurant/10-jabiru-cafe",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://kooglof.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

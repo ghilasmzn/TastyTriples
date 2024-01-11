@@ -55,5 +55,8 @@
   },
   "belongsToService": {
     "@id": "https://lescoursiersbrestois.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Indienne"
+  ]
 }

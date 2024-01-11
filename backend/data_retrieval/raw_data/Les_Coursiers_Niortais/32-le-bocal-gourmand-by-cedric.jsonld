@@ -28,6 +28,18 @@
         "Friday",
         "Saturday"
       ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "19:00",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
     }
   ],
   "image": "https://niort.coopcycle.org/media/cache/restaurant_thumbnail/62/8c/628cdb4151569.jpg",
@@ -47,5 +59,8 @@
   },
   "belongsToService": {
     "@id": "https://niort.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Fran\u00e7aise"
+  ]
 }

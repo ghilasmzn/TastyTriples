@@ -71,5 +71,9 @@
   },
   "belongsToService": {
     "@id": "https://beefast.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Burgers",
+    "Fish and Chips"
+  ]
 }

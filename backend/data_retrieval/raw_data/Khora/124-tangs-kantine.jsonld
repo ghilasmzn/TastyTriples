@@ -62,5 +62,10 @@
   },
   "belongsToService": {
     "@id": "https://khora.berlin"
-  }
+  },
+  "cuisineTypes": [
+    "Asian",
+    "Chinese",
+    "Vegan"
+  ]
 }

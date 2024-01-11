@@ -67,5 +67,9 @@
   },
   "belongsToService": {
     "@id": "https://krokoop.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Bistrot",
+    "M\u00e9diterran\u00e9enne"
+  ]
 }

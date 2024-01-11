@@ -58,5 +58,31 @@
   },
   "belongsToService": {
     "@id": "https://la-cocotte.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Caf\u00e9",
+    "Caf\u00e9",
+    "Cr\u00eapes",
+    "D\u00eener",
+    "Europ\u00e9enne",
+    "Fran\u00e7aise",
+    "Sans gluten",
+    "Fait main",
+    "Saine",
+    "Fait maison",
+    "Italienne",
+    "Jus",
+    "Locale",
+    "M\u00e9diterran\u00e9enne",
+    "Biologique",
+    "P\u00e2tes",
+    "P\u00e2tisseries",
+    "Salades",
+    "Sandwiches",
+    "Soupes",
+    "Sud-Europe",
+    "Th\u00e9",
+    "Vegan",
+    "V\u00e9g\u00e9tarienne"
+  ]
 }

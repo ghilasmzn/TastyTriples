@@ -47,5 +47,6 @@
   },
   "belongsToService": {
     "@id": "https://niort.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

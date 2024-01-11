@@ -47,5 +47,6 @@
   },
   "belongsToService": {
     "@id": "https://hotlinecouriers.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

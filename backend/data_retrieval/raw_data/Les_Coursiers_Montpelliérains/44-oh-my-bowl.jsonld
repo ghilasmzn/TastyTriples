@@ -1,0 +1,68 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://coursiersmontpellier.coopcycle.org/api/restaurants/44",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Oh my bowl \ud83e\udd51 \ud83d\udc1f\ud83c\udf5a \ud83c\udf4d",
+  "address": {
+    "@id": "https://coursiersmontpellier.coopcycle.org/api/addresses/3158",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6126388,
+      "longitude": 3.8769058
+    },
+    "streetAddress": "20 Rue de l'Universit\u00e9, 34000 Montpellier, France",
+    "telephone": "+33448785715",
+    "name": "Oh my bowl \ud83e\udd51 \ud83d\udc1f\ud83c\udf5a \ud83c\udf4d"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:30",
+      "closes": "13:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:40",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/62/98/6298f00fbeab4.jpg",
+  "bannerImage": "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656de06fc7082.jpg",
+  "sameAs": "http://www.ohmybowlfrance.com",
+  "description": "Healthy Food, sp\u00e9cialis\u00e9 Poke Bowl, options Vegan\r\nLivraison possible dans des lunchbox consign\u00e9es !",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://coursiersmontpellier.coopcycle.org/fr/restaurant/44-oh-my-bowl",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://coursiersmontpellier.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

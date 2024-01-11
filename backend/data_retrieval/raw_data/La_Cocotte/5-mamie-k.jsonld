@@ -58,5 +58,6 @@
   },
   "belongsToService": {
     "@id": "https://la-cocotte.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

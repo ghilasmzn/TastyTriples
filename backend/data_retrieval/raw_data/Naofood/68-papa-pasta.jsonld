@@ -1,0 +1,53 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/68",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Pap\u00e0 Pasta",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/45035",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2118,
+      "longitude": -1.54673
+    },
+    "streetAddress": "27 Rue Foure, 44000 Nantes, France",
+    "telephone": "+33981308544",
+    "name": "Pap\u00e0 Pasta"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/60/dd/60ddea6eba51a.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/60/dd/60ddea6eba51a.jpg",
+  "description": "Pap\u00e0 Pasta vous propose de d\u00e9licieuses p\u00e2tes fraiches artisanales r\u00e9alis\u00e9es \u00e0 base de Farine Bio et oeuf plein airs. Les raviolis sont quant \u00e0 eux confectionn\u00e9s \u00e0 la main et avec amour . Le tout avec des produits issus du terroir. Venez vous faire plaisir \ud83c\udf5d \u2764\ufe0f",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/68-papa-pasta",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

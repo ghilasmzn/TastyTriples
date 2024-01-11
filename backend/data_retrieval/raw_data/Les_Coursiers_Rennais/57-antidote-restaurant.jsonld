@@ -57,5 +57,6 @@
   },
   "belongsToService": {
     "@id": "https://lcr.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

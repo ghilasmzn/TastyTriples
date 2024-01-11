@@ -67,5 +67,11 @@
   },
   "belongsToService": {
     "@id": "https://khora.berlin"
-  }
+  },
+  "cuisineTypes": [
+    "Italian",
+    "Organic",
+    "Pizza",
+    "Vegetarian"
+  ]
 }

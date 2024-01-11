@@ -72,5 +72,10 @@
   },
   "belongsToService": {
     "@id": "https://beefast.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Italienne",
+    "P\u00e2tes",
+    "Pizza"
+  ]
 }

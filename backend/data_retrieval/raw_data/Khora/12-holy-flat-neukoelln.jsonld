@@ -69,5 +69,11 @@
   },
   "belongsToService": {
     "@id": "https://khora.berlin"
-  }
+  },
+  "cuisineTypes": [
+    "Base de riz",
+    "Salades",
+    "Vegan",
+    "V\u00e9g\u00e9tarienne"
+  ]
 }

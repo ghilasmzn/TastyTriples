@@ -1,0 +1,74 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://mensakas.coopcycle.org/api/restaurants/52",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Mucho Cielo y Mucho Mar",
+  "address": {
+    "@id": "https://mensakas.coopcycle.org/api/addresses/3143",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.3760663,
+      "longitude": 2.1378711
+    },
+    "streetAddress": "Carrer de Salou 12, 08014 Barcelona, Espa\u00f1a",
+    "telephone": "+34631220870",
+    "name": "Mucho Cielo y Mucho Mar"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "20:45",
+      "closes": "23:00",
+      "dayOfWeek": [
+        "Friday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "13:45",
+      "closes": "15:15",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://mensakas.coopcycle.org/media/cache/restaurant_thumbnail/60/77/60775693b3d7c.jpg",
+  "sameAs": "https://www.instagram.com/muchocieloymuchomar",
+  "description": "Bar de tapas pensadas para compartir, especialidades Uruguayas y mediterr\u00e0neas. \r\nComida casera.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://mensakas.coopcycle.org/fr/restaurant/52-mucho-cielo-y-mucho-mar",
+      "inLanguage": "es",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ],
+    "priceSpecification": {
+      "@type": "DeliveryChargeSpecification",
+      "appliesToDeliveryMethod": "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet",
+      "priceCurrency": "EUR",
+      "price": "3.50",
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "EUR",
+        "price": "16.00"
+      }
+    }
+  },
+  "belongsToService": {
+    "@id": "https://mensakas.coopcycle.org"
+  },
+  "cuisineTypes": [
+    "Internationale",
+    "M\u00e9diterran\u00e9enne"
+  ]
+}

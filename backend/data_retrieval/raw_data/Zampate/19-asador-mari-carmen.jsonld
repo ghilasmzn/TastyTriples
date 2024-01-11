@@ -65,5 +65,10 @@
   },
   "belongsToService": {
     "@id": "https://zampate.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Sin Gluten",
+    "Mediterr\u00e1nea",
+    "Tradicional"
+  ]
 }

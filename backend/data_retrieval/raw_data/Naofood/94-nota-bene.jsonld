@@ -1,0 +1,72 @@
+{
+  "@context": "http://schema.org",
+  "@id": "https://naofood.coopcycle.org/api/restaurants/94",
+  "@type": "http://schema.org/Restaurant",
+  "name": "Nota Bene",
+  "address": {
+    "@id": "https://naofood.coopcycle.org/api/addresses/61681",
+    "@type": "http://schema.org/PostalAddress",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 47.2177,
+      "longitude": -1.55202
+    },
+    "streetAddress": "3 Rue Saint-Denis, 44000 Nantes, France",
+    "telephone": "+33240124722",
+    "name": "Nota Bene"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "11:45",
+      "closes": "13:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "21:45",
+      "dayOfWeek": [
+        "Tuesday",
+        "Thursday"
+      ]
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "opens": "18:45",
+      "closes": "22:00",
+      "dayOfWeek": [
+        "Friday",
+        "Saturday"
+      ]
+    }
+  ],
+  "image": "https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/64/92/6492ddf669bec.jpg",
+  "bannerImage": "https://naofood.coopcycle.org/media/cache/restaurant_banner/64/92/6492ddf669bec.jpg",
+  "sameAs": "https://www.notabene-restaurant.fr/",
+  "description": "Ici, nous privil\u00e9gions l'\u00e9co-responsabilit\u00e9 et le fait maison \u00e0 partir d'ingr\u00e9dients de grande qualit\u00e9 issus de fournisseurs et de producteurs locaux. Nous s\u00e9lectionnons \u00e9galement les meilleurs produits en provenance d'Italie.\r\nNous avons s\u00e9lectionn\u00e9 pour l'\u00e9laboration de notre p\u00e2te \u00e0 pizza une farine biologique 100% bl\u00e9 fran\u00e7ais sans aucun additifs, et  travaillons au levain naturel pour une meilleur digestibilit\u00e9.",
+  "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://naofood.coopcycle.org/fr/restaurant/94-nota-bene",
+      "inLanguage": "fr",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "deliveryMethod": [
+      "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet"
+    ]
+  },
+  "belongsToService": {
+    "@id": "https://naofood.coopcycle.org"
+  },
+  "cuisineTypes": []
+}

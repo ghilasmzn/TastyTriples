@@ -73,5 +73,6 @@
   },
   "belongsToService": {
     "@id": "https://beefast.coopcycle.org"
-  }
+  },
+  "cuisineTypes": []
 }

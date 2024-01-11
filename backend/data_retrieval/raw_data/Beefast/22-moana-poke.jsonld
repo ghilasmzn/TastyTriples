@@ -72,5 +72,9 @@
   },
   "belongsToService": {
     "@id": "https://beefast.coopcycle.org"
-  }
+  },
+  "cuisineTypes": [
+    "Hawa\u00efenne",
+    "Fait maison"
+  ]
 }
