@@ -77,11 +77,14 @@ Your database should have a main graph named `http://localhost:3030/Coopcycle` a
 The first time you launch the server, you should create the sub graph with the following query :
 
 ```bash
+PREFIX ex: <http://example.com/ontology#>
+PREFIX schema: <http://schema.org/>
+
 INSERT DATA {
-  GRAPH <http://localhost:3030/Coopcycle/users> {
-    _:user a schema:Person ;
-      schema:email "admin@gmail.com" ;
-      ex:password "admin" .
-  }
+GRAPH <http://localhost:3030/Coopcycle/users> {
+_:user a schema:Person ;
+schema:email "admin@gmail.com" ;
+ex:password "admin" .
+}
 }
 ```

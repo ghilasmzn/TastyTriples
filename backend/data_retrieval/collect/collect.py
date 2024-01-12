@@ -52,7 +52,7 @@ def insert_data():
         if file == SERVICE_FILE_PATH:
             continue
 
-        fuseki_loader.load_data_from_file(file, content_type='application/ld+json')
+        fuseki_loader.load_data_from_file_uri(file, content_type='application/ld+json')
 
     fuseki_loader.stop_server()
 
