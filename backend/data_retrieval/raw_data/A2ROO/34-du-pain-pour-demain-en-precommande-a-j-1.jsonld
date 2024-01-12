@@ -1,15 +1,21 @@
 {
   "@context": "http://schema.org",
-  "@id": "https://a2roo.coopcycle.org/api/restaurants/34",
+  "@id": "http://A2ROO.coopcycle.org/api/restaurants/34",
   "@type": "http://schema.org/Restaurant",
   "name": "Du Pain Pour Demain (en pr\u00e9commande \u00e0 J+1)",
   "address": {
-    "@id": "https://a2roo.coopcycle.org/api/addresses/3379",
+    "@id": "http://A2ROO.coopcycle.org/api/addresses/3379",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 47.347026,
-      "longitude": 5.041055
+      "latitude": {
+        "@value": 47.347026,
+        "@type": "xsd:float"
+      },
+      "longitude": {
+        "@value": 5.041055,
+        "@type": "xsd:float"
+      }
     },
     "streetAddress": "31 Rue de Bruges, 21000 Dijon, France",
     "telephone": "+33380720306",
@@ -47,7 +53,7 @@
     ]
   },
   "belongsToService": {
-    "@id": "https://a2roo.coopcycle.org"
+    "@id": "http://A2ROO.coopcycle.org"
   },
   "cuisineTypes": [
     "Boulangerie"

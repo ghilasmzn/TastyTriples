@@ -8,8 +8,14 @@
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 53.444467,
-      "longitude": -2.275296
+      "latitude": {
+        "@value": 53.444467,
+        "@type": "xsd:float"
+      },
+      "longitude": {
+        "@value": -2.275296,
+        "@type": "xsd:float"
+      }
     },
     "streetAddress": "Forest Foods, Unit 12, Albany Trading Estate, Chorlton, Manchester",
     "telephone": "+441618818585",

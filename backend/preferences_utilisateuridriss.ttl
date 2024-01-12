@@ -1,0 +1,29 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://localhost:3000/idriss> a ns1:Person ;
+    ns1:address [ 
+        a ns1:PostalAddress ;
+        ns1:addressLocality "Saint-Etienne" ;
+        ns1:postalCode "42100" 
+    ] ;
+    ns1:name "Ghilas" ;
+    ns1:seeks [ 
+      ns1:availableAtOrFrom [
+        ns1:geoWithin [
+          a ns1:GeoCircle ;
+              ns1:geoMidpoint [
+                  ns1:latitude "42.035"^^xsd:float ;
+                  ns1:longitude "4.5561"^^xsd:float 
+                ] ;
+                ns1:geoRadius "5.0"^^xsd:float 
+              ] 
+          ] ;
+    ns1:priceSpecification [ 
+      ns1:maxPrice "1.5"^^xsd:float ;
+      ns1:priceCurrency "EUR" 
+    ] ;
+
+    ns1:seller <http://beefast.coopcycle.org/api/restaurants/13> 
+] .
+

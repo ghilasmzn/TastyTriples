@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "https://beefast.coopcycle.org/api/restaurants/22",
+  "@id": "http://beefast.coopcycle.org/api/restaurants/22",
   "@type": "http://schema.org/Restaurant",
   "name": "Moana Pok\u00e9 \ud83c\udf3a",
   "address": {
-    "@id": "https://beefast.coopcycle.org/api/addresses/901",
+    "@id": "/api/addresses/901",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
@@ -71,7 +71,7 @@
     }
   },
   "belongsToService": {
-    "@id": "https://beefast.coopcycle.org"
+    "@id": "http://beefast.coopcycle.org"
   },
   "cuisineTypes": [
     "Hawa\u00efenne",

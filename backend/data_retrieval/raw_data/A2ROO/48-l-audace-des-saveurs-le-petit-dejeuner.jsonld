@@ -1,15 +1,21 @@
 {
   "@context": "http://schema.org",
-  "@id": "https://a2roo.coopcycle.org/api/restaurants/48",
+  "@id": "http://A2ROO.coopcycle.org/api/restaurants/48",
   "@type": "http://schema.org/Restaurant",
   "name": "L'audace des Saveurs - Le petit d\u00e9jeuner",
   "address": {
-    "@id": "https://a2roo.coopcycle.org/api/addresses/5872",
+    "@id": "http://A2ROO.coopcycle.org/api/addresses/5872",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 47.333287,
-      "longitude": 5.048597
+      "latitude": {
+        "@value": 47.333287,
+        "@type": "xsd:float"
+      },
+      "longitude": {
+        "@value": 5.048597,
+        "@type": "xsd:float"
+      }
     },
     "streetAddress": "36 bis Rue du Vingt-Sixi\u00e8me Dragons, 21000 Dijon, France",
     "telephone": "+33380341184",
@@ -47,7 +53,7 @@
     ]
   },
   "belongsToService": {
-    "@id": "https://a2roo.coopcycle.org"
+    "@id": "http://A2ROO.coopcycle.org"
   },
   "cuisineTypes": [
     "Boulangerie",

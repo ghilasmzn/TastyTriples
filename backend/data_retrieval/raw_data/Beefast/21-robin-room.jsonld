@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "https://beefast.coopcycle.org/api/restaurants/21",
+  "@id": "http://beefast.coopcycle.org/api/restaurants/21",
   "@type": "http://schema.org/Restaurant",
   "name": "Robin Room",
   "address": {
-    "@id": "https://beefast.coopcycle.org/api/addresses/784",
+    "@id": "/api/addresses/784",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
@@ -58,7 +58,7 @@
     }
   },
   "belongsToService": {
-    "@id": "https://beefast.coopcycle.org"
+    "@id": "http://beefast.coopcycle.org"
   },
   "cuisineTypes": []
 }

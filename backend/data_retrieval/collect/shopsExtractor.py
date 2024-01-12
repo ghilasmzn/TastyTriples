@@ -85,15 +85,6 @@ class ShopsExtractor:
                             data_dict = json.loads(data)
                             data_dict["@id"] = self.base_url + data_dict["@id"]
 
-                            if "address" in data_dict:
-                                data_dict["address"]["@id"] = self.base_url + data_dict["address"]["@id"]
-                                if "geo" in data_dict.get("address", {}):
-                                    geo = data_dict["address"]["geo"]
-                                    if "latitude" in geo:
-                                        geo["latitude"] = {"@value": geo["latitude"], "@type": "xsd:float"}
-                                    if "longitude" in geo:
-                                        geo["longitude"] = {"@value": geo["longitude"], "@type": "xsd:float"}
-
                             data_dict["belongsToService"] = {"@id": self.base_url}
                             data_dict["cuisineTypes"] = cuisine_types 
                             output_file.write(json.dumps(data_dict, indent=2))

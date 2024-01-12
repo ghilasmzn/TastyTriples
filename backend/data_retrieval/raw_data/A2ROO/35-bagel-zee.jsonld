@@ -1,15 +1,21 @@
 {
   "@context": "http://schema.org",
-  "@id": "https://a2roo.coopcycle.org/api/restaurants/35",
+  "@id": "http://A2ROO.coopcycle.org/api/restaurants/35",
   "@type": "http://schema.org/Restaurant",
   "name": "Bagel Z\u00e9e",
   "address": {
-    "@id": "https://a2roo.coopcycle.org/api/addresses/3457",
+    "@id": "http://A2ROO.coopcycle.org/api/addresses/3457",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 47.32183,
-      "longitude": 5.03677
+      "latitude": {
+        "@value": 47.32183,
+        "@type": "xsd:float"
+      },
+      "longitude": {
+        "@value": 5.03677,
+        "@type": "xsd:float"
+      }
     },
     "streetAddress": "9 Rue du Chapeau Rouge, 21000 Dijon, France",
     "telephone": "+33986734819",
@@ -48,7 +54,7 @@
     ]
   },
   "belongsToService": {
-    "@id": "https://a2roo.coopcycle.org"
+    "@id": "http://A2ROO.coopcycle.org"
   },
   "cuisineTypes": [
     "Bagels"

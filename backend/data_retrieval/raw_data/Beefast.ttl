@@ -1,13 +1,15 @@
 
             @prefix ns1: <http://schema.org/> .
-            <https://beefast.coopcycle.org> a ns1:ProfessionalService ;
-                ns1:city 'Amiens' ;
-                ns1:coopcycle_url 'https://beefast.coopcycle.org' ;
-                ns1:country 'fr' ;
-                ns1:description 'Livraison locale, éthique et écologique !' ;
-                ns1:latitude 49.894066 ;
-                ns1:longitude 2.295753 ;
-                ns1:mail 'contact@beefast.fr' ;
-                ns1:name 'Beefast' ;
-                ns1:sameAs '06 35 09 06 56' .
+            @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+            <http://beefast.coopcycle.org> a ns1:ProfessionalService ;
+                ns1:city 'Amiens'^^xsd:string ;
+                ns1:coopcycle_url 'http://beefast.coopcycle.org'^^xsd:string ;
+                ns1:country 'fr'^^xsd:string ;
+                ns1:description 'Livraison locale éthique et écologique '^^xsd:string ;
+                ns1:latitude '49.894066'^^xsd:float ;
+                ns1:longitude '2.295753'^^xsd:float ;
+                ns1:mail 'contact@beefast.fr'^^xsd:string ;
+                ns1:name 'Beefast'^^xsd:string ;
+                ns1:sameAs '06 35 09 06 56'^^xsd:string .
         

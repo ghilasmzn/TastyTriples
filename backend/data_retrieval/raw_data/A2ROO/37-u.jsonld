@@ -1,49 +1,46 @@
 {
   "@context": "http://schema.org",
-  "@id": "http://A2ROO.coopcycle.org/api/restaurants/28",
+  "@id": "http://A2ROO.coopcycle.org/api/restaurants/37",
   "@type": "http://schema.org/Restaurant",
-  "name": "A\u00efda",
+  "name": "\u01d3",
   "address": {
-    "@id": "http://A2ROO.coopcycle.org/api/addresses/2680",
+    "@id": "http://A2ROO.coopcycle.org/api/addresses/3619",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
       "latitude": {
-        "@value": 47.3225,
+        "@value": 47.3188,
         "@type": "xsd:float"
       },
       "longitude": {
-        "@value": 5.04256,
+        "@value": 5.03528,
         "@type": "xsd:float"
       }
     },
-    "streetAddress": "4 Rue de la Chouette, 21000 Dijon, France",
-    "telephone": "+33649315554",
-    "name": "A\u00efda"
+    "streetAddress": "18 Place \u00c9mile Zola, 21000 Dijon, France",
+    "telephone": "+33380413550",
+    "name": "\u01d3"
   },
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "opens": "11:30",
+      "opens": "12:00",
       "closes": "13:30",
       "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
         "Thursday",
         "Friday",
         "Saturday"
       ]
     }
   ],
-  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/60/8a/608ac60613180.jpg",
-  "sameAs": "https://www.facebook.com/aidadijon",
-  "description": "Les bonnes recettes maison d'Aida\r\nDes bons plats de \"noodles\", \"woks\" et \"wontons\" \u00e0 d\u00e9guster sur place ou \u00e0 emporter.",
+  "image": "https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/65/0d/650d45d80d6e4.jpg",
+  "sameAs": "https://www.facebook.com/JIUDIJON",
+  "description": "D\u00e9couvrez le nouveau Noodle Bar dijonnais ! \r\n\r\nFabriqu\u00e9es sur place par le chef Zhiliang, venez d\u00e9gustez des recettes originales qui varient selon les saisons et l'humeur du moment.\r\nNoodles fraiches, l\u00e9gumes produits localement et ingr\u00e9dients de qualit\u00e9, la recette du bonheur \u00e0 table !",
   "potentialAction": {
     "@type": "OrderAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/28-aida",
+      "urlTemplate": "https://a2roo.coopcycle.org/fr/restaurant/37-u",
       "inLanguage": "fr",
       "actionPlatform": [
         "http://schema.org/DesktopWebPlatform"
@@ -58,7 +55,6 @@
   },
   "cuisineTypes": [
     "Asiatique",
-    "Chinoise",
-    "Saine"
+    "Bar \u00e0 nouilles"
   ]
 }

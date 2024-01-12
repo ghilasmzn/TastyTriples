@@ -1,8 +1,9 @@
-import requests
-import subprocess
-import time
-from colorama import Fore, Style
 from SPARQLWrapper import SPARQLWrapper, POST
+from colorama import Fore, Style
+import subprocess
+import requests
+import time
+import json
 
 class FusekiLoader:
     def __init__(self, dataset_url):
@@ -48,3 +49,29 @@ class FusekiLoader:
         else:
             print(Fore.RED+f"Failed to load data of {file_path} | Status code: {response.status_code}"+Style.RESET_ALL)
             print(response.text)
+
+    def check_uri_exist(self, uri):
+      query = """
+      ASK {
+          VALUES ?s { <""" + uri + """>}
+          ?s ?p ?o
+      }
+      """ 
+      headers = {'Content-Type': 'application/sparql-query'}
+      response = requests.post(f'{self.dataset_url}/query', data=query.encode('utf-8'), headers=headers)
+
+      if response.status_code == 200:
+          return response.json()['boolean']
+      else:
+          print(Fore.RED + f"Failed to check URI existence | Status code: {response.status_code}" + Style.RESET_ALL)
+          print(response.text)
+          return False
+
+    def load_data_from_file_uri(self, file_path, content_type='text/turtle'):
+        with open(file_path, 'r', encoding='utf-8') as file:
+          rdf_data = json.load(file)  
+          
+        if not self.check_uri_exist(rdf_data['@id']):
+          self.load_data_from_file(file_path, content_type)
+        else:
+          print(Fore.YELLOW + f"> URI {rdf_data['@id']} already exists." + Style.RESET_ALL)

@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "https://beefast.coopcycle.org/api/restaurants/35",
+  "@id": "http://beefast.coopcycle.org/api/restaurants/35",
   "@type": "http://schema.org/Restaurant",
   "name": "Le Teuf",
   "address": {
-    "@id": "https://beefast.coopcycle.org/api/addresses/10908",
+    "@id": "/api/addresses/10908",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
@@ -77,7 +77,7 @@
     }
   },
   "belongsToService": {
-    "@id": "https://beefast.coopcycle.org"
+    "@id": "http://beefast.coopcycle.org"
   },
   "cuisineTypes": [
     "Burgers",

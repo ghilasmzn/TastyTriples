@@ -1,15 +1,21 @@
 {
   "@context": "http://schema.org",
-  "@id": "https://a2roo.coopcycle.org/api/restaurants/63",
+  "@id": "http://A2ROO.coopcycle.org/api/restaurants/63",
   "@type": "http://schema.org/Restaurant",
   "name": "Dubble",
   "address": {
-    "@id": "https://a2roo.coopcycle.org/api/addresses/10509",
+    "@id": "http://A2ROO.coopcycle.org/api/addresses/10509",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 47.3265926,
-      "longitude": 5.0399713
+      "latitude": {
+        "@value": 47.3265926,
+        "@type": "xsd:float"
+      },
+      "longitude": {
+        "@value": 5.0399713,
+        "@type": "xsd:float"
+      }
     },
     "streetAddress": "66 Rue Devosge, Dijon, France",
     "telephone": "+33380689397",
@@ -47,7 +53,7 @@
     ]
   },
   "belongsToService": {
-    "@id": "https://a2roo.coopcycle.org"
+    "@id": "http://A2ROO.coopcycle.org"
   },
   "cuisineTypes": []
 }

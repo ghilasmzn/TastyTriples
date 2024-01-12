@@ -101,7 +101,7 @@ def main():
             extractor = ShopsExtractor(member.name, args.uri)
             need_to_be_inserted = extractor.process_and_save_data()
             for file in need_to_be_inserted:
-                fuseki_loader.load_data_from_file(file, content_type='application/ld+json')
+                fuseki_loader.load_data_from_file_uri(file, content_type='application/ld+json')
         
 if __name__ == "__main__":
     main()

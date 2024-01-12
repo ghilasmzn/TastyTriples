@@ -1,15 +1,21 @@
 {
   "@context": "http://schema.org",
-  "@id": "https://a2roo.coopcycle.org/api/restaurants/56",
+  "@id": "http://A2ROO.coopcycle.org/api/restaurants/56",
   "@type": "http://schema.org/Restaurant",
   "name": "Herbivoriste",
   "address": {
-    "@id": "https://a2roo.coopcycle.org/api/addresses/9455",
+    "@id": "http://A2ROO.coopcycle.org/api/addresses/9455",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 47.3519983,
-      "longitude": 5.0429122
+      "latitude": {
+        "@value": 47.3519983,
+        "@type": "xsd:float"
+      },
+      "longitude": {
+        "@value": 5.0429122,
+        "@type": "xsd:float"
+      }
     },
     "streetAddress": "18 Avenue de la Concorde, Dijon, France",
     "telephone": "+33648610898",
@@ -45,7 +51,7 @@
     ]
   },
   "belongsToService": {
-    "@id": "https://a2roo.coopcycle.org"
+    "@id": "http://A2ROO.coopcycle.org"
   },
   "cuisineTypes": [
     "Vegan",

@@ -1,15 +1,21 @@
 {
   "@context": "http://schema.org",
-  "@id": "https://a2roo.coopcycle.org/api/restaurants/11",
+  "@id": "http://A2ROO.coopcycle.org/api/restaurants/11",
   "@type": "http://schema.org/Restaurant",
   "name": "DZ'envies",
   "address": {
-    "@id": "https://a2roo.coopcycle.org/api/addresses/37",
+    "@id": "http://A2ROO.coopcycle.org/api/addresses/37",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 47.3238,
-      "longitude": 5.03942
+      "latitude": {
+        "@value": 47.3238,
+        "@type": "xsd:float"
+      },
+      "longitude": {
+        "@value": 5.03942,
+        "@type": "xsd:float"
+      }
     },
     "streetAddress": "12 Rue Odebert, 21000 Dijon, France",
     "telephone": "+33380500926",
@@ -59,7 +65,7 @@
     }
   },
   "belongsToService": {
-    "@id": "https://a2roo.coopcycle.org"
+    "@id": "http://A2ROO.coopcycle.org"
   },
   "cuisineTypes": [
     "Fran\u00e7aise"

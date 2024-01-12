@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "https://beefast.coopcycle.org/api/restaurants/30",
+  "@id": "http://beefast.coopcycle.org/api/restaurants/30",
   "@type": "http://schema.org/Restaurant",
   "name": "Mealk",
   "address": {
-    "@id": "https://beefast.coopcycle.org/api/addresses/2920",
+    "@id": "/api/addresses/2920",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
@@ -72,7 +72,7 @@
     }
   },
   "belongsToService": {
-    "@id": "https://beefast.coopcycle.org"
+    "@id": "http://beefast.coopcycle.org"
   },
   "cuisineTypes": []
 }

@@ -1,0 +1,15 @@
+
+            @prefix ns1: <http://schema.org/> .
+            @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+            <http://A2ROO.coopcycle.org> a ns1:ProfessionalService ;
+                ns1:city 'Dijon'^^xsd:string ;
+                ns1:coopcycle_url 'http://A2ROO.coopcycle.org'^^xsd:string ;
+                ns1:country 'fr'^^xsd:string ;
+                ns1:description 'Les meilleurs restaurants dijonnais à domicile '^^xsd:string ;
+                ns1:latitude '47.322048'^^xsd:float ;
+                ns1:longitude '5.041480'^^xsd:float ;
+                ns1:mail 'coopcycle@a2roo-dijon.fr'^^xsd:string ;
+                ns1:name 'A2roo'^^xsd:string ;
+                ns1:sameAs '07 67 16 36 74'^^xsd:string .
+        

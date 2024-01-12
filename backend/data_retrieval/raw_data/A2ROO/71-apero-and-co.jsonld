@@ -1,15 +1,21 @@
 {
   "@context": "http://schema.org",
-  "@id": "https://a2roo.coopcycle.org/api/restaurants/71",
+  "@id": "http://A2ROO.coopcycle.org/api/restaurants/71",
   "@type": "http://schema.org/Restaurant",
   "name": "Ap\u00e9ro and Co",
   "address": {
-    "@id": "https://a2roo.coopcycle.org/api/addresses/13579",
+    "@id": "http://A2ROO.coopcycle.org/api/addresses/13579",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 47.321207,
-      "longitude": 5.039403
+      "latitude": {
+        "@value": 47.321207,
+        "@type": "xsd:float"
+      },
+      "longitude": {
+        "@value": 5.039403,
+        "@type": "xsd:float"
+      }
     },
     "streetAddress": "34 Rue du Bourg, Dijon, France",
     "telephone": "+33380625584",
@@ -52,7 +58,7 @@
     ]
   },
   "belongsToService": {
-    "@id": "https://a2roo.coopcycle.org"
+    "@id": "http://A2ROO.coopcycle.org"
   },
   "cuisineTypes": [
     "Bistrot",

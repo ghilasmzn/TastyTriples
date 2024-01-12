@@ -1,15 +1,21 @@
 {
   "@context": "http://schema.org",
-  "@id": "https://a2roo.coopcycle.org/api/restaurants/38",
+  "@id": "http://A2ROO.coopcycle.org/api/restaurants/38",
   "@type": "http://schema.org/Restaurant",
   "name": "L'bout d'la rue",
   "address": {
-    "@id": "https://a2roo.coopcycle.org/api/addresses/3765",
+    "@id": "http://A2ROO.coopcycle.org/api/addresses/3765",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 47.3241,
-      "longitude": 5.04398
+      "latitude": {
+        "@value": 47.3241,
+        "@type": "xsd:float"
+      },
+      "longitude": {
+        "@value": 5.04398,
+        "@type": "xsd:float"
+      }
     },
     "streetAddress": "52 Rue Verrerie, 21000 Dijon, France",
     "telephone": "+33380713792",
@@ -47,7 +53,7 @@
     ]
   },
   "belongsToService": {
-    "@id": "https://a2roo.coopcycle.org"
+    "@id": "http://A2ROO.coopcycle.org"
   },
   "cuisineTypes": [
     "Belge",

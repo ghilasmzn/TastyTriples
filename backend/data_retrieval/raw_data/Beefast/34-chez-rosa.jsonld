@@ -1,10 +1,10 @@
 {
   "@context": "http://schema.org",
-  "@id": "https://beefast.coopcycle.org/api/restaurants/34",
+  "@id": "http://beefast.coopcycle.org/api/restaurants/34",
   "@type": "http://schema.org/Restaurant",
   "name": "Chez Rosa",
   "address": {
-    "@id": "https://beefast.coopcycle.org/api/addresses/6225",
+    "@id": "/api/addresses/6225",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
@@ -77,7 +77,7 @@
     }
   },
   "belongsToService": {
-    "@id": "https://beefast.coopcycle.org"
+    "@id": "http://beefast.coopcycle.org"
   },
   "cuisineTypes": [
     "Italienne",

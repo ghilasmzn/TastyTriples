@@ -1,15 +1,21 @@
 {
   "@context": "http://schema.org",
-  "@id": "https://a2roo.coopcycle.org/api/restaurants/69",
+  "@id": "http://A2ROO.coopcycle.org/api/restaurants/69",
   "@type": "http://schema.org/Restaurant",
   "name": "Chez Mes Soeurs - Musette",
   "address": {
-    "@id": "https://a2roo.coopcycle.org/api/addresses/13236",
+    "@id": "http://A2ROO.coopcycle.org/api/addresses/13236",
     "@type": "http://schema.org/PostalAddress",
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 47.3226997,
-      "longitude": 5.0405206
+      "latitude": {
+        "@value": 47.3226997,
+        "@type": "xsd:float"
+      },
+      "longitude": {
+        "@value": 5.0405206,
+        "@type": "xsd:float"
+      }
     },
     "streetAddress": "3 Rue Musette, Dijon, France",
     "telephone": "+33380441913",
@@ -47,7 +53,7 @@
     ]
   },
   "belongsToService": {
-    "@id": "https://a2roo.coopcycle.org"
+    "@id": "http://A2ROO.coopcycle.org"
   },
   "cuisineTypes": [
     "Caf\u00e9",
